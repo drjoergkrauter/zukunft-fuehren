@@ -4,20 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wie BANI ist Ihre Führungswelt? – Der Selbsttest | Zukunft führen</title>
-<meta name="description" content="In 8 Fragen herausfinden, wie brüchig, angstbesetzt, nichtlinear und unbegreiflich Ihr Führungsalltag wirklich ist. Ein Selbsttest von Dr. Jörg Krauter, Autor von „Zukunft führen“.">
+<meta name="description" content="In 8 Fragen herausfinden, wie brüchig, angstbesetzt, nichtlinear und unbegreiflich Ihr Führungsalltag wirklich ist – mit ausführlicher Auswertung und konkreten Kapitel-Empfehlungen aus „Zukunft führen“ von Dr. Jörg Krauter.">
 <link rel="canonical" href="https://zukunft-fuehren.com/bani-test/">
 <meta property="og:title" content="Wie BANI ist Ihre Führungswelt?">
-<meta property="og:description" content="Der 2-Minuten-Selbsttest für Führungskräfte. Wie brüchig ist Ihre Welt wirklich?">
+<meta property="og:description" content="Der 2-Minuten-Selbsttest für Führungskräfte – mit persönlicher Auswertung und Lesepfad.">
 <meta property="og:url" content="https://zukunft-fuehren.com/bani-test/">
 <style>
-  :root{--ink:#0a1f44;--muted:#5a6472;--line:#e6e9ef;--accent:#0a4fb4;--bg:#fff}
+  :root{--ink:#0a1f44;--muted:#5a6472;--line:#e6e9ef;--accent:#0a4fb4;--soft:#f6f8fb;--bg:#fff}
   *{box-sizing:border-box}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.6;background:var(--bg)}
-  .wrap{max-width:640px;margin:0 auto;padding:0 22px}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.62;background:var(--bg)}
+  .wrap{max-width:660px;margin:0 auto;padding:0 22px}
   header{border-bottom:1px solid var(--line);padding:18px 0}
   header .wrap{display:flex;justify-content:space-between;align-items:center;font-weight:600}
   header a{color:var(--ink);text-decoration:none}
   h1{font-size:1.9rem;line-height:1.2;margin:38px 0 8px}
+  h2{font-size:1.25rem;margin:34px 0 10px}
   .intro{color:var(--muted);font-size:1.05rem;margin-bottom:8px}
   .bar{height:6px;background:var(--line);border-radius:6px;margin:24px 0 30px;overflow:hidden}
   .bar>i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
@@ -26,17 +27,28 @@
   .opt:hover{border-color:var(--accent);background:#f5f8fd}
   .count{color:var(--muted);font-size:.9rem;margin-bottom:6px}
   #result{display:none}
-  .score{font-size:3rem;font-weight:700;margin:6px 0 0}
-  .level{font-size:1.3rem;font-weight:600;margin:0 0 14px}
-  .dims{margin:22px 0}
-  .dim{margin:0 0 14px}
-  .dim .lbl{display:flex;justify-content:space-between;font-size:.95rem;margin-bottom:4px}
-  .dim .track{height:8px;background:var(--line);border-radius:8px;overflow:hidden}
+  .scorebox{display:flex;align-items:baseline;gap:14px;margin:6px 0 2px}
+  .score{font-size:3rem;font-weight:700;line-height:1}
+  .level{font-size:1.3rem;font-weight:600;color:var(--accent)}
+  .verdict{border-left:3px solid var(--ink);padding-left:16px;margin:18px 0 6px;font-size:1.06rem}
+  .dims{margin:26px 0}
+  .dim{border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:0 0 12px}
+  .dim .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+  .dim .name{font-weight:600}
+  .dim .val{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.95rem}
+  .dim .track{height:8px;background:var(--line);border-radius:8px;overflow:hidden;margin-bottom:10px}
   .dim .track>i{display:block;height:100%;background:var(--accent)}
-  .verdict{border-left:3px solid var(--ink);padding-left:16px;margin:22px 0;font-size:1.05rem}
-  .cta{border:1px solid var(--line);border-radius:12px;padding:20px;margin:26px 0;background:#f6f8fb}
-  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:11px 18px;border-radius:8px;font-weight:600;border:0;cursor:pointer;font-size:1rem}
+  .dim .txt{font-size:.98rem;color:#26324a}
+  .focus{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:20px;margin:26px 0}
+  .focus .tag{display:inline-block;font-size:.8rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+  .path{margin:22px 0}
+  .path .step{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+  .path .step:last-child{border-bottom:0}
+  .path .k{flex:0 0 auto;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
+  .cta{border:1px solid var(--line);border-radius:12px;padding:20px;margin:26px 0;background:var(--soft)}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:11px 18px;border-radius:8px;font-weight:600;border:0;cursor:pointer;font-size:1rem;margin-top:6px}
   .btn.sec{background:#fff;color:var(--accent);border:1px solid var(--accent);margin-left:8px}
+  .note{color:var(--muted);font-size:.9rem;margin-top:10px}
   footer{border-top:1px solid var(--line);margin-top:40px;padding:24px 0;color:var(--muted);font-size:14px}
   a{color:var(--accent)}
 </style>
@@ -46,7 +58,7 @@
 <main class="wrap">
   <div id="quiz">
     <h1>Wie BANI ist Ihre Führungswelt?</h1>
-    <p class="intro">Acht Fragen, zwei Minuten. Danach wissen Sie, wie brüchig, angstbesetzt, nichtlinear und unbegreiflich Ihr Führungsalltag wirklich ist – und was das heißt.</p>
+    <p class="intro">Acht Fragen, zwei Minuten. Danach wissen Sie, wie brüchig, angstbesetzt, nichtlinear und unbegreiflich Ihr Führungsalltag wirklich ist – und welche Kapitel aus „Zukunft führen“ Ihnen weiterhelfen.</p>
     <div class="bar"><i id="bar"></i></div>
     <div class="count" id="count"></div>
     <div class="q" id="q"></div>
@@ -54,21 +66,33 @@
   </div>
 
   <div id="result">
-    <h1>Ihr BANI-Wert</h1>
-    <div class="score"><span id="pct"></span>%</div>
-    <div class="level" id="level"></div>
-    <div class="dims" id="dims"></div>
+    <h1>Ihre Auswertung</h1>
+    <div class="scorebox"><span class="score"><span id="pct"></span>%</span><span class="level" id="level"></span></div>
+    <div class="count">Gesamt-BANI-Wert Ihrer Führungswelt</div>
     <div class="verdict" id="verdict"></div>
+
+    <h2>Ihre vier Dimensionen im Detail</h2>
+    <div class="dims" id="dims"></div>
+
+    <div class="focus">
+      <span class="tag">Ihr stärkster Hebel</span>
+      <div id="focus"></div>
+    </div>
+
+    <h2>Ihr Lesepfad durch „Zukunft führen“</h2>
+    <div class="path" id="path"></div>
+
     <div class="cta">
       <strong>Teilen Sie Ihr Ergebnis</strong>
-      <p style="margin:8px 0 14px;color:var(--muted)">Wie BANI ist die Welt Ihrer Kolleg:innen? Stellen Sie die Frage.</p>
+      <p style="margin:8px 0 4px;color:var(--muted)">Wie BANI ist die Welt Ihrer Kolleg:innen? Stellen Sie die Frage weiter.</p>
       <button class="btn" id="share">Ergebnis kopieren</button>
       <a class="btn sec" href="/glossar/bani/">Was BANI bedeutet</a>
+      <div class="note">Der Test ersetzt keine Diagnose – er ist ein ehrlicher Startpunkt. Sehen kommt vor Tun.</div>
     </div>
-    <p><button class="btn sec" id="again" style="margin:0">Nochmal</button></p>
+    <p><button class="btn sec" id="again" style="margin:0">Test wiederholen</button></p>
   </div>
 </main>
-<footer><div class="wrap">Ein Selbsttest von <strong>Dr. Jörg Krauter</strong>, Autor von „Zukunft führen – Wenn die Welt nicht stabil bleibt“. · <a href="/">zukunft-fuehren.com</a></div></footer>
+<footer><div class="wrap">Ein Selbsttest von <strong>Dr. Jörg Krauter</strong>, Autor von „Zukunft führen – Wenn die Welt nicht stabil bleibt“. Kapitelbezüge aus dem Buch. · <a href="/">zukunft-fuehren.com</a></div></footer>
 
 <script>
 const Q = [
@@ -87,7 +111,29 @@ const A = [
   {t:"Regelmäßig.", v:2},
   {t:"Ständig – das ist mein Normalzustand.", v:3}
 ];
-const DIM = {B:"Brüchig",A:"Angstbesetzt",N:"Nichtlinear",I:"Unbegreiflich"};
+const DIM = {
+  B:{name:"Brüchig", low:"Ihre Systeme tragen noch verlässlich. Das ist ein Vorsprung – nutzen Sie ihn, um Reserven und Redundanzen aufzubauen, bevor der erste Bruch kommt. Brüchigkeit kündigt sich selten an.", high:"Scheinbar stabile Systeme brechen bei Ihnen ohne Vorwarnung. Maximale Effizienz wird hier zur Falle; es fehlt der Puffer. Das Buch nennt das den Unterschied zwischen sich verbrauchen und wirksam bleiben."},
+  A:{name:"Angstbesetzt", low:"Angst spielt in Ihrem Umfeld eine kleine Rolle – eine gute Basis. Halten Sie sie klein, indem Fehler besprechbar bleiben.", high:"Unsicherheit erzeugt bei Ihnen spürbar Angst – und Angst lähmt Lernen, Widerspruch und Initiative. Genau hier setzt psychologische Sicherheit an: nicht als Wohlfühlklima, sondern als Voraussetzung dafür, dass Menschen offen bleiben."},
+  N:{name:"Nichtlinear", low:"Bei Ihnen hängen Aufwand und Ergebnis noch nachvollziehbar zusammen. Planung funktioniert – noch.", high:"Aufwand und Wirkung fallen bei Ihnen auseinander: Kleines wird groß, Großes verpufft. Große Masterpläne greifen hier zu kurz; kurze Lernschleifen und der erste konkrete Schritt tragen mehr."},
+  I:{name:"Unbegreiflich", low:"Sie verstehen Ihre Lage meist gut genug, um zu entscheiden. Das gibt Ruhe.", high:"Sie entscheiden häufig, ohne die Lage ganz zu durchdringen – und mehr Daten helfen nicht. Das verlangt eine andere Haltung: Demut statt Scheingewissheit, und den Mut, unter Unsicherheit handlungsfähig zu bleiben."}
+};
+const FOCUS = {
+  B:"<strong>Ihr stärkster BANI-Faktor ist Brüchigkeit.</strong> Beginnen Sie mit <strong>Kapitel 1 – „Die Polykrise ist kein Sonderfall mehr“</strong> (Akt I, Sehen) und dem Abschnitt „Wer sich verbraucht – und wer wirksam bleibt“. Danach <strong>Kapitel 13 – „Veränderung ist ein Muskel“</strong>: Change Fitness aufbauen, bevor der nächste Bruch kommt, statt ihn nur zu überleben.",
+  A:"<strong>Ihr stärkster BANI-Faktor ist Angst.</strong> Ihr Kapitel ist <strong>Kapitel 19 – „Psychologische Sicherheit, ohne Schaumstoff“</strong> (Akt IV, Wirken): was sie wirklich ist, woran Sie sie erkennen und was Führungskräfte dabei oft falsch machen. Als Kraftquelle dazu <strong>Kapitel 16 – „Woher Sie Ihre Kraft nehmen“</strong> (Hoffnung und Selbstwirksamkeit als trainierbare Kompetenzen).",
+  N:"<strong>Ihr stärkster BANI-Faktor ist Nichtlinearität.</strong> Lesen Sie <strong>Kapitel 17 – „Den Rubikon überschreiten“</strong> (Akt III): wie aus Abwägen echtes Wollen und Handeln wird. Ergänzend <strong>Kapitel 14 – „KI verlangt eine neue Kompetenz“</strong> mit dem Prinzip des ersten konkreten Schritts – der einzige, der in nichtlinearen Lagen zählt.",
+  I:"<strong>Ihr stärkster BANI-Faktor ist Unbegreiflichkeit.</strong> Ihr Einstieg ist der ganze <strong>Akt I – „Sehen“</strong>, besonders <strong>Kapitel 9 – „Was Ihrer Führung fehlt“</strong> mit den vier Ebenen und den drei Fragen, die einen Möglichkeitsraum öffnen. Sie schärfen den Blick, bevor Sie handeln – genau das ist der Kern von „Sehen kommt vor Tun“."
+};
+const LEVELS = [
+  {max:30, lvl:"Stabile Welt", verdict:"Ihre Führungswelt ist derzeit berechenbar – ein echter Vorteil. Die Gefahr liegt in der Ruhe selbst: Brüchigkeit kündigt sich selten an. Nutzen Sie die Phase, um Reserven, Change Fitness und psychologische Sicherheit aufzubauen, solange kein Druck herrscht.",
+    path:[["Akt I","„Sehen“ – die Zukunft, die bereits da ist. Damit Sie Brüche erkennen, bevor sie eintreten."],["Kap. 13","„Veränderung ist ein Muskel“ – Change Fitness trainieren, bevor Sie sie brauchen."],["Kap. 19","„Psychologische Sicherheit, ohne Schaumstoff“ – das Fundament, das in ruhigen Zeiten gelegt wird."]]},
+  {max:55, lvl:"Erhöhte Turbulenz", verdict:"Die Unsicherheit nimmt spürbar zu, ist aber noch nicht Ihr Dauerzustand. Der beste Zeitpunkt, Führung neu auszurichten, ist genau jetzt – bevor der Druck steigt, nicht mittendrin. Arbeiten Sie an Haltung und Kraftquellen, während noch Spielraum ist.",
+    path:[["Akt I","„Sehen“ – die Lage ehrlich lesen: Polykrise, BANI, KI (Kap. 1 & 5)."],["Kap. 16","„Woher Sie Ihre Kraft nehmen“ – Hoffnung und Selbstwirksamkeit als trainierbare Kompetenzen."],["Kap. 13","„Veränderung ist ein Muskel“ – belastbar werden, bevor die Belastung kommt."]]},
+  {max:78, lvl:"Ausgeprägt BANI", verdict:"Sie führen bereits in einer BANI-Welt. Klassische Planungslogik greift hier zu kurz. Was jetzt trägt, ist keine neue Methode, sondern eine andere Haltung – und die konkrete Arbeit an Team und System: psychologische Sicherheit, kurze Lernschleifen, echte Kraftquellen.",
+    path:[["Kap. 1","„Die Polykrise ist kein Sonderfall mehr“ – Ihre Lage benennen, statt sie wegzudiskutieren."],["Kap. 16","„Woher Sie Ihre Kraft nehmen“ – psychologisches Kapital als Fundament unter Druck."],["Kap. 19","„Psychologische Sicherheit, ohne Schaumstoff“ – damit Ihr Team unter Unsicherheit offen bleibt."]]},
+  {max:101, lvl:"Voll im Sturm", verdict:"Ihre Welt ist brüchig, angstbesetzt, nichtlinear und schwer greifbar – alles zugleich. Das ist kein vorübergehender Ausnahmezustand, sondern der Kontext, in dem die nächste Dekade geführt wird. Genau dafür ist das Buch geschrieben: nicht um die Krise wegzuerklären, sondern um in ihr handlungsfähig zu bleiben. Sehen kommt vor Tun.",
+    path:[["Akt I","„Sehen“ – zuerst die Lage begreifen, bevor Sie reagieren (Kap. 1–7)."],["Kap. 16","„Woher Sie Ihre Kraft nehmen“ – Ihre eigene Kraftquelle sichern, bevor Sie andere führen."],["Kap. 19","„Psychologische Sicherheit, ohne Schaumstoff“ – das Team im Sturm zusammen- und offen halten."]]}
+];
+const ORDER = {B:"Brüchigkeit",A:"Angst",N:"Nichtlinearität",I:"Unbegreiflichkeit"};
 let i=0, score={B:0,A:0,N:0,I:0};
 
 function render(){
@@ -103,28 +149,48 @@ function render(){
 }
 function show(){
   document.getElementById('quiz').style.display="none";
-  const r=document.getElementById('result'); r.style.display="block";
-  const total = score.B+score.A+score.N+score.I;      // 0..24
+  document.getElementById('result').style.display="block";
+  const total = score.B+score.A+score.N+score.I;
   const pct = Math.round(total/24*100);
   document.getElementById('pct').textContent = pct;
-  let lvl, verdict;
-  if(pct<30){lvl="Stabile Welt";verdict="Ihre Führungswelt ist (noch) berechenbar. Nutzen Sie die Ruhe, um Reserven aufzubauen – Brüchigkeit kündigt sich selten an.";}
-  else if(pct<55){lvl="Erhöhte Turbulenz";verdict="Die Unsicherheit nimmt spürbar zu. Jetzt lohnt es sich, Führung neu auszurichten, bevor der Druck steigt – nicht erst mittendrin.";}
-  else if(pct<78){lvl="Ausgeprägt BANI";verdict="Sie führen bereits in einer BANI-Welt. Klassische Planungslogik greift hier zu kurz – psychologische Sicherheit und kurze Lernschleifen tragen jetzt mehr als der große Masterplan.";}
-  else {lvl="Voll im Sturm";verdict="Ihre Welt ist brüchig, angstbesetzt, nichtlinear und schwer greifbar zugleich. Das ist kein vorübergehender Ausnahmezustand – es ist der Kontext, in dem die nächste Dekade geführt wird. Sehen kommt vor Tun.";}
-  document.getElementById('level').textContent = lvl;
-  document.getElementById('verdict').textContent = verdict;
+  const L = LEVELS.find(l=>pct<l.max) || LEVELS[LEVELS.length-1];
+  document.getElementById('level').textContent = L.lvl;
+  document.getElementById('verdict').textContent = L.verdict;
   const d=document.getElementById('dims'); d.innerHTML="";
   Object.keys(DIM).forEach(k=>{
     const p=Math.round(score[k]/6*100);
-    d.innerHTML += '<div class="dim"><div class="lbl"><span>'+DIM[k]+'</span><span>'+p+'%</span></div><div class="track"><i style="width:'+p+'%"></i></div></div>';
+    const txt = p>=50 ? DIM[k].high : DIM[k].low;
+    d.innerHTML += '<div class="dim"><div class="top"><span class="name">'+DIM[k].name+'</span><span class="val">'+p+'%</span></div><div class="track"><i style="width:'+p+'%"></i></div><div class="txt">'+txt+'</div></div>';
   });
-  window._shareText = "Meine Führungswelt ist zu "+pct+"% BANI ("+lvl+"). Und Ihre? Der Selbsttest: https://zukunft-fuehren.com/bani-test/  – nach „Zukunft führen“ von Dr. Jörg Krauter";
+  let dom="B"; ["A","N","I"].forEach(k=>{ if(score[k]>score[dom]) dom=k; });
+  document.getElementById('focus').innerHTML = FOCUS[dom];
+  const pth=document.getElementById('path'); pth.innerHTML="";
+  L.path.forEach(s=>{ pth.innerHTML += '<div class="step"><span class="k">'+s[0]+'</span><span>'+s[1]+'</span></div>'; });
+  window._shareText = "Meine Führungswelt ist zu "+pct+"% BANI ("+L.lvl+"), stärkster Faktor: "+ORDER[dom]+". Und Ihre? Der Selbsttest: https://zukunft-fuehren.com/bani-test/  – nach „Zukunft führen“ von Dr. Jörg Krauter";
+}
+function copyText(txt){
+  if(navigator.clipboard && window.isSecureContext){
+    return navigator.clipboard.writeText(txt);
+  }
+  return new Promise((res,rej)=>{
+    try{
+      const ta=document.createElement('textarea');
+      ta.value=txt; ta.setAttribute('readonly','');
+      ta.style.position='fixed'; ta.style.top='-1000px';
+      document.body.appendChild(ta);
+      ta.select(); ta.setSelectionRange(0,ta.value.length);
+      const ok=document.execCommand('copy');
+      document.body.removeChild(ta);
+      ok?res():rej();
+    }catch(e){ rej(e); }
+  });
 }
 document.getElementById('share').onclick=()=>{
-  navigator.clipboard.writeText(window._shareText).then(()=>{
-    document.getElementById('share').textContent="Kopiert ✓";
-  }).catch(()=>{ prompt("Zum Teilen kopieren:", window._shareText); });
+  const btn=document.getElementById('share');
+  copyText(window._shareText).then(()=>{
+    btn.textContent="Kopiert ✓";
+    setTimeout(()=>{ btn.textContent="Ergebnis kopieren"; }, 2500);
+  }).catch(()=>{ window.prompt("Zum Teilen markieren und kopieren (Strg/Cmd + C):", window._shareText); });
 };
 document.getElementById('again').onclick=()=>{ i=0; score={B:0,A:0,N:0,I:0}; document.getElementById('result').style.display="none"; document.getElementById('quiz').style.display="block"; render(); };
 render();
