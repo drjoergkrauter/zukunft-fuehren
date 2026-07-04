@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wie BANI ist Ihre Führungswelt? – Der Selbsttest | Zukunft führen</title>
+<meta name="description" content="In 8 Fragen herausfinden, wie brüchig, angstbesetzt, nichtlinear und unbegreiflich Ihr Führungsalltag wirklich ist. Ein Selbsttest von Dr. Jörg Krauter, Autor von „Zukunft führen“.">
+<link rel="canonical" href="https://zukunft-fuehren.com/bani-test/">
+<meta property="og:title" content="Wie BANI ist Ihre Führungswelt?">
+<meta property="og:description" content="Der 2-Minuten-Selbsttest für Führungskräfte. Wie brüchig ist Ihre Welt wirklich?">
+<meta property="og:url" content="https://zukunft-fuehren.com/bani-test/">
+<style>
+  :root{--ink:#0a1f44;--muted:#5a6472;--line:#e6e9ef;--accent:#0a4fb4;--bg:#fff}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.6;background:var(--bg)}
+  .wrap{max-width:640px;margin:0 auto;padding:0 22px}
+  header{border-bottom:1px solid var(--line);padding:18px 0}
+  header .wrap{display:flex;justify-content:space-between;align-items:center;font-weight:600}
+  header a{color:var(--ink);text-decoration:none}
+  h1{font-size:1.9rem;line-height:1.2;margin:38px 0 8px}
+  .intro{color:var(--muted);font-size:1.05rem;margin-bottom:8px}
+  .bar{height:6px;background:var(--line);border-radius:6px;margin:24px 0 30px;overflow:hidden}
+  .bar>i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
+  .q{font-size:1.25rem;font-weight:600;margin:0 0 20px}
+  .opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:#fff;border-radius:10px;padding:14px 16px;margin:0 0 10px;font-size:1rem;color:var(--ink);cursor:pointer;transition:border-color .15s,background .15s}
+  .opt:hover{border-color:var(--accent);background:#f5f8fd}
+  .count{color:var(--muted);font-size:.9rem;margin-bottom:6px}
+  #result{display:none}
+  .score{font-size:3rem;font-weight:700;margin:6px 0 0}
+  .level{font-size:1.3rem;font-weight:600;margin:0 0 14px}
+  .dims{margin:22px 0}
+  .dim{margin:0 0 14px}
+  .dim .lbl{display:flex;justify-content:space-between;font-size:.95rem;margin-bottom:4px}
+  .dim .track{height:8px;background:var(--line);border-radius:8px;overflow:hidden}
+  .dim .track>i{display:block;height:100%;background:var(--accent)}
+  .verdict{border-left:3px solid var(--ink);padding-left:16px;margin:22px 0;font-size:1.05rem}
+  .cta{border:1px solid var(--line);border-radius:12px;padding:20px;margin:26px 0;background:#f6f8fb}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:11px 18px;border-radius:8px;font-weight:600;border:0;cursor:pointer;font-size:1rem}
+  .btn.sec{background:#fff;color:var(--accent);border:1px solid var(--accent);margin-left:8px}
+  footer{border-top:1px solid var(--line);margin-top:40px;padding:24px 0;color:var(--muted);font-size:14px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a href="/">Zukunft führen</a><a href="/glossar/bani/" style="font-size:15px">Was ist BANI?</a></div></header>
+<main class="wrap">
+  <div id="quiz">
+    <h1>Wie BANI ist Ihre Führungswelt?</h1>
+    <p class="intro">Acht Fragen, zwei Minuten. Danach wissen Sie, wie brüchig, angstbesetzt, nichtlinear und unbegreiflich Ihr Führungsalltag wirklich ist – und was das heißt.</p>
+    <div class="bar"><i id="bar"></i></div>
+    <div class="count" id="count"></div>
+    <div class="q" id="q"></div>
+    <div id="opts"></div>
+  </div>
+
+  <div id="result">
+    <h1>Ihr BANI-Wert</h1>
+    <div class="score"><span id="pct"></span>%</div>
+    <div class="level" id="level"></div>
+    <div class="dims" id="dims"></div>
+    <div class="verdict" id="verdict"></div>
+    <div class="cta">
+      <strong>Teilen Sie Ihr Ergebnis</strong>
+      <p style="margin:8px 0 14px;color:var(--muted)">Wie BANI ist die Welt Ihrer Kolleg:innen? Stellen Sie die Frage.</p>
+      <button class="btn" id="share">Ergebnis kopieren</button>
+      <a class="btn sec" href="/glossar/bani/">Was BANI bedeutet</a>
+    </div>
+    <p><button class="btn sec" id="again" style="margin:0">Nochmal</button></p>
+  </div>
+</main>
+<footer><div class="wrap">Ein Selbsttest von <strong>Dr. Jörg Krauter</strong>, Autor von „Zukunft führen – Wenn die Welt nicht stabil bleibt“. · <a href="/">zukunft-fuehren.com</a></div></footer>
+
+<script>
+const Q = [
+  {t:"Wie oft brechen bei Ihnen Dinge weg, die lange verlässlich waren – Lieferanten, Prozesse, Gewissheiten?", d:"B"},
+  {t:"Wie stark prägt Unsicherheit die Stimmung in Ihrem Team – die Sorge, was als Nächstes kommt?", d:"A"},
+  {t:"Wie oft stehen bei Ihnen Aufwand und Ergebnis in keinem nachvollziehbaren Verhältnis mehr?", d:"N"},
+  {t:"Wie häufig treffen Sie Entscheidungen, obwohl Sie die Lage nicht vollständig verstehen?", d:"I"},
+  {t:"Wie oft überrascht Sie etwas, das eigentlich stabil schien und plötzlich kollabiert?", d:"B"},
+  {t:"Wie präsent ist die Angst vor Fehlern – bei Ihnen oder in Ihrem Umfeld – im Alltag?", d:"A"},
+  {t:"Wie oft haben kleine Auslöser bei Ihnen unerwartet große Wirkung entfaltet?", d:"N"},
+  {t:"Wie häufig liefern mehr Daten Ihnen trotzdem keine klare Antwort?", d:"I"}
+];
+const A = [
+  {t:"Fast nie – meine Welt ist berechenbar.", v:0},
+  {t:"Selten.", v:1},
+  {t:"Regelmäßig.", v:2},
+  {t:"Ständig – das ist mein Normalzustand.", v:3}
+];
+const DIM = {B:"Brüchig",A:"Angstbesetzt",N:"Nichtlinear",I:"Unbegreiflich"};
+let i=0, score={B:0,A:0,N:0,I:0};
+
+function render(){
+  document.getElementById('count').textContent = "Frage "+(i+1)+" von "+Q.length;
+  document.getElementById('q').textContent = Q[i].t;
+  document.getElementById('bar').style.width = (i/Q.length*100)+"%";
+  const o = document.getElementById('opts'); o.innerHTML="";
+  A.forEach(a=>{
+    const b=document.createElement('button'); b.className="opt"; b.textContent=a.t;
+    b.onclick=()=>{ score[Q[i].d]+=a.v; i++; if(i<Q.length) render(); else show(); };
+    o.appendChild(b);
+  });
+}
+function show(){
+  document.getElementById('quiz').style.display="none";
+  const r=document.getElementById('result'); r.style.display="block";
+  const total = score.B+score.A+score.N+score.I;      // 0..24
+  const pct = Math.round(total/24*100);
+  document.getElementById('pct').textContent = pct;
+  let lvl, verdict;
+  if(pct<30){lvl="Stabile Welt";verdict="Ihre Führungswelt ist (noch) berechenbar. Nutzen Sie die Ruhe, um Reserven aufzubauen – Brüchigkeit kündigt sich selten an.";}
+  else if(pct<55){lvl="Erhöhte Turbulenz";verdict="Die Unsicherheit nimmt spürbar zu. Jetzt lohnt es sich, Führung neu auszurichten, bevor der Druck steigt – nicht erst mittendrin.";}
+  else if(pct<78){lvl="Ausgeprägt BANI";verdict="Sie führen bereits in einer BANI-Welt. Klassische Planungslogik greift hier zu kurz – psychologische Sicherheit und kurze Lernschleifen tragen jetzt mehr als der große Masterplan.";}
+  else {lvl="Voll im Sturm";verdict="Ihre Welt ist brüchig, angstbesetzt, nichtlinear und schwer greifbar zugleich. Das ist kein vorübergehender Ausnahmezustand – es ist der Kontext, in dem die nächste Dekade geführt wird. Sehen kommt vor Tun.";}
+  document.getElementById('level').textContent = lvl;
+  document.getElementById('verdict').textContent = verdict;
+  const d=document.getElementById('dims'); d.innerHTML="";
+  Object.keys(DIM).forEach(k=>{
+    const p=Math.round(score[k]/6*100);
+    d.innerHTML += '<div class="dim"><div class="lbl"><span>'+DIM[k]+'</span><span>'+p+'%</span></div><div class="track"><i style="width:'+p+'%"></i></div></div>';
+  });
+  window._shareText = "Meine Führungswelt ist zu "+pct+"% BANI ("+lvl+"). Und Ihre? Der Selbsttest: https://zukunft-fuehren.com/bani-test/  – nach „Zukunft führen“ von Dr. Jörg Krauter";
+}
+document.getElementById('share').onclick=()=>{
+  navigator.clipboard.writeText(window._shareText).then(()=>{
+    document.getElementById('share').textContent="Kopiert ✓";
+  }).catch(()=>{ prompt("Zum Teilen kopieren:", window._shareText); });
+};
+document.getElementById('again').onclick=()=>{ i=0; score={B:0,A:0,N:0,I:0}; document.getElementById('result').style.display="none"; document.getElementById('quiz').style.display="block"; render(); };
+render();
+</script>
+</body>
+</html>
