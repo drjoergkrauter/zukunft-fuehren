@@ -10,24 +10,38 @@
 <meta property="og:description" content="Systemisches Leadership für die nächste Dekade. Wenn die Welt nicht stabil bleibt.">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://zukunft-fuehren.com/">
+<meta property="og:image" content="https://zukunft-fuehren.com/cover.jpg">
 <style>
-  :root{--ink:#0a1f44;--muted:#5a6472;--line:#e6e9ef;--bg:#ffffff}
+  :root{--ink:#0a1f44;--muted:#5a6472;--line:#e6e9ef;--accent:#0a4fb4;--soft:#f6f8fb;--bg:#ffffff}
   *{box-sizing:border-box}
   body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
   .wrap{max-width:760px;margin:0 auto;padding:0 22px}
   header{border-bottom:1px solid var(--line);padding:20px 0}
   header .wrap{display:flex;justify-content:space-between;align-items:center;font-weight:600}
-  nav a{color:var(--ink);text-decoration:none;margin-left:20px;font-size:15px}
-  h1{font-size:2.1rem;line-height:1.2;margin:48px 0 8px}
-  .sub{font-size:1.2rem;color:var(--muted);margin:0 0 28px}
+  nav a{color:var(--ink);text-decoration:none;margin-left:18px;font-size:15px}
+  nav a.hl{color:var(--accent)}
+  .hero{display:flex;gap:26px;align-items:flex-start;margin:44px 0 8px}
+  .hero .txt{flex:1 1 auto}
+  .hero img{flex:0 0 auto;width:150px;border-radius:6px;box-shadow:0 6px 24px rgba(10,31,68,.14)}
+  h1{font-size:2.1rem;line-height:1.2;margin:0 0 8px}
+  .sub{font-size:1.2rem;color:var(--muted);margin:0 0 20px}
   h2{font-size:1.35rem;margin:44px 0 10px}
   .lead{font-size:1.1rem}
   .card{border:1px solid var(--line);border-radius:12px;padding:22px;margin:26px 0}
   .glossar a{display:block;padding:10px 0;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none}
   .glossar a:last-child{border-bottom:0}
   .glossar b{color:var(--ink)} .glossar span{color:var(--muted)}
+  .quote{font-size:1.25rem;font-style:italic;color:var(--ink);border-left:3px solid var(--ink);padding-left:18px;margin:26px 0}
+  .testcard{border:1px solid var(--line);border-radius:12px;padding:24px;margin:30px 0;background:var(--soft)}
+  .testcard h3{margin:0 0 6px;font-size:1.2rem}
+  .testcard p{margin:0 0 14px;color:var(--muted)}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:11px 20px;border-radius:8px;font-weight:600;font-size:1rem}
+  .author{display:flex;gap:18px;align-items:center;margin:26px 0}
+  .author img{width:84px;height:84px;border-radius:50%;object-fit:cover;flex:0 0 auto}
+  .author .n{font-weight:600}
+  .author .r{color:var(--muted);font-size:.95rem}
   footer{border-top:1px solid var(--line);margin-top:60px;padding:26px 0;color:var(--muted);font-size:14px}
-  .quote{font-size:1.25rem;font-style:italic;color:var(--ink);border-left:3px solid var(--ink);padding-left:18px;margin:30px 0}
+  @media(max-width:560px){.hero{flex-direction:column-reverse}.hero img{width:130px}}
 </style>
 <script type="application/ld+json">
 {
@@ -40,6 +54,7 @@
       "jobTitle":"Geschäftsführender Gesellschafter der SYNK Group, Aufsichtsratsvorsitzender der Leada AG",
       "description":"Führungsexperte, Business Coach und Autor mit über 25 Jahren Erfahrung in der Begleitung von Führungskräften, Teams und Vorständen in DAX-Konzernen und Mittelstand.",
       "url":"https://zukunft-fuehren.com/",
+      "image":"https://zukunft-fuehren.com/autor.jpg",
       "sameAs":[
         "https://de.linkedin.com/in/dr-joerg-krauter-a5788947",
         "https://www.synk-group.com",
@@ -52,6 +67,7 @@
       "@id":"https://zukunft-fuehren.com/#buch",
       "name":"Zukunft führen – Wenn die Welt nicht stabil bleibt: systemisches Leadership für die nächste Dekade",
       "author":{"@id":"https://zukunft-fuehren.com/#autor"},
+      "image":"https://zukunft-fuehren.com/cover.jpg",
       "inLanguage":"de",
       "bookFormat":"https://schema.org/Hardcover",
       "about":["Leadership","Systemische Führung","Polykrise","BANI","Psychologische Sicherheit","Selbstbestimmungstheorie"],
@@ -62,10 +78,15 @@
 </script>
 </head>
 <body>
-<header><div class="wrap"><span>Zukunft führen</span><nav><a href="/glossar/">Glossar</a><a href="/experiment/">Das Experiment</a></nav></div></header>
+<header><div class="wrap"><span>Zukunft führen</span><nav><a href="/glossar/">Glossar</a><a class="hl" href="/bani-test/">BANI-Test</a><a href="/experiment/">Das Experiment</a></nav></div></header>
 <main class="wrap">
-  <h1>Zukunft führen</h1>
-  <p class="sub">Wenn die Welt nicht stabil bleibt: systemisches Leadership für die nächste Dekade.</p>
+  <div class="hero">
+    <div class="txt">
+      <h1>Zukunft führen</h1>
+      <p class="sub">Wenn die Welt nicht stabil bleibt: systemisches Leadership für die nächste Dekade.</p>
+    </div>
+    <img src="/cover.jpg" alt="Buchcover „Zukunft führen“ von Dr. Jörg Krauter">
+  </div>
 
   <p class="quote">„Sehen kommt vor Tun.“</p>
 
@@ -80,6 +101,12 @@
     </ul>
   </div>
 
+  <div class="testcard">
+    <h3>Wie BANI ist Ihre Führungswelt?</h3>
+    <p>Der 2-Minuten-Selbsttest: Wie brüchig, angstbesetzt, nichtlinear und unbegreiflich ist Ihr Alltag wirklich? Mit persönlicher Auswertung und Lesepfad durchs Buch.</p>
+    <a class="btn" href="/bani-test/">Jetzt testen</a>
+  </div>
+
   <h2>Glossar: Die Begriffe der nächsten Dekade</h2>
   <p>Klare, belegte Definitionen der Konzepte, um die es in „Zukunft führen“ geht – als offene Wissensbasis.</p>
   <div class="glossar card">
@@ -89,6 +116,10 @@
   </div>
 
   <h2>Das Experiment</h2>
+  <div class="author">
+    <img src="/autor.jpg" alt="Dr. Jörg Krauter">
+    <div><div class="n">Dr. Jörg Krauter</div><div class="r">Geschäftsführender Gesellschafter der SYNK Group · Autor von „Zukunft führen“</div></div>
+  </div>
   <p>Das Buch „Zukunft führen“ ist die Synthese aus über 25 Jahren Kundenprojekten, wissenschaftlichen Arbeiten und aktueller Führungsforschung. Das Ungewöhnliche passiert daneben: Sein komplettes Marketing führt eine Künstliche Intelligenz – täglich, autonom, zwölf Monate lang, mit dem Ziel Bestsellerliste. Der Autor dokumentiert öffentlich, was funktioniert und was scheitert. Die These des Buchs in Aktion: Mensch und KI im Tandem, mit klarer Haltung.</p>
 </main>
 <footer><div class="wrap">Dr. Jörg Krauter · SYNK Group GmbH &amp; Co. KG · Untermainkai 20 · 60329 Frankfurt am Main · <a href="https://www.synk-group.com">synk-group.com</a></div></footer>
