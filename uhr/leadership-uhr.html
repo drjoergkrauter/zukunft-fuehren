@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Die Zukunft-führen-Uhr | Wie spät ist es für die Führung?</title>
+<meta name="description" content="Ein täglich aktualisierter Frühindikator aus der Zukunftsforschung: Wie nah steht die klassische Führung an ihrer Disruption? Aufbereitet entlang von Polykrise und BANI aus dem Buch 'Zukunft führen'.">
+<style>
+  :root{
+    --navy:#0A1D38; --navy2:#0E274B; --card:#10305C;
+    --ink:#EAF2F8; --muted:#9FB3C8; --line:rgba(255,255,255,.10);
+    --ice:#5AB0DE; --ice2:#8AD0F0;
+    --b:#E4572E; --a:#E6A23C; --n:#4FA3D1; --i:#7C6FD1;
+    --ok:#3FB68B;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--navy);color:var(--ink);
+    font-family:'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:920px;margin:0 auto;padding:28px 20px 48px}
+  .eyebrow{color:var(--ice);font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;margin:0 0 6px}
+  h1{font-size:30px;line-height:1.15;margin:0 0 8px;font-weight:700}
+  .lead{color:var(--muted);font-size:15px;margin:0 0 4px}
+  .stamp{color:var(--muted);font-size:12.5px;margin:10px 0 24px}
+  .stamp b{color:var(--ink);font-weight:600}
+
+  .clockgrid{display:grid;grid-template-columns:260px 1fr;gap:26px;align-items:center;
+    background:var(--navy2);border:1px solid var(--line);border-radius:18px;padding:24px}
+  @media(max-width:680px){.clockgrid{grid-template-columns:1fr;text-align:center}}
+  .clockwrap{position:relative;display:flex;justify-content:center}
+  .bigtime{font-size:44px;font-weight:800;letter-spacing:.02em;margin:0}
+  .tomid{color:var(--a);font-weight:700;font-size:15px;margin:2px 0 10px}
+  .clockcap{color:var(--muted);font-size:13.5px;margin:0}
+  .idxrow{margin-top:14px}
+  .idxlabel{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);margin-bottom:6px}
+  .idxlabel b{color:var(--ink)}
+  .track{height:12px;border-radius:8px;background:rgba(255,255,255,.08);overflow:hidden}
+  .fill{height:100%;border-radius:8px;background:linear-gradient(90deg,var(--n),var(--a),var(--b))}
+  .trendpill{display:inline-block;margin-top:8px;font-size:12px;font-weight:700;color:var(--navy);
+    background:var(--a);border-radius:999px;padding:3px 10px}
+
+  h2.sec{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ice);
+    margin:34px 0 14px;font-weight:600}
+
+  .bani{display:grid;gap:12px}
+  .row{background:var(--navy2);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+  .rhead{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+  .badge{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;
+    font-weight:800;color:var(--navy);flex:none}
+  .rname{font-weight:700;font-size:15px}
+  .rname small{color:var(--muted);font-weight:500;font-size:12.5px;margin-left:6px}
+  .rval{margin-left:auto;font-weight:800;font-size:16px}
+  .rtrack{height:8px;border-radius:6px;background:rgba(255,255,255,.08);overflow:hidden;margin-bottom:9px}
+  .rfill{height:100%;border-radius:6px}
+  .rsig{font-size:13.5px;color:var(--ink);margin:0 0 4px}
+  .rsrc{font-size:12px;color:var(--muted);margin:0}
+  .rlead{font-size:13px;color:var(--ice2);margin:7px 0 0;font-style:italic}
+
+  .signal{background:linear-gradient(180deg,var(--card),var(--navy2));border:1px solid var(--line);
+    border-radius:16px;padding:20px 22px;margin-top:6px}
+  .signal .k{color:var(--ice);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+  .signal h3{margin:6px 0 10px;font-size:19px;line-height:1.25}
+  .signal p{margin:0 0 10px;font-size:14.5px}
+  .signal .impl{color:var(--ink)}
+  .chap{display:inline-block;margin-top:2px;font-size:12.5px;font-weight:700;color:var(--ice2);
+    border:1px solid var(--line);border-radius:999px;padding:4px 12px;text-decoration:none}
+  .foot{margin-top:30px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+  .foot a{color:var(--ice)}
+  .foot .cta{display:inline-block;margin:10px 0;color:var(--ink);font-weight:600}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h2 class="sr-only" id="srsum"></h2>
+  <p class="eyebrow">Zukunftsforschung · Frühindikator</p>
+  <h1>Die Zukunft-führen-Uhr</h1>
+  <p class="lead">Wie nah steht die klassische Führung an ihrer Disruption? Ein Frühindikator, der die aktuellen Signale der Zukunftsforschung entlang von <b style="color:var(--ink)">Polykrise</b> und <b style="color:var(--ink)">BANI</b> verdichtet.</p>
+  <p class="stamp">Stand: <b id="datum">–</b> · aktualisiert aus laufender Zukunftsforschung · Mitternacht = der Punkt, an dem Führung nach alter Logik nicht mehr trägt.</p>
+
+  <div class="clockgrid">
+    <div class="clockwrap">
+      <svg width="230" height="230" viewBox="0 0 230 230" role="img" aria-labelledby="clocktitle">
+        <title id="clocktitle">Zifferblatt kurz vor Mitternacht</title>
+        <circle cx="115" cy="115" r="104" fill="#0A1D38" stroke="rgba(255,255,255,.14)" stroke-width="2"/>
+        <circle cx="115" cy="115" r="104" fill="none" stroke="#E4572E" stroke-width="6"
+                stroke-linecap="round" stroke-dasharray="653" stroke-dashoffset="653"
+                transform="rotate(-90 115 115)" id="arc" opacity=".9"/>
+        <g id="ticks"></g>
+        <line id="hourhand" x1="115" y1="115" x2="115" y2="62" stroke="#EAF2F8" stroke-width="5" stroke-linecap="round"/>
+        <line id="minhand" x1="115" y1="115" x2="115" y2="40" stroke="#5AB0DE" stroke-width="3.5" stroke-linecap="round"/>
+        <circle cx="115" cy="115" r="6" fill="#EAF2F8"/>
+        <text x="115" y="34" text-anchor="middle" font-size="13" fill="#9FB3C8" font-family="sans-serif">12</text>
+      </svg>
+    </div>
+    <div>
+      <p class="bigtime" id="bigtime">–</p>
+      <p class="tomid" id="tomid">–</p>
+      <p class="clockcap" id="leitsatz">–</p>
+      <div class="idxrow">
+        <div class="idxlabel"><span>Leadership-Disruptions-Index</span><b><span id="idxval">–</span>/100</b></div>
+        <div class="track"><div class="fill" id="idxfill" style="width:0%"></div></div>
+        <span class="trendpill" id="trend">–</span>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="sec">Wie stark die Trends auf Führung wirken — vier Kräfte (BANI)</h2>
+  <div class="bani" id="bani"></div>
+
+  <h2 class="sec">Signal des Tages</h2>
+  <div class="signal">
+    <span class="k">Leitsignal</span>
+    <h3 id="sig-titel">–</h3>
+    <p id="sig-befund">–</p>
+    <p class="impl"><b>Was das für Führung heißt:</b> <span id="sig-impl">–</span></p>
+    <a class="chap" id="sig-chap" href="https://www.amazon.de/dp/B0H7PVH8DQ">–</a>
+    <p class="rsrc" style="margin-top:10px" id="sig-quelle">–</p>
+  </div>
+
+  <div class="signal" style="margin-top:26px;text-align:center">
+    <span class="k">Die Uhr abonnieren</span>
+    <h3 style="margin:8px 0 8px">Jede Woche ein neuer Stand — direkt zu Ihnen.</h3>
+    <p style="color:var(--muted);font-size:14px;margin:0 auto 14px;max-width:560px">Der wöchentliche „Montagsimpuls" bringt den aktuellen Uhr-Stand plus einen konkreten Führungs-Impuls aus dem Buch. Ehrlich, unbequem, ohne Pathos.</p>
+    <a class="cta" href="https://www.linkedin.com/newsletters/7479071946920505344" target="_blank" rel="noopener" style="display:inline-block;background:var(--ice);color:var(--navy);font-weight:700;border-radius:999px;padding:10px 20px;text-decoration:none">→ Montagsimpuls auf LinkedIn abonnieren</a>
+    <p style="color:var(--muted);font-size:12px;margin:12px 0 0">E-Mail-Abo folgt in Kürze.</p>
+  </div>
+
+  <div class="foot">
+    <p><b style="color:var(--ink)">Wie diese Uhr entsteht:</b> Jeden Tag werten wir neue Ergebnisse der Zukunftsforschung aus und verdichten sie zu einem Index von 0–100. Höher heißt: näher an Mitternacht — die alte Führungslogik trägt weniger. Es ist ein Deutungs-, kein Messinstrument. Quellen des Tages: <span id="quellen"></span>.</p>
+    <a class="cta" href="https://www.amazon.de/dp/B0H7PVH8DQ">→ Das Buch: „Zukunft führen" (eBook &amp; Hardcover)</a><br>
+    <span>Teil eines offenen Experiments: Das Marketing dieses Buchs macht eine KI — die Signale kuratiert und deutet sie, die Verantwortung bleibt beim Menschen.</span>
+  </div>
+</div>
+
+<script>
+const FALLBACK = {
+  "datum":"2026-07-07","index":71,"uhrzeit":"23:43","trend":"steigend",
+  "leitsatz":"Die Uhr tickt – aber es ist noch Zeit zu handeln. Sehen kommt vor Tun.",
+  "leitsignal":{"titel":"„Age of Competition“: Geoökonomische Konfrontation ist das Top-Risiko 2026",
+    "befund":"Geoökonomische Konfrontation klettert im Zwei-Jahres-Horizont um acht Plätze auf Platz 1; die Welt bewegt sich in ein „Zeitalter des Wettbewerbs“ aus Fragmentierung und Konfrontation.",
+    "fuehrungsimplikation":"Führung kann sich nicht mehr auf stabile Märkte, Lieferketten und Regeln verlassen. Wer weiter auf reine Effizienz- und Kennzahlenlogik optimiert, optimiert ein System, das unter den Füßen kippt. Gefragt ist Kontext- statt Kontrolllogik.",
+    "quelle":"WEF Global Risks Report 2026 (21. Ausgabe, 1.300+ Expert:innen)","kapitel":"Kapitel 1 – Polykrise"},
+  "bani":[
+    {"code":"B","dim":"Brüchig","en":"Brittle","wert":78,"signal":"Geoökonomische Konfrontation = Top-Risiko 2026; Fragmentierung von Handel, Lieferketten und Allianzen.","quelle":"WEF Global Risks Report 2026","fuehrung":"Systeme, die stark aussehen, brechen ohne Vorwarnung. Führung braucht Redundanz statt reiner Optimierung."},
+    {"code":"A","dim":"Ängstlich","en":"Anxious","wert":73,"signal":"Polarisierung und Des-/Fehlinformation unter den Top-3-Kurzfristrisiken; nur 26 % erleben ihre Führung als klar zu KI ausgerichtet.","quelle":"WEF 2026 / Microsoft Work Trend Index 2026","fuehrung":"Angst ist ansteckend – Orientierungslosigkeit auch. Psychologische Sicherheit wird zur Kernaufgabe."},
+    {"code":"N","dim":"Nichtlinear","en":"Nonlinear","wert":68,"signal":"Zwei-Spur-Arbeitsmarkt: „professionalisierte“ Rollen wachsen, Einstiegsjobs stagnieren; seniorisierte Entry-Level-Rollen +35 % seit 2019.","quelle":"PwC Global AI Jobs Barometer 2026","fuehrung":"Ursache und Wirkung entkoppeln sich. Kleine KI-Schritte kippen ganze Rollenlogiken."},
+    {"code":"I","dim":"Unbegreiflich","en":"Incomprehensible","wert":66,"signal":"Agentische KI zieht in Teams ein; Komplexität muss mit „innerer Klarheit“ in produktive Zukunft übersetzt werden.","quelle":"Zukunftsinstitut Zukunftsreport 2026","fuehrung":"Nicht mehr alles ist erklärbar. Führung heißt, mit Nicht-Wissen handlungsfähig zu bleiben."}
+  ],
+  "quellen":[
+    {"titel":"WEF Global Risks Report 2026","url":"https://www.weforum.org/publications/global-risks-report-2026/"},
+    {"titel":"Zukunftsinstitut Zukunftsreport 2026","url":"https://www.zukunftsinstitut.de/"},
+    {"titel":"PwC 2026 AI Jobs Barometer","url":"https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html"},
+    {"titel":"Microsoft Work Trend Index 2026","url":"https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization"}
+  ]
+};
+const COL={B:'#E4572E',A:'#E6A23C',N:'#4FA3D1',I:'#7C6FD1'};
+
+function render(d){
+  document.getElementById('datum').textContent = fmtDate(d.datum);
+  document.getElementById('bigtime').textContent = d.uhrzeit;
+  const [hh,mm]=d.uhrzeit.split(':').map(Number);
+  const minsToMid = ((24*60) - (hh*60+mm)) % (24*60);
+  document.getElementById('tomid').textContent = minsToMid+' Minuten bis Mitternacht';
+  document.getElementById('leitsatz').textContent = d.leitsatz;
+  document.getElementById('idxval').textContent = d.index;
+  document.getElementById('idxfill').style.width = d.index+'%';
+  const tp=document.getElementById('trend');
+  tp.textContent = 'Trend: '+d.trend;
+  tp.style.background = d.trend==='steigend'?'#E4572E':(d.trend==='fallend'?'#3FB68B':'#E6A23C');
+  tp.style.color = '#0A1D38';
+
+  // clock hands
+  const min=(mm/60)*360, hour=((hh%12)+mm/60)/12*360;
+  setHand('minhand',min,75); setHand('hourhand',hour,53);
+  // danger arc from 12 to minute hand (how far around toward midnight the tension sits)
+  const arc=document.getElementById('arc'), C=2*Math.PI*104;
+  const frac=Math.min(d.index/100,1);
+  arc.setAttribute('stroke-dasharray',C);
+  arc.setAttribute('stroke-dashoffset', C*(1-frac));
+
+  // ticks
+  let t='';
+  for(let i=0;i<12;i++){const a=i/12*2*Math.PI;const x1=115+96*Math.sin(a),y1=115-96*Math.cos(a),x2=115+104*Math.sin(a),y2=115-104*Math.cos(a);
+    t+=`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="rgba(255,255,255,.22)" stroke-width="2"/>`;}
+  document.getElementById('ticks').innerHTML=t;
+
+  // bani
+  document.getElementById('bani').innerHTML = d.bani.map(b=>`
+    <div class="row">
+      <div class="rhead">
+        <span class="badge" style="background:${COL[b.code]}">${b.code}</span>
+        <span class="rname">${b.dim}<small>${b.en}</small></span>
+        <span class="rval" style="color:${COL[b.code]}">${b.wert}</span>
+      </div>
+      <div class="rtrack"><div class="rfill" style="width:${b.wert}%;background:${COL[b.code]}"></div></div>
+      <p class="rsig">${b.signal}</p>
+      <p class="rsrc">Quelle: ${b.quelle}</p>
+      <p class="rlead">Für Führung: ${b.fuehrung}</p>
+    </div>`).join('');
+
+  // signal
+  const s=d.leitsignal;
+  document.getElementById('sig-titel').textContent=s.titel;
+  document.getElementById('sig-befund').textContent=s.befund;
+  document.getElementById('sig-impl').textContent=s.fuehrungsimplikation;
+  document.getElementById('sig-chap').textContent='→ Hier zum Buch: '+s.kapitel;
+  document.getElementById('sig-quelle').textContent='Quelle: '+s.quelle;
+
+  document.getElementById('quellen').innerHTML = d.quellen.map(q=>`<a href="${q.url}" target="_blank" rel="noopener">${q.titel}</a>`).join(' · ');
+  document.getElementById('srsum').textContent =
+    `Die Zukunft-führen-Uhr steht am ${fmtDate(d.datum)} auf ${d.uhrzeit}, ${minsToMid} Minuten vor Mitternacht. Leadership-Disruptions-Index ${d.index} von 100, Trend ${d.trend}.`;
+}
+function setHand(id,deg,len){const el=document.getElementById(id);const a=(deg-90)*Math.PI/180;
+  el.setAttribute('x2',(115+len*Math.cos(a)).toFixed(1));el.setAttribute('y2',(115+len*Math.sin(a)).toFixed(1));}
+function fmtDate(iso){const m=['Jan.','Feb.','März','Apr.','Mai','Juni','Juli','Aug.','Sep.','Okt.','Nov.','Dez.'];
+  const [y,mo,da]=iso.split('-');return `${+da}. ${m[+mo-1]} ${y}`;}
+
+fetch('zukunftsforscher-feed.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(render).catch(()=>render(FALLBACK));
+</script>
+</body>
+</html>
