@@ -1,0 +1,61 @@
+{
+  "datum": "2026-07-07",
+  "aktualisiert": "2026-07-07T07:30:00+02:00",
+  "index": 71,
+  "uhrzeit": "23:43",
+  "trend": "steigend",
+  "trend_delta": 0,
+  "leitsatz": "Die Uhr tickt – aber es ist noch Zeit zu handeln. Sehen kommt vor Tun.",
+  "leitsignal": {
+    "titel": "„Age of Competition“: Geoökonomische Konfrontation ist das Top-Risiko 2026",
+    "quelle": "WEF Global Risks Report 2026 (21. Ausgabe, 1.300+ Expert:innen)",
+    "befund": "Geoökonomische Konfrontation klettert im Zwei-Jahres-Horizont um acht Plätze auf Platz 1; die Welt bewegt sich in ein „Zeitalter des Wettbewerbs“ aus Fragmentierung und Konfrontation.",
+    "fuehrungsimplikation": "Führung kann sich nicht mehr auf stabile Märkte, Lieferketten und Regeln verlassen. Wer weiter auf Effizienz- und Kennzahlenlogik optimiert, optimiert ein System, das unter den Füßen kippt. Gefragt ist Kontext-, nicht Kontrolllogik.",
+    "kapitel": "Kapitel 1 – Polykrise"
+  },
+  "bani": [
+    {
+      "code": "B",
+      "dim": "Brüchig",
+      "en": "Brittle",
+      "wert": 78,
+      "signal": "Geoökonomische Konfrontation = Top-Risiko 2026; Fragmentierung von Handel, Lieferketten und Allianzen.",
+      "quelle": "WEF Global Risks Report 2026",
+      "fuehrung": "Systeme, die stark aussehen, brechen ohne Vorwarnung. Führung braucht Redundanz statt reiner Optimierung."
+    },
+    {
+      "code": "A",
+      "dim": "Ängstlich",
+      "en": "Anxious",
+      "wert": 73,
+      "signal": "Gesellschaftliche Polarisierung und Des-/Fehlinformation unter den Top-3-Kurzfristrisiken; nur 26 % der Beschäftigten erleben ihre Führung als klar zu KI ausgerichtet.",
+      "quelle": "WEF 2026 / Microsoft Work Trend Index 2026",
+      "fuehrung": "Angst ist ansteckend – und Orientierungslosigkeit auch. Psychologische Sicherheit wird zur Kernaufgabe."
+    },
+    {
+      "code": "N",
+      "dim": "Nichtlinear",
+      "en": "Nonlinear",
+      "wert": 68,
+      "signal": "Zwei-Spur-Arbeitsmarkt: „professionalisierte“ Rollen wachsen, während Einstiegsjobs stagnieren; seniorisierte Entry-Level-Rollen +35 % seit 2019.",
+      "quelle": "PwC Global AI Jobs Barometer 2026 / WEF",
+      "fuehrung": "Ursache und Wirkung entkoppeln sich. Kleine KI-Schritte kippen ganze Rollenlogiken – lineare Personalplanung greift nicht mehr."
+    },
+    {
+      "code": "I",
+      "dim": "Unbegreiflich",
+      "en": "Incomprehensible",
+      "wert": 66,
+      "signal": "Agentische KI zieht in Teams ein; Komplexität muss laut Zukunftsreport 2026 mit „innerer Klarheit“ in produktive Zukunft übersetzt werden.",
+      "quelle": "Zukunftsinstitut Zukunftsreport 2026 / Microsoft 2026",
+      "fuehrung": "Nicht mehr alles ist erklärbar. Führung heißt, mit Nicht-Wissen handlungsfähig zu bleiben – Haltung vor Werkzeug."
+    }
+  ],
+  "quellen": [
+    {"titel": "WEF Global Risks Report 2026", "url": "https://www.weforum.org/publications/global-risks-report-2026/"},
+    {"titel": "Zukunftsinstitut – Zukunftsreport 2026", "url": "https://www.zukunftsinstitut.de/"},
+    {"titel": "PwC 2026 Global AI Jobs Barometer", "url": "https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html"},
+    {"titel": "Microsoft Work Trend Index 2026", "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization"},
+    {"titel": "The Millennium Project – 15 Global Challenges", "url": "https://www.millennium-project.org/challenges-overview/"}
+  ]
+}
