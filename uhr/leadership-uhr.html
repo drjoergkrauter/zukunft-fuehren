@@ -48,7 +48,7 @@
   .badge{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;
     font-weight:800;color:var(--navy);flex:none}
   .rname{font-weight:700;font-size:15px}
-  .rname small{color:var(--muted);font-weight:500;font-size:12.5px;margin-left:6px}
+  .rname small{display:block;color:var(--muted);font-weight:500;font-size:12.5px;margin-left:0;margin-top:2px;line-height:1.35}
   .rval{margin-left:auto;font-weight:800;font-size:16px}
   .rtrack{height:8px;border-radius:6px;background:rgba(255,255,255,.08);overflow:hidden;margin-bottom:9px}
   .rfill{height:100%;border-radius:6px}
@@ -78,6 +78,7 @@
 <body>
 <div class="wrap">
   <h2 class="sr-only" id="srsum"></h2>
+  <p style="margin:0 0 16px"><a href="/" style="color:var(--muted);text-decoration:none;font-size:14px">← Zurück zur Startseite</a></p>
   <p class="eyebrow">Zukunftsforschung · Frühindikator</p>
   <h1>Die Zukunft-führen-Uhr</h1>
   <p class="lead">Wie nah steht die klassische Führung an ihrer Disruption? Ein Frühindikator, der die aktuellen Signale der Zukunftsforschung entlang von <b style="color:var(--ink)">Polykrise</b> und <b style="color:var(--ink)">BANI</b> verdichtet.</p>
@@ -160,6 +161,7 @@ const FALLBACK = {
   ]
 };
 const COL={B:'#E4572E',A:'#E6A23C',N:'#4FA3D1',I:'#7C6FD1'};
+const MEAN={B:'wirkt stabil, bricht dann plötzlich',A:'Dauerunsicherheit lähmt Entscheidungen',N:'kleine Ursache, große Wirkung',I:'entzieht sich der einfachen Erklärung'};
 
 function render(d){
   document.getElementById('datum').textContent = fmtDate(d.datum);
@@ -195,7 +197,7 @@ function render(d){
     <div class="row">
       <div class="rhead">
         <span class="badge" style="background:${COL[b.code]}">${b.code}</span>
-        <span class="rname">${b.dim}<small>${b.en}</small></span>
+        <span class="rname">${b.dim}<small>${b.en?b.en+' \u00b7 ':''}${MEAN[b.code]||''}</small></span>
         <span class="rval" style="color:${COL[b.code]}">${b.wert}</span>
       </div>
       <div class="rtrack"><div class="rfill" style="width:${b.wert}%;background:${COL[b.code]}"></div></div>
