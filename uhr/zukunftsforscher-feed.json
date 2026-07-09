@@ -1,61 +1,30 @@
 {
-  "datum": "2026-07-08",
-  "aktualisiert": "2026-07-08T07:05:00+02:00",
-  "index": 71,
-  "uhrzeit": "23:43",
-  "trend": "stabil",
-  "trend_delta": 0,
+  "datum": "2026-07-09",
+  "aktualisiert": "2026-07-09T18:00:00+02:00",
+  "index": 73,
+  "uhrzeit": "23:44",
+  "trend": "steigend",
+  "trend_delta": 2,
   "leitsatz": "Die Uhr tickt – aber es ist noch Zeit zu handeln. Sehen kommt vor Tun.",
   "leitsignal": {
-    "titel": "„Age of Competition“: Geoökonomische Konfrontation ist das Top-Risiko 2026",
-    "quelle": "WEF Global Risks Report 2026 (21. Ausgabe, 1.300+ Expert:innen)",
-    "befund": "Geoökonomische Konfrontation klettert im Zwei-Jahres-Horizont um acht Plätze auf Platz 1; die Welt bewegt sich in ein „Zeitalter des Wettbewerbs“ aus Fragmentierung und Konfrontation.",
-    "fuehrungsimplikation": "Führung kann sich nicht mehr auf stabile Märkte, Lieferketten und Regeln verlassen. Wer weiter auf Effizienz- und Kennzahlenlogik optimiert, optimiert ein System, das unter den Füßen kippt. Gefragt ist Kontext-, nicht Kontrolllogik.",
-    "kapitel": "Kapitel 1 – Polykrise"
+    "titel": "„Age of Agents“: KI-Agenten skalieren – aber der Nutzen bleibt vorerst lokal",
+    "quelle": "Zukunftsforscher-Trendbericht 09.07.2026 (Gartner 2025/26)",
+    "befund": "Gartner erwartet bis Ende 2026 aufgabenspezifische KI-Agenten in 40 % der Enterprise-Apps (von unter 5 % 2025) – doch erst 17 % der Organisationen haben sie produktiv im Einsatz, Median Time-to-Value 5,1 Monate. Der Wert entsteht selektiv, nicht flächig.",
+    "fuehrungsimplikation": "Die Technik ist da, der Nutzen nicht automatisch. Führung muss Adoption vom Pilot zur Wertschöpfung führen – mit klarer Haltung, Governance und Orchestrierung statt Tool-Aktionismus. Genau die These des Buchs: Die Frage ist nicht, ob Sie KI nutzen, sondern mit welcher Haltung.",
+    "kapitel": "Kapitel AI-Mindset – Co-Intelligenz"
   },
   "bani": [
-    {
-      "code": "B",
-      "dim": "Brüchig",
-      "en": "Brittle",
-      "wert": 78,
-      "signal": "Geoökonomische Konfrontation = Top-Risiko 2026; Fragmentierung von Handel, Lieferketten und Allianzen.",
-      "quelle": "WEF Global Risks Report 2026",
-      "fuehrung": "Systeme, die stark aussehen, brechen ohne Vorwarnung. Führung braucht Redundanz statt reiner Optimierung."
-    },
-    {
-      "code": "A",
-      "dim": "Ängstlich",
-      "en": "Anxious",
-      "wert": 73,
-      "signal": "Gesellschaftliche Polarisierung und Des-/Fehlinformation unter den Top-3-Kurzfristrisiken; nur 26 % der Beschäftigten erleben ihre Führung als klar zu KI ausgerichtet.",
-      "quelle": "WEF 2026 / Microsoft Work Trend Index 2026",
-      "fuehrung": "Angst ist ansteckend – und Orientierungslosigkeit auch. Psychologische Sicherheit wird zur Kernaufgabe."
-    },
-    {
-      "code": "N",
-      "dim": "Nichtlinear",
-      "en": "Nonlinear",
-      "wert": 68,
-      "signal": "Zwei-Spur-Arbeitsmarkt: „professionalisierte“ Rollen wachsen, während Einstiegsjobs stagnieren; seniorisierte Entry-Level-Rollen +35 % seit 2019.",
-      "quelle": "PwC Global AI Jobs Barometer 2026 / WEF",
-      "fuehrung": "Ursache und Wirkung entkoppeln sich. Kleine KI-Schritte kippen ganze Rollenlogiken – lineare Personalplanung greift nicht mehr."
-    },
-    {
-      "code": "I",
-      "dim": "Unbegreiflich",
-      "en": "Incomprehensible",
-      "wert": 66,
-      "signal": "Agentische KI zieht in Teams ein; Komplexität muss laut Zukunftsreport 2026 mit „innerer Klarheit“ in produktive Zukunft übersetzt werden.",
-      "quelle": "Zukunftsinstitut Zukunftsreport 2026 / Microsoft 2026",
-      "fuehrung": "Nicht mehr alles ist erklärbar. Führung heißt, mit Nicht-Wissen handlungsfähig zu bleiben – Haltung vor Werkzeug."
-    }
+    {"code": "B", "dim": "Brüchig", "en": "Brittle", "wert": 79, "signal": "OECD senkt Weltwachstum auf 2,9 %; Nahost-Krieg und Energiepreisschock als Top-Risiko; ausländische Direktinvestitionen in wertschöpfungskettenintensiven Sektoren 2025 minus 25 %; Blockbildung und friend-shoring.", "quelle": "OECD Mär 2026 / WTO / IMF 2026", "fuehrung": "Märkte und Lieferketten werden fragiler. Führung braucht Redundanz und Standort-/Resilienzstrategien statt reiner Effizienzlogik."},
+    {"code": "A", "dim": "Ängstlich", "en": "Anxious", "wert": 75, "signal": "Jobangst trotz Vollbeschäftigung (ADP, 39.000 Beschäftigte, 36 Länder); nur 18 % der 55-64-Jährigen fühlen sich skill-gerüstet; Reskilling-Bedarf über 50 % der Belegschaft bis 2030.", "quelle": "ADP Mär 2026 / WEF 2025/26", "fuehrung": "Sichtbares Arbeitgeber-Investment steigert die gefühlte Jobsicherheit um das 5,3-Fache – ein zentraler Führungshebel gegen Angst und FOBO."},
+    {"code": "N", "dim": "Nichtlinear", "en": "Nonlinear", "wert": 70, "signal": "Zwei gegensätzliche Entwicklungen zugleich: struktureller Fachkräftemangel trotz zeitweise steigender Arbeitslosigkeit; KI-Wert entsteht nur selektiv in klar abgegrenzten Workflows.", "quelle": "Destatis 2024/25 / Gartner 2026", "fuehrung": "Lineare Personalplanung greift nicht mehr. Kleine KI- und Demografie-Effekte kippen ganze Rollenlogiken."},
+    {"code": "I", "dim": "Unbegreiflich", "en": "Incomprehensible", "wert": 68, "signal": "Agentische KI in 40 % der Enterprise-Apps bis Ende 2026; robotische Foundation-Models und Humanoide, Post-Labor-Debatte, Ende von Moores Law.", "quelle": "Gartner 2026 / Everlast AI 02.07.2026", "fuehrung": "Nicht mehr alles ist durchschaubar. Führung heißt, mit Nicht-Wissen handlungsfähig zu bleiben – Haltung vor Werkzeug."}
   ],
   "quellen": [
-    {"titel": "WEF Global Risks Report 2026", "url": "https://www.weforum.org/publications/global-risks-report-2026/"},
-    {"titel": "Zukunftsinstitut – Zukunftsreport 2026", "url": "https://www.zukunftsinstitut.de/"},
-    {"titel": "PwC 2026 Global AI Jobs Barometer", "url": "https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html"},
-    {"titel": "Microsoft Work Trend Index 2026", "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization"},
-    {"titel": "The Millennium Project – 15 Global Challenges", "url": "https://www.millennium-project.org/challenges-overview/"}
+    {"titel": "Zukunftsforscher-Trendbericht 09.07.2026 (SYNK)", "url": ""},
+    {"titel": "Gartner – Agentic AI in Enterprise Apps 2025/26", "url": "https://www.gartner.com/"},
+    {"titel": "OECD Economic Outlook, März 2026", "url": "https://www.oecd.org/"},
+    {"titel": "ifo Sommerprognose Juni 2026", "url": "https://www.ifo.de/"},
+    {"titel": "ADP People at Work 2026 / WEF Future of Jobs", "url": "https://www.adpri.org/"},
+    {"titel": "Deloitte Gen Z and Millennial Survey 2026", "url": "https://www.deloitte.com/"}
   ]
 }
