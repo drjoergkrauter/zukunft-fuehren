@@ -96,6 +96,10 @@
     background: #fff6ec; border-radius: 14px; padding: 14px 16px;
   }
   .public b { color: #d98a3d; }
+  .waqr { margin-top: 22px; padding-top: 20px; border-top: 1px dashed #e6ddd3; }
+  .waqr .wl { font-size: 14px; line-height: 1.5; color: #0b7d6e; font-weight: 700; }
+  .waqr img { width: 158px; height: 158px; display: block; margin: 12px auto 0; border-radius: 10px; box-shadow: 0 4px 14px -6px rgba(7,94,84,.4); }
+  .waqr .ws { font-size: 12px; color: #b7a196; margin-top: 8px; line-height: 1.45; }
   .foot {
     margin-top: 26px; padding-top: 18px; border-top: 1px solid #f4e6da;
     font-size: 12.5px; color: #b09a8d; line-height: 1.5;
@@ -143,6 +147,12 @@
         Nachricht kopieren
       </button>
       <div class="hint" id="hint"></div>
+    </div>
+
+    <div class="waqr">
+      <div class="wl">📲 Am Bildschirm? Scann mich mit dem Handy&nbsp;&ndash;<br>und leite direkt per WhatsApp weiter.</div>
+      <img src="data:image/png;base64,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" alt="WhatsApp-QR-Code – öffnet WhatsApp mit fertiger Nachricht">
+      <div class="ws">Öffnet WhatsApp mit der fertigen Nachricht. Nur noch Empfänger wählen und senden.</div>
     </div>
 
     <p class="public">✨ Magst du deinen Moment sichtbar machen?<br>Teile ihn öffentlich mit <b>#SamstagsFunke</b> &ndash; und schau zu, wie sich die Funken sammeln.</p>
