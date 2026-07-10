@@ -4,33 +4,38 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wie BANI ist Ihre Führungswelt? – Der Selbsttest | Zukunft führen</title>
-<meta name="description" content="In 8 Fragen herausfinden, wie brüchig, angstbesetzt, nichtlinear und unbegreiflich Ihr Führungsalltag wirklich ist – mit ausführlicher Auswertung und Buch-Empfehlungen aus „Zukunft führen“ von Dr. Jörg Krauter.">
+<meta name="description" content="In 8 Fragen herausfinden, wie brüchig, angstbesetzt, nichtlinear und unbegreiflich Ihr Führungsalltag wirklich ist – mit ausführlicher Auswertung und konkreten Kapitel-Empfehlungen aus „Zukunft führen“ von Dr. Jörg Krauter.">
 <link rel="canonical" href="https://zukunft-fuehren.com/bani-test/">
 <meta property="og:title" content="Wie BANI ist Ihre Führungswelt?">
 <meta property="og:description" content="Der 2-Minuten-Selbsttest für Führungskräfte – mit persönlicher Auswertung und Lesepfad.">
 <meta property="og:url" content="https://zukunft-fuehren.com/bani-test/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root{--ink:#0a1f44;--muted:#5a6472;--line:#e6e9ef;--accent:#0a4fb4;--soft:#f6f8fb;--bg:#fff}
+  :root{--navy:#06206F;--navy-d:#041538;--grey:#E9EAEC;--gold:#B08D4C;--ink:#1c2536;--muted:#5a6472;--line:#e2e5ec;--accent:#06206F;--soft:#E9EAEC;--bg:#fff}
   *{box-sizing:border-box}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.62;background:var(--bg)}
-  .wrap{max-width:660px;margin:0 auto;padding:0 22px}
-  header{border-bottom:1px solid var(--line);padding:18px 0}
+  body{margin:0;font-family:'Poppins',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.65;background:var(--bg);font-weight:400}
+  .wrap{max-width:680px;margin:0 auto;padding:0 22px}
+  header{border-bottom:1px solid var(--line);padding:18px 0;position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:saturate(160%) blur(6px);z-index:10}
   header .wrap{display:flex;justify-content:space-between;align-items:center;font-weight:600}
-  header a{color:var(--ink);text-decoration:none}
-  h1{font-size:1.9rem;line-height:1.2;margin:38px 0 8px}
+  header a{color:var(--navy);text-decoration:none}
+  header a:hover{color:var(--gold)}
+  h1,h2{color:var(--navy);font-weight:600}
+  h1{font-size:2rem;line-height:1.18;margin:38px 0 8px}
   h2{font-size:1.25rem;margin:34px 0 10px}
   .intro{color:var(--muted);font-size:1.05rem;margin-bottom:8px}
   .bar{height:6px;background:var(--line);border-radius:6px;margin:24px 0 30px;overflow:hidden}
   .bar>i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
   .q{font-size:1.25rem;font-weight:600;margin:0 0 20px}
   .opt{display:block;width:100%;text-align:left;border:1px solid var(--line);background:#fff;border-radius:10px;padding:14px 16px;margin:0 0 10px;font-size:1rem;color:var(--ink);cursor:pointer;transition:border-color .15s,background .15s}
-  .opt:hover{border-color:var(--accent);background:#f5f8fd}
+  .opt:hover{border-color:var(--accent);background:#f5f7fc}
   .count{color:var(--muted);font-size:.9rem;margin-bottom:6px}
   #result{display:none}
   .scorebox{display:flex;align-items:baseline;gap:14px;margin:6px 0 2px}
-  .score{font-size:3rem;font-weight:700;line-height:1}
-  .level{font-size:1.3rem;font-weight:600;color:var(--accent)}
-  .verdict{border-left:3px solid var(--ink);padding-left:16px;margin:18px 0 6px;font-size:1.06rem}
+  .score{font-size:3rem;font-weight:700;line-height:1;color:var(--navy)}
+  .level{font-size:1.3rem;font-weight:600;color:var(--gold)}
+  .verdict{border-left:4px solid var(--gold);padding-left:16px;margin:18px 0 6px;font-size:1.06rem}
   .dims{margin:26px 0}
   .dim{border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:0 0 12px}
   .dim .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
@@ -40,17 +45,22 @@
   .dim .track>i{display:block;height:100%;background:var(--accent)}
   .dim .txt{font-size:.98rem;color:#26324a}
   .focus{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:20px;margin:26px 0}
-  .focus .tag{display:inline-block;font-size:.8rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+  .focus .tag{display:inline-block;font-size:.8rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
   .path{margin:22px 0}
   .path .step{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
   .path .step:last-child{border-bottom:0}
-  .path .k{flex:0 0 auto;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
+  .path .k{flex:0 0 auto;font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums}
   .cta{border:1px solid var(--line);border-radius:12px;padding:20px;margin:26px 0;background:var(--soft)}
-  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:11px 18px;border-radius:8px;font-weight:600;border:0;cursor:pointer;font-size:1rem;margin-top:6px}
-  .btn.sec{background:#fff;color:var(--accent);border:1px solid var(--accent);margin-left:8px}
+  .btn{display:inline-block;background:var(--navy);color:#fff;text-decoration:none;padding:11px 18px;border-radius:8px;font-weight:600;border:0;cursor:pointer;font-size:1rem;margin-top:6px}
+  .btn:hover{background:var(--navy-d)}
+  .btn.sec{background:#fff;color:var(--navy);border:1px solid var(--navy);margin-left:8px}
+  .btn.sec:hover{background:#fff;color:var(--gold);border-color:var(--gold)}
   .note{color:var(--muted);font-size:.9rem;margin-top:10px}
-  footer{border-top:1px solid var(--line);margin-top:40px;padding:24px 0;color:var(--muted);font-size:14px}
+  footer{background:var(--navy-d);margin-top:44px;padding:30px 0;color:#9fb0d0;font-size:13.5px}
+  footer a{color:#c3cee6}
+  footer .legal{margin-top:8px}
   a{color:var(--accent)}
+  a:hover{color:var(--gold)}
 </style>
 </head>
 <body>
@@ -58,7 +68,7 @@
 <main class="wrap">
   <div id="quiz">
     <h1>Wie BANI ist Ihre Führungswelt?</h1>
-    <p class="intro">Acht Fragen, zwei Minuten. Danach wissen Sie, wie brüchig, angstbesetzt, nichtlinear und unbegreiflich Ihr Führungsalltag wirklich ist – und welche Kapitel aus „Zukunft führen“ Ihr Ergebnis vertiefen.</p>
+    <p class="intro">Acht Fragen, zwei Minuten. Danach wissen Sie, wie brüchig, angstbesetzt, nichtlinear und unbegreiflich Ihr Führungsalltag wirklich ist – und welche Kapitel aus „Zukunft führen“ Ihnen weiterhelfen.</p>
     <div class="bar"><i id="bar"></i></div>
     <div class="count" id="count"></div>
     <div class="q" id="q"></div>
@@ -94,7 +104,7 @@
     <p><button class="btn sec" id="again" style="margin:0">Test wiederholen</button></p>
   </div>
 </main>
-<footer><div class="wrap">Ein Selbsttest von <strong>Dr. Jörg Krauter</strong>, Autor von „Zukunft führen – Wenn die Welt nicht stabil bleibt“. Kapitelbezüge aus dem Buch. · <a href="/">zukunft-fuehren.com</a></div></footer>
+<footer><div class="wrap">Ein Selbsttest von <strong>Dr. Jörg Krauter</strong>, Autor von „Zukunft führen – Wenn die Welt nicht stabil bleibt“. Kapitelbezüge aus dem Buch. · <a href="/">zukunft-fuehren.com</a><div class="legal"><a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a></div></div></footer>
 
 <script>
 const Q = [
@@ -119,6 +129,7 @@ const DIM = {
   N:{name:"Nichtlinear", low:"Bei Ihnen hängen Aufwand und Ergebnis noch nachvollziehbar zusammen. Planung funktioniert – noch.", high:"Aufwand und Wirkung fallen bei Ihnen auseinander: Kleines wird groß, Großes verpufft. Große Masterpläne greifen hier zu kurz; kurze Lernschleifen und der erste konkrete Schritt tragen mehr."},
   I:{name:"Unbegreiflich", low:"Sie verstehen Ihre Lage meist gut genug, um zu entscheiden. Das gibt Ruhe.", high:"Sie entscheiden häufig, ohne die Lage ganz zu durchdringen – und mehr Daten helfen nicht. Das verlangt eine andere Haltung: Demut statt Scheingewissheit, und den Mut, unter Unsicherheit handlungsfähig zu bleiben."}
 };
+// Buch-Empfehlung je dominanter Dimension (Kapitel aus dem Manuskript)
 const FOCUS = {
   B:"Ihr stärkster Faktor ist <strong>Brüchigkeit</strong>. Dazu können Sie im Buch besonders <strong>Kapitel 1 – „Die Polykrise ist kein Sonderfall mehr“</strong> vertiefen (warum Brüche kein Ausnahmezustand sind) sowie <strong>Kapitel 13 – „Veränderung ist ein Muskel“</strong>: wie Sie Change Fitness aufbauen, statt den nächsten Bruch nur zu überleben.",
   A:"Ihr stärkster Faktor ist <strong>Angst</strong>. Dazu können Sie im Buch besonders <strong>Kapitel 19 – „Psychologische Sicherheit, ohne Schaumstoff“</strong> vertiefen (was sie wirklich ist – und was Führungskräfte dabei oft falsch machen) sowie <strong>Kapitel 16 – „Woher Sie Ihre Kraft nehmen“</strong>: Hoffnung und Selbstwirksamkeit als trainierbare Kompetenzen.",
@@ -152,28 +163,33 @@ function render(){
 function show(){
   document.getElementById('quiz').style.display="none";
   document.getElementById('result').style.display="block";
-  const total = score.B+score.A+score.N+score.I;
+  const total = score.B+score.A+score.N+score.I;   // 0..24
   const pct = Math.round(total/24*100);
   document.getElementById('pct').textContent = pct;
   const L = LEVELS.find(l=>pct<l.max) || LEVELS[LEVELS.length-1];
   document.getElementById('level').textContent = L.lvl;
   document.getElementById('verdict').textContent = L.verdict;
+  // Dimensionen
   const d=document.getElementById('dims'); d.innerHTML="";
   Object.keys(DIM).forEach(k=>{
     const p=Math.round(score[k]/6*100);
     const txt = p>=50 ? DIM[k].high : DIM[k].low;
     d.innerHTML += '<div class="dim"><div class="top"><span class="name">'+DIM[k].name+'</span><span class="val">'+p+'%</span></div><div class="track"><i style="width:'+p+'%"></i></div><div class="txt">'+txt+'</div></div>';
   });
+  // dominante Dimension (bei Gleichstand Reihenfolge B,A,N,I)
   let dom="B"; ["A","N","I"].forEach(k=>{ if(score[k]>score[dom]) dom=k; });
   document.getElementById('focus').innerHTML = FOCUS[dom];
+  // Lesepfad
   const pth=document.getElementById('path'); pth.innerHTML="";
   L.path.forEach(s=>{ pth.innerHTML += '<div class="step"><span class="k">'+s[0]+'</span><span>'+s[1]+'</span></div>'; });
   window._shareText = "Meine Führungswelt ist zu "+pct+"% BANI ("+L.lvl+"), stärkster Faktor: "+ORDER[dom]+". Und Ihre? Der Selbsttest: https://zukunft-fuehren.com/bani-test/  – nach „Zukunft führen“ von Dr. Jörg Krauter";
 }
 function copyText(txt){
+  // 1) moderne API (nur https/localhost)
   if(navigator.clipboard && window.isSecureContext){
     return navigator.clipboard.writeText(txt);
   }
+  // 2) Fallback: verstecktes Textfeld + execCommand (auch über http)
   return new Promise((res,rej)=>{
     try{
       const ta=document.createElement('textarea');
