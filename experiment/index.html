@@ -10,26 +10,40 @@
 <meta property="og:description" content="Ein Leadership-Autor übergibt sein komplettes Buchmarketing einer KI und dokumentiert es öffentlich. Mensch-KI-Tandem mit klarer Haltung.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://zukunft-fuehren.com/experiment/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root{--ink:#0a1f44;--muted:#5a6472;--line:#e6e9ef;--bg:#ffffff}
+  :root{--navy:#06206F;--navy-d:#041538;--grey:#E9EAEC;--gold:#B08D4C;--ink:#1c2536;--muted:#5a6472;--line:#e2e5ec;--bg:#ffffff}
   *{box-sizing:border-box}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
-  .wrap{max-width:760px;margin:0 auto;padding:0 22px}
-  header{border-bottom:1px solid var(--line);padding:20px 0}
-  header .wrap{display:flex;justify-content:space-between;align-items:center;font-weight:600}
-  nav a{color:var(--ink);text-decoration:none;margin-left:20px;font-size:15px}
-  h1{font-size:2.1rem;line-height:1.2;margin:48px 0 8px}
-  .sub{font-size:1.2rem;color:var(--muted);margin:0 0 28px}
+  body{margin:0;font-family:'Poppins',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.7;font-weight:400}
+  a{color:var(--navy);text-decoration:none}
+  a:hover{color:var(--gold)}
+  h1,h2{font-weight:600;color:var(--navy);margin:0}
+  .wrap{max-width:820px;margin:0 auto;padding:0 24px}
+  header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:saturate(160%) blur(6px);z-index:10}
+  header .wrap{padding-top:16px;padding-bottom:16px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+  .brand{font-weight:600;font-size:19px;color:var(--navy)}
+  nav a{color:var(--navy);font-weight:500;font-size:14px;margin-left:20px}
+  nav a.muted{color:#9aa2b1}
+  h1{font-size:2.5rem;line-height:1.14;margin:48px 0 8px}
+  .sub{font-size:1.2rem;color:var(--muted);margin:0 0 28px;font-weight:500}
   h2{font-size:1.35rem;margin:44px 0 10px}
-  .lead{font-size:1.1rem}
-  .card{border:1px solid var(--line);border-radius:12px;padding:22px;margin:26px 0}
+  p{margin:0 0 14px}
+  .lead{font-size:1.12rem;color:#3d4657}
+  .card{border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:12px;padding:22px;margin:26px 0}
   .card ul{margin:10px 0 0;padding-left:20px}
   .card li{margin:6px 0}
-  a.book{color:var(--ink);font-weight:600}
-  footer{border-top:1px solid var(--line);margin-top:60px;padding:26px 0;color:var(--muted);font-size:14px}
-  .quote{font-size:1.25rem;font-style:italic;color:var(--ink);border-left:3px solid var(--ink);padding-left:18px;margin:30px 0}
-  .btnrow{margin:30px 0}
-  .btnrow a{display:inline-block;margin:6px 10px 6px 0;padding:11px 18px;border:1px solid var(--ink);border-radius:10px;color:var(--ink);text-decoration:none;font-weight:600;font-size:15px}
+  a.book{color:var(--navy);font-weight:600}
+  .quote{font-size:1.25rem;font-style:italic;color:var(--navy);border-left:4px solid var(--gold);padding-left:18px;margin:30px 0}
+  .btnrow{margin:32px 0}
+  .btnrow a{display:inline-block;margin:6px 10px 6px 0;padding:11px 18px;border:1px solid var(--line);border-radius:10px;color:var(--navy);text-decoration:none;font-weight:600;font-size:15px}
+  .btnrow a:first-child{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .btnrow a:first-child:hover{background:var(--navy-d);color:#fff}
+  footer{background:var(--navy-d);color:#9fb0d0;padding:34px 0;font-size:13.5px;margin-top:60px}
+  footer a{color:#c3cee6}
+  footer .legal{margin-top:8px}
+  @media(max-width:600px){nav a{margin-left:12px;font-size:13px}h1{font-size:2rem}}
 </style>
 <script type="application/ld+json">
 {
@@ -46,7 +60,7 @@
 </script>
 </head>
 <body>
-<header><div class="wrap"><span>Zukunft führen</span><nav><a href="/glossar/">Glossar</a><a href="/bani-test/">BANI-Test</a><a href="/uhr/leadership-uhr.html">Die Uhr</a><a href="/experiment/">Das Experiment</a></nav></div></header>
+<header><div class="wrap"><span class="brand">Zukunft führen</span><nav><a href="/glossar/">Glossar</a><a href="/bani-test/">BANI-Test</a><a href="/uhr/leadership-uhr.html">Die Uhr</a><a href="/experiment/">Das Experiment</a><a class="muted" href="/impressum/">Impressum</a><a class="muted" href="/datenschutz/">Datenschutz</a></nav></div></header>
 <main class="wrap">
   <h1>Das Experiment</h1>
   <p class="sub">12 Monate, eine KI, eine Bestsellerliste.</p>
@@ -82,7 +96,6 @@
     <a href="/uhr/leadership-uhr.html">Die Zukunft-führen-Uhr</a>
   </div>
 </main>
-<footer><div class="wrap">Dr. Jörg Krauter · SYNK Group GmbH &amp; Co. KG · Untermainkai 20 · 60329 Frankfurt am Main · <a href="https://www.synk-group.com">synk-group.com</a></div></footer>
+<footer><div class="wrap">Dr. Jörg Krauter · SYNK Group GmbH &amp; Co. KG · Untermainkai 20 · 60329 Frankfurt am Main · <a href="https://www.synk-group.com">synk-group.com</a><div class="legal"><a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a></div></div></footer>
 </body>
 </html>
-
