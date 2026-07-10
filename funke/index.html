@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Der Samstags-Funke</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: radial-gradient(120% 120% at 50% 0%, #fff9f1 0%, #ffeede 45%, #ffe0d0 100%);
+    color: #3a2e28;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .card {
+    background: #fffdfb;
+    width: 100%;
+    max-width: 430px;
+    border-radius: 28px;
+    padding: 40px 30px 30px;
+    box-shadow: 0 20px 60px -20px rgba(180, 90, 40, 0.35), 0 4px 14px -6px rgba(180,90,40,.2);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before {
+    content: "";
+    position: absolute;
+    top: -60px; left: 50%;
+    width: 220px; height: 220px;
+    transform: translateX(-50%);
+    background: radial-gradient(circle, rgba(255,196,120,.45) 0%, rgba(255,196,120,0) 70%);
+    pointer-events: none;
+  }
+  .spark { position: relative; margin-bottom: 18px; }
+  .spark svg { width: 58px; height: 58px; animation: pulse 3.2s ease-in-out infinite; }
+  @keyframes pulse {
+    0%,100% { transform: scale(1); opacity: .92; }
+    50% { transform: scale(1.08); opacity: 1; }
+  }
+  .kicker {
+    font-size: 13px; letter-spacing: 2.5px; text-transform: uppercase;
+    color: #d98a3d; font-weight: 700; margin-bottom: 14px;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 27px; line-height: 1.28; font-weight: 600;
+    color: #4a2f20; margin-bottom: 18px;
+  }
+  .lead { font-size: 16px; line-height: 1.6; color: #6b564a; margin-bottom: 22px; }
+  .divider { width: 44px; height: 3px; background: #f2c48a; border-radius: 3px; margin: 0 auto 22px; }
+  .step {
+    font-size: 15px; line-height: 1.55; color: #7a655a;
+    margin-bottom: 20px;
+  }
+  .step b { color: #4a2f20; }
+  .msgbox {
+    background: linear-gradient(180deg, #fff6ec 0%, #fff0e2 100%);
+    border: 1.5px dashed #f0bd86;
+    border-radius: 18px;
+    padding: 18px 18px;
+    font-size: 15.5px; line-height: 1.6; color: #52413a;
+    text-align: left; margin-bottom: 22px;
+    font-style: italic;
+  }
+  .btns { display: flex; flex-direction: column; gap: 11px; }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 9px;
+    border: none; cursor: pointer; font-size: 16px; font-weight: 600;
+    padding: 15px 20px; border-radius: 15px; text-decoration: none;
+    transition: transform .12s ease, box-shadow .12s ease;
+    font-family: inherit;
+  }
+  .btn:active { transform: scale(.97); }
+  .btn-primary {
+    background: linear-gradient(135deg, #ff9a5a 0%, #f2733e 100%);
+    color: #fff; box-shadow: 0 8px 20px -8px rgba(242,115,62,.7);
+  }
+  .btn-mail {
+    background: linear-gradient(135deg, #ffd9a3 0%, #f6c07a 100%);
+    color: #8a4f1e;
+  }
+  .btn-secondary {
+    background: #fff3e8; color: #c96a2e; border: 1.5px solid #f6cfa4;
+  }
+  .btn svg { width: 20px; height: 20px; }
+  .hint { font-size: 12.5px; color: #b7a196; margin-top: 4px; min-height: 16px; transition: color .2s; }
+  .public {
+    margin-top: 20px; font-size: 14px; line-height: 1.55; color: #7a655a;
+    background: #fff6ec; border-radius: 14px; padding: 14px 16px;
+  }
+  .public b { color: #d98a3d; }
+  .foot {
+    margin-top: 26px; padding-top: 18px; border-top: 1px solid #f4e6da;
+    font-size: 12.5px; color: #b09a8d; line-height: 1.5;
+  }
+  .foot b { color: #8a6f5f; font-weight: 600; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="spark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M12 2.5c.4 4.3 2.7 6.6 7 7-4.3.4-6.6 2.7-7 7-.4-4.3-2.7-6.6-7-7 4.3-.4 6.6-2.7 7-7z"
+              fill="url(#g)" stroke="#e8952f" stroke-width="0.6" stroke-linejoin="round"/>
+        <defs>
+          <linearGradient id="g" x1="5" y1="2" x2="19" y2="22" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#ffcf7a"/><stop offset="1" stop-color="#f2843c"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+
+    <div class="kicker">Der Samstags-Funke</div>
+
+    <h1>Kennst du jemanden, dem&nbsp;du zu selten „Danke" sagst?</h1>
+
+    <p class="lead">Ein einziger Satz &ndash; „Ich hab gerade an dich gedacht" &ndash; kann jemandem das ganze Wochenende heller machen. Kostet dich 20&nbsp;Sekunden. Bleibt bei ihm den ganzen Tag.</p>
+
+    <div class="divider"></div>
+
+    <p class="step"><b>So geht's:</b> Denk an <b>eine</b> Person, die dir wichtig ist &ndash; und der du das viel zu selten sagst. Schick ihr genau&nbsp;jetzt diese Nachricht. Einfach so.</p>
+
+    <div class="msgbox" id="msg">Hey, ich musste gerade an dich denken. 💛 Einfach so &ndash; weil du mir wichtig bist und ich das viel zu selten sage. Ich wünsch dir ein richtig schönes Wochenende.</div>
+
+    <div class="btns">
+      <a class="btn btn-primary" id="waBtn" href="#" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.8.7.8-2.7-.2-.3A8 8 0 1 1 12 20zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8.9-.1.2-.3.2-.5.1-.7-.3-1.4-.7-2-1.3-.5-.5-.9-1-1.2-1.6-.1-.2 0-.4.1-.5.1-.1.2-.3.4-.4.1-.1.2-.2.2-.4.1-.1 0-.3 0-.4 0-.1-.5-1.3-.7-1.7-.2-.5-.4-.4-.5-.4h-.5c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9 0 1.1.8 2.2.9 2.3.1.2 1.6 2.5 3.9 3.4.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1z"/></svg>
+        Per WhatsApp weiterleiten
+      </a>
+      <a class="btn btn-mail" id="mailBtn" href="#">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        Per E-Mail verschicken
+      </a>
+      <button class="btn btn-secondary" id="copyBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+        Nachricht kopieren
+      </button>
+      <div class="hint" id="hint"></div>
+    </div>
+
+    <p class="public">✨ Magst du deinen Moment sichtbar machen?<br>Teile ihn öffentlich mit <b>#SamstagsFunke</b> &ndash; und schau zu, wie sich die Funken sammeln.</p>
+
+    <div class="foot">
+      Ein kleiner Funke von <b>Dr. Jörg Krauter</b> &middot; Projekt „mein Erfolg"<br>
+      <b>#SamstagsFunke</b> &middot; weitergegeben von Herz zu Herz 🌱
+    </div>
+  </div>
+
+<script>
+  var text = document.getElementById('msg').textContent.trim();
+  document.getElementById('waBtn').setAttribute('href', 'https://wa.me/?text=' + encodeURIComponent(text));
+  document.getElementById('mailBtn').setAttribute('href', 'mailto:?subject=' + encodeURIComponent('Ich musste an dich denken 💛') + '&body=' + encodeURIComponent(text));
+  var copyBtn = document.getElementById('copyBtn');
+  var hint = document.getElementById('hint');
+  copyBtn.addEventListener('click', function () {
+    function done() { hint.textContent = '✓ Kopiert – jetzt bei WhatsApp, Signal & Co. einfügen'; }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function(){ fallback(); });
+    } else { fallback(); }
+    function fallback() {
+      var t = document.createElement('textarea');
+      t.value = text; document.body.appendChild(t); t.select();
+      try { document.execCommand('copy'); done(); } catch(e){ hint.textContent = 'Bitte Nachricht oben markieren & kopieren'; }
+      document.body.removeChild(t);
+    }
+  });
+</script>
+</body>
+</html>
