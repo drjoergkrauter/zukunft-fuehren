@@ -1,16 +1,16 @@
 {
-  "datum": "2026-07-10",
-  "aktualisiert": "2026-07-10T09:00:00+02:00",
+  "datum": "2026-07-11",
+  "aktualisiert": "2026-07-11T09:00:00+02:00",
   "index": 75,
   "uhrzeit": "23:45",
-  "trend": "steigend",
-  "trend_delta": 2,
+  "trend": "stabil",
+  "trend_delta": 0,
   "leitsatz": "Die Uhr tickt – aber es ist noch Zeit zu handeln. Sehen kommt vor Tun.",
   "leitsignal": {
-    "titel": "„FOBO“: Die Angst, überflüssig zu werden, hat sich in einem Jahr fast verdoppelt",
-    "quelle": "Zukunftsforscher-Trendbericht 10.07.2026 (KPMG 2026 / Gallup / ADP)",
-    "befund": "KPMG 2026: 40 % der Beschäftigten nennen KI-bedingten Jobverlust als eine ihrer Hauptängste – nahezu verdoppelt in einem Jahr; 63 % sagen, KI mache die Arbeit unmenschlicher; weniger als 25 % halten ihren Job für sicher (ADP); Gallup meldet FOBO bei College-Absolventen von 8 % auf ~20 %. Parallel scheitern 89 % der KI-Agenten-Pilotprojekte an der Skalierung (Gartner) – der Engpass ist nicht Technik.",
-    "fuehrungsimplikation": "Angst bremst die KI-Adoption von innen. Der Hebel ist nicht das nächste Tool, sondern Vertrauen: Transparenz über den KI-Einsatz und sichtbares, konkretes Reskilling. Führung muss die Angst adressieren, statt sie zu übergehen – genau das ist psychologische Sicherheit in Aktion.",
+    "titel": "Die Vertrauenslücke: Die Menschen sind bereit – die Führung glaubt es nur nicht",
+    "quelle": "Adecco Group, „The human premium: Leadership beyond the algorithm“ (Mai 2026, 2.000 C-Level in 13 Ländern)",
+    "befund": "70 % der Mitarbeitenden fühlen sich bereit, mit KI-Agenten zu arbeiten – aber nur 39 % der Führungskräfte glauben das. In Deutschland kommunizieren nur 35 % der Unternehmen klar, wie KI Chancen für die Belegschaft schafft. Parallel meldet der Juli: 55 % leiden unter kognitiver Überlastung durch KI, rund 20 % der Führungskräfte fühlen sich häufig ausgebrannt (Gallup).",
+    "fuehrungsimplikation": "Der Engpass sitzt nicht im Team, sondern im Bild, das die Führung sich von ihm macht. Wer sein Team für unreif hält, führt vorsichtiger, erklärt weniger, traut weniger zu – und erzeugt genau die Zurückhaltung, die er befürchtet. Der Hebel ist Zutrauen und Transparenz, nicht das nächste Tool.",
     "kapitel": "Kapitel 19 – Psychologische Sicherheit"
   },
   "bani": [
@@ -19,8 +19,8 @@
       "dim": "Brüchig",
       "en": "Brittle",
       "wert": 80,
-      "signal": "IWF-WEO-Update (08.07.): Weltwachstum 2026 auf 3,0 % gesenkt, Euroraum nur 0,4 %; Nahost-Krieg als Energiepreis-/Inflationstreiber; EZB hob am 11.06. erstmals seit 2023 die Zinsen an (Einlagensatz 2,25 %). ifo: BIP DE 2026 nur +0,8 %.",
-      "quelle": "IWF WEO-Update Jul 2026 / ifo Jun 2026 / EZB",
+      "signal": "IWF-WEO-Update (08.07.): Weltwachstum 2026 auf 3,0 % gesenkt, Euroraum nur 0,4 %; ifo: BIP DE 2026 nur +0,8 %. Wirtschaftlich brüchiges Umfeld, in dem KI-Investitionen und Reskilling zugleich gestemmt werden müssen.",
+      "quelle": "IWF WEO-Update Jul 2026 / ifo Jun 2026",
       "fuehrung": "Märkte spalten sich in ein KI-nahes und ein energieintensiv-brüchiges Lager. Führung braucht Resilienz-Redundanz statt reiner Effizienzlogik."
     },
     {
@@ -28,17 +28,17 @@
       "dim": "Ängstlich",
       "en": "Anxious",
       "wert": 78,
-      "signal": "FOBO wird zur Leitangst: KPMG 2026 – 40 % nennen KI-Jobverlust als Hauptangst (fast verdoppelt); 63 % sagen, KI mache Arbeit unmenschlicher; ADP: <25 % halten ihren Job für sicher; Gallup: FOBO 8 % → ~20 %.",
-      "quelle": "KPMG 2026 / ADP / Gallup",
-      "fuehrung": "Ohne Gegensteuern droht stille Blockade: Angst bremst KI-Adoption. Sichtbares Reskilling-Investment und Transparenz sind der zentrale Führungshebel."
+      "signal": "Vertrauens- und Belastungslücke: 70 % der Mitarbeitenden fühlen sich KI-bereit, nur 39 % der Führung glaubt es (Adecco); 55 % leiden unter kognitiver KI-Überlastung; ~20 % der Führungskräfte fühlen sich häufig ausgebrannt (Gallup).",
+      "quelle": "Adecco „The human premium“ 2026 / Gallup / ad-hoc-news Jul 2026",
+      "fuehrung": "Angst und Misstrauen bremsen die Adoption von innen. Sichtbares Zutrauen, Reskilling und Transparenz sind der zentrale Führungshebel."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
       "wert": 72,
-      "signal": "Doppelte Verknappung zugleich: Erwerbspersonenpotenzial sinkt 2026 laut IAB erstmals (−35.000), während die Arbeitslosigkeit messbar bei 6,2 % liegt; nur 6 % der Gen Z/Millennials wollen führen. Arbeitskräfte UND Führungsnachwuchs werden knapp.",
-      "quelle": "IAB 2026 / Destatis / Deloitte 2026",
+      "signal": "Doppelte Verknappung: Erwerbspersonenpotenzial sinkt 2026 laut IAB erstmals; nur 6 % der Gen Z/Millennials wollen führen. Arbeitskräfte UND Führungsnachwuchs werden gleichzeitig knapp.",
+      "quelle": "IAB 2026 / Deloitte 2026",
       "fuehrung": "Lineare Personalplanung greift nicht mehr. Demografie und Ambitionswandel kippen die Rollenlogik gleichzeitig."
     },
     {
@@ -46,16 +46,15 @@
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
       "wert": 70,
-      "signal": "KI-Agenten in 40 % der Enterprise-Apps bis Jahresende (Gartner) – doch 89 % der Pilots skalieren nicht, 40 % der Agentic-Projekte werden bis 2027 gestoppt; die Benchmark-Debatte („Messen das Falsche“) zeigt: selbst der Fortschritt ist schwer zu bewerten.",
-      "quelle": "Gartner 2026 / CNBC 07.07.2026",
-      "fuehrung": "Nicht einmal der eigene Fortschritt ist mehr eindeutig messbar. Führung heißt, mit Nicht-Wissen handlungsfähig zu bleiben – Haltung vor Werkzeug."
+      "signal": "KI-Agenten in 40 % der Enterprise-Apps bis Jahresende (Gartner) – doch 89 % der Pilots skalieren nicht. Selbst der eigene Fortschritt ist schwer zu bewerten.",
+      "quelle": "Gartner 2026",
+      "fuehrung": "Nicht einmal der eigene Fortschritt ist eindeutig messbar. Führung heißt, mit Nicht-Wissen handlungsfähig zu bleiben – Haltung vor Werkzeug."
     }
   ],
   "quellen": [
-    {"titel": "Zukunftsforscher-Trendbericht 10.07.2026 (SYNK)", "url": ""},
+    {"titel": "Adecco Group – „The human premium: Leadership beyond the algorithm“ (Mai 2026)", "url": "https://www.adeccogroup.de/"},
     {"titel": "IWF – World Economic Outlook Update, Juli 2026", "url": "https://www.imf.org/"},
     {"titel": "ifo Institut – Konjunkturprognose Juni 2026", "url": "https://www.ifo.de/"},
-    {"titel": "KPMG 2026 – Workforce & FOBO", "url": "https://kpmg.com/"},
     {"titel": "Gartner – Agentic AI: 89 % der Pilots skalieren nicht", "url": "https://www.gartner.com/"},
     {"titel": "IAB – Erwerbspersonenpotenzial sinkt 2026 erstmals", "url": "https://www.iab.de/"},
     {"titel": "Deloitte Gen Z and Millennial Survey 2026", "url": "https://www.deloitte.com/"}
