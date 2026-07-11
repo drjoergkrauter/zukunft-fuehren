@@ -4,6 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Der Samstags-Funke</title>
+<meta name="description" content="Ein 20-Sekunden-Ritual für Samstage: Schick jemandem, den du zu selten würdigst, einen ehrlichen Satz. Ein Funke von Dr. Jörg Krauter. #SamstagsFunke">
+<link rel="canonical" href="https://zukunft-fuehren.com/funke/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zukunft-fuehren.com/funke/">
+<meta property="og:title" content="Der Samstags-Funke">
+<meta property="og:description" content="20 Sekunden. Ein ehrlicher Satz an jemanden, den du zu selten würdigst. Mach mit. #SamstagsFunke">
+<meta property="og:image" content="https://zukunft-fuehren.com/funke/funke-og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Der Samstags-Funke">
+<meta name="twitter:description" content="20 Sekunden. Ein ehrlicher Satz an jemanden, den du zu selten würdigst. Mach mit. #SamstagsFunke">
+<meta name="twitter:image" content="https://zukunft-fuehren.com/funke/funke-og.png">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body { height: 100%; }
@@ -146,6 +157,10 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
         Nachricht kopieren
       </button>
+      <button class="btn btn-secondary" id="shareBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+        Den Funke weitergeben
+      </button>
       <div class="hint" id="hint"></div>
     </div>
 
@@ -158,15 +173,20 @@
     <p class="public">✨ Magst du deinen Moment sichtbar machen?<br>Teile ihn öffentlich mit <b>#SamstagsFunke</b> &ndash; und schau zu, wie sich die Funken sammeln.</p>
 
     <div class="foot">
-      Ein kleiner Funke von <b>Dr. Jörg Krauter</b> &middot; Projekt „mein Erfolg"<br>
-      <b>#SamstagsFunke</b> &middot; weitergegeben von Herz zu Herz 🌱
+      Ein kleiner Funke von <b>Dr. Jörg Krauter</b><br>
+      <b>#SamstagsFunke</b> &middot; weitergegeben von Herz zu Herz 🌱<br>
+      <a href="https://zukunft-fuehren.com" style="color:#c96a2e;text-decoration:none;font-weight:600;">Was dahintersteckt &rarr; zukunft-fuehren.com</a>
     </div>
   </div>
 
 <script>
   var text = document.getElementById('msg').textContent.trim();
+  // WhatsApp-Link mit vorbereiteter Nachricht
   document.getElementById('waBtn').setAttribute('href', 'https://wa.me/?text=' + encodeURIComponent(text));
+  // E-Mail-Link mit vorbereitetem Betreff + Text
   document.getElementById('mailBtn').setAttribute('href', 'mailto:?subject=' + encodeURIComponent('Ich musste an dich denken 💛') + '&body=' + encodeURIComponent(text));
+
+  // Kopieren
   var copyBtn = document.getElementById('copyBtn');
   var hint = document.getElementById('hint');
   copyBtn.addEventListener('click', function () {
@@ -179,6 +199,24 @@
       t.value = text; document.body.appendChild(t); t.select();
       try { document.execCommand('copy'); done(); } catch(e){ hint.textContent = 'Bitte Nachricht oben markieren & kopieren'; }
       document.body.removeChild(t);
+    }
+  });
+
+  // Die SEITE selbst weitergeben (viraler Loop, getrennt vom Kindness-Text)
+  var shareBtn = document.getElementById('shareBtn');
+  var pageUrl = 'https://zukunft-fuehren.com/funke/';
+  var shareData = {
+    title: 'Der Samstags-Funke',
+    text: 'Ein 20-Sekunden-Ritual für Samstage: schick jemandem, den du zu selten würdigst, einen ehrlichen Satz. Mach mit:',
+    url: pageUrl
+  };
+  shareBtn.addEventListener('click', function () {
+    if (navigator.share) {
+      navigator.share(shareData).catch(function(){});
+    } else if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(pageUrl).then(function(){ hint.textContent = '✓ Link kopiert – teile den Funke, wo du magst'; });
+    } else {
+      hint.textContent = 'Seiten-Link: ' + pageUrl;
     }
   });
 </script>
