@@ -1,6 +1,6 @@
 {
-  "datum": "2026-07-11",
-  "aktualisiert": "2026-07-11T09:00:00+02:00",
+  "datum": "2026-07-12",
+  "aktualisiert": "2026-07-12T07:30:00+02:00",
   "index": 75,
   "uhrzeit": "23:45",
   "trend": "stabil",
@@ -9,7 +9,7 @@
   "leitsignal": {
     "titel": "Die Vertrauenslücke: Die Menschen sind bereit – die Führung glaubt es nur nicht",
     "quelle": "Adecco Group, „The human premium: Leadership beyond the algorithm“ (Mai 2026, 2.000 C-Level in 13 Ländern)",
-    "befund": "70 % der Mitarbeitenden fühlen sich bereit, mit KI-Agenten zu arbeiten – aber nur 39 % der Führungskräfte glauben das. In Deutschland kommunizieren nur 35 % der Unternehmen klar, wie KI Chancen für die Belegschaft schafft. Parallel meldet der Juli: 55 % leiden unter kognitiver Überlastung durch KI, rund 20 % der Führungskräfte fühlen sich häufig ausgebrannt (Gallup).",
+    "befund": "70 % der Mitarbeitenden fühlen sich bereit, mit KI-Agenten zu arbeiten – aber nur 39 % der Führungskräfte glauben das (Adecco). In Deutschland kommunizieren nur 35 % der Unternehmen klar, wie KI Chancen für die Belegschaft schafft. Verstärkend am Wochenende: Nur rund 20 % der Führungskräfte sagen, ihr Unternehmen habe die nötigen KI-Kompetenzen für die nächsten fünf Jahre (Egon Zehnder) – und laut WEF sind 7 der 10 am stärksten wachsenden Kompetenzen ausdrücklich menschlich (Führung, Resilienz, Selbstwahrnehmung, systemisches Denken). Je mehr KI, desto teurer wird das Menschliche in der Führung.",
     "fuehrungsimplikation": "Der Engpass sitzt nicht im Team, sondern im Bild, das die Führung sich von ihm macht. Wer sein Team für unreif hält, führt vorsichtiger, erklärt weniger, traut weniger zu – und erzeugt genau die Zurückhaltung, die er befürchtet. Der Hebel ist Zutrauen und Transparenz, nicht das nächste Tool.",
     "kapitel": "Kapitel 19 – Psychologische Sicherheit"
   },
@@ -57,6 +57,8 @@
     {"titel": "ifo Institut – Konjunkturprognose Juni 2026", "url": "https://www.ifo.de/"},
     {"titel": "Gartner – Agentic AI: 89 % der Pilots skalieren nicht", "url": "https://www.gartner.com/"},
     {"titel": "IAB – Erwerbspersonenpotenzial sinkt 2026 erstmals", "url": "https://www.iab.de/"},
-    {"titel": "Deloitte Gen Z and Millennial Survey 2026", "url": "https://www.deloitte.com/"}
+    {"titel": "Deloitte Gen Z and Millennial Survey 2026", "url": "https://www.deloitte.com/"},
+    {"titel": "Egon Zehnder – nur ~20 % der Führungskräfte sehen ihr Unternehmen KI-fähig (2026)", "url": "https://www.egonzehnder.com/"},
+    {"titel": "WEF – Future of Jobs / Future of Entry-Level Work 2026 (menschliche Kompetenzen dominieren)", "url": "https://www.weforum.org/"}
   ]
 }
