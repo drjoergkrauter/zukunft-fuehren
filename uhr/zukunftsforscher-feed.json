@@ -1,64 +1,64 @@
 {
   "datum": "2026-07-12",
-  "aktualisiert": "2026-07-12T07:30:00+02:00",
-  "index": 75,
-  "uhrzeit": "23:45",
-  "trend": "stabil",
-  "trend_delta": 0,
+  "aktualisiert": "2026-07-12T12:30:00+02:00",
+  "index": 77,
+  "uhrzeit": "23:46",
+  "trend": "steigend",
+  "trend_delta": 2,
   "leitsatz": "Die Uhr tickt – aber es ist noch Zeit zu handeln. Sehen kommt vor Tun.",
   "leitsignal": {
-    "titel": "Die Vertrauenslücke: Die Menschen sind bereit – die Führung glaubt es nur nicht",
-    "quelle": "Adecco Group, „The human premium: Leadership beyond the algorithm“ (Mai 2026, 2.000 C-Level in 13 Ländern)",
-    "befund": "70 % der Mitarbeitenden fühlen sich bereit, mit KI-Agenten zu arbeiten – aber nur 39 % der Führungskräfte glauben das (Adecco). In Deutschland kommunizieren nur 35 % der Unternehmen klar, wie KI Chancen für die Belegschaft schafft. Verstärkend am Wochenende: Nur rund 20 % der Führungskräfte sagen, ihr Unternehmen habe die nötigen KI-Kompetenzen für die nächsten fünf Jahre (Egon Zehnder) – und laut WEF sind 7 der 10 am stärksten wachsenden Kompetenzen ausdrücklich menschlich (Führung, Resilienz, Selbstwahrnehmung, systemisches Denken). Je mehr KI, desto teurer wird das Menschliche in der Führung.",
-    "fuehrungsimplikation": "Der Engpass sitzt nicht im Team, sondern im Bild, das die Führung sich von ihm macht. Wer sein Team für unreif hält, führt vorsichtiger, erklärt weniger, traut weniger zu – und erzeugt genau die Zurückhaltung, die er befürchtet. Der Hebel ist Zutrauen und Transparenz, nicht das nächste Tool.",
-    "kapitel": "Kapitel 19 – Psychologische Sicherheit"
+    "titel": "Der Engpass ist nicht die Rechenleistung – es ist die Führung",
+    "quelle": "Zukunftsforscher-Trendbericht 12.07.2026 (IMF WEO Jul 2026, Gartner, Gallup 2026, KPMG/WTW, IAB, Deloitte)",
+    "befund": "Zwei sich verstärkende Kräfte an einem Tag: Die Nahost-Waffenruhe ist beendet (Brent wieder ~79 USD), der IMF senkt den Euroraum auf 0,9 % und Deutschland auf 0,7 % (2026). Zugleich KI-Beschleunigung ohne Bodenhaftung – 40 % der Unternehmens-Apps sollen bis Jahresende KI-Agenten enthalten, doch über 40 % der Agenten-Projekte scheitern bis 2027. Der gemeinsame Bruch: die Technik beschleunigt, während Menschen (globales Engagement 20 %, Deutschland nur 11 %, Manager-Engagement von 31 auf 22 % gefallen) und Demografie (Erwerbspersonenpotenzial sinkt 2026 erstmals) zurückbleiben. KI-Jobangst hat sich in einem Jahr fast verdoppelt (4 von 10).",
+    "fuehrungsimplikation": "Der Engpass der nächsten Dekade ist nicht Rechenleistung, sondern Führung, die Menschen durch den Übergang trägt. Wer FOBO nicht vor den Tools adressiert, verbrennt Budget in der Scheiterquote.",
+    "kapitel": "Kapitel 1 – Polykrise & BANI"
   },
   "bani": [
     {
       "code": "B",
       "dim": "Brüchig",
       "en": "Brittle",
-      "wert": 80,
-      "signal": "IWF-WEO-Update (08.07.): Weltwachstum 2026 auf 3,0 % gesenkt, Euroraum nur 0,4 %; ifo: BIP DE 2026 nur +0,8 %. Wirtschaftlich brüchiges Umfeld, in dem KI-Investitionen und Reskilling zugleich gestemmt werden müssen.",
-      "quelle": "IWF WEO-Update Jul 2026 / ifo Jun 2026",
-      "fuehrung": "Märkte spalten sich in ein KI-nahes und ein energieintensiv-brüchiges Lager. Führung braucht Resilienz-Redundanz statt reiner Effizienzlogik."
+      "wert": 82,
+      "signal": "Nahost-Waffenruhe beendet, Brent wieder ~79 USD; IMF senkt Euroraum auf 0,9 % und Deutschland auf 0,7 % (2026); Welt-Inflation 4,7 %, EZB erstmals seit drei Jahren in Zinswende (Einlagensatz 2,25 %).",
+      "quelle": "IMF WEO-Update Jul 2026 / CNBC / EZB Jun 2026",
+      "fuehrung": "Zwei-Fronten-Führung: geopolitisch/energetisch resilient planen UND KI-Adoption aktiv championen. Resilienz-Redundanz vor reiner Effizienz."
     },
     {
       "code": "A",
       "dim": "Ängstlich",
       "en": "Anxious",
-      "wert": 78,
-      "signal": "Vertrauens- und Belastungslücke: 70 % der Mitarbeitenden fühlen sich KI-bereit, nur 39 % der Führung glaubt es (Adecco); 55 % leiden unter kognitiver KI-Überlastung; ~20 % der Führungskräfte fühlen sich häufig ausgebrannt (Gallup).",
-      "quelle": "Adecco „The human premium“ 2026 / Gallup / ad-hoc-news Jul 2026",
-      "fuehrung": "Angst und Misstrauen bremsen die Adoption von innen. Sichtbares Zutrauen, Reskilling und Transparenz sind der zentrale Führungshebel."
+      "wert": 80,
+      "signal": "KI-Jobangst (FOBO) fast verdoppelt in einem Jahr (4 von 10, KPMG); globales Engagement 20 % (Deutschland nur 11 %), Manager-Engagement von 31 auf 22 % gefallen, 40 % der Führungskräfte erwägen den Ausstieg (Gallup/Deloitte).",
+      "quelle": "Gallup State of the Global Workplace 2026 / KPMG / Deloitte 2026",
+      "fuehrung": "FOBO vor den Tools adressieren: sichtbares Zutrauen, Reskilling und Transparenz sind der zentrale Führungshebel."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
-      "wert": 72,
-      "signal": "Doppelte Verknappung: Erwerbspersonenpotenzial sinkt 2026 laut IAB erstmals; nur 6 % der Gen Z/Millennials wollen führen. Arbeitskräfte UND Führungsnachwuchs werden gleichzeitig knapp.",
-      "quelle": "IAB 2026 / Deloitte 2026",
-      "fuehrung": "Lineare Personalplanung greift nicht mehr. Demografie und Ambitionswandel kippen die Rollenlogik gleichzeitig."
+      "wert": 74,
+      "signal": "Erwerbspersonenpotenzial in Deutschland sinkt 2026 erstmals (–35.000) – historischer Wendepunkt; zugleich wollen 76 % der Gen Z irgendwann führen, aber nur 6 % nennen es als primäres Ziel. Nachfrage nach Führung steigt, Bereitschaft fällt.",
+      "quelle": "IAB 2026 / Deloitte Gen Z & Millennial Survey 2026",
+      "fuehrung": "Lineare Personalplanung greift nicht mehr. Führungsrolle entlasten und neu rahmen, sonst reißt die dünne Pipeline."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
-      "wert": 70,
-      "signal": "KI-Agenten in 40 % der Enterprise-Apps bis Jahresende (Gartner) – doch 89 % der Pilots skalieren nicht. Selbst der eigene Fortschritt ist schwer zu bewerten.",
-      "quelle": "Gartner 2026",
-      "fuehrung": "Nicht einmal der eigene Fortschritt ist eindeutig messbar. Führung heißt, mit Nicht-Wissen handlungsfähig zu bleiben – Haltung vor Werkzeug."
+      "wert": 72,
+      "signal": "80 % der in Q1 2026 ausgelieferten Unternehmens-Apps enthalten mindestens einen KI-Agenten, 40 % bis Jahresende – doch über 40 % der Agenten-Projekte scheitern bis 2027. Die Disruption läuft der breiten Adoption voraus.",
+      "quelle": "Gartner 2026 / Stanford Digital Economy Lab 2026",
+      "fuehrung": "Mensch-Agent-Governance (Verantwortung, Qualität, Kompetenz) statt reinem Tool-Kauf. Mit Nicht-Wissen handlungsfähig bleiben – Haltung vor Werkzeug."
     }
   ],
   "quellen": [
-    {"titel": "Adecco Group – „The human premium: Leadership beyond the algorithm“ (Mai 2026)", "url": "https://www.adeccogroup.de/"},
-    {"titel": "IWF – World Economic Outlook Update, Juli 2026", "url": "https://www.imf.org/"},
-    {"titel": "ifo Institut – Konjunkturprognose Juni 2026", "url": "https://www.ifo.de/"},
-    {"titel": "Gartner – Agentic AI: 89 % der Pilots skalieren nicht", "url": "https://www.gartner.com/"},
+    {"titel": "IMF – World Economic Outlook Update, Juli 2026", "url": "https://www.imf.org/"},
+    {"titel": "Gartner – AI Agents / Enterprise Apps Forecast 2026", "url": "https://www.gartner.com/"},
+    {"titel": "Gallup – State of the Global Workplace 2026", "url": "https://www.gallup.com/"},
+    {"titel": "KPMG / WTW – FOBO- & KI-Angst-Studien 2026", "url": "https://kpmg.com/"},
+    {"titel": "Deloitte – Gen Z & Millennial Survey 2026", "url": "https://www.deloitte.com/"},
     {"titel": "IAB – Erwerbspersonenpotenzial sinkt 2026 erstmals", "url": "https://www.iab.de/"},
-    {"titel": "Deloitte Gen Z and Millennial Survey 2026", "url": "https://www.deloitte.com/"},
-    {"titel": "Egon Zehnder – nur ~20 % der Führungskräfte sehen ihr Unternehmen KI-fähig (2026)", "url": "https://www.egonzehnder.com/"},
-    {"titel": "WEF – Future of Jobs / Future of Entry-Level Work 2026 (menschliche Kompetenzen dominieren)", "url": "https://www.weforum.org/"}
+    {"titel": "Stanford Digital Economy Lab – Canaries in the Coal Mine? 2026", "url": "https://digitaleconomy.stanford.edu/"},
+    {"titel": "Zukunftsforscher (SYNK) – Trendbericht 12.07.2026", "url": "https://zukunft-fuehren.com/uhr/"}
   ]
 }
