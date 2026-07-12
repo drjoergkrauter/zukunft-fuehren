@@ -106,7 +106,7 @@ background:var(--gold);border-radius:999px;padding:5px 13px;text-decoration:none
 <p style="margin:0 0 16px"><a href="/" style="color:var(--muted);text-decoration:none;font-size:14px">← Zurück zur Startseite</a></p>
 <p class="eyebrow">Zukunftsforschung · Frühindikator</p>
 <h1>Die Zukunft-führen-Uhr</h1>
-<p class="lead">Wie nah steht die klassische Führung an ihrer Disruption? Eine stilistische Uhr im Sinne der „Doomsday Clock": <b style="color:var(--ink)">Mitternacht</b> ist der Punkt, an dem Führung nach alter Logik nicht mehr trägt. Je näher, desto ernster — verdichtet aus <b style="color:var(--ink)">Polykrise</b> und <b style="color:var(--ink)">BANI</b>.</p>
+<p class="lead">Wie nah steht Führung am Kipppunkt? Eine stilistische Uhr im Sinne der „Doomsday Clock": <b style="color:var(--ink)">Mitternacht</b> ist der Moment, in dem Führung ins Chaos kippt — Strukturen, Regeln und Steuerbarkeit brechen weg, was bleibt, ist Katastrophe. Es geht nicht darum, dass „das Alte" nicht mehr gilt; Wandel darf und muss sein — entscheidend ist, dass er in einem <b style="color:var(--ink)">handhabbaren Rahmen</b> bleibt. Je näher an zwölf, desto größer die Gefahr, dass er es nicht tut. Verdichtet aus <b style="color:var(--ink)">Polykrise</b> und <b style="color:var(--ink)">BANI</b>.</p>
 <p class="stamp">Stand: <b id="datum">–</b> · aktualisiert aus laufender Zukunftsforschung · Deutungs-, kein Messinstrument.</p>
 
 <div class="clockgrid">
@@ -129,11 +129,7 @@ transform="rotate(-90 115 115)" id="arc" opacity=".92"/>
 <span class="zonepill" id="zonepill">–</span>
 <p class="verdict" id="verdict">–</p>
 <p class="zonemean" id="zonemean">–</p>
-<div class="idxrow">
-<div class="idxlabel"><span>Leadership-Disruptions-Index</span><b><span id="idxval">–</span>/100</b></div>
-<div class="track"><div class="fill" id="idxfill" style="width:0%"></div></div>
-<span class="trendpill" id="trend">–</span>
-</div>
+<div class="idxrow"><span class="trendpill" id="trend">–</span></div>
 </div>
 </div>
 
@@ -171,7 +167,7 @@ transform="rotate(-90 115 115)" id="arc" opacity=".92"/>
 </div>
 
 <div class="foot">
-<p><b style="color:var(--ink)">Wie diese Uhr entsteht:</b> Jeden Tag werten wir neue Ergebnisse der Zukunftsforschung aus und verdichten sie zu einem Index von 0–100. Daraus ergibt sich, wie viele „Minuten vor zwölf" es für die klassische Führung ist: je höher der Index, desto näher an Mitternacht und desto tiefer im roten Bereich. Es ist ein Deutungs-, kein Messinstrument. Quellen des Tages: <span id="quellen"></span>.</p>
+<p><b style="color:var(--ink)">Wie diese Uhr entsteht:</b> Jeden Tag werten wir neue Ergebnisse der Zukunftsforschung aus und verdichten sie zu einem Stand „X vor zwölf": je näher an Mitternacht, desto tiefer im roten Bereich — und desto größer die Gefahr, dass Führung aus dem handhabbaren Rahmen ins Chaos kippt. Es ist ein Deutungs-, kein Messinstrument. Quellen des Tages: <span id="quellen"></span>.</p>
 <a class="cta" href="https://www.amazon.de/dp/B0H7PVH8DQ">→ Das Buch: „Zukunft führen" (eBook &amp; Hardcover)</a><br>
 <span>Teil eines offenen Experiments: Das Marketing dieses Buchs macht eine KI — die Signale kuratiert und deutet sie, die Verantwortung bleibt beim Menschen.</span>
 <div class="legal">Dr. Jörg Krauter · SYNK Group GmbH &amp; Co. KG · Untermainkai 20 · 60329 Frankfurt am Main · <a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a></div>
@@ -230,9 +226,7 @@ mtm===0 ? 'Es ist Mitternacht.' :
 document.getElementById('zonemean').textContent = z.mean;
 document.getElementById('leitsatz').textContent = d.leitsatz;
 
-// Index
-document.getElementById('idxval').textContent = d.index;
-document.getElementById('idxfill').style.width = d.index+'%';
+// Trend
 const tp=document.getElementById('trend');
 tp.textContent = 'Trend: '+d.trend;
 tp.style.background = d.trend==='steigend'?'#E4572E':(d.trend==='fallend'?'#3FB68B':'#E6A23C');
@@ -285,7 +279,7 @@ document.getElementById('sig-quelle').textContent='Quelle: '+s.quelle;
 
 document.getElementById('quellen').innerHTML = d.quellen.map(q=>`<a href="${q.url}" target="_blank" rel="noopener">${q.titel}</a>`).join(' · ');
 document.getElementById('srsum').textContent =
-`Die Zukunft-führen-Uhr steht am ${fmtDate(d.datum)} auf ${mtm} Minuten vor Mitternacht – Zone ${z.name}. Leadership-Disruptions-Index ${d.index} von 100, Trend ${d.trend}.`;
+`Die Zukunft-führen-Uhr steht am ${fmtDate(d.datum)} auf ${mtm} Minuten vor Mitternacht – Zone ${z.name}, Trend ${d.trend}.`;
 }
 function setHand(id,deg,len){const el=document.getElementById(id);const a=(deg-90)*Math.PI/180;
 el.setAttribute('x2',(115+len*Math.cos(a)).toFixed(1));el.setAttribute('y2',(115+len*Math.sin(a)).toFixed(1));}
