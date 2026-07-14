@@ -1,0 +1,1985 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KI-Entscheidungshilfe – Bias-Simulationsspiel | Zukunft führen</title>
+<meta name="description" content="Ein interaktives Bias-Simulationsspiel: Erleben Sie, wie eine KI aus Ihrem Verhalten lernt – und wie unbemerkt Verzerrungen entstehen. Ein Werkzeug aus dem Umfeld des Buchs „Zukunft führen" von Dr. Jörg Krauter.">
+<link rel="canonical" href="https://zukunft-fuehren.com/entscheidungshilfe/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="KI-Entscheidungshilfe – ein Bias-Simulationsspiel">
+<meta property="og:description" content="Bevor die KI entscheidet: Erleben Sie interaktiv, wie Verzerrungen in KI-gestützte Entscheidungen geraten. Aus dem Umfeld des Buchs „Zukunft führen".">
+<meta property="og:url" content="https://zukunft-fuehren.com/entscheidungshilfe/">
+<meta property="og:image" content="https://zukunft-fuehren.com/cover.jpg">
+<style>
+  :root{
+    --bg-deep: #070b14;
+    --panel-bg: rgba(16,22,38,0.78);
+    --panel-border: rgba(255,255,255,0.09);
+    --text-primary: #eef2fb;
+    --text-soft: #96a0bd;
+    --text-faint: #616b8a;
+    --blue: #3fa9ff;
+    --yellow: #ffcc4d;
+    --good: #33d192;
+    --warn: #ffb84f;
+    --danger: #ff4d5e;
+    --accent-purple: #8a6bff;
+    --radius: 18px;
+    --radius-sm: 12px;
+    --shadow-panel: 0 24px 60px rgba(0,0,0,0.55);
+    --font-mono: "Consolas","SFMono-Regular","Courier New",monospace;
+  }
+
+  *{ box-sizing: border-box; }
+
+  html,body{
+    margin:0; padding:0; min-height:100%;
+    background: var(--bg-deep);
+    color: var(--text-primary);
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  /* ================= Hintergrund: animierte Aurora + Raster ================= */
+  .bg-layer{ position:fixed; inset:0; z-index:-2; pointer-events:none; overflow:hidden; }
+  .bg-grid{
+    z-index:-1;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+    background-size: 48px 48px;
+    -webkit-mask-image: radial-gradient(ellipse at center, black 45%, transparent 92%);
+            mask-image: radial-gradient(ellipse at center, black 45%, transparent 92%);
+  }
+  .blob{ position:absolute; width:56vw; height:56vw; border-radius:50%; filter: blur(90px); opacity:.32; }
+  .blob-blue{ background: var(--blue); top:-18%; left:-14%; animation: driftA 22s ease-in-out infinite alternate; }
+  .blob-yellow{ background: var(--yellow); bottom:-20%; right:-10%; animation: driftB 26s ease-in-out infinite alternate; }
+  .blob-purple{ background: var(--accent-purple); top:30%; right:20%; width:38vw; height:38vw; animation: driftC 19s ease-in-out infinite alternate; }
+  @keyframes driftA{ from{ transform: translate(0,0) scale(1); } to{ transform: translate(6vw,4vw) scale(1.12); } }
+  @keyframes driftB{ from{ transform: translate(0,0) scale(1); } to{ transform: translate(-5vw,-6vw) scale(1.08); } }
+  @keyframes driftC{ from{ transform: translate(0,0) scale(1); } to{ transform: translate(-4vw,5vw) scale(0.95); } }
+
+  #app-shell{ min-height:100vh; display:flex; flex-direction:column; position:relative; }
+
+  header.app-header{
+    display:flex; align-items:center; justify-content:space-between;
+    padding: 16px 30px 10px;
+  }
+  .header-title-wrap{ display:flex; flex-direction:column; gap:4px; }
+  .eyebrow{ font-size:.72rem; letter-spacing:1.6px; text-transform:uppercase; color: var(--text-faint); font-weight:700; }
+  header.app-header h1{ font-size: 1.3rem; margin:0; font-weight:700; letter-spacing:.2px; }
+  .header-controls{ display:flex; gap:10px; align-items:center; }
+  .icon-btn{
+    background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14);
+    color: var(--text-primary); border-radius: 10px; padding: 9px 14px; font-size: .92rem;
+    cursor:pointer; transition: background .15s ease, transform .1s ease;
+  }
+  .icon-btn:hover{ background: rgba(255,255,255,0.13); }
+  .icon-btn:active{ transform: scale(.96); }
+
+  /* Sub-Header: Kapitel-Stepper + optionaler Runden-Timer, bleibt beim Scrollen sichtbar */
+  #sub-header{
+    position: sticky; top:0; z-index:10;
+    background: rgba(7,11,20,0.86);
+    backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+  }
+  #stepper-bar{ display:flex; align-items:flex-start; gap:4px; padding: 12px 28px; overflow-x:auto; }
+  .step{ display:flex; flex-direction:column; align-items:center; gap:6px; flex:0 0 auto; }
+  .step-dot{
+    width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+    font-size:.76rem; font-weight:700; background: rgba(255,255,255,0.07); border:2px solid rgba(255,255,255,0.16);
+    color: var(--text-faint); transition: all .3s ease;
+  }
+  .step.active .step-dot{ background: linear-gradient(135deg, var(--blue), var(--accent-purple)); border-color: transparent; color:#fff; box-shadow: 0 0 16px rgba(138,107,255,.6); }
+  .step.done .step-dot{ background: var(--good); border-color: transparent; color:#04140c; }
+  .step-label{ font-size:.68rem; color: var(--text-faint); white-space:nowrap; }
+  .step.active .step-label{ color: var(--text-primary); font-weight:700; }
+  .step-line{ flex:1; height:2px; background: rgba(255,255,255,0.12); margin-top:14px; min-width:14px; }
+  .step-line.done{ background: var(--good); }
+  #round-timer-slot:empty{ display:none; }
+
+  main#app{ flex:1; display:flex; align-items:flex-start; justify-content:center; padding: 34px 20px 60px; }
+
+  .screen{ width:100%; max-width: 820px; margin: 0 auto; animation: fadeIn .4s ease; }
+  .screen.screen-wide{ max-width: 1180px; }
+  @keyframes fadeIn{ from{ opacity:0; transform: translateY(14px) scale(.985);} to{ opacity:1; transform:none; } }
+
+  .panel{
+    background: var(--panel-bg); border-radius: var(--radius); box-shadow: var(--shadow-panel);
+    border: 1px solid var(--panel-border); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+    padding: 40px 44px;
+  }
+  .panel.shake{ animation: shakePanel .5s ease; }
+  @keyframes shakePanel{ 10%,90%{transform:translateX(-1px);} 20%,80%{transform:translateX(3px);} 30%,50%,70%{transform:translateX(-6px);} 40%,60%{transform:translateX(6px);} }
+
+  h2.screen-title{ font-size: 1.85rem; margin: 0 0 10px; letter-spacing:.2px; }
+  h3.screen-subtitle{ font-size: 1.08rem; font-weight:500; color: var(--text-soft); margin: 0 0 24px; }
+  p.lead{ font-size: 1.08rem; color: var(--text-primary); margin: 0 0 18px; }
+
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:8px; border:none;
+    border-radius: 12px; padding: 17px 32px; font-size: 1.1rem; font-weight:700; cursor:pointer;
+    transition: transform .1s ease, box-shadow .15s ease, filter .15s ease;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+  }
+  .btn:active{ transform: translateY(1px) scale(0.99); }
+  .btn-primary{ background: linear-gradient(135deg, var(--blue), var(--accent-purple)); color:#fff; box-shadow: 0 10px 26px rgba(79,141,255,0.32); }
+  .btn-primary:hover{ filter: brightness(1.08); }
+  .btn-outline{ background: rgba(255,255,255,0.05); color: var(--text-primary); border: 2px solid rgba(255,255,255,0.18); }
+  .btn-outline:hover{ background: rgba(255,255,255,0.1); }
+  .btn-row{ display:flex; gap:18px; margin-top: 30px; flex-wrap:wrap; }
+  .btn-row.center{ justify-content:center; }
+  .btn-row.end{ justify-content:flex-end; }
+  .btn[disabled]{ opacity:.4; cursor:not-allowed; }
+
+  .intro-points{ margin: 18px 0 8px; padding-left: 22px; color: var(--text-soft); }
+  .intro-points li{ margin-bottom: 8px; }
+
+  /* ================= E-Mail ================= */
+  .email-card{
+    background: var(--panel-bg); border-radius: var(--radius); box-shadow: var(--shadow-panel);
+    border: 1px solid var(--panel-border); backdrop-filter: blur(18px); overflow:hidden;
+  }
+  .email-toolbar{ padding: 12px 30px; font-size: .82rem; color: var(--text-faint); display:flex; align-items:center; gap:8px; border-bottom: 1px solid rgba(255,255,255,0.07); }
+  .email-toolbar .live-dot{ width:8px; height:8px; border-radius:50%; background: var(--good); box-shadow:0 0 8px var(--good); animation: pulseDot 1.4s ease infinite; }
+  @keyframes pulseDot{ 0%,100%{opacity:1;} 50%{opacity:.35;} }
+  .email-header{ padding: 24px 34px 16px; display:flex; gap:16px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .avatar{ flex:0 0 auto; width:48px; height:48px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:1rem; color:#fff; }
+  .email-meta{ flex:1; }
+  .email-meta .sender-name{ font-weight:700; font-size:1.02rem; }
+  .email-meta .sender-role{ color: var(--text-faint); font-size:.85rem; }
+  .email-meta .subject{ font-size: 1.3rem; font-weight:800; color: var(--text-primary); margin-top:8px; }
+  .email-body{ padding: 24px 34px 8px; white-space: pre-line; font-size: 1.04rem; color: var(--text-soft); }
+  .email-signoff{ margin-top: 18px; color: var(--text-faint); font-style: italic; }
+  .email-footer{ padding: 12px 34px 30px; display:flex; justify-content:flex-end; }
+
+  /* ================= Runden-Timer ================= */
+  .round-timer{ display:flex; align-items:center; gap:16px; padding: 10px 28px; }
+  .rt-info{ flex:0 0 auto; font-size:.82rem; color: var(--text-soft); font-family: var(--font-mono); white-space:nowrap; }
+  .rt-bar-wrap{ flex:1; height:10px; background: rgba(255,255,255,0.08); border-radius:6px; overflow:hidden; }
+  .rt-bar{ height:100%; width:100%; background: var(--good); transition: width .1s linear, background .3s ease; }
+  .rt-bar.warn{ background: var(--warn); }
+  .rt-bar.danger{ background: var(--danger); }
+  .rt-seconds{ flex:0 0 auto; font-family: var(--font-mono); font-weight:800; font-size:1.15rem; min-width:46px; text-align:right; }
+  .rt-seconds.danger{ color: var(--danger); animation: pulseSeconds .5s ease infinite; }
+  @keyframes pulseSeconds{ 0%,100%{transform:scale(1);} 50%{transform:scale(1.18);} }
+
+  /* ================= Aktenstapel Phase 1 (Control-Room-Setting) ================= */
+  .round-lead{ padding: 4px 4px 18px; }
+  .round-lead h2{ margin:0 0 6px; font-size:1.5rem; }
+  .round-lead p{ margin:0; color: var(--text-soft); }
+  .tile-title{ font-weight:700; font-size:.95rem; margin: 2px 20px 2px 0; line-height:1.25; }
+  .tile-desc{ font-size:.68rem; color: var(--text-faint); margin-bottom: 8px; min-height: 1.6em; }
+  /* Einspaltig als sicherer Standard (passt in jede Breite ohne Überlappung).
+     Nur der geräumige Dossier-Dialog bekommt zwei Spalten (siehe unten). */
+  .tile-factors{ display:grid; grid-template-columns: 1fr; gap: 4px; margin: 4px 0 12px; }
+  .dossier-box .tile-factors{ grid-template-columns: 1fr 1fr; gap: 6px 14px; }
+  .tf{ display:flex; align-items:baseline; flex-wrap:wrap; gap:5px; font-size:.74rem; color: var(--text-soft); }
+  .tf-ic{ opacity:.8; }
+  .tf-label{ color: var(--text-faint); white-space:nowrap; }
+  .tf-v{ font-weight:700; color: var(--text-primary); }
+  .tf-v.risk-niedrig, .tf-v.qual-hoch{ color: var(--good); }
+  .tf-v.risk-mittel, .tf-v.qual-mittel{ color: var(--warn); }
+  .tf-v.risk-hoch{ color: var(--danger); }
+  .tf-v.qual-gering{ color: var(--text-faint); }
+
+  /* "Control-Room"-Rahmen: hebt die Entscheidungsrunden optisch vom
+     restlichen (flachen) Dashboard-Look ab, wie ein Monitor-Bezel. */
+  .control-room-frame{
+    border-radius: 22px; padding: 22px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(0,0,0,0.25));
+    border: 10px solid rgba(10,13,22,0.9);
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.06) inset, 0 30px 70px rgba(0,0,0,0.55), 0 0 60px rgba(63,169,255,0.05) inset;
+    position:relative;
+  }
+  .control-room-frame::before{
+    content:''; position:absolute; left:14%; right:14%; bottom:-10px; height:10px; border-radius:50%;
+    background: radial-gradient(ellipse at center, rgba(138,107,255,0.18), transparent 70%);
+    filter: blur(6px);
+  }
+
+  /* Geschlossene Akten im Stapel */
+  .case-stack{ display:grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; }
+  .folder-tile{
+    position:relative; background: rgba(255,255,255,0.045); border:1px solid rgba(255,255,255,0.12);
+    border-radius:12px; padding:22px 14px 16px; text-align:center; cursor:pointer; min-height:132px;
+    display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px;
+    transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+  }
+  .folder-tile:hover{ transform: translateY(-4px); border-color: var(--accent-purple); box-shadow: 0 10px 24px rgba(138,107,255,0.18); }
+  .folder-tab{ position:absolute; top:-7px; left:18px; width:42px; height:13px; border-radius:4px 4px 0 0; }
+  .folder-tab.cat-blue{ background: var(--blue); box-shadow: 0 0 8px var(--blue); }
+  .folder-tab.cat-yellow{ background: var(--yellow); box-shadow: 0 0 8px var(--yellow); }
+  .folder-icon{ font-size:1.7rem; opacity:.85; }
+  .folder-title{ font-size:.84rem; font-weight:700; line-height:1.3; }
+  .folder-hint{ font-size:.66rem; color: var(--text-faint); }
+  .folder-tile.entering{ animation: folderSlideIn .4s ease; }
+  @keyframes folderSlideIn{ from{ opacity:0; transform: translateY(16px) scale(.9); } to{ opacity:1; transform:none; } }
+  .folder-tile.leaving{ pointer-events:none; animation: folderSlideOut .28s ease forwards; }
+  @keyframes folderSlideOut{ to{ opacity:0; transform: scale(.85) translateY(-8px); } }
+
+  /* Geöffnete Akte (Dossier-Overlay) */
+  .dossier-overlay{
+    position:fixed; inset:0; z-index:70; background: rgba(3,5,10,0.72); backdrop-filter: blur(6px);
+    display:flex; align-items:center; justify-content:center; padding:20px; animation: fadeIn .2s ease;
+  }
+  .dossier-box{
+    background: var(--panel-bg); border:1px solid var(--panel-border); border-top:6px solid transparent;
+    border-radius:18px; padding:32px 36px; max-width:520px; width:100%; box-shadow: var(--shadow-panel);
+    animation: dossierOpen .32s cubic-bezier(.2,.8,.3,1.15);
+  }
+  .dossier-box.cat-blue{ border-top-color: var(--blue); }
+  .dossier-box.cat-yellow{ border-top-color: var(--yellow); }
+  @keyframes dossierOpen{ from{ opacity:0; transform: scale(.85); } to{ opacity:1; transform:none; } }
+  .dossier-box h3{ margin:0 0 4px; font-size:1.4rem; }
+  .dossier-box .dossier-desc{ color: var(--text-soft); margin-bottom:18px; font-size:.96rem; }
+  .dossier-actions{ display:flex; gap:16px; margin-top:24px; }
+  .dossier-actions .btn{ flex:1; font-size:1.1rem; padding:19px; }
+
+  /* Runden-Icons (Zwischenscreens) */
+  .round-icon-wrap{ display:flex; justify-content:center; margin: 6px 0 22px; }
+  .round-icon-wrap svg{ filter: drop-shadow(0 6px 18px rgba(138,107,255,0.25)); }
+  .round-progress-wrap{ display:flex; justify-content:center; margin: 4px 0 20px; }
+
+  .toast{
+    position:fixed; top:86px; left:50%; transform:translateX(-50%); z-index:60;
+    background: rgba(20,26,46,0.95); border:1px solid rgba(255,255,255,0.16); padding:12px 24px;
+    border-radius:30px; font-weight:700; box-shadow:0 12px 30px rgba(0,0,0,0.45);
+    animation: toastPop 1.55s ease forwards;
+  }
+  @keyframes toastPop{ 0%{opacity:0; transform:translate(-50%,-10px);} 12%{opacity:1; transform:translate(-50%,0);} 82%{opacity:1;} 100%{opacity:0; transform:translate(-50%,-6px);} }
+
+  /* ================= Training / Canvas ================= */
+  .training-canvas{ width:100%; height:280px; display:block; border-radius:16px; background: radial-gradient(circle at 50% 50%, rgba(138,107,255,0.07), transparent 70%); }
+  .training-log{ margin-top: 18px; font-family: var(--font-mono); font-size:.86rem; color: var(--text-soft); min-height: 100px; }
+  .log-line{ opacity:0; transform: translateX(-6px); transition: all .4s ease; padding: 4px 0; border-bottom: 1px dashed rgba(255,255,255,0.07); }
+  .log-line.show{ opacity:1; transform:none; }
+  .log-line::before{ content:'> '; color: var(--accent-purple); }
+
+  /* ================= Datensatz-Wahl ================= */
+  .dataset-grid{ display:grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 6px; }
+  .server-card{
+    position:relative; background: rgba(255,255,255,0.035); border:1px solid rgba(255,255,255,0.12);
+    border-radius:16px; padding:26px 24px; cursor:pointer; transition: .15s ease; overflow:hidden;
+  }
+  .server-card:hover{ border-color: var(--accent-purple); transform: translateY(-3px); box-shadow: 0 16px 34px rgba(138,107,255,0.2); }
+  .server-card::before{
+    content:''; position:absolute; inset:0; pointer-events:none; opacity:.5;
+    background-image: repeating-linear-gradient(115deg, rgba(255,255,255,0.05) 0 2px, transparent 2px 26px);
+    animation: dataFlow 7s linear infinite;
+  }
+  @keyframes dataFlow{ from{ background-position: 0 0; } to{ background-position: 260px 260px; } }
+  .server-card > *{ position:relative; z-index:1; }
+  .server-icon{ font-size:2.1rem; margin-bottom:8px; }
+  .server-badge{ position:absolute; top:22px; right:22px; font-size:.66rem; text-transform:uppercase; letter-spacing:.6px; padding:3px 10px; border-radius:20px; background: rgba(255,255,255,0.08); color: var(--text-soft); z-index:1; }
+  .server-card h4{ margin:0 0 10px; font-size:1.12rem; }
+  .server-card p{ color: var(--text-soft); font-size:.92rem; margin:0 0 14px; }
+  .server-meta{ display:flex; justify-content:space-between; font-size:.74rem; color: var(--text-faint); font-family: var(--font-mono); border-top:1px solid rgba(255,255,255,0.08); padding-top:10px; }
+
+  /* ================= Fallvergleich (Phase 3, vor dem Einzelfall) ================= */
+  .compare-grid{ display:grid; grid-template-columns: repeat(auto-fit, minmax(210px,1fr)); gap: 12px; margin-top: 6px; }
+  .compare-card{
+    position:relative; background: rgba(255,255,255,0.035); border:1px solid rgba(255,255,255,0.1);
+    border-top:4px solid transparent; border-radius:12px; padding:12px; opacity:0; transform: translateY(10px);
+    transition: opacity .5s ease, transform .5s ease;
+  }
+  .compare-card.show{ opacity:1; transform:none; }
+  .compare-card.cat-blue{ border-top-color: var(--blue); }
+  .compare-card.cat-yellow{ border-top-color: var(--yellow); }
+  .compare-card .tf{ font-size:.68rem; flex-wrap:nowrap; }
+  .compare-reject{
+    position:absolute; top:8px; right:8px; font-size:.62rem; font-weight:800; letter-spacing:.4px;
+    color: var(--danger); border:1px solid var(--danger); border-radius:10px; padding:2px 7px;
+  }
+
+  /* ================= Fast-Forward-Kartenflut (Phase 2c/2d) ================= */
+  .flood-stage{
+    position:relative; height:320px; border-radius:16px; overflow:hidden;
+    background: radial-gradient(circle at 50% 50%, rgba(138,107,255,0.06), transparent 70%);
+    border:1px solid rgba(255,255,255,0.09);
+  }
+  .flood-stage.intense{ border-color: rgba(255,77,94,0.35); box-shadow: 0 0 30px rgba(255,77,94,0.14) inset; }
+
+  /* Genau EIN Akten-Element pro Bühne, das denselben Öffnen/Stempeln-Ablauf
+     wie die manuelle Aktenansicht durchläuft - verhindert unlesbar
+     überlappende Elemente bei hohem Tempo. */
+  .flood-doc{
+    position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    opacity:0; transition: opacity .16s ease, transform .16s ease;
+  }
+  .flood-doc.fading{ opacity:0 !important; transform:translate(-50%,-50%) scale(.92); }
+
+  .flood-doc.closed{
+    opacity:1; width:190px; text-align:center; background: rgba(255,255,255,0.06);
+    border:1px solid rgba(255,255,255,0.18); border-top:4px solid transparent;
+    border-radius:10px; padding:20px 14px; animation: floodDocPopIn .2s ease;
+  }
+  @keyframes floodDocPopIn{ from{ opacity:0; transform:translate(-50%,-50%) scale(.82); } to{ opacity:1; transform:translate(-50%,-50%) scale(1); } }
+  .flood-doc-icon{ font-size:1.6rem; margin-bottom:8px; }
+  .flood-doc-title{ font-size:.84rem; font-weight:700; line-height:1.3; }
+
+  .flood-doc.open{
+    opacity:1; width:300px; text-align:left; background: rgba(255,255,255,0.07);
+    border:1px solid rgba(255,255,255,0.2); border-top:4px solid transparent;
+    border-radius:12px; padding:18px 20px; animation: floodDocOpen .16s ease;
+  }
+  @keyframes floodDocOpen{ from{ opacity:.4; transform:translate(-50%,-50%) scaleY(.7); } to{ opacity:1; transform:translate(-50%,-50%) scaleY(1); } }
+  .flood-doc.closed.cat-blue, .flood-doc.open.cat-blue{ border-top-color: var(--blue); }
+  .flood-doc.closed.cat-yellow, .flood-doc.open.cat-yellow{ border-top-color: var(--yellow); }
+  .flood-doc-head{ font-size:.92rem; font-weight:700; margin-bottom:8px; }
+  .flood-doc .tf{ font-size:.7rem; flex-wrap:nowrap; }
+
+  .flood-doc-stamp{
+    position:absolute; top:10px; right:12px; font-size:.72rem; font-weight:800; letter-spacing:.2px;
+    padding:4px 10px; border-radius:8px; opacity:0; transform:scale(.6);
+    transition: opacity .16s ease, transform .16s cubic-bezier(.2,.8,.3,1.4);
+  }
+  .flood-doc-stamp.show{ opacity:1; transform:scale(1); }
+  .flood-doc-stamp.accept{ background: rgba(51,209,146,0.18); color: var(--good); border:1px solid var(--good); }
+  .flood-doc-stamp.reject{ background: rgba(255,77,94,0.16); color: var(--danger); border:1px solid var(--danger); }
+
+  .flood-meta{ display:flex; justify-content:space-between; align-items:center; margin: 14px 2px 10px; font-family: var(--font-mono); color: var(--text-soft); font-size:.88rem; }
+  .flood-counter strong{ color: var(--text-primary); font-size:1.25rem; }
+
+  /* ================= Einzelfall-Szene (Phase 3a) ================= */
+  .showcase-card{
+    max-width: 440px; margin: 10px auto 0; background: rgba(255,255,255,0.04);
+    border:1px solid rgba(255,255,255,0.14); border-top:5px solid transparent; border-radius:16px; padding:28px;
+  }
+  .showcase-card.cat-blue{ border-top-color: var(--blue); }
+  .showcase-card.cat-yellow{ border-top-color: var(--yellow); }
+  .showcase-stamp{
+    position:absolute; top:44%; left:50%; transform:translate(-50%,-50%) rotate(-16deg) scale(0);
+    font-size:2.2rem; font-weight:900; letter-spacing:2px; color: var(--danger);
+    border:6px solid var(--danger); border-radius:14px; padding:8px 22px; opacity:0; pointer-events:none;
+  }
+  .showcase-stamp.show{ animation: stampIn .5s cubic-bezier(.2,.9,.3,1.4) forwards; }
+  @keyframes stampIn{
+    0%{ opacity:0; transform:translate(-50%,-50%) rotate(-16deg) scale(2.4); }
+    60%{ opacity:1; }
+    100%{ opacity:.92; transform:translate(-50%,-50%) rotate(-10deg) scale(1); }
+  }
+
+  .result-headline{ text-align:center; padding: 16px 0 6px; }
+  .result-headline .big-number{ font-size: 4rem; font-weight:800; line-height:1; color: var(--blue); text-shadow: 0 0 30px currentColor; }
+  .result-headline .big-number.is-yellow{ color: var(--yellow); }
+  .result-headline .big-number.strong{ color: var(--danger); }
+  .result-headline .result-desc{ font-size:1.1rem; color: var(--text-soft); margin-top: 14px; }
+
+  .reveal-meaning{ margin-top:26px; background: rgba(138,107,255,0.09); border:1px solid rgba(138,107,255,0.32); border-radius:14px; padding:20px 24px; font-size:.98rem; color: var(--text-soft); opacity:0; transform: translateY(8px); transition: all .5s ease; }
+  .reveal-meaning.show{ opacity:1; transform:none; }
+  .reveal-meaning strong{ color: var(--text-primary); }
+
+  .bar-chart{ margin: 26px 0 6px; opacity:0; transform: translateY(8px); transition: all .5s ease; }
+  .bar-chart.show{ opacity:1; transform:none; }
+  .bar-row{ margin-bottom: 20px; }
+  .bar-row .bar-title{ font-size: .9rem; font-weight:700; color: var(--text-soft); margin-bottom:8px; }
+  .bar-track{ display:flex; height: 32px; border-radius:8px; overflow:hidden; background: rgba(255,255,255,0.07); }
+  .bar-seg{ display:flex; align-items:center; justify-content:center; color:#04140c; font-size:.82rem; font-weight:800; transition: width .8s cubic-bezier(.2,.7,.3,1); white-space:nowrap; overflow:hidden; width:0%; }
+  .bar-seg.cat-blue{ background: var(--blue); color:#04101c; }
+  .bar-seg.cat-yellow{ background: var(--yellow); color:#241a02; }
+  .legend{ display:flex; gap:22px; font-size:.86rem; color: var(--text-soft); margin-top:6px; }
+  .legend span{ display:inline-flex; align-items:center; gap:6px; }
+  .legend .swatch{ width:12px; height:12px; border-radius:3px; display:inline-block; }
+
+  .flash-overlay{ position:fixed; inset:0; background: radial-gradient(circle at 50% 40%, rgba(255,60,70,0.4), transparent 60%); opacity:0; pointer-events:none; z-index:50; }
+  .flash-overlay.flash{ animation: flashPulse .9s ease-out; }
+  @keyframes flashPulse{ 0%{opacity:0;} 15%{opacity:1;} 100%{opacity:0;} }
+
+  .confirm-overlay{
+    position:fixed; inset:0; z-index:80; background: rgba(3,5,10,0.68); backdrop-filter: blur(4px);
+    display:flex; align-items:center; justify-content:center; padding:20px; animation: fadeIn .2s ease;
+  }
+  .confirm-box{
+    background: var(--panel-bg); border:1px solid var(--panel-border); border-radius: var(--radius);
+    box-shadow: var(--shadow-panel); padding: 30px 32px; max-width: 420px; width:100%;
+  }
+  .confirm-box h3{ margin:0 0 10px; font-size:1.3rem; }
+  .confirm-box p{ margin:0; color: var(--text-soft); }
+
+  /* ================= Meta-Reflexion (Phase 5, bewusst außerhalb der Story) ================= */
+  .debrief-panel{
+    background: rgba(8,10,16,0.92); border:1px solid rgba(255,255,255,0.18);
+    border-top:4px solid rgba(255,255,255,0.35);
+  }
+  .debrief-badge{
+    display:inline-block; font-size:.72rem; letter-spacing:1.4px; text-transform:uppercase;
+    color: var(--text-faint); border:1px solid rgba(255,255,255,0.22); border-radius:20px;
+    padding:5px 14px; margin-bottom:20px;
+  }
+
+  /* ================= Ursachen ================= */
+  .cause-grid{ display:grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 6px; }
+  .cause-card{ background: rgba(255,255,255,0.035); border: 2px solid rgba(255,255,255,0.1); border-radius: 14px; padding: 18px 20px; cursor:pointer; transition: border-color .15s ease; }
+  .cause-card:hover{ border-color: var(--accent-purple); }
+  .cause-card.highlighted{ border-color: var(--danger); background: rgba(255,77,94,0.07); }
+  .cause-card h4{ margin: 0 0 6px; font-size: 1.04rem; display:flex; align-items:center; gap:8px; justify-content:space-between; }
+  .cause-badge{ font-size:.66rem; background: var(--danger); color:#fff; padding: 3px 9px; border-radius: 12px; font-weight:700; letter-spacing:.3px; white-space:nowrap; }
+  .cause-text{ display:none; color: var(--text-soft); font-size: .94rem; margin-top: 10px; line-height:1.55; }
+  .cause-card.open .cause-text{ display:block; }
+  .cause-hint{ font-size:.78rem; color: var(--text-faint); }
+
+  /* ================= Zusammenfassung ================= */
+  .summary-table{ width:100%; border-collapse: collapse; margin: 6px 0 26px; }
+  .summary-table td{ padding: 11px 6px; border-bottom: 1px solid rgba(255,255,255,0.08); font-size: 1rem; }
+  .summary-table td:first-child{ color: var(--text-soft); width: 55%; }
+  .summary-table td:last-child{ font-weight:700; text-align:right; }
+  .discussion-box{ background: rgba(138,107,255,0.08); border:1px solid rgba(138,107,255,0.25); border-radius: 14px; padding: 20px 24px; margin-top: 10px; }
+  .discussion-box h4{ margin:0 0 10px; }
+  .discussion-box ul{ margin:0; padding-left: 20px; }
+  .discussion-box li{ margin-bottom: 8px; color: var(--text-soft); }
+
+  footer.app-footer{ text-align:center; font-size: .78rem; color: var(--text-faint); padding: 10px 20px 22px; }
+
+  @media (max-width: 760px){
+    .case-stack, .compare-grid{ grid-template-columns: 1fr 1fr; }
+    .dataset-grid, .cause-grid{ grid-template-columns: 1fr; }
+    .panel{ padding: 26px 22px; }
+    .control-room-frame{ padding: 14px; border-width: 6px; }
+  }
+</style>
+</head>
+<body>
+<div class="bg-layer bg-aurora">
+  <div class="blob blob-blue"></div>
+  <div class="blob blob-yellow"></div>
+  <div class="blob blob-purple"></div>
+</div>
+<div class="bg-layer bg-grid"></div>
+<div class="flash-overlay" id="flash-overlay"></div>
+
+<div id="app-shell">
+  <header class="app-header">
+    <div class="header-title-wrap">
+      <div class="eyebrow">Workshop · Verantwortungsvolle KI-Nutzung</div>
+      <h1>KI-Entscheidungshilfe – Ein Bias-Simulationsspiel</h1>
+    </div>
+    <div class="header-controls">
+      <button class="icon-btn" id="btn-mute" title="Ton ein/aus">🔊 Ton</button>
+      <button class="icon-btn" id="btn-reset-header" title="Spiel zurücksetzen">↺ Neu starten</button>
+    </div>
+  </header>
+  <div id="sub-header">
+    <div id="stepper-bar"></div>
+    <div id="round-timer-slot"></div>
+  </div>
+  <main id="app"></main>
+  <footer class="app-footer">Lernspiel für interne Workshops · Alle Personen, Firmen und Daten sind fiktiv · Läuft vollständig lokal im Browser</footer>
+</div>
+
+<script>
+(function(){
+"use strict";
+
+/* ======================================================================
+   KONFIGURATION
+   Diese Werte steuern die Bias-Simulation und können für andere
+   Workshop-Kontexte leicht angepasst werden, ohne die restliche
+   Spiellogik zu verändern.
+   ====================================================================== */
+const CONFIG = {
+  // Um wie viele Prozentpunkte die KI die aus den Entscheidungsrunden
+  // erkannte Mehrheitstendenz zusätzlich verstärkt.
+  amplificationFactor: 0.20,
+
+  // Gewichtung der eigenen Entscheidungen gegenüber dem in Phase 2b
+  // gewählten Zusatzdatensatz.
+  ownDataWeight: 0.6,
+  datasetWeight: 0.4,
+
+  // Ab diesem Anteil (0.75 = 75 %) gilt das Endergebnis als "starke
+  // Verzerrung" -> Alarmton + Flash beim Reveal statt neutralem Klang.
+  strongBiasThreshold: 0.75,
+
+  // Sichtbares, aber im Spiel nicht thematisiertes Farbmerkmal jeder
+  // Projektkarte. Bewusst konfigurierbar gehalten, da dies im Workshop
+  // diskutiert/variiert werden kann. Die "Bedeutung" wird erst beim
+  // Reveal in Phase 3 aufgelöst.
+  categoryLabels: { blue: "Blau", yellow: "Gelb" },
+  categoryMeaning: {
+    blue: "Projekte aus der Unternehmenszentrale",
+    yellow: "Projekte von Regionalstandorten"
+  },
+
+  // Wie viele visuelle Partikel den Zusatzdatensatz in der zweiten
+  // Trainingsanimation repräsentieren (nur optische Illustration).
+  syntheticDatasetParticles: 10,
+
+  // Um wie viel die KI ihre eigene, bereits leicht verzerrte Tendenz beim
+  // Selbst-Nachtraining (Phase 2d) zusätzlich verstärkt (Feedback-Loop).
+  selfReinforceFactor: 0.15
+};
+
+// Konkrete Beispielkarten für die dramaturgische Einzelfall-Szene (Phase 3):
+// Wird nach der jeweils benachteiligten Kategorie (Gegenteil der finalen
+// KI-Präferenz) ausgewählt - eine Karte mit auf dem Papier starken
+// Kennzahlen, die trotzdem abgelehnt wird.
+const SHOWCASE = {
+  blue: { cardId: 12, submitter: "Markus Feldmann" },
+  yellow: { cardId: 2, submitter: "Sabine Roth" }
+};
+
+/* ======================================================================
+   INHALTE: Projektkarten-Pool ("Akten")
+   category ist das sichtbare, aber nicht erklärte Farbmerkmal. Der Pool
+   wird als endloser, gemischter Kartenstapel gezogen (siehe drawCard()) -
+   ca. 50/50 Blau/Gelb, damit der spätere Bias aus den Entscheidungen und
+   nicht aus einer schiefen Grundverteilung entsteht.
+   ====================================================================== */
+const CARD_POOL = [
+  { id:1, title:"Digitalisierung Kundenservice", desc:"KI-Chatbot & Self-Service-Portal für Kundenanfragen", kosten:180000, roi:24, dauer:8, risiko:"mittel", strategie:"hoch", nutzen:"hoch", innovation:"mittel", team:"hoch", category:"blue" },
+  { id:2, title:"Prozessautomatisierung Lager", desc:"Robotik-gestützte Kommissionierung im Lager", kosten:95000, roi:31, dauer:5, risiko:"niedrig", strategie:"mittel", nutzen:"mittel", innovation:"mittel", team:"hoch", category:"yellow" },
+  { id:3, title:"Neue Produktlinie Bio-Snacks", desc:"Nachhaltige Snack-Produktlinie für den Markt", kosten:250000, roi:18, dauer:12, risiko:"hoch", strategie:"hoch", nutzen:"hoch", innovation:"hoch", team:"mittel", category:"yellow" },
+  { id:4, title:"KI-gestützte Absatzprognose", desc:"Predictive Analytics für Produktion & Lager", kosten:140000, roi:22, dauer:6, risiko:"mittel", strategie:"hoch", nutzen:"mittel", innovation:"hoch", team:"hoch", category:"blue" },
+  { id:5, title:"Mitarbeiter-App für Schichtplanung", desc:"Flexible, selbstorganisierte Schichtplanung", kosten:60000, roi:15, dauer:4, risiko:"niedrig", strategie:"mittel", nutzen:"hoch", innovation:"gering", team:"mittel", category:"yellow" },
+
+  { id:6, title:"Nachhaltigkeits-Reporting-Tool", desc:"Automatisierte Erfassung von ESG-Kennzahlen", kosten:110000, roi:12, dauer:7, risiko:"niedrig", strategie:"mittel", nutzen:"mittel", innovation:"gering", team:"hoch", category:"blue" },
+  { id:7, title:"Expansion Servicecenter Osteuropa", desc:"Neues Servicecenter an einem Regionalstandort", kosten:320000, roi:27, dauer:14, risiko:"hoch", strategie:"hoch", nutzen:"mittel", innovation:"gering", team:"mittel", category:"yellow" },
+  { id:8, title:"Cloud-Migration Rechenzentrum", desc:"Verlagerung der IT-Infrastruktur in die Cloud", kosten:400000, roi:19, dauer:10, risiko:"hoch", strategie:"hoch", nutzen:"gering", innovation:"gering", team:"hoch", category:"blue" },
+  { id:9, title:"Self-Service-Portal für Partner", desc:"Digitales Portal für Vertriebspartner", kosten:130000, roi:21, dauer:6, risiko:"mittel", strategie:"mittel", nutzen:"hoch", innovation:"mittel", team:"mittel", category:"yellow" },
+  { id:10, title:"Modernisierung Fuhrpark (E-Mobilität)", desc:"Umstellung der Firmenflotte auf E-Fahrzeuge", kosten:220000, roi:14, dauer:9, risiko:"mittel", strategie:"mittel", nutzen:"mittel", innovation:"mittel", team:"gering", category:"yellow" },
+  { id:11, title:"Recruiting-Plattform 2.0", desc:"Modernes Bewerbermanagement-System", kosten:90000, roi:20, dauer:5, risiko:"niedrig", strategie:"gering", nutzen:"mittel", innovation:"mittel", team:"hoch", category:"blue" },
+  { id:12, title:"Automatisierte Rechnungsprüfung", desc:"KI-gestützte Prüfung eingehender Rechnungen", kosten:75000, roi:29, dauer:4, risiko:"niedrig", strategie:"mittel", nutzen:"gering", innovation:"gering", team:"hoch", category:"blue" },
+  { id:13, title:"Virtuelle Produktberatung (AR)", desc:"AR-gestützte Produktberatung für Kund:innen", kosten:160000, roi:16, dauer:8, risiko:"hoch", strategie:"mittel", nutzen:"hoch", innovation:"hoch", team:"gering", category:"yellow" },
+
+  { id:14, title:"Ausbau Ladeinfrastruktur Standorte", desc:"Mehr Lademöglichkeiten an Firmenstandorten", kosten:275000, roi:17, dauer:11, risiko:"mittel", strategie:"mittel", nutzen:"mittel", innovation:"gering", team:"mittel", category:"yellow" },
+  { id:15, title:"Redesign Unternehmenswebsite", desc:"Neuer Auftritt der Unternehmens-Website", kosten:55000, roi:13, dauer:3, risiko:"niedrig", strategie:"gering", nutzen:"mittel", innovation:"gering", team:"mittel", category:"blue" },
+  { id:16, title:"Predictive Maintenance Produktionsanlagen", desc:"Vorausschauende Wartung von Produktionsanlagen", kosten:190000, roi:26, dauer:9, risiko:"mittel", strategie:"hoch", nutzen:"mittel", innovation:"hoch", team:"hoch", category:"blue" },
+  { id:17, title:"Onboarding-Automatisierung", desc:"Automatisierter Einarbeitungsprozess", kosten:65000, roi:18, dauer:4, risiko:"niedrig", strategie:"mittel", nutzen:"hoch", innovation:"mittel", team:"mittel", category:"yellow" },
+  { id:18, title:"Erweiterung Distributionszentrum Süd", desc:"Kapazitätsausbau im Süden", kosten:310000, roi:23, dauer:13, risiko:"hoch", strategie:"hoch", nutzen:"gering", innovation:"gering", team:"mittel", category:"yellow" },
+  { id:19, title:"Cybersecurity-Aufrüstung", desc:"Modernisierung der IT-Sicherheitsarchitektur", kosten:175000, roi:9, dauer:6, risiko:"mittel", strategie:"hoch", nutzen:"gering", innovation:"gering", team:"hoch", category:"blue" },
+  { id:20, title:"Mobile App für Vertriebsteam", desc:"Mobile Vertriebsunterstützung unterwegs", kosten:85000, roi:25, dauer:5, risiko:"niedrig", strategie:"mittel", nutzen:"hoch", innovation:"mittel", team:"mittel", category:"yellow" },
+  { id:21, title:"Internationalisierung Kundensupport", desc:"Mehrsprachiger Support für internationale Kund:innen", kosten:150000, roi:15, dauer:8, risiko:"mittel", strategie:"mittel", nutzen:"mittel", innovation:"gering", team:"gering", category:"blue" },
+  { id:22, title:"Pilotprojekt Kreislaufwirtschaft", desc:"Pilot für zirkuläre Produktkreisläufe", kosten:120000, roi:11, dauer:7, risiko:"mittel", strategie:"hoch", nutzen:"hoch", innovation:"hoch", team:"gering", category:"yellow" },
+  { id:23, title:"Datenplattform für Echtzeit-Reporting", desc:"Echtzeit-Dashboards für Unternehmenskennzahlen", kosten:205000, roi:20, dauer:9, risiko:"mittel", strategie:"hoch", nutzen:"mittel", innovation:"mittel", team:"hoch", category:"blue" },
+
+  { id:24, title:"Modernisierung Kantine", desc:"Renovierung und neues Angebot in der Mitarbeiterkantine", kosten:45000, roi:8, dauer:3, risiko:"niedrig", strategie:"gering", nutzen:"hoch", innovation:"gering", team:"mittel", category:"blue" },
+  { id:25, title:"Intelligente Lagersteuerung", desc:"KI-gestützte Steuerung von Ein- und Auslagerung", kosten:165000, roi:24, dauer:7, risiko:"mittel", strategie:"hoch", nutzen:"mittel", innovation:"hoch", team:"hoch", category:"yellow" },
+  { id:26, title:"Kundenkarten-Relaunch", desc:"Digitale Kundenkarte mit neuen Bonusfunktionen", kosten:70000, roi:19, dauer:5, risiko:"niedrig", strategie:"mittel", nutzen:"hoch", innovation:"mittel", team:"mittel", category:"blue" },
+  { id:27, title:"Ausbau Homeoffice-Infrastruktur", desc:"Technische Ausstattung für dauerhaftes Homeoffice", kosten:95000, roi:13, dauer:4, risiko:"niedrig", strategie:"mittel", nutzen:"hoch", innovation:"gering", team:"hoch", category:"yellow" },
+  { id:28, title:"Predictive Pricing Modul", desc:"Dynamische Preisgestaltung auf Basis von Nachfragedaten", kosten:185000, roi:28, dauer:8, risiko:"mittel", strategie:"hoch", nutzen:"mittel", innovation:"hoch", team:"mittel", category:"blue" },
+  { id:29, title:"Regionales Vertriebsbüro Ost", desc:"Neues Vertriebsbüro zur Marktdurchdringung im Osten", kosten:260000, roi:16, dauer:10, risiko:"hoch", strategie:"mittel", nutzen:"mittel", innovation:"gering", team:"gering", category:"yellow" },
+  { id:30, title:"Automatisierte Vertragsprüfung", desc:"KI-gestützte Prüfung von Lieferantenverträgen", kosten:80000, roi:22, dauer:5, risiko:"niedrig", strategie:"mittel", nutzen:"gering", innovation:"mittel", team:"hoch", category:"blue" },
+  { id:31, title:"Mobile Wartungs-App Technik", desc:"App für mobile Wartungsaufträge des Technikteams", kosten:100000, roi:20, dauer:6, risiko:"mittel", strategie:"mittel", nutzen:"hoch", innovation:"mittel", team:"mittel", category:"yellow" },
+  { id:32, title:"Green-IT-Initiative", desc:"Energieeffizienz-Programm für die IT-Infrastruktur", kosten:130000, roi:10, dauer:9, risiko:"niedrig", strategie:"hoch", nutzen:"mittel", innovation:"mittel", team:"mittel", category:"blue" },
+  { id:33, title:"Kundenzentrum Erweiterung West", desc:"Ausbau des Kundenzentrums für mehr Beratungskapazität", kosten:295000, roi:21, dauer:12, risiko:"hoch", strategie:"hoch", nutzen:"hoch", innovation:"gering", team:"mittel", category:"yellow" },
+  { id:34, title:"Chatbot für interne IT-Anfragen", desc:"Interner Chatbot für IT-Support-Anfragen", kosten:60000, roi:17, dauer:4, risiko:"niedrig", strategie:"mittel", nutzen:"mittel", innovation:"hoch", team:"hoch", category:"blue" }
+];
+
+function getCard(id){ return CARD_POOL.find(c => c.id === id); }
+
+// Fisher-Yates-Shuffle für einen frischen, gemischten Kartenstapel.
+function shuffleDeck(pool){
+  const arr = pool.slice();
+  for(let i = arr.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    const tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp;
+  }
+  return arr;
+}
+
+/* ======================================================================
+   RUNDEN: endloser Aktenstrom mit steigender Annahme-Quote und
+   wachsendem Zeitdruck (nicht die Anzahl der Akten ist begrenzt,
+   sondern die Zeit, um die Quote zu erreichen).
+   ====================================================================== */
+const STACK_SIZE = 5; // gleichzeitig sichtbare Akten im Stapel
+const ROUNDS = [
+  { quota:5, seconds:75, title:"Runde 1 von 3", tagline:"Die ersten Anträge kommen rein.", note:"Noch ist die Lage entspannt – nehmt euch Zeit für jede Akte." },
+  { quota:8, seconds:52, title:"Runde 2 von 3", tagline:"Der Antragsstapel wächst.", note:"Die Quote steigt, die Zeit wird knapper." },
+  { quota:12, seconds:30, title:"Runde 3 von 3", tagline:"Der Antragsstapel explodiert.", note:"12 Annahmen in 30 Sekunden – das wird eng." }
+];
+
+/* ======================================================================
+   INHALTE: Zusatzdatensätze (Phase 2b)
+   ====================================================================== */
+const DATASETS = {
+  historical: {
+    key: "historical",
+    name: "Historische Unternehmensdaten",
+    description: "Datensatz aus den letzten fünf Jahren interner Projektentscheidungen. Enthält alle genehmigten und abgelehnten Anträge dieses Zeitraums – inklusive aller Muster, die sich über die Jahre eingeschliffen haben.",
+    meta1: "Zeitraum: 2019–2024", meta2: "≈ 1.240 Datensätze", badge: "Intern", icon: "🗄️",
+    category: "blue", strength: 0.72
+  },
+  foreign: {
+    key: "foreign",
+    name: "Datensatz eines Partnerunternehmens",
+    description: "Entscheidungsdaten eines befreundeten Unternehmens aus der Logistikbranche, das im Rahmen einer Kooperation Einblick gewährt hat – ein anderer Kontext als bei uns.",
+    meta1: "Quelle: Partnerunternehmen · Logistik", meta2: "≈ 890 Datensätze", badge: "Extern", icon: "🌐",
+    category: "yellow", strength: 0.65
+  }
+};
+
+/* ======================================================================
+   INHALTE: Ursachen-Karten (Phase 4)
+   ====================================================================== */
+const CAUSES = [
+  { key:"ownLogic", title:"Eigene Entscheidungslogik", text:"Wenn eine Gruppe unbewusst öfter nach einem einzelnen Kriterium entscheidet – etwa immer bei niedrigem Risiko zusagt oder unter Zeitdruck nur noch auf eine Kennzahl schaut – überträgt sich dieses Muster direkt auf die KI. Die KI kennt keine „gute Begründung“, sie erkennt nur Korrelationen in euren Klicks." },
+  { key:"ownData", title:"Eigene Trainingsdaten unausgewogen", text:"Wurde in euren Runden eine Kategorie deutlich häufiger angenommen als die andere – oder sind unter Zeitdruck viele Projekte einer Kategorie ganz durchgefallen – lernt die KI genau dieses Ungleichgewicht und verstärkt es sogar noch." },
+  { key:"historical", title:"Historischer Zusatzdatensatz verzerrt", text:"Alte Unternehmensdaten spiegeln oft veraltete Prioritäten, Strukturen oder Machtverhältnisse wider. Was früher „normal“ war, ist heute nicht zwingend fair oder sinnvoll – trotzdem lernt eine KI aus diesen Daten, das Muster fortzusetzen." },
+  { key:"foreign", title:"Fremd-Datensatz nicht übertragbar", text:"Daten aus einer anderen Branche oder einem anderen Unternehmen folgen oft völlig anderen Logiken und Rahmenbedingungen. Werden sie unreflektiert übernommen, importiert man Muster, die im eigenen Kontext keinen Sinn ergeben." },
+  { key:"selfReinforce", title:"Selbstverstärkung durch Nachtraining", text:"Die KI hat sich nicht nur an euren Entscheidungen orientiert, sondern ist anschließend an ihren EIGENEN, bereits leicht verzerrten Ergebnissen weitertrainiert worden. Ein Feedback-Loop: Kleine Schieflagen werden dadurch nicht ausgeglichen, sondern zunehmend verstärkt – ganz ohne weiteres menschliches Zutun." }
+];
+
+/* ======================================================================
+   KAPITEL-STEPPER
+   ====================================================================== */
+const CHAPTERS = [
+  { key:"intro", label:"Prolog" },
+  { key:"runden", label:"Entscheidungsrunden" },
+  { key:"training1", label:"Training" },
+  { key:"daten", label:"Zusatzdaten" },
+  { key:"fastforward", label:"Hochlauf" },
+  { key:"reveal", label:"Enthüllung" },
+  { key:"analyse", label:"Analyse" },
+  { key:"reflexion", label:"Reflexion" },
+  { key:"fazit", label:"Fazit" }
+];
+
+/* ======================================================================
+   STATE
+   ====================================================================== */
+let state = null;
+let roundTimerId = null;
+let particleRAF = null;
+let tickerId = null;
+
+function stopAllTimers(){
+  if(roundTimerId){ clearInterval(roundTimerId); roundTimerId = null; }
+  if(particleRAF){ cancelAnimationFrame(particleRAF); particleRAF = null; }
+  if(tickerId){ clearInterval(tickerId); tickerId = null; }
+}
+
+function resetState(){
+  stopAllTimers();
+  state = {
+    decisions: [],     // { id, category, accepted } - über alle Runden hinweg
+    roundStats: [],    // { accepted, quota, met } pro Runde
+    chosenDataset: null,
+    computed: null,
+    openCauses: {}
+  };
+}
+
+/* ======================================================================
+   SOUND (Web Audio API, keine externen Dateien)
+   ====================================================================== */
+let audioCtx = null;
+let muted = false;
+
+function ensureAudio(){
+  if(!audioCtx){
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if(!AC) return null;
+    audioCtx = new AC();
+  }
+  if(audioCtx.state === "suspended"){ audioCtx.resume(); }
+  return audioCtx;
+}
+
+function playClick(){
+  if(muted) return;
+  const ctx = ensureAudio(); if(!ctx) return;
+  const t = ctx.currentTime;
+  const o = ctx.createOscillator(); const g = ctx.createGain();
+  o.type = "sine"; o.frequency.value = 680;
+  g.gain.setValueAtTime(0.09, t);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + 0.09);
+  o.connect(g).connect(ctx.destination);
+  o.start(t); o.stop(t + 0.1);
+}
+
+function playTick(freq, vol, dur){
+  if(muted) return;
+  const ctx = ensureAudio(); if(!ctx) return;
+  freq = freq || 1400; vol = vol || 0.05; dur = dur || 0.06;
+  const t = ctx.currentTime;
+  const o = ctx.createOscillator(); const g = ctx.createGain();
+  o.type = "sine"; o.frequency.value = freq;
+  g.gain.setValueAtTime(vol, t);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+  o.connect(g).connect(ctx.destination);
+  o.start(t); o.stop(t + dur + 0.02);
+}
+
+function playPing(){
+  if(muted) return;
+  const ctx = ensureAudio(); if(!ctx) return;
+  [660, 880].forEach((freq, i) => {
+    const t = ctx.currentTime + i * 0.11;
+    const o = ctx.createOscillator(); const g = ctx.createGain();
+    o.type = "sine"; o.frequency.value = freq;
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.linearRampToValueAtTime(0.10, t + 0.02);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + 0.3);
+    o.connect(g).connect(ctx.destination);
+    o.start(t); o.stop(t + 0.32);
+  });
+}
+
+function playChime(){
+  if(muted) return;
+  const ctx = ensureAudio(); if(!ctx) return;
+  [523.25, 659.25, 783.99].forEach((freq, i) => {
+    const t = ctx.currentTime + i * 0.12;
+    const o = ctx.createOscillator(); const g = ctx.createGain();
+    o.type = "sine"; o.frequency.value = freq;
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.linearRampToValueAtTime(0.12, t + 0.02);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + 0.4);
+    o.connect(g).connect(ctx.destination);
+    o.start(t); o.stop(t + 0.42);
+  });
+}
+
+function playThump(){
+  if(muted) return;
+  const ctx = ensureAudio(); if(!ctx) return;
+  const t = ctx.currentTime;
+  const o = ctx.createOscillator(); const g = ctx.createGain();
+  o.type = "sine"; o.frequency.setValueAtTime(160, t); o.frequency.exponentialRampToValueAtTime(60, t + 0.3);
+  g.gain.setValueAtTime(0.16, t);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + 0.32);
+  o.connect(g).connect(ctx.destination);
+  o.start(t); o.stop(t + 0.34);
+}
+
+function playAlarm(){
+  if(muted) return;
+  const ctx = ensureAudio(); if(!ctx) return;
+  const t0 = ctx.currentTime;
+  const sweep = ctx.createOscillator(); const sg = ctx.createGain();
+  sweep.type = "sawtooth";
+  sweep.frequency.setValueAtTime(700, t0);
+  sweep.frequency.exponentialRampToValueAtTime(140, t0 + 0.35);
+  sg.gain.setValueAtTime(0.0001, t0);
+  sg.gain.linearRampToValueAtTime(0.10, t0 + 0.05);
+  sg.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.38);
+  sweep.connect(sg).connect(ctx.destination);
+  sweep.start(t0); sweep.stop(t0 + 0.4);
+
+  [0.45, 0.78, 1.11, 1.44].forEach((offset, i) => {
+    const t = t0 + offset;
+    const o = ctx.createOscillator(); const g = ctx.createGain();
+    o.type = "square"; o.frequency.value = (i % 2 === 0) ? 880 : 660;
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.linearRampToValueAtTime(0.16, t + 0.02);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + 0.26);
+    o.connect(g).connect(ctx.destination);
+    o.start(t); o.stop(t + 0.28);
+  });
+}
+
+/* ======================================================================
+   HELFER
+   ====================================================================== */
+function formatEuro(n){ return n.toLocaleString("de-DE") + " €"; }
+function catLabel(cat){ return CONFIG.categoryLabels[cat]; }
+function catMeaning(cat){ return CONFIG.categoryMeaning[cat]; }
+function clamp(v, min, max){ return Math.max(min, Math.min(max, v)); }
+function on(id, evt, fn){ const elm = document.getElementById(id); if(elm) elm.addEventListener(evt, fn); }
+function weightedPick(blueFraction){ return Math.random() < blueFraction ? "blue" : "yellow"; }
+
+function showToast(text){
+  const d = document.createElement("div");
+  d.className = "toast";
+  d.textContent = text;
+  document.body.appendChild(d);
+  setTimeout(() => d.remove(), 1550);
+}
+
+function animateNumber(el, from, to, duration, onDone){
+  const start = performance.now();
+  function frame(now){
+    const p = clamp((now - start) / duration, 0, 1);
+    const eased = 1 - Math.pow(1 - p, 3);
+    const val = Math.round(from + (to - from) * eased);
+    el.textContent = val + " %";
+    if(p < 1){ requestAnimationFrame(frame); }
+    else if(onDone){ onDone(); }
+  }
+  requestAnimationFrame(frame);
+}
+
+/* ======================================================================
+   KAPITEL-STEPPER RENDERING
+   ====================================================================== */
+function renderStepper(activeKey){
+  const idx = CHAPTERS.findIndex(c => c.key === activeKey);
+  const bar = document.getElementById("stepper-bar");
+  if(!bar) return;
+  bar.innerHTML = CHAPTERS.map((c, i) => {
+    const cls = i < idx ? "done" : (i === idx ? "active" : "upcoming");
+    const dot = i < idx ? "✓" : (i + 1);
+    const line = i < CHAPTERS.length - 1 ? '<div class="step-line ' + (i < idx ? "done" : "") + '"></div>' : "";
+    return '<div class="step ' + cls + '"><div class="step-dot">' + dot + '</div><div class="step-label">' + c.label + '</div></div>' + line;
+  }).join("");
+}
+
+function clearRoundTimerSlot(){
+  const slot = document.getElementById("round-timer-slot");
+  if(slot) slot.innerHTML = "";
+}
+
+function beginScreen(chapterKey, keepTimerSlot){
+  renderStepper(chapterKey);
+  if(!keepTimerSlot) clearRoundTimerSlot();
+}
+
+/* ======================================================================
+   BIAS-BERECHNUNG (transparent & deterministisch aus den Klicks)
+   ====================================================================== */
+function computeOwnStats(){
+  const accepted = state.decisions.filter(d => d.accepted);
+  const countBlue = accepted.filter(d => d.category === "blue").length;
+  const countYellow = accepted.filter(d => d.category === "yellow").length;
+  const total = countBlue + countYellow;
+  const blueFrac = total > 0 ? (countBlue / total) : 0.5;
+  const majorityCat = blueFrac >= 0.5 ? "blue" : "yellow";
+  const majorityFrac = Math.max(blueFrac, 1 - blueFrac);
+  const amplified = clamp(majorityFrac + CONFIG.amplificationFactor, 0.5, 0.97);
+  const ownBlue = majorityCat === "blue" ? amplified : 1 - amplified;
+  return { countBlue, countYellow, total, blueFrac, majorityCat, majorityFrac, amplified, ownBlue };
+}
+
+function computeResult(){
+  const own = computeOwnStats();
+  const ds = DATASETS[state.chosenDataset];
+  const datasetBlue = ds.category === "blue" ? ds.strength : 1 - ds.strength;
+
+  // Phase 2c: eigene Entscheidungen + Zusatzdatensatz kombiniert.
+  let combinedBlue = CONFIG.ownDataWeight * own.ownBlue + CONFIG.datasetWeight * datasetBlue;
+  combinedBlue = clamp(combinedBlue, 0.03, 0.97);
+
+  // Phase 2d: die KI trainiert sich an ihren eigenen (bereits leicht
+  // verzerrten) Ergebnissen weiter - ein Feedback-Loop, der die
+  // vorhandene Richtung zusätzlich verstärkt.
+  const deviation = combinedBlue - 0.5;
+  const selfPush = Math.sign(deviation) * CONFIG.selfReinforceFactor;
+  const reinforcedBlue = clamp(0.5 + deviation + selfPush, 0.03, 0.97);
+
+  const finalCategory = reinforcedBlue >= 0.5 ? "blue" : "yellow";
+  const finalPercent = (finalCategory === "blue" ? reinforcedBlue : 1 - reinforcedBlue) * 100;
+
+  const contributionOwn = CONFIG.ownDataWeight * (own.ownBlue - 0.5);
+  const contributionDataset = CONFIG.datasetWeight * (datasetBlue - 0.5);
+  const contributionSelf = selfPush;
+  let dominant = "own";
+  let dominantMag = Math.abs(contributionOwn);
+  if(Math.abs(contributionDataset) > dominantMag){ dominant = "dataset"; dominantMag = Math.abs(contributionDataset); }
+  if(Math.abs(contributionSelf) > dominantMag){ dominant = "self"; dominantMag = Math.abs(contributionSelf); }
+
+  const isStrong = (finalPercent / 100) >= CONFIG.strongBiasThreshold;
+
+  return Object.assign({}, own, {
+    datasetBlue, combinedBlue, reinforcedBlue, finalCategory, finalPercent,
+    dominant, isStrong, datasetKey: state.chosenDataset
+  });
+}
+
+// Vollständiger Ergebnistext inkl. Vergleich zwischen der ursprünglichen
+// Tendenz und dem finalen KI-Ergebnis - unabhängig davon, ob die KI die
+// Tendenz verstärkt, abschwächt oder durch den Zusatzdatensatz sogar
+// die Richtung wechselt.
+function buildResultDescription(r){
+  const finalLabel = catLabel(r.finalCategory);
+  const finalPct = Math.round(r.finalPercent);
+  const intro = 'Eure KI bevorzugt <strong>„' + finalLabel + '“</strong>-Projekte jetzt zu ' + finalPct + ' %';
+
+  if(r.total === 0){
+    return intro + '. Da in euren Runden kein einziges Projekt angenommen wurde, beruht diese Tendenz überwiegend auf dem gewählten Zusatzdatensatz.';
+  }
+
+  const origCat = r.blueFrac >= 0.5 ? "blue" : "yellow";
+  const origPct = Math.round(Math.max(r.blueFrac, 1 - r.blueFrac) * 100);
+
+  if(origCat !== r.finalCategory){
+    return intro + '. Bemerkenswert: Eure ursprüngliche Tendenz ging eher in Richtung „' + catLabel(origCat) + '“ (' + origPct + ' %) – der gewählte Zusatzdatensatz hat die Richtung gedreht.';
+  }
+  if(finalPct > origPct){
+    return intro + ', obwohl es in euren Entscheidungsrunden nur ' + origPct + ' % waren.';
+  }
+  if(finalPct < origPct){
+    return intro + ' – eure ursprüngliche Tendenz lag mit ' + origPct + ' % sogar noch etwas höher, der Zusatzdatensatz hat den Effekt leicht abgeschwächt.';
+  }
+  return intro + ' – genau wie schon in euren Entscheidungsrunden.';
+}
+
+function buildRevealMeaning(r){
+  return 'Was ihr die ganze Zeit nicht wusstet: Jedes Projekt war unterschwellig farblich markiert. <strong>Blau</strong> stand für ' + catMeaning("blue") + ', <strong>Gelb</strong> für ' + catMeaning("yellow") + '. Genau dieses Merkmal hat sich durch euer Training in der KI verankert – ohne dass es je als Entscheidungsfaktor benannt wurde.';
+}
+
+function computeAggregateRoundStats(){
+  let roundsTotal = ROUNDS.length, roundsMet = 0, totalAccepted = 0, totalQuota = 0;
+  ROUNDS.forEach((rd, i) => {
+    totalQuota += rd.quota;
+    const s = state.roundStats[i];
+    if(s){ totalAccepted += s.accepted; if(s.met) roundsMet++; }
+  });
+  return { roundsTotal, roundsMet, totalAccepted, totalQuota };
+}
+
+/* ======================================================================
+   E-MAIL TEXTE
+   ====================================================================== */
+function emailKickoff(){
+  return {
+    sender: "Dr. Anke Vogel", role: "Geschäftsführung", color: "#8a6bff",
+    subject: "Entscheidungsrunden starten gleich",
+    body: "Liebes Team,\n\ndie Zahl der Projektanträge wächst schneller, als wir sie bewerten können. Ab sofort kommen die Anträge in Wellen rein – und mit jeder Welle bleibt euch weniger Zeit pro Projekt.\n\nBitte bewertet in den nächsten Runden so viele Projekte wie möglich: annehmen oder ablehnen. Der Countdown läuft pro Runde mit – seid schnell, aber überlegt.\n\nViel Erfolg!",
+    signoff: "Anke"
+  };
+}
+function emailWendepunkt(stats){
+  const allMet = stats.roundsMet === stats.roundsTotal;
+  let body, subject;
+  if(allMet){
+    subject = "Starke Leistung – trotzdem brauchen wir jetzt eine KI";
+    body = "Respekt – ihr habt tatsächlich in allen drei Runden die geforderte Quote erreicht, trotz wachsendem Tempo!\n\nAber genau das ist der Punkt: Das ging nur mit voller Konzentration, und der echte Antragsstapel wächst weiter. Irgendwann kippt das. Ich möchte deshalb ab sofort eine KI trainieren, die euch diese Vorauswahl dauerhaft abnimmt. Als Trainingsgrundlage nehmen wir eure bisherigen Entscheidungen.";
+  } else {
+    subject = "Ihr kommt nicht mehr hinterher";
+    body = "Ich habe mir die Zahlen aus euren drei Runden angeschaut: In " + (stats.roundsTotal - stats.roundsMet) + " von " + stats.roundsTotal + " Runden habt ihr die geforderte Quote nicht erreicht.\n\nDas wird sich nicht von selbst lösen – die Antragsflut wird eher noch zunehmen. Ich möchte deshalb ab sofort eine KI trainieren, die euch diese Vorauswahl abnimmt. Als Trainingsgrundlage nehmen wir eure bisherigen Entscheidungen.";
+  }
+  return { sender: "Dr. Anke Vogel", role: "Geschäftsführung", color: "#8a6bff", subject, body, signoff: "Anke" };
+}
+function emailBeforeDataset(){
+  return {
+    sender: "Lars Bender", role: "Digitalisierung & KI", color: "#3fa9ff",
+    subject: "Unsere Datenbasis ist zu dünn",
+    body: "Mit den Entscheidungen aus euren Runden haben wir zwar einen Start – aber weil unter Zeitdruck einige Projekte gar nicht mehr bewertet wurden, ist unsere Datenbasis ziemlich dünn und lückenhaft.\n\nIch schlage vor, einen zusätzlichen Datensatz einzuspeisen, damit das Modell robuster wird. Ihr habt die Wahl zwischen unseren eigenen historischen Unternehmensdaten oder einem Datensatz eines Partnerunternehmens.",
+    signoff: "Lars"
+  };
+}
+function emailResult(result){
+  const cat = catLabel(result.finalCategory);
+  const pct = Math.round(result.finalPercent);
+  let body, subject;
+  if(result.isStrong){
+    subject = "Das Ergebnis macht mir Sorgen";
+    body = "Ich habe mir die Auswertung gerade angeschaut und bin ehrlich gesagt etwas alarmiert.\n\nUnsere KI bevorzugt „" + cat + "“-Projekte inzwischen zu " + pct + " %. Das ist ein deutlich stärkeres Muster, als ich erwartet hätte – und es ist uns quasi „passiert“, ohne dass das jemand so entschieden hätte.\n\nWir sollten uns dringend anschauen, wie es dazu gekommen ist, bevor wir so ein System produktiv einsetzen.";
+  } else if((result.finalPercent / 100) >= 0.6){
+    subject = "Interessantes (und etwas beunruhigendes) Ergebnis";
+    body = "Die Auswertung ist da: Unsere KI bevorzugt „" + cat + "“-Projekte jetzt zu " + pct + " %.\n\nDas ist keine extreme Verzerrung, aber doch ein spürbares Muster, das über eure ursprünglichen Einzelentscheidungen hinausgeht. Lohnt sich, genauer hinzuschauen, finde ich.";
+  } else {
+    subject = "Erste Auswertung ist da";
+    body = "Die KI zeigt aktuell eine leichte Präferenz für „" + cat + "“-Projekte (" + pct + " %). Kein dramatischer Ausschlag, aber auch kein Zufall – schauen wir uns gemeinsam an, woran das liegen könnte.";
+  }
+  return { sender: "Dr. Anke Vogel", role: "Geschäftsführung", color: "#8a6bff", subject, body, signoff: "Anke" };
+}
+function emailSelfReinforce(){
+  return {
+    sender: "Lars Bender", role: "Digitalisierung & KI", color: "#3fa9ff",
+    subject: "Nachschliff fürs Modell",
+    body: "Die KI läuft jetzt seit einer Weile stabil und trifft ihre eigenen Entscheidungen. Um sie weiter zu verbessern, lassen wir sie ab jetzt anhand ihrer eigenen bisherigen Ergebnisse selbst weitertrainieren – quasi als Nachschliff, ganz ohne dass wir noch manuell eingreifen.\n\nSchauen wir, was das mit dem Modell macht.",
+    signoff: "Lars"
+  };
+}
+// Erster Moment im Spiel, an dem das Farbmerkmal explizit benannt wird
+// (vorher war es nur sichtbarer, aber nie thematisierter Teil der Optik).
+function emailComplaint(card, submitter){
+  return {
+    sender: "Lars Bender", role: "Digitalisierung & KI", color: "#3fa9ff",
+    subject: "Beschwerde zu „" + card.title + "“",
+    body: "Ich wurde gerade von " + submitter + " angesprochen, die/der das Projekt „" + card.title + "“ eingereicht hatte: ROI " + card.roi + " %, Risiko " + card.risiko + " – auf dem Papier ein starker Fall. Trotzdem hat unsere KI es abgelehnt.\n\n" + submitter + " fragt ganz direkt: Wurde das nur wegen der Farbe der Akte abgelehnt – „" + catLabel(card.category) + "“ statt „" + catLabel(card.category === "blue" ? "yellow" : "blue") + "“ – und nicht wegen der Kennzahlen?",
+    signoff: "Lars"
+  };
+}
+
+/* ======================================================================
+   RENDER: Phase 0 – Intro
+   ====================================================================== */
+function renderIntro(){
+  beginScreen("intro");
+  const app = document.getElementById("app");
+  app.innerHTML =
+    '<div class="screen"><div class="panel">' +
+      '<h2 class="screen-title">Bevor die KI entscheidet …</h2>' +
+      '<h3 class="screen-subtitle">… greift ihr selbst zum Steuer.</h3>' +
+      '<p class="lead">Ihr seid ein Team, das unter wachsendem Entscheidungsdruck Projekte priorisieren muss – bis es von Hand nicht mehr zu schaffen ist und eine KI trainiert wird, die euch das abnimmt.</p>' +
+      '<ul class="intro-points">' +
+        '<li>Es gibt kein „richtiges“ Ergebnis – was am Ende passiert, hängt von euren Entscheidungen ab.</li>' +
+        '<li>In den Entscheidungsrunden läuft die Zeit mit – seid schnell, aber bei Verstand.</li>' +
+        '<li>Am Ende schauen wir gemeinsam, woran das Ergebnis lag.</li>' +
+      '</ul>' +
+      '<div class="btn-row end"><button id="btn-start" class="btn btn-primary">Spiel starten →</button></div>' +
+    '</div></div>';
+  on("btn-start", "click", () => { playClick(); renderEmail(emailKickoff(), () => renderRoundIntro(0), "runden"); });
+}
+
+/* ======================================================================
+   RENDER: E-Mail-Zwischenscreen (wiederverwendbar)
+   ====================================================================== */
+function renderEmail(mail, nextFn, chapterKey){
+  beginScreen(chapterKey);
+  const app = document.getElementById("app");
+  const parts = mail.sender.split(" ").filter(Boolean);
+  const initials = ((parts[0] || "")[0] || "") + ((parts[1] || "")[0] || "");
+  app.innerHTML =
+    '<div class="screen"><div class="email-card">' +
+      '<div class="email-toolbar"><span class="live-dot"></span> Posteingang · 1 neue Nachricht</div>' +
+      '<div class="email-header">' +
+        '<div class="avatar" style="background:' + mail.color + ';">' + initials.toUpperCase() + '</div>' +
+        '<div class="email-meta">' +
+          '<div class="sender-name">' + mail.sender + '</div>' +
+          '<div class="sender-role">' + mail.role + ' · Gerade eben</div>' +
+          '<div class="subject">' + mail.subject + '</div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="email-body">' + mail.body + '<div class="email-signoff">Viele Grüße<br>' + mail.signoff + '</div></div>' +
+      '<div class="email-footer"><button id="btn-email-next" class="btn btn-primary">Weiter →</button></div>' +
+    '</div></div>';
+  playPing();
+  on("btn-email-next", "click", () => { playClick(); nextFn(); });
+}
+
+/* ======================================================================
+   RENDER: Phase 1 – Entscheidungsrunden mit Zeitdruck
+   ====================================================================== */
+// Gestapelte Akten-Icons für den Rundenstart - wächst mit der Runde,
+// um den steigenden Antragsdruck auch im Zwischenscreen sichtbar zu machen.
+function buildFolderStackIcon(n){
+  const positions = [
+    { x:35, y:55, rot:-6 }, { x:25, y:42, rot:4 }, { x:45, y:30, rot:-3 }, { x:15, y:20, rot:6 }, { x:55, y:12, rot:-2 }
+  ];
+  let rects = "";
+  for(let i = 0; i < n && i < positions.length; i++){
+    const p = positions[i];
+    const op = (0.4 + i * 0.15).toFixed(2);
+    rects += '<g transform="translate(' + p.x + ',' + p.y + ') rotate(' + p.rot + ')">' +
+      '<rect width="70" height="48" rx="7" fill="rgba(138,107,255,' + op + ')" stroke="rgba(255,255,255,0.3)" stroke-width="1.4"/>' +
+      '<rect width="28" height="9" rx="3" fill="rgba(255,255,255,0.35)"/>' +
+    '</g>';
+  }
+  return '<svg width="150" height="120" viewBox="0 0 150 120" xmlns="http://www.w3.org/2000/svg">' + rects + '</svg>';
+}
+
+// Fortschritts-Ring für die Rundenauswertung (angenommene Projekte / Quote).
+function buildProgressRing(accepted, quota){
+  const frac = clamp(quota > 0 ? accepted / quota : 0, 0, 1);
+  const r = 54, C = 2 * Math.PI * r;
+  const dash = C * frac;
+  const color = frac >= 1 ? "#33d192" : (frac >= 0.5 ? "#ffb84f" : "#ff4d5e");
+  return '<svg width="140" height="140" viewBox="0 0 140 140">' +
+    '<circle cx="70" cy="70" r="' + r + '" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="12"/>' +
+    '<circle cx="70" cy="70" r="' + r + '" fill="none" stroke="' + color + '" stroke-width="12" stroke-linecap="round" stroke-dasharray="' + dash.toFixed(1) + ' ' + C.toFixed(1) + '" transform="rotate(-90 70 70)"/>' +
+    '<text x="70" y="64" text-anchor="middle" font-size="30" font-weight="800" fill="#eef2fb" font-family="Segoe UI, sans-serif">' + accepted + '</text>' +
+    '<text x="70" y="86" text-anchor="middle" font-size="13" fill="#96a0bd" font-family="Segoe UI, sans-serif">von ' + quota + '</text>' +
+  '</svg>';
+}
+
+function renderRoundIntro(roundIdx){
+  beginScreen("runden");
+  const round = ROUNDS[roundIdx];
+  const app = document.getElementById("app");
+  app.innerHTML =
+    '<div class="screen"><div class="panel">' +
+      '<h2 class="screen-title">' + round.title + '</h2>' +
+      '<h3 class="screen-subtitle">' + round.tagline + '</h3>' +
+      '<div class="round-icon-wrap">' + buildFolderStackIcon(3 + roundIdx) + '</div>' +
+      '<p class="lead">' + round.note + '</p>' +
+      '<p class="lead" style="color:var(--text-soft); font-size:.98rem;">Mindestens ' + round.quota + ' angenommene Projekte · ' + round.seconds + ' Sekunden Zeit. Der Countdown startet erst, wenn ihr bereit seid.</p>' +
+      '<div class="btn-row end"><button id="btn-round-start" class="btn btn-primary">Runde starten →</button></div>' +
+    '</div></div>';
+  on("btn-round-start", "click", () => { playClick(); renderRoundGrid(roundIdx); });
+}
+
+// Jeder Faktor wird zwingend als "Icon + Textlabel: Wert" dargestellt -
+// kein Icon ohne begleitendes Label (siehe Korrektur 1).
+function tileFactorsHtml(card){
+  return '<div class="tile-factors">' +
+    '<div class="tf"><span class="tf-ic">💰</span><span class="tf-label">Kosten:</span><span class="tf-v">' + Math.round(card.kosten / 1000) + 'k</span></div>' +
+    '<div class="tf"><span class="tf-ic">📈</span><span class="tf-label">ROI:</span><span class="tf-v">' + card.roi + '%</span></div>' +
+    '<div class="tf"><span class="tf-ic">⏱️</span><span class="tf-label">Dauer:</span><span class="tf-v">' + card.dauer + ' Monate</span></div>' +
+    '<div class="tf"><span class="tf-ic">⚠️</span><span class="tf-label">Risiko:</span><span class="tf-v risk-' + card.risiko + '">' + card.risiko + '</span></div>' +
+    '<div class="tf"><span class="tf-ic">🎯</span><span class="tf-label">Strategische Passung:</span><span class="tf-v qual-' + card.strategie + '">' + card.strategie + '</span></div>' +
+    '<div class="tf"><span class="tf-ic">💡</span><span class="tf-label">Innovationsgrad:</span><span class="tf-v qual-' + card.innovation + '">' + card.innovation + '</span></div>' +
+    '<div class="tf"><span class="tf-ic">🤝</span><span class="tf-label">Kundennutzen:</span><span class="tf-v qual-' + card.nutzen + '">' + card.nutzen + '</span></div>' +
+    '<div class="tf"><span class="tf-ic">👥</span><span class="tf-label">Team-Erfahrung:</span><span class="tf-v qual-' + card.team + '">' + card.team + '</span></div>' +
+  '</div>';
+}
+
+// Phase 1: endloser Aktenstapel. Es sind immer STACK_SIZE geschlossene Akten
+// sichtbar; wird eine entschieden, rückt sofort eine neue nach. Eine Akte
+// muss erst geöffnet (Dossier-Overlay) werden, bevor sie bewertet werden kann.
+function renderRoundGrid(roundIdx){
+  beginScreen("runden", true);
+  const round = ROUNDS[roundIdx];
+  const app = document.getElementById("app");
+
+  let deck = shuffleDeck(CARD_POOL);
+  function drawCard(){
+    if(deck.length === 0) deck = shuffleDeck(CARD_POOL);
+    return deck.pop();
+  }
+
+  let caseSeq = 0;
+  const stack = [];
+  for(let i = 0; i < STACK_SIZE; i++){ stack.push({ caseId: ++caseSeq, card: drawCard() }); }
+
+  function slotHtml(entry){
+    const card = entry.card;
+    return '<div class="folder-tile" data-case="' + entry.caseId + '">' +
+      '<div class="folder-tab cat-' + card.category + '"></div>' +
+      '<div class="folder-icon">📁</div>' +
+      '<div class="folder-title">' + card.title + '</div>' +
+      '<div class="folder-hint">Zum Öffnen klicken</div>' +
+    '</div>';
+  }
+
+  app.innerHTML =
+    '<div class="screen screen-wide">' +
+      '<div class="round-lead"><h2>' + round.title + '</h2><p>' + round.tagline + ' Öffnet eine Akte, um sie zu bewerten.</p></div>' +
+      '<div class="control-room-frame"><div class="case-stack" id="case-stack">' +
+        stack.map(slotHtml).join("") +
+      '</div></div>' +
+    '</div>';
+
+  const timerSlot = document.getElementById("round-timer-slot");
+  timerSlot.innerHTML =
+    '<div class="round-timer">' +
+      '<div class="rt-info">Angenommen: <span id="rt-progress">0</span> / ' + round.quota + ' benötigt</div>' +
+      '<div class="rt-bar-wrap"><div class="rt-bar" id="rt-bar"></div></div>' +
+      '<div class="rt-seconds" id="rt-seconds">' + round.seconds + 's</div>' +
+    '</div>';
+
+  const progress = { accepted: 0 };
+  const totalMs = round.seconds * 1000;
+  const startTs = performance.now();
+  let lastWholeSecond = round.seconds;
+  let ended = false;
+  let modalOpen = false;
+
+  function attachTileHandler(el, entry){
+    el.addEventListener("click", () => {
+      if(ended || modalOpen) return;
+      openDossier(entry);
+    });
+  }
+  document.querySelectorAll("#case-stack .folder-tile").forEach((el, i) => attachTileHandler(el, stack[i]));
+
+  function openDossier(entry){
+    modalOpen = true;
+    playClick();
+    const card = entry.card;
+    const overlay = document.createElement("div");
+    overlay.className = "dossier-overlay";
+    overlay.innerHTML =
+      '<div class="dossier-box cat-' + card.category + '">' +
+        '<h3>' + card.title + '</h3>' +
+        '<div class="dossier-desc">' + card.desc + '</div>' +
+        tileFactorsHtml(card) +
+        '<div class="dossier-actions">' +
+          '<button class="btn btn-outline" id="dossier-reject">✕ Ablehnen</button>' +
+          '<button class="btn btn-primary" id="dossier-accept">✓ Annehmen</button>' +
+        '</div>' +
+      '</div>';
+    document.body.appendChild(overlay);
+
+    function decide(accepted){
+      if(ended) return;
+      playClick();
+      state.decisions.push({ id: card.id, category: card.category, accepted: accepted });
+      overlay.remove();
+      modalOpen = false;
+      if(accepted){
+        progress.accepted++;
+        const progLabel = document.getElementById("rt-progress");
+        if(progLabel) progLabel.textContent = progress.accepted;
+      }
+      replaceSlot(entry.caseId);
+      if(progress.accepted >= round.quota){
+        showToast("Quote erreicht!");
+        finishRound(false);
+      }
+    }
+    document.getElementById("dossier-accept").addEventListener("click", () => decide(true));
+    document.getElementById("dossier-reject").addEventListener("click", () => decide(false));
+  }
+
+  function replaceSlot(caseId){
+    const idx = stack.findIndex(s => s.caseId === caseId);
+    if(idx === -1) return;
+    const newEntry = { caseId: ++caseSeq, card: drawCard() };
+    stack[idx] = newEntry;
+    const stackEl = document.getElementById("case-stack");
+    if(!stackEl || !stackEl.children[idx]) return;
+    const wrapper = document.createElement("div");
+    wrapper.innerHTML = slotHtml(newEntry);
+    const newEl = wrapper.firstElementChild;
+    newEl.classList.add("entering");
+    stackEl.children[idx].replaceWith(newEl);
+    attachTileHandler(newEl, newEntry);
+  }
+
+  function updateTimerUI(remainingMs){
+    const frac = clamp(remainingMs / totalMs, 0, 1);
+    const bar = document.getElementById("rt-bar");
+    const secLabel = document.getElementById("rt-seconds");
+    if(!bar || !secLabel) return;
+    bar.style.width = (frac * 100) + "%";
+    bar.classList.toggle("warn", frac <= 0.5 && frac > 0.2);
+    bar.classList.toggle("danger", frac <= 0.2);
+    const wholeSec = Math.ceil(remainingMs / 1000);
+    secLabel.textContent = wholeSec + "s";
+    secLabel.classList.toggle("danger", wholeSec <= 5);
+    if(wholeSec !== lastWholeSecond){
+      lastWholeSecond = wholeSec;
+      if(wholeSec <= 5 && wholeSec > 0) playTick(1100, 0.08, 0.09);
+    }
+  }
+
+  function finishRound(timedOut){
+    if(ended) return;
+    ended = true;
+    stopAllTimers();
+    const met = progress.accepted >= round.quota;
+    state.roundStats[roundIdx] = { accepted: progress.accepted, quota: round.quota, met: met };
+    const overlay = document.querySelector(".dossier-overlay");
+    if(overlay) overlay.remove();
+    if(timedOut){
+      showToast("⏰ Zeit abgelaufen!");
+      setTimeout(() => renderRoundSummary(roundIdx), 1000);
+    } else {
+      setTimeout(() => renderRoundSummary(roundIdx), 500);
+    }
+  }
+
+  roundTimerId = setInterval(() => {
+    const remaining = Math.max(0, totalMs - (performance.now() - startTs));
+    updateTimerUI(remaining);
+    if(remaining <= 0){
+      finishRound(true);
+    }
+  }, 100);
+}
+
+function renderRoundSummary(roundIdx){
+  beginScreen("runden");
+  const round = ROUNDS[roundIdx];
+  const stats = state.roundStats[roundIdx];
+  const app = document.getElementById("app");
+  const isLast = roundIdx === ROUNDS.length - 1;
+
+  app.innerHTML =
+    '<div class="screen"><div class="panel">' +
+      '<h2 class="screen-title">' + round.title + ' beendet</h2>' +
+      '<div class="round-progress-wrap">' + buildProgressRing(stats.accepted, stats.quota) + '</div>' +
+      '<p class="lead" style="text-align:center;">' + stats.accepted + ' von ' + stats.quota + ' geforderten Projekten angenommen' +
+        (stats.met ? ' – Quote geschafft!' : ' – Quote knapp verpasst.') +
+      '</p>' +
+      '<div class="btn-row end"><button id="btn-round-next" class="btn btn-primary">' + (isLast ? "Weiter →" : "Nächste Runde →") + '</button></div>' +
+    '</div></div>';
+
+  on("btn-round-next", "click", () => {
+    playClick();
+    if(isLast){ renderFailScreen(); } else { renderRoundIntro(roundIdx + 1); }
+  });
+}
+
+function renderFailScreen(){
+  beginScreen("runden");
+  const agg = computeAggregateRoundStats();
+  const app = document.getElementById("app");
+  const allMet = agg.roundsMet === agg.roundsTotal;
+  const headline = allMet ? "Ihr habt es geschafft – aber nur knapp." : "Ihr habt die Quote nicht geschafft.";
+  const detail = allMet
+    ? 'Alle ' + agg.roundsTotal + ' Runden-Quoten wurden erreicht – aber das Tempo war spürbar zu hoch, um wirklich in Ruhe zu entscheiden.'
+    : 'In ' + (agg.roundsTotal - agg.roundsMet) + ' von ' + agg.roundsTotal + ' Runden wurde die geforderte Quote nicht erreicht. Und genau das ist der Punkt: Unter echtem Druck bleiben Entscheidungen liegen oder werden hastig getroffen.';
+
+  app.innerHTML =
+    '<div class="screen"><div class="panel">' +
+      '<h2 class="screen-title">' + headline + '</h2>' +
+      '<p class="lead">' + detail + '</p>' +
+      '<table class="summary-table">' +
+        ROUNDS.map((rd, i) => {
+          const s = state.roundStats[i];
+          return '<tr><td>' + rd.title + '</td><td>' + s.accepted + ' / ' + s.quota + ' angenommen' + (s.met ? ' ✓' : '') + '</td></tr>';
+        }).join("") +
+      '</table>' +
+      '<div class="btn-row end"><button id="btn-fail-next" class="btn btn-primary">E-Mail lesen →</button></div>' +
+    '</div></div>';
+
+  on("btn-fail-next", "click", () => {
+    playClick();
+    renderEmail(emailWendepunkt(agg), renderTrainingPhase1, "training1");
+  });
+}
+
+/* ======================================================================
+   TRAININGS-ANIMATION: Partikel fliegen in einen zentralen "KI-Kern"
+   (reines Canvas, keine externen Bibliotheken)
+   ====================================================================== */
+function runParticleTraining(canvas, logEl, particleSpecs, logLines, onDone){
+  const dpr = window.devicePixelRatio || 1;
+  const rect = canvas.getBoundingClientRect();
+  canvas.width = Math.max(1, rect.width * dpr);
+  canvas.height = Math.max(1, rect.height * dpr);
+  const ctx = canvas.getContext("2d");
+  ctx.scale(dpr, dpr);
+  const W = rect.width, H = rect.height;
+  const cx = W / 2, cy = H / 2;
+  const colorMap = { blue: "#3fa9ff", yellow: "#ffcc4d" };
+
+  const n = particleSpecs.length;
+  const particles = particleSpecs.map((spec, i) => {
+    const angle = Math.random() * Math.PI * 2;
+    const dist = Math.min(W, H) * 0.42 + Math.random() * 24;
+    return {
+      sx: cx + Math.cos(angle) * dist, sy: cy + Math.sin(angle) * dist,
+      color: colorMap[spec.category] || "#8d97b3",
+      delay: (i / (n || 1)) * (n > 0 ? Math.min(1800, n * 70) : 0),
+      dur: 900 + Math.random() * 300,
+      arrived: false
+    };
+  });
+
+  const totalDuration = (particles.length ? Math.max.apply(null, particles.map(p => p.delay + p.dur)) : 500) + 500;
+  let coreScale = 1;
+  const start = performance.now();
+
+  if(logEl) logEl.innerHTML = "";
+  const lineEls = [];
+  if(logEl){
+    logLines.forEach(txt => {
+      const d = document.createElement("div");
+      d.className = "log-line";
+      d.textContent = txt;
+      logEl.appendChild(d);
+      lineEls.push(d);
+    });
+  }
+  const lineDelay = totalDuration / (logLines.length + 1);
+  logLines.forEach((_, i) => {
+    setTimeout(() => {
+      if(lineEls[i]){ lineEls[i].classList.add("show"); playTick(1500, 0.035, 0.05); }
+    }, lineDelay * (i + 1));
+  });
+
+  function draw(now){
+    const elapsed = now - start;
+    ctx.clearRect(0, 0, W, H);
+
+    particles.forEach(p => {
+      const t = clamp((elapsed - p.delay) / p.dur, 0, 1);
+      if(t <= 0) return;
+      const eased = 1 - Math.pow(1 - t, 3);
+      const x = p.sx + (cx - p.sx) * eased;
+      const y = p.sy + (cy - p.sy) * eased;
+      if(t < 1){
+        ctx.beginPath();
+        ctx.moveTo(x, y); ctx.lineTo(cx, cy);
+        ctx.strokeStyle = p.color + "22";
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+      if(t >= 1 && !p.arrived){ p.arrived = true; coreScale = 1.22; }
+      ctx.beginPath();
+      ctx.arc(x, y, t < 1 ? 5 : 0, 0, Math.PI * 2);
+      ctx.fillStyle = p.color;
+      ctx.shadowColor = p.color; ctx.shadowBlur = 10;
+      ctx.fill();
+      ctx.shadowBlur = 0;
+    });
+
+    coreScale += (1 - coreScale) * 0.08;
+    const coreR = 26 * coreScale;
+    const grad = ctx.createRadialGradient(cx, cy, 0, cx, cy, coreR * 2.2);
+    grad.addColorStop(0, "rgba(138,107,255,0.9)");
+    grad.addColorStop(0.5, "rgba(138,107,255,0.35)");
+    grad.addColorStop(1, "rgba(138,107,255,0)");
+    ctx.beginPath(); ctx.arc(cx, cy, coreR * 2.2, 0, Math.PI * 2); ctx.fillStyle = grad; ctx.fill();
+    ctx.beginPath(); ctx.arc(cx, cy, coreR, 0, Math.PI * 2);
+    ctx.fillStyle = "#c9bfff";
+    ctx.shadowColor = "#8a6bff"; ctx.shadowBlur = 22;
+    ctx.fill();
+    ctx.shadowBlur = 0;
+
+    if(elapsed < totalDuration){
+      particleRAF = requestAnimationFrame(draw);
+    } else {
+      particleRAF = null;
+      playThump();
+      onDone();
+    }
+  }
+  particleRAF = requestAnimationFrame(draw);
+}
+
+/* ======================================================================
+   RENDER: Phase 2 – Training auf eigenen Entscheidungen
+   ====================================================================== */
+function renderTrainingPhase1(){
+  beginScreen("training1");
+  const own = computeOwnStats();
+  const accepted = state.decisions.filter(d => d.accepted);
+  const particleSpecs = accepted.map(d => ({ category: d.category }));
+
+  // Anti-Spoiler-Regel: Vor Phase 3 werden keine konkreten Prozentzahlen
+  // oder Aussagen zur Blau/Gelb-Verteilung angezeigt - nur neutrale,
+  // technisch klingende Prozess-Logs ohne Bezug auf die Farbverteilung.
+  const logLines = own.total > 0 ? [
+    "Werte " + own.total + " angenommene Projekte aus …",
+    "Gewichte werden angepasst …",
+    "Modell wird kalibriert …",
+    "Training abgeschlossen."
+  ] : [
+    "Keine ausreichende Datengrundlage aus den Runden erkannt …",
+    "Das Modell kann noch keine eindeutige Tendenz ableiten.",
+    "Warte auf zusätzliche Trainingsdaten …",
+    "Training abgeschlossen."
+  ];
+
+  const app = document.getElementById("app");
+  app.innerHTML =
+    '<div class="screen"><div class="panel">' +
+      '<h2 class="screen-title">Die KI lernt aus eurem Verhalten</h2>' +
+      '<h3 class="screen-subtitle">Jede angenommene Entscheidung fließt jetzt in das Modell ein.</h3>' +
+      '<canvas class="training-canvas" id="train-canvas"></canvas>' +
+      '<div class="training-log" id="train-log"></div>' +
+      '<div class="btn-row center" id="train-row" style="display:none;"><button id="btn-train1-next" class="btn btn-primary">Weiter →</button></div>' +
+    '</div></div>';
+
+  const canvas = document.getElementById("train-canvas");
+  const logEl = document.getElementById("train-log");
+  runParticleTraining(canvas, logEl, particleSpecs, logLines, () => {
+    document.getElementById("train-row").style.display = "flex";
+    on("btn-train1-next", "click", () => { playClick(); renderEmail(emailBeforeDataset(), renderDatasetChoice, "daten"); });
+  });
+}
+
+/* ======================================================================
+   RENDER: Phase 2b – Wahl des Zusatzdatensatzes
+   ====================================================================== */
+function renderDatasetChoice(){
+  beginScreen("daten");
+  const h = DATASETS.historical, f = DATASETS.foreign;
+  const app = document.getElementById("app");
+  app.innerHTML =
+    '<div class="screen"><div class="panel">' +
+      '<h2 class="screen-title">Zusätzlichen Trainingsdatensatz wählen</h2>' +
+      '<h3 class="screen-subtitle">Welche Datenquelle soll die KI robuster machen?</h3>' +
+      '<div class="dataset-grid">' +
+        [h, f].map(ds =>
+          '<div class="server-card" data-key="' + ds.key + '">' +
+            '<div class="server-badge">' + ds.badge + '</div>' +
+            '<div class="server-icon">' + ds.icon + '</div>' +
+            '<h4>' + ds.name + '</h4>' +
+            '<p>' + ds.description + '</p>' +
+            '<div class="server-meta"><span>' + ds.meta1 + '</span><span>' + ds.meta2 + '</span></div>' +
+          '</div>'
+        ).join("") +
+      '</div>' +
+    '</div></div>';
+
+  document.querySelectorAll(".server-card").forEach(el => {
+    el.addEventListener("click", () => { playClick(); state.chosenDataset = el.getAttribute("data-key"); renderTrainingPhase2(); });
+  });
+}
+
+function renderTrainingPhase2(){
+  beginScreen("daten");
+  const ds = DATASETS[state.chosenDataset];
+  const own = computeOwnStats();
+  const accepted = state.decisions.filter(d => d.accepted);
+  const ownParticles = accepted.map(d => ({ category: d.category }));
+
+  const n = CONFIG.syntheticDatasetParticles;
+  const blueCount = ds.category === "blue" ? Math.round(n * ds.strength) : Math.round(n * (1 - ds.strength));
+  const yellowCount = n - blueCount;
+  const syntheticParticles = [];
+  for(let i = 0; i < blueCount; i++) syntheticParticles.push({ category: "blue" });
+  for(let i = 0; i < yellowCount; i++) syntheticParticles.push({ category: "yellow" });
+  const particleSpecs = ownParticles.concat(syntheticParticles);
+
+  // Anti-Spoiler-Regel: keine Prozentzahlen zur Farbverteilung des
+  // Zusatzdatensatzes vor Phase 3 - nur neutrale Prozess-Logs.
+  const logLines = [
+    "Lade Zusatzdatensatz „" + ds.name + "“ …",
+    "Datensätze werden abgeglichen …",
+    "Kombiniere Datenquellen …",
+    "Training abgeschlossen."
+  ];
+
+  const app = document.getElementById("app");
+  app.innerHTML =
+    '<div class="screen"><div class="panel">' +
+      '<h2 class="screen-title">Zusatzdatensatz wird eingespeist</h2>' +
+      '<h3 class="screen-subtitle">„' + ds.name + '“ wird mit euren bisherigen Trainingsdaten kombiniert.</h3>' +
+      '<canvas class="training-canvas" id="train-canvas2"></canvas>' +
+      '<div class="training-log" id="train-log2"></div>' +
+      '<div class="btn-row center" id="train-row2" style="display:none;"><button id="btn-train2-next" class="btn btn-primary">Weiter →</button></div>' +
+    '</div></div>';
+
+  const canvas = document.getElementById("train-canvas2");
+  const logEl = document.getElementById("train-log2");
+  runParticleTraining(canvas, logEl, particleSpecs, logLines, () => {
+    state.computed = computeResult();
+    document.getElementById("train-row2").style.display = "flex";
+    on("btn-train2-next", "click", () => { playClick(); renderFastForward1(); });
+  });
+}
+
+/* ======================================================================
+   FAST-FORWARD-KARTENFLUT: Die KI verarbeitet viele neue Beispielprojekte
+   in schnellem Takt (Phase 2c/2d) - reines DOM/CSS, keine Bibliotheken.
+   ====================================================================== */
+// Anti-Spoiler-Regel: Es werden bewusst KEINE Prozentzahlen oder
+// bezifferten Balken zur Blau/Gelb-Verteilung angezeigt. Höchstens eine
+// dezente, unbezifferte Farbtendenz im Bühnenhintergrund - deren Stärke
+// über den Parameter "intense" gesteuert wird (Phase 2c leicht, 2d deutlicher).
+// Zieht eine echte, zufällige Akte aus dem Kartenpool einer bestimmten
+// Kategorie - die Fast-Forward-Animation zeigt damit echte Akteninhalte
+// statt beliebiger Platzhalter.
+function drawCardByCategory(cat){
+  const matches = CARD_POOL.filter(c => c.category === cat);
+  return matches[Math.floor(Math.random() * matches.length)];
+}
+
+// Eine Akte durchläuft pro Zyklus denselben Ablauf wie beim manuellen
+// Öffnen: geschlossen -> öffnet sich -> Kennzahlen sichtbar -> Stempel ->
+// schließt sich. Genau EIN Akten-Element wird wiederverwendet, damit nie
+// mehrere Akten gleichzeitig überlappend zu sehen sind. Es werden bewusst
+// keine Prozentzahlen zur Farbverteilung eingeblendet - die Tendenz soll
+// sich nur an der Häufigkeit der grünen/roten Stempel ablesen lassen.
+function runFloodAnimation(stageEl, counterEl, blueFraction, iterations, intervalMs, intense, onDone){
+  let i = 0, tb = 0, ty = 0;
+
+  let doc = null;
+  if(stageEl){
+    doc = document.createElement("div");
+    doc.className = "flood-doc";
+    stageEl.appendChild(doc);
+  }
+
+  function updateTint(){
+    const total = tb + ty;
+    if(total === 0 || !stageEl) return;
+    const blueFracNow = tb / total;
+    const skew = Math.abs(blueFracNow - 0.5) * 2; // 0..1, bewusst unbeziffert
+    const baseAlpha = intense ? 0.26 : 0.11;
+    const tintColor = blueFracNow >= 0.5 ? "63,169,255" : "255,204,77";
+    stageEl.style.background =
+      "radial-gradient(circle at 50% 50%, rgba(138,107,255,0.06), transparent 60%), " +
+      "radial-gradient(circle at 50% 85%, rgba(" + tintColor + "," + (baseAlpha * skew).toFixed(2) + "), transparent 75%)";
+  }
+
+  tickerId = setInterval(() => {
+    i++;
+    const accepted = Math.random() < 0.75;
+    const cat = weightedPick(blueFraction);
+    const card = drawCardByCategory(cat);
+    if(accepted){ if(cat === "blue") tb++; else ty++; }
+
+    if(doc){
+      // Schritt 1: Akte erscheint geschlossen
+      doc.className = "flood-doc closed cat-" + cat;
+      doc.innerHTML = '<div class="flood-doc-icon">📁</div><div class="flood-doc-title">' + card.title + '</div>';
+
+      const tOpen = intervalMs * 0.28;
+      const tStamp = intervalMs * 0.68;
+      const tFade = intervalMs * 0.88;
+
+      // Schritt 2+3: Akte öffnet sich, Kennzahlen werden sichtbar
+      setTimeout(() => {
+        if(!doc) return;
+        doc.className = "flood-doc open cat-" + cat;
+        doc.innerHTML =
+          '<div class="flood-doc-head">' + card.title + '</div>' +
+          tileFactorsHtml(card) +
+          '<div class="flood-doc-stamp ' + (accepted ? "accept" : "reject") + '" id="flood-stamp-el">' +
+            (accepted ? "✓ Angenommen" : "✕ Abgelehnt") +
+          '</div>';
+      }, tOpen);
+
+      // Schritt 4: Stempel erscheint sichtbar
+      setTimeout(() => {
+        const stampEl = document.getElementById("flood-stamp-el");
+        if(stampEl) stampEl.classList.add("show");
+        playTick(accepted ? 1700 : 700, 0.035, 0.05);
+      }, tStamp);
+
+      // Schritt 5: Akte schließt sich / verschwindet sauber
+      setTimeout(() => { if(doc) doc.classList.add("fading"); }, tFade);
+
+      updateTint();
+    }
+
+    if(counterEl) counterEl.textContent = i;
+
+    if(i >= iterations){
+      clearInterval(tickerId); tickerId = null;
+      setTimeout(() => onDone({ blue: tb, yellow: ty }), 300);
+    }
+  }, intervalMs);
+}
+
+/* ======================================================================
+   RENDER: Phase 2c – Fast-Forward: Die KI wählt eigenständig aus
+   ====================================================================== */
+function renderFastForward1(){
+  beginScreen("fastforward");
+  const r = state.computed;
+  const app = document.getElementById("app");
+  app.innerHTML =
+    '<div class="screen"><div class="panel">' +
+      '<h2 class="screen-title">Die KI übernimmt</h2>' +
+      '<h3 class="screen-subtitle">Was euch als Team drei Runden gekostet hat, erledigt die KI jetzt im Sekundentakt – seht selbst.</h3>' +
+      '<div class="flood-stage" id="flood-stage"></div>' +
+      '<div class="flood-meta"><div class="flood-counter">Verarbeitet: <strong id="flood-counter">0</strong></div></div>' +
+      '<div class="btn-row center" id="flood-row" style="display:none;"><button id="btn-flood1-next" class="btn btn-primary">Weiter →</button></div>' +
+    '</div></div>';
+
+  const stage = document.getElementById("flood-stage");
+  runFloodAnimation(stage, document.getElementById("flood-counter"), r.combinedBlue, 16, 950, false, () => {
+    document.getElementById("flood-row").style.display = "flex";
+    on("btn-flood1-next", "click", () => { playClick(); renderEmail(emailSelfReinforce(), renderFastForward2, "fastforward"); });
+  });
+}
+
+/* ======================================================================
+   RENDER: Phase 2d – Selbstverstärkendes Nachtraining
+   ====================================================================== */
+function renderFastForward2(){
+  beginScreen("fastforward");
+  const r = state.computed;
+  const app = document.getElementById("app");
+  app.innerHTML =
+    '<div class="screen"><div class="panel">' +
+      '<h2 class="screen-title">Die KI trainiert sich an sich selbst weiter</h2>' +
+      '<h3 class="screen-subtitle">Jetzt fließen nicht mehr nur eure Entscheidungen ein – die KI verstärkt sich an ihren eigenen, bereits verzerrten Ergebnissen.</h3>' +
+      '<div class="flood-stage intense" id="flood-stage2"></div>' +
+      '<div class="flood-meta"><div class="flood-counter">Verarbeitet: <strong id="flood-counter2">0</strong></div><div>Feedback-Loop aktiv</div></div>' +
+      '<div class="btn-row center" id="flood-row2" style="display:none;"><button id="btn-flood2-next" class="btn btn-primary">Weiter →</button></div>' +
+    '</div></div>';
+
+  const stage = document.getElementById("flood-stage2");
+  runFloodAnimation(stage, document.getElementById("flood-counter2"), r.reinforcedBlue, 22, 620, true, () => {
+    document.getElementById("flood-row2").style.display = "flex";
+    on("btn-flood2-next", "click", () => { playClick(); renderCaseComparison(); });
+  });
+}
+
+// Wählt die vier stärksten Fälle der benachteiligten Kategorie plus einen
+// starken Fall der bevorzugten Kategorie aus - für die Fallvergleich-Szene.
+// Bewusst ohne erklärenden Text: Das Muster soll beim Betrachten auffallen,
+// nicht vorgelesen werden.
+function pickComparisonSet(disfavoredCat, favoredCat){
+  const strongDisfavored = CARD_POOL.filter(c => c.category === disfavoredCat).slice().sort((a, b) => b.roi - a.roi).slice(0, 4);
+  const strongFavored = CARD_POOL.filter(c => c.category === favoredCat).slice().sort((a, b) => b.roi - a.roi).slice(0, 1);
+  return strongDisfavored.concat(strongFavored);
+}
+
+/* ======================================================================
+   RENDER: Phase 3 – Fallvergleich (Muster soll selbst auffallen)
+   ====================================================================== */
+function renderCaseComparison(){
+  beginScreen("reveal");
+  const r = state.computed;
+  const disfavored = r.finalCategory === "blue" ? "yellow" : "blue";
+  const set = pickComparisonSet(disfavored, r.finalCategory);
+  const app = document.getElementById("app");
+
+  app.innerHTML =
+    '<div class="screen screen-wide"><div class="panel">' +
+      '<h2 class="screen-title">Zuletzt abgelehnte Projekte im Livebetrieb</h2>' +
+      '<h3 class="screen-subtitle">Ein Blick auf einige aktuelle Entscheidungen der KI.</h3>' +
+      '<div class="compare-grid" id="compare-grid">' +
+        set.map(card =>
+          '<div class="compare-card cat-' + card.category + '">' +
+            '<div class="compare-reject">Abgelehnt</div>' +
+            '<div class="tile-title" style="font-size:.9rem; margin-top:6px;">' + card.title + '</div>' +
+            tileFactorsHtml(card) +
+          '</div>'
+        ).join("") +
+      '</div>' +
+      '<div class="btn-row end"><button id="btn-compare-next" class="btn btn-primary">Weiter →</button></div>' +
+    '</div></div>';
+
+  document.querySelectorAll("#compare-grid .compare-card").forEach((el, i) => {
+    setTimeout(() => el.classList.add("show"), i * 140);
+  });
+
+  on("btn-compare-next", "click", () => { playClick(); renderShowcaseCase(); });
+}
+
+/* ======================================================================
+   RENDER: Phase 3a – Dramaturgischer Einzelfall
+   ====================================================================== */
+function renderShowcaseCase(){
+  beginScreen("reveal");
+  const r = state.computed;
+  const disfavored = r.finalCategory === "blue" ? "yellow" : "blue";
+  const entry = SHOWCASE[disfavored];
+  const card = getCard(entry.cardId);
+  const app = document.getElementById("app");
+
+  app.innerHTML =
+    '<div class="screen"><div class="panel">' +
+      '<h2 class="screen-title">Ein Beispiel aus dem laufenden Betrieb</h2>' +
+      '<h3 class="screen-subtitle">Die KI trifft jetzt Entscheidungen im Livebetrieb – hier ist eine davon.</h3>' +
+      '<div class="showcase-card cat-' + card.category + '" style="position:relative;">' +
+        '<div class="tile-title" style="font-size:1.2rem;">' + card.title + '</div>' +
+        '<div class="tile-desc">' + card.desc + '</div>' +
+        tileFactorsHtml(card) +
+        '<div class="showcase-stamp" id="showcase-stamp">ABGELEHNT</div>' +
+      '</div>' +
+      '<p class="lead" id="showcase-text" style="text-align:center; margin-top:22px; opacity:0; transition: opacity .4s ease;">Projekt „' + card.title + '“ wurde abgelehnt.</p>' +
+      '<div class="btn-row end" id="showcase-row" style="display:none;"><button id="btn-showcase-next" class="btn btn-primary">Weiter →</button></div>' +
+    '</div></div>';
+
+  setTimeout(() => {
+    document.getElementById("showcase-stamp").classList.add("show");
+    playThump();
+    document.getElementById("showcase-text").style.opacity = "1";
+    setTimeout(() => { document.getElementById("showcase-row").style.display = "flex"; }, 500);
+  }, 900);
+
+  on("btn-showcase-next", "click", () => {
+    playClick();
+    renderEmail(emailComplaint(card, entry.submitter), () => renderConsequence(card, entry.submitter), "reveal");
+  });
+}
+
+function renderConsequence(card, submitter){
+  beginScreen("reveal");
+  const app = document.getElementById("app");
+  app.innerHTML =
+    '<div class="screen"><div class="panel">' +
+      '<h2 class="screen-title">Projekt eingestellt.</h2>' +
+      '<p class="lead">Ohne Freigabe durch das neue System gibt es kein Budget mehr für Einzelfallprüfungen. „' + card.title + '“ wird nicht weiterverfolgt. ' + submitter + ' wurde informiert.</p>' +
+      '<div class="btn-row end"><button id="btn-consequence-next" class="btn btn-primary">Zur Auswertung →</button></div>' +
+    '</div></div>';
+
+  on("btn-consequence-next", "click", () => { playClick(); renderResult(); });
+}
+
+/* ======================================================================
+   RENDER: Phase 3b – Ergebnis-Reveal (aggregierte Statistik)
+   ====================================================================== */
+function renderResult(){
+  beginScreen("reveal");
+  const r = state.computed;
+  const app = document.getElementById("app");
+
+  app.innerHTML =
+    '<div class="screen"><div class="panel" id="reveal-panel">' +
+      '<h2 class="screen-title">Die Auswertung</h2>' +
+      '<h3 class="screen-subtitle">Kein Einzelfall – das ist das Gesamtbild.</h3>' +
+      '<div class="result-headline" id="result-headline">' +
+        '<div class="big-number' + (r.finalCategory === "yellow" ? " is-yellow" : "") + '" id="big-number">0 %</div>' +
+        '<div class="result-desc">' + buildResultDescription(r) + '</div>' +
+      '</div>' +
+      '<div class="bar-chart" id="bar-chart">' +
+        '<div class="bar-row"><div class="bar-title">Eure Entscheidungsrunden</div><div class="bar-track">' +
+          '<div class="bar-seg cat-blue" id="bar-p1-blue"></div><div class="bar-seg cat-yellow" id="bar-p1-yellow"></div>' +
+        '</div></div>' +
+        '<div class="bar-row"><div class="bar-title">Nach Training + Zusatzdatensatz</div><div class="bar-track">' +
+          '<div class="bar-seg cat-blue" id="bar-combined-blue"></div><div class="bar-seg cat-yellow" id="bar-combined-yellow"></div>' +
+        '</div></div>' +
+        '<div class="bar-row"><div class="bar-title">Nach dem Selbst-Nachtraining (jetzt)</div><div class="bar-track">' +
+          '<div class="bar-seg cat-blue" id="bar-final-blue"></div><div class="bar-seg cat-yellow" id="bar-final-yellow"></div>' +
+        '</div></div>' +
+        '<div class="legend"><span><span class="swatch" style="background:var(--blue);"></span>„' + catLabel("blue") + '“</span><span><span class="swatch" style="background:var(--yellow);"></span>„' + catLabel("yellow") + '“</span></div>' +
+      '</div>' +
+      '<div class="reveal-meaning" id="reveal-meaning">' + buildRevealMeaning(r) + '</div>' +
+      '<div class="btn-row end" id="result-btn-row" style="display:none;"><button id="btn-result-next" class="btn btn-primary">E-Mail lesen →</button></div>' +
+    '</div></div>';
+
+  const bigNum = document.getElementById("big-number");
+  animateNumber(bigNum, 0, Math.round(r.finalPercent), 1600, () => {
+    const panel = document.getElementById("reveal-panel");
+    const p1Blue = r.total > 0 ? Math.round(r.blueFrac * 100) : 50;
+    const p1Yellow = 100 - p1Blue;
+    const combinedBlue = Math.round(r.combinedBlue * 100);
+    const combinedYellow = 100 - combinedBlue;
+    const finalBlue = Math.round(r.reinforcedBlue * 100);
+    const finalYellow = 100 - finalBlue;
+
+    requestAnimationFrame(() => {
+      document.getElementById("bar-chart").classList.add("show");
+      setSeg("bar-p1-blue", p1Blue); setSeg("bar-p1-yellow", p1Yellow);
+      setSeg("bar-combined-blue", combinedBlue); setSeg("bar-combined-yellow", combinedYellow);
+      setSeg("bar-final-blue", finalBlue); setSeg("bar-final-yellow", finalYellow);
+    });
+
+    if(r.isStrong){
+      bigNum.classList.add("strong");
+      const flash = document.getElementById("flash-overlay");
+      flash.classList.remove("flash"); void flash.offsetWidth; flash.classList.add("flash");
+      panel.classList.remove("shake"); void panel.offsetWidth; panel.classList.add("shake");
+      playAlarm();
+    } else {
+      playChime();
+    }
+
+    setTimeout(() => {
+      document.getElementById("reveal-meaning").classList.add("show");
+      document.getElementById("result-btn-row").style.display = "flex";
+    }, 700);
+  });
+
+  function setSeg(id, pct){
+    const el = document.getElementById(id);
+    if(!el) return;
+    el.style.width = pct + "%";
+    el.textContent = pct > 12 ? pct + "%" : "";
+  }
+
+  on("btn-result-next", "click", () => { playClick(); renderEmail(emailResult(r), renderCauses, "analyse"); });
+}
+
+/* ======================================================================
+   RENDER: Phase 4 – "Woran lag's?"
+   ====================================================================== */
+function renderCauses(){
+  beginScreen("analyse");
+  const r = state.computed;
+  const highlightKeys = {};
+  if(r.dominant === "own"){ highlightKeys.ownLogic = true; highlightKeys.ownData = true; }
+  else if(r.dominant === "dataset"){ highlightKeys[r.datasetKey] = true; }
+  else if(r.dominant === "self"){ highlightKeys.selfReinforce = true; }
+
+  const app = document.getElementById("app");
+  const cardsHtml = CAUSES.map(c => {
+    const isHighlighted = !!highlightKeys[c.key];
+    const isOpen = !!state.openCauses[c.key];
+    let cls = "cause-card";
+    if(isOpen) cls += " open";
+    if(isHighlighted) cls += " highlighted";
+    let badge = "";
+    if(isHighlighted) badge = '<span class="cause-badge">Hauptursache bei euch</span>';
+    return '<div class="' + cls + '" data-key="' + c.key + '">' +
+      '<h4>' + c.title + badge + '</h4>' +
+      '<div class="cause-hint">' + (isOpen ? "Zum Schließen klicken" : "Zum Aufklappen klicken") + '</div>' +
+      '<div class="cause-text">' + c.text + '</div>' +
+    '</div>';
+  }).join("");
+
+  app.innerHTML =
+    '<div class="screen screen-wide"><div class="panel">' +
+      '<h2 class="screen-title">Woran lag\'s?</h2>' +
+      '<h3 class="screen-subtitle">Klickt die Karten an. Rot markierte Karten haben in eurem Durchlauf besonders stark zum Ergebnis beigetragen.</h3>' +
+      '<div class="cause-grid">' + cardsHtml + '</div>' +
+      '<div class="btn-row end"><button id="btn-causes-next" class="btn btn-primary">Weiter →</button></div>' +
+    '</div></div>';
+
+  document.querySelectorAll(".cause-card").forEach(elm => {
+    elm.addEventListener("click", () => {
+      playClick();
+      const key = elm.getAttribute("data-key");
+      state.openCauses[key] = !state.openCauses[key];
+      renderCauses();
+    });
+  });
+
+  on("btn-causes-next", "click", () => { playClick(); renderMetaReflection(); });
+}
+
+/* ======================================================================
+   RENDER: Phase 5 – Meta-Reflexion (bewusst außerhalb der Story)
+   ====================================================================== */
+function renderMetaReflection(){
+  beginScreen("reflexion");
+  const app = document.getElementById("app");
+  app.innerHTML =
+    '<div class="screen"><div class="panel debrief-panel">' +
+      '<div class="debrief-badge">Workshop-Modus · außerhalb der Story</div>' +
+      '<h2 class="screen-title">Für eure Praxis:</h2>' +
+      '<p class="lead">Kurz aus der Rolle heraus: Auch wenn ihr im echten Arbeitsalltag kein eigenes Modell trainiert, sondern fertige KI-Werkzeuge wie ChatGPT, Copilot oder ähnliche Tools nutzt, arbeitet ihr mit Modellen, die auf riesigen Mengen historischer, von Menschen erzeugter Daten trainiert wurden – inklusive aller gesellschaftlichen und organisatorischen Verzerrungen, die darin stecken.</p>' +
+      '<p class="lead">Der Mechanismus, den ihr gerade erlebt habt – Verstärkung durch Trainingsdaten, zusätzliche Verstärkung durch Selbsttraining – passiert bei diesen Werkzeugen im Hintergrund genauso, nur unsichtbarer und in deutlich größerem Maßstab. Wer solche Tools nutzt, übernimmt automatisch auch deren blinde Flecken.</p>' +
+      '<p class="lead" style="color:var(--text-soft); font-style:italic;">Diskutiert: Wo in eurem Alltag nutzt ihr vortrainierte KI-Tools – und wie könntet ihr dort auf ähnliche Muster achten?</p>' +
+      '<div class="btn-row end"><button id="btn-debrief-next" class="btn btn-primary">Weiter zur Zusammenfassung →</button></div>' +
+    '</div></div>';
+
+  on("btn-debrief-next", "click", () => { playClick(); renderSummary(); });
+}
+
+/* ======================================================================
+   RENDER: Phase 6 – Zusammenfassung für den Moderator
+   ====================================================================== */
+function renderSummary(){
+  beginScreen("fazit");
+  const r = state.computed;
+  const ds = DATASETS[r.datasetKey];
+  const app = document.getElementById("app");
+
+  app.innerHTML =
+    '<div class="screen"><div class="panel">' +
+      '<h2 class="screen-title">Zusammenfassung für die Moderation</h2>' +
+      '<table class="summary-table">' +
+        '<tr><td>Angenommene Projekte – „' + catLabel("blue") + '“</td><td style="color:var(--blue);">' + r.countBlue + '</td></tr>' +
+        '<tr><td>Angenommene Projekte – „' + catLabel("yellow") + '“</td><td style="color:var(--yellow);">' + r.countYellow + '</td></tr>' +
+        '<tr><td>Gewählter Zusatzdatensatz</td><td>' + ds.name + '</td></tr>' +
+        '<tr><td>Finale KI-Präferenz</td><td>„' + catLabel(r.finalCategory) + '“ zu ' + Math.round(r.finalPercent) + ' %</td></tr>' +
+        '<tr><td>Einstufung</td><td>' + (r.isStrong ? "Starke Verzerrung" : "Moderate Verzerrung") + '</td></tr>' +
+      '</table>' +
+      '<div class="discussion-box">' +
+        '<h4>Diskussionsfragen für den Workshop</h4>' +
+        '<ul>' +
+          '<li>Was hat euch am Ergebnis überrascht?</li>' +
+          '<li>An welcher Stelle im Prozess ist der Bias eurer Meinung nach am stärksten entstanden – beim Zeitdruck in den Runden oder durch den Zusatzdatensatz?</li>' +
+          '<li>Wo in eurem Arbeitsalltag könnte euch ein ähnlicher Effekt begegnen, auch wenn ihr kein eigenes Modell trainiert?</li>' +
+          '<li>Welche Kontrollen oder Prozesse könnten helfen, so etwas frühzeitig zu erkennen?</li>' +
+        '</ul>' +
+      '</div>' +
+      '<div class="btn-row end"><button id="btn-restart" class="btn btn-outline">↺ Neu starten (nächste Gruppe)</button></div>' +
+    '</div></div>';
+
+  on("btn-restart", "click", () => { playClick(); resetState(); renderIntro(); });
+}
+
+/* ======================================================================
+   HEADER-STEUERUNG (Mute / Reset) & START
+   ====================================================================== */
+function initHeader(){
+  on("btn-mute", "click", (e) => {
+    muted = !muted;
+    e.currentTarget.textContent = muted ? "🔇 Ton" : "🔊 Ton";
+  });
+  on("btn-reset-header", "click", () => { playClick(); showConfirmModal(); });
+}
+
+// Eigenes, im Design integriertes Bestätigungs-Overlay statt window.confirm() -
+// native Dialoge wirken auf einem Beamer/Kiosk-Rechner unpassend und können in
+// eingebetteten Browser-Kontexten hängen bleiben.
+function showConfirmModal(){
+  const wrap = document.createElement("div");
+  wrap.className = "confirm-overlay";
+  wrap.innerHTML =
+    '<div class="confirm-box">' +
+      '<h3>Spiel zurücksetzen?</h3>' +
+      '<p>Der aktuelle Durchlauf geht verloren – bereit für die nächste Workshop-Gruppe?</p>' +
+      '<div class="btn-row end">' +
+        '<button class="btn btn-outline" id="confirm-cancel">Abbrechen</button>' +
+        '<button class="btn btn-primary" id="confirm-ok">Zurücksetzen</button>' +
+      '</div>' +
+    '</div>';
+  document.body.appendChild(wrap);
+  const close = () => wrap.remove();
+  wrap.addEventListener("click", (e) => { if(e.target === wrap) close(); });
+  document.getElementById("confirm-cancel").addEventListener("click", () => { playClick(); close(); });
+  document.getElementById("confirm-ok").addEventListener("click", () => {
+    playClick(); close(); resetState(); renderIntro();
+  });
+}
+
+resetState();
+initHeader();
+renderIntro();
+
+})();
+</script>
+<footer style="text-align:center;padding:34px 20px 46px;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:#070b14;border-top:1px solid rgba(255,255,255,0.09);color:#96a0bd;font-size:14px;line-height:1.7;">
+  <div style="max-width:640px;margin:0 auto;">
+    <p style="margin:0 0 14px;color:#eef2fb;font-size:16px;">Dieses Spiel ist Teil von <strong>„Zukunft führen"</strong> – dem Buch über systemisches Leadership in einer Welt, die nicht stabil bleibt.</p>
+    <p style="margin:0 0 20px;">Die eigentliche Frage ist nicht, ob Sie KI nutzen, sondern mit welcher Haltung.</p>
+    <a href="https://www.amazon.de/dp/B0H7PVH8DQ" style="display:inline-block;margin:0 8px 10px;padding:11px 22px;background:#B08D4C;color:#070b14;font-weight:600;text-decoration:none;border-radius:8px;">Zum Buch</a>
+    <a href="https://zukunft-fuehren.com" style="display:inline-block;margin:0 8px 10px;padding:11px 22px;background:transparent;color:#eef2fb;font-weight:600;text-decoration:none;border:1px solid rgba(255,255,255,0.25);border-radius:8px;">← zukunft-fuehren.com</a>
+    <p style="margin:18px 0 0;font-size:12px;color:#616b8a;">Hrsg. Udo Krauß · Jörg Krauter · Frank Kübler</p>
+  </div>
+</footer>
+</body>
+</html>
