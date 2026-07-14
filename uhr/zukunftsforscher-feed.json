@@ -1,17 +1,17 @@
 {
-  "datum": "2026-07-12",
-  "aktualisiert": "2026-07-12T12:30:00+02:00",
-  "index": 77,
-  "uhrzeit": "23:46",
+  "datum": "2026-07-14",
+  "aktualisiert": "2026-07-14T07:10:00+02:00",
+  "index": 78,
+  "uhrzeit": "23:47",
   "trend": "steigend",
-  "trend_delta": 2,
+  "trend_delta": 1,
   "leitsatz": "Die Uhr tickt – aber es ist noch Zeit zu handeln. Sehen kommt vor Tun.",
   "leitsignal": {
-    "titel": "Der Engpass ist nicht die Rechenleistung – es ist die Führung",
-    "quelle": "Zukunftsforscher-Trendbericht 12.07.2026 (IMF WEO Jul 2026, Gartner, Gallup 2026, KPMG/WTW, IAB, Deloitte)",
-    "befund": "Zwei sich verstärkende Kräfte an einem Tag: Die Nahost-Waffenruhe ist beendet (Brent wieder ~79 USD), der IMF senkt den Euroraum auf 0,9 % und Deutschland auf 0,7 % (2026). Zugleich KI-Beschleunigung ohne Bodenhaftung – 40 % der Unternehmens-Apps sollen bis Jahresende KI-Agenten enthalten, doch über 40 % der Agenten-Projekte scheitern bis 2027. Der gemeinsame Bruch: die Technik beschleunigt, während Menschen (globales Engagement 20 %, Deutschland nur 11 %, Manager-Engagement von 31 auf 22 % gefallen) und Demografie (Erwerbspersonenpotenzial sinkt 2026 erstmals) zurückbleiben. KI-Jobangst hat sich in einem Jahr fast verdoppelt (4 von 10).",
-    "fuehrungsimplikation": "Der Engpass der nächsten Dekade ist nicht Rechenleistung, sondern Führung, die Menschen durch den Übergang trägt. Wer FOBO nicht vor den Tools adressiert, verbrennt Budget in der Scheiterquote.",
-    "kapitel": "Kapitel 1 – Polykrise & BANI"
+    "titel": "Das Modell wird zur Commodity – der Vorteil ist die Führung",
+    "quelle": "Zukunftsforscher-Trendbericht 14.07.2026 (OpenRouter/CNBC, Gartner, IMF WEO Jul 2026, Gallup 2026, KPMG, Destatis/IAB)",
+    "befund": "Ein neues Leitmotiv verschärft die Umsetzungslücke: KI-Fähigkeit kommoditisiert schneller als erwartet. Chinesische Open-Source-Modelle erreichen inzwischen bis zu 46 % der über OpenRouter abgerechneten US-Enterprise-Token (H1/2025 erst 4,5 %) und sind 60–90 % günstiger (DeepSeek V4 Flash 0,09 USD vs. GPT-5.5 / Claude Opus 4.8 je 5,00 USD pro 1 Mio. Input-Token – rund 55:1). Frontier-Modelle erscheinen im Wochentakt (GPT-5.6 seit 09.07., Meta Muse Spark 1.1, Grok 4.5). Fazit: Der Wettbewerbsvorteil verschiebt sich von „welches Modell“ zu „welche Anwendung, welche Governance, welche Führung“ – zumal 89 % der Agenten-Pilots nie skalieren (Gartner) und das globale Engagement auf 20 % fällt, Manager-Engagement auf 22 % (Gallup, Tief seit 2020, ~10 Bio. USD Produktivitätsverlust). Wirtschaftlich: IMF senkt Deutschland auf 0,7 % (2026); Energiepreise durch Iran-Krieg/Hormus, Inflation zäh (Euro 2,8 %).",
+    "fuehrungsimplikation": "Wenn das Modell billig und austauschbar wird, entscheidet nicht die Technik, sondern die Haltung: Prozessreife, Datenqualität, klare Verantwortung, Beschaffung als Souveränitäts- und Compliance-Frage – und FOBO vor den Tools adressieren. Der Engpass ist Führung, nicht Rechenleistung. Co-Intelligenz ist eine Haltung, kein Tool.",
+    "kapitel": "Kapitel 1 – Polykrise & BANI (sekundär: AI-Mindset – Co-Intelligenz als Haltung)"
   },
   "bani": [
     {
@@ -19,46 +19,66 @@
       "dim": "Brüchig",
       "en": "Brittle",
       "wert": 82,
-      "signal": "Nahost-Waffenruhe beendet, Brent wieder ~79 USD; IMF senkt Euroraum auf 0,9 % und Deutschland auf 0,7 % (2026); Welt-Inflation 4,7 %, EZB erstmals seit drei Jahren in Zinswende (Einlagensatz 2,25 %).",
-      "quelle": "IMF WEO-Update Jul 2026 / CNBC / EZB Jun 2026",
-      "fuehrung": "Zwei-Fronten-Führung: geopolitisch/energetisch resilient planen UND KI-Adoption aktiv championen. Resilienz-Redundanz vor reiner Effizienz."
+      "signal": "Neue Bruchlinie Technologie-Blockbildung: KI-Kostenkrieg macht die Modellwahl (US-Frontier vs. chinesische Open-Modelle) zur Kosten-, Souveränitäts- und Compliance-Frage; parallel verfestigt sich die Handelsfragmentierung (EU-US-Zoll 15 % seit 01.07., USMCA nicht verlängert, Section-301 gegen Deutschland, Iran-Krieg/Hormus treibt Energiepreise). Gegenläufig nur leichte Stabilisierung (IMF Welt +3,0 %, ifo 85,6), aber Euroraum ~0,9 %, Deutschland 0,7 %.",
+      "quelle": "IMF WEO-Update Jul 2026 / CNBC-OpenRouter Jul 2026 / ifo Jun 2026",
+      "fuehrung": "Zwei-Fronten-Führung: geopolitisch/lieferketten-resilient planen (Szenario-Redundanz vor reiner Effizienz) UND KI-Beschaffung strategisch führen – nicht dem Preis allein folgen."
     },
     {
       "code": "A",
       "dim": "Ängstlich",
       "en": "Anxious",
       "wert": 80,
-      "signal": "KI-Jobangst (FOBO) fast verdoppelt in einem Jahr (4 von 10, KPMG); globales Engagement 20 % (Deutschland nur 11 %), Manager-Engagement von 31 auf 22 % gefallen, 40 % der Führungskräfte erwägen den Ausstieg (Gallup/Deloitte).",
-      "quelle": "Gallup State of the Global Workplace 2026 / KPMG / Deloitte 2026",
-      "fuehrung": "FOBO vor den Tools adressieren: sichtbares Zutrauen, Reskilling und Transparenz sind der zentrale Führungshebel."
+      "signal": "FOBO bleibt Leitangst (40 % nennen KI-Jobverlust als Hauptangst, US 52 %; 63 % erleben KI als „entmenschlichend“; <1 von 4 hält den Job für sicher). Zugleich erodiert die Führungskapazität: globales Engagement 20 % (Tief seit 2020), Manager-Engagement 27 %→22 %, Vorsprung nur noch +3 Punkte – die Führungsschicht brennt zuerst aus.",
+      "quelle": "KPMG 2026 / WTW-Fortune / Gallup State of the Global Workplace 2026",
+      "fuehrung": "FOBO vor den Tools adressieren: Transparenz über KI-Einsatz und Jobfolgen ist Chefsache. Sichtbares Zutrauen und Reskilling statt Ersatz-Narrativ – Manager-Gesundheit sichern."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
-      "wert": 74,
-      "signal": "Erwerbspersonenpotenzial in Deutschland sinkt 2026 erstmals (–35.000) – historischer Wendepunkt; zugleich wollen 76 % der Gen Z irgendwann führen, aber nur 6 % nennen es als primäres Ziel. Nachfrage nach Führung steigt, Bereitschaft fällt.",
-      "quelle": "IAB 2026 / Deloitte Gen Z & Millennial Survey 2026",
-      "fuehrung": "Lineare Personalplanung greift nicht mehr. Führungsrolle entlasten und neu rahmen, sonst reißt die dünne Pipeline."
+      "wert": 76,
+      "signal": "Kommoditisierung schneller als erwartet: chinesischer Token-Anteil 4,5 % (H1/25) → bis 46 % (2026), Z.ai GLM 5.2 mit Token-Volumen ×27 in der ersten Woche; Frontier-Modelle im Wochentakt. Kleine Kostenimpulse kippen ganze Beschaffungslogiken (Lindy verlagert 100 % Traffic Claude→DeepSeek, Coinbase halbiert KI-Kosten). Dazu Demografie: ~4,7 Mio. Abgänge bis 2028, ~400.000 fehlende Fachkräfte/Jahr.",
+      "quelle": "CNBC/OpenRouter Jul 2026 / Destatis Mai 2026 / IAB 2026",
+      "fuehrung": "Lineare Planung greift nicht – weder bei Technologie-Beschaffung noch bei Personal. In Szenarien führen, Anpassungsfähigkeit (Change-Fitness) als Kernkompetenz aufbauen."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
-      "wert": 72,
-      "signal": "80 % der in Q1 2026 ausgelieferten Unternehmens-Apps enthalten mindestens einen KI-Agenten, 40 % bis Jahresende – doch über 40 % der Agenten-Projekte scheitern bis 2027. Die Disruption läuft der breiten Adoption voraus.",
-      "quelle": "Gartner 2026 / Stanford Digital Economy Lab 2026",
-      "fuehrung": "Mensch-Agent-Governance (Verantwortung, Qualität, Kompetenz) statt reinem Tool-Kauf. Mit Nicht-Wissen handlungsfähig bleiben – Haltung vor Werkzeug."
+      "wert": 73,
+      "signal": "Das Modell wird zur Blackbox-Commodity: 89 % der Agenten-Pilots skalieren nie, nur 31 % betreiben ≥1 Agent produktiv; Top-Blocker sind Evaluations-, Governance- und Reliability-Lücken – keine Technikthemen. Bei jährlich wechselnden Modellen und 66 % schneller wandelnden Skill-Anforderungen bleibt die Frage „was trägt, was nicht?“ dauerhaft offen.",
+      "quelle": "Gartner CIO-Survey 2026 / IDC 2026",
+      "fuehrung": "KI-Urteilskraft statt Tool-Schulung: Kompetenz, wo KI trägt und wo nicht (Evaluation, Governance, Verantwortung). Mit Nicht-Wissen handlungsfähig bleiben – Haltung vor Werkzeug."
     }
   ],
   "quellen": [
-    {"titel": "IMF – World Economic Outlook Update, Juli 2026", "url": "https://www.imf.org/"},
-    {"titel": "Gartner – AI Agents / Enterprise Apps Forecast 2026", "url": "https://www.gartner.com/"},
-    {"titel": "Gallup – State of the Global Workplace 2026", "url": "https://www.gallup.com/"},
-    {"titel": "KPMG / WTW – FOBO- & KI-Angst-Studien 2026", "url": "https://kpmg.com/"},
-    {"titel": "Deloitte – Gen Z & Millennial Survey 2026", "url": "https://www.deloitte.com/"},
-    {"titel": "IAB – Erwerbspersonenpotenzial sinkt 2026 erstmals", "url": "https://www.iab.de/"},
-    {"titel": "Stanford Digital Economy Lab – Canaries in the Coal Mine? 2026", "url": "https://digitaleconomy.stanford.edu/"},
-    {"titel": "Zukunftsforscher (SYNK) – Trendbericht 12.07.2026", "url": "https://zukunft-fuehren.com/uhr/"}
+    {
+      "titel": "CNBC – Chinese AI models gain ground as OpenAI, Anthropic costs surge (46 % US-Enterprise-Token, 07.07.2026)",
+      "url": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html"
+    },
+    {
+      "titel": "Gartner – 89 % der KI-Agenten-Pilots skalieren nicht; >40 % der Projekte bis 2027 gestoppt",
+      "url": "https://www.gartner.com/"
+    },
+    {
+      "titel": "IMF – World Economic Outlook Update, Juli 2026 (Welt +3,0 %, DE 0,7 %)",
+      "url": "https://www.imf.org/"
+    },
+    {
+      "titel": "Gallup – State of the Global Workplace 2026 (Engagement 20 %, Manager 22 %)",
+      "url": "https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx"
+    },
+    {
+      "titel": "KPMG / WTW – FOBO- & KI-Angst-Studien 2026",
+      "url": "https://kpmg.com/"
+    },
+    {
+      "titel": "IAB / Destatis – Erwerbstätigkeit & Fachkräftelücke 2026",
+      "url": "https://www.iab.de/"
+    },
+    {
+      "titel": "Zukunftsforscher (SYNK) – Trendbericht 14.07.2026",
+      "url": "https://zukunft-fuehren.com/uhr/"
+    }
   ]
 }
