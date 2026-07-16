@@ -1,75 +1,75 @@
 {
-  "datum": "2026-07-15",
-  "aktualisiert": "2026-07-15T07:10:00+02:00",
+  "datum": "2026-07-16",
+  "aktualisiert": "2026-07-16T07:10:00+02:00",
   "index": 78,
   "uhrzeit": "23:47",
   "trend": "stabil",
   "trend_delta": 0,
-  "leitsatz": "Die Uhr tickt – aber es ist noch Zeit zu handeln. Sehen kommt vor Tun.",
+  "leitsatz": "Die neue KI-Generation verstärkt – sie ersetzt nicht. Der Engpass ist die Führung, nicht das Modell.",
   "leitsignal": {
-    "titel": "Der Hebel gegen die Vertrauenslücke ist benennbar: Vertrauen ist der Wirkfaktor",
-    "quelle": "Websuche-Fallback 15.07.2026 (kein neuer Zukunftsforscher-Bericht im Eingang): Wirtschaftspsychologie aktuell (Studie ethische Führung → psych. Sicherheit), Meta-Analyse 192 Studien zu Führung & Burnout-Schutz, Gallup 2026",
-    "befund": "Nach Tagen makroökonomischer und technologischer Krisensignale (KI-Kommoditisierung, Agenten-Umsetzungslücke, Engagement-Tief 20 %) liefert die Wirtschaftspsychologie heute den passenden Gegenframe: Eine aktuelle Untersuchung legt den Wirkmechanismus guter Führung sauber frei – ethisches Führungsverhalten erzeugt psychologische Sicherheit, die messbar auf Wohlbefinden, Zufriedenheit und Leistung wirkt und das Burnout-Risiko senkt. Der entscheidende Übertragungsweg ist aber nicht der Ton, sondern das Vertrauen in die Führungskraft; eine Meta-Analyse über 192 Studien bestätigt Führung als zentralen Burnout-Schutzfaktor. Das ist kein Trost-Signal, sondern eine Handlungsansage: Die Vertrauenslücke, die Gallup misst (Engagement 20 %, Manager 22 %), ist mit einem konkreten, führbaren Hebel adressierbar.",
-    "fuehrungsimplikation": "Der Engpass bleibt Führung – aber der Ausweg ist benennbar. Vertrauen ist keine Stimmung, sondern der Wirkmechanismus: Werte, die im Konflikt halten; schlechte Nachrichten, die folgenlos für den bleiben, der sie überbringt. Das lässt sich nicht delegieren – an kein Tool, kein Leitbild, keinen Workshop. Sehen kommt vor Tun.",
-    "kapitel": "Kapitel 19 – Psychologische Sicherheit (sekundär: Kapitel 1 Polykrise & BANI)"
+    "titel": "KI verstärkt, statt zu ersetzen – der Vorsprung liegt in der Haltung, nicht im Modell",
+    "quelle": "Zukunftsforscher-Bericht 16.07.2026 (Everlast AI 15.07. / Stanford HAI AI Index 2026 / Gartner-IDC 2026 / KPMG-ADP 2026); Kernbeleg gegengeprüft: Brynjolfsson, Li & Raymond, ‚Generative AI at Work‘, NBER w31161 (5.179 Agent:innen, +14 % Ø, +34 % Novizen)",
+    "befund": "Die Tonlage im KI-Umbruch kippt von ‚Ersetzen‘ zu ‚Verstärken‘. Die neue Modellgeneration ist agentenfähig und billig – entscheidend wird nicht mehr das Modell, sondern die Orchestrierung und der Umgang mit der Angst davor. Die Feldevidenz ist kontraintuitiv: Ein KI-Assistent hob in einer Stanford/MIT-Studie die Produktivität im Schnitt um 14 %, bei Novizen und Geringqualifizierten aber um 34 % – bei den Erfahrenen kaum. KI verkleinert die Kompetenzlücke, statt sie zu vergrößern. Gegenkraft ist die Angst: FOBO verfestigt sich (40 % nennen KI-Jobverlust als Hauptangst, unter 25 % halten ihren Job für sicher) bei real unter 19 % KI-Adoption der Betriebe – die Angst läuft der Technik meilenweit voraus.",
+    "fuehrungsimplikation": "Wer jetzt führt, hat nicht die Aufgabe, das beste Modell zu beschaffen, sondern die Angst ernst zu nehmen, bevor sie zum stillen Widerstand wird – und KI so einzuführen, dass Menschen sie als Verstärkung erleben, nicht als Kündigung mit Ansage. Angst kauft man mit keiner Lizenz weg. Das Modell ist billig geworden. Die Haltung nicht.",
+    "kapitel": "AI-Mindset / Co-Intelligenz (‚Die Frage ist nicht mehr, ob Sie KI nutzen, sondern mit welcher Haltung‘) – sekundär Kapitel 1 Polykrise & BANI"
   },
   "bani": [
     {
       "code": "B",
       "dim": "Brüchig",
       "en": "Brittle",
-      "wert": 82,
-      "signal": "Technologie-Blockbildung und Handelsfragmentierung unverändert: KI-Kostenkrieg (US-Frontier vs. chinesische Open-Modelle) macht Modellwahl zur Kosten-, Souveränitäts- und Compliance-Frage; EU-US-Zoll 15 %, Iran-Krieg/Hormus treibt Energiepreise. Kein neuer makroökonomischer Schock heute – Lage angespannt-stabil.",
-      "quelle": "IMF WEO-Update Jul 2026 / CNBC-OpenRouter Jul 2026 / ifo Jun 2026",
-      "fuehrung": "Zwei-Fronten-Führung: geopolitisch/lieferketten-resilient planen UND KI-Beschaffung strategisch führen – nicht dem Preis allein folgen."
+      "wert": 83,
+      "signal": "Externer Energie-/Handelsschock verharrt hoch und tickt leicht an: US-Iran-Kämpfe an drei Folgetagen, Brent auf 1-Monats-Hoch (~85,9 USD), Hormuz-Transits −50 % ggü. Vorwoche (57 statt ~130/Tag), Waffenruhe für beendet erklärt; neue US-Zollrunde ab Ende Juli angekündigt (testet den 15-%-EU-US-Deal).",
+      "quelle": "Al Jazeera/CNBC 13.–14.07.2026 / BMWE 14.07. / IMF WEO Jul 2026",
+      "fuehrung": "Zwei-Fronten-Führung: Energie-, Lieferketten- und Zoll-Exposure jetzt stresstesten UND KI-Beschaffung strategisch führen – nicht dem Preis allein folgen."
     },
     {
       "code": "A",
       "dim": "Ängstlich",
       "en": "Anxious",
-      "wert": 79,
-      "signal": "FOBO bleibt Leitangst (40 % nennen KI-Jobverlust als Hauptangst; 63 % erleben KI als entmenschlichend). Gegenläufig heute ein empirischer Hoffnungsanker: gute, ethische Führung ist der belegte Schutzfaktor gegen psychische Belastung und Burnout – die Führungsschicht kann die Angst adressieren, statt ihr ausgeliefert zu sein.",
-      "quelle": "KPMG 2026 / Gallup 2026 / Wirtschaftspsychologie aktuell (Meta-Analyse 192 Studien)",
-      "fuehrung": "Angst vor den Tools adressieren: Transparenz über KI-Einsatz und sichtbares Zutrauen. Vertrauen aktiv aufbauen – es ist der Wirkmechanismus."
+      "wert": 80,
+      "signal": "FOBO verfestigt sich als prägende Arbeitsplatz-Psychologie 2026: 40 % nennen KI-Jobverlust als Hauptangst (nahezu verdoppelt), 63 % erwarten weniger menschliche Arbeit, <25 % halten Job für sicher, 82 % der Millennials fürchten Lohn-Druck – bei real <19 % KI-Adoption. Gegenanker: Augmentation ist empirisch belegt (Novizen +34 %), Führung kann die Angst adressieren statt ihr ausgeliefert zu sein.",
+      "quelle": "KPMG 2026 / ADP 2026 / Goldman Sachs Mär 2026 / NBER w31161",
+      "fuehrung": "Angst vor den Tools ehrlich adressieren; KI sichtbar als Verstärkung (nicht als Effizienz durch Abbau) einführen. Psychologische Sicherheit als Kernkompetenz, kein Soft-Add-on."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
       "wert": 75,
-      "signal": "KI-Kommoditisierung und Beschaffungslogik kippen weiter sprunghaft (chinesischer Token-Anteil bis 46 %, Frontier-Modelle im Wochentakt); Demografie (~4,7 Mio. Abgänge bis 2028) verschärft nichtlinear. Keine neue Eskalation heute.",
-      "quelle": "CNBC/OpenRouter Jul 2026 / Destatis Mai 2026 / IAB 2026",
-      "fuehrung": "Lineare Planung greift nicht – in Szenarien führen, Change-Fitness als Kernkompetenz aufbauen."
+      "signal": "Modellpreise und Beschaffungslogik kippen weiter sprunghaft (Claude Sonnet 5 ~2/10 USD je 1M Token nahe Opus-Niveau, Gemini 3.5 Flash im Wochentakt); Demografie verschärft nichtlinear (Erwerbspersonenpotenzial 2026 erstmals negativ, −35 Tsd; bis 2035 ~7 Mio Kräfte weniger).",
+      "quelle": "Stanford HAI 2026 / Anthropic-Google Jul 2026 / IAB-Destatis 2026",
+      "fuehrung": "Lineare Planung greift nicht – in Szenarien führen, Change-Fitness als Kernkompetenz aufbauen; Produktivität je Kopf muss den demografischen Rückgang kompensieren."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
-      "wert": 73,
-      "signal": "Modell als Blackbox-Commodity: 89 % der Agenten-Pilots skalieren nie; Blocker sind Evaluations-, Governance- und Reliability-Lücken, keine Technikthemen. Was trägt und was nicht, bleibt offen – aber die menschliche Seite (Vertrauen, psych. Sicherheit) ist heute klarer belegbar als die technische.",
-      "quelle": "Gartner CIO-Survey 2026 / IDC 2026 / Wirtschaftspsychologie aktuell 2026",
-      "fuehrung": "KI-Urteilskraft statt Tool-Schulung; mit Nicht-Wissen handlungsfähig bleiben. Haltung vor Werkzeug."
+      "wert": 74,
+      "signal": "Fähigkeitssprung trifft Umsetzungslücke: 31 % der Unternehmen betreiben ≥1 Agenten produktiv, aber 89 % der Pilots skalieren nie und >40 % der Agenten-Projekte werden bis 2027 abgebrochen. Blocker sind Wissensbasis, Governance und Orchestrierung – keine Technikthemen. Der Flaschenhals verschiebt sich vom Modell zur gemeinsamen Wissensbasis.",
+      "quelle": "Gartner/IDC 2026",
+      "fuehrung": "KI-Urteilskraft statt Tool-Schulung; ‚Company Brain‘/gemeinsame Wissensbasis aufsetzen, wenige ROI-klare Use-Cases mit Governance sichern – sonst landet man in der 40-%-Abbruchquote."
     }
   ],
   "quellen": [
     {
-      "titel": "Wirtschaftspsychologie aktuell – Studie: Ethische Führung stärkt psychologische Sicherheit (Vertrauen als Wirkfaktor)",
-      "url": "https://wirtschaftspsychologie-aktuell.de/magazin/fuehrung/studie-zeigt-ethische-fuehrung-staerkt-psychologische-sicherheit/"
+      "titel": "NBER w31161 – Brynjolfsson, Li & Raymond, ‚Generative AI at Work‘ (verifiziert: +14 % Ø, +34 % Novizen, 5.179 Agent:innen)",
+      "url": "https://www.nber.org/papers/w31161"
     },
     {
-      "titel": "ad-hoc-news – Führung und Psyche: Meta-Analyse mit 192 Studien belegt Burnout-Schutz",
-      "url": "https://www.ad-hoc-news.de/wirtschaft/fuehrung-und-psyche-meta-analyse-mit-192-studien-belegt-burnout-schutz/69605118"
+      "titel": "Stanford HAI – 2026 AI Index Report, Economy (70 % GenAI-Nutzung; Jahr der Agenten)",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report"
     },
     {
-      "titel": "Gallup – State of the Global Workplace 2026 (Engagement 20 %, Manager 22 %)",
-      "url": "https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx"
+      "titel": "Gartner/IDC – AI Agents 2026 (31 % ≥1 Agent produktiv; 89 % Pilots ohne Skalierung; >40 % Abbruch bis 2027)",
+      "url": "https://www.gartner.com/en/newsroom"
     },
     {
-      "titel": "CNBC – Chinese AI models gain ground as OpenAI, Anthropic costs surge (Kontext KI-Kommoditisierung)",
-      "url": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html"
+      "titel": "KPMG / ADP / Goldman Sachs – FOBO 2026 (40 % Hauptangst; <25 % Job sicher; <19 % US-Adoption)",
+      "url": "https://kpmg.com/us/en/media/news.html"
     },
     {
-      "titel": "Zukunftsforscher (SYNK) – letzter Trendbericht 14.07.2026 (Makro-Basiswerte)",
+      "titel": "Zukunftsforscher (SYNK) – Trendbericht 16.07.2026 (Augmentation statt Ersetzen; Everlast AI 15.07.)",
       "url": "https://zukunft-fuehren.com/uhr/"
     }
   ]
