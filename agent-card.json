@@ -1,0 +1,69 @@
+{
+  "protocolVersion": "0.3.0",
+  "name": "Zukunft führen — Leadership-Agent",
+  "description": "Agenten-Schnittstelle zum Buch 'Zukunft führen' von Dr. Jörg Krauter. Liefert systemisches Leadership-Wissen für eine instabile Welt: BANI-Einordnung, Glossarbegriffe, Sofort-Griffe für Führungskräfte in der Krise, Kapitel-Thesen und den Live-Status des öffentlichen Marketing-Experiments. Vermutlich das erste deutschsprachige Leadership-Buch mit eigenem Agenten-Zugang.",
+  "url": "https://zukunft-fuehren-mcp.joerg-krauter.workers.dev/",
+  "preferredTransport": "JSONRPC",
+  "version": "1.0.0",
+  "provider": {
+    "organization": "Dr. Jörg Krauter / SYNK Group",
+    "url": "https://zukunft-fuehren.com"
+  },
+  "documentationUrl": "https://zukunft-fuehren.com/mcp/",
+  "iconUrl": "https://zukunft-fuehren.com/favicon.ico",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "defaultInputModes": ["text/plain"],
+  "defaultOutputModes": ["text/plain"],
+  "skills": [
+    {
+      "id": "glossar",
+      "name": "Leadership-Glossar",
+      "description": "Erklärt Kernbegriffe des Buchs (BANI, Polykrise, psychologische Sicherheit, Co-Intelligenz, systemisches Leadership, FOBO u. a.) präzise und quellenbezogen.",
+      "tags": ["leadership", "glossar", "bani", "definition", "deutsch"],
+      "examples": [
+        "Was bedeutet BANI?",
+        "Erklär mir psychologische Sicherheit im Führungskontext."
+      ]
+    },
+    {
+      "id": "bani_einordnung",
+      "name": "BANI-Einordnung",
+      "description": "Ordnet eine geschilderte Führungs- oder Marktsituation entlang der BANI-Dimensionen (brüchig, ängstlich, nichtlinear, unbegreiflich) ein und leitet Handlungsimpulse ab.",
+      "tags": ["bani", "diagnose", "vuca", "unsicherheit", "führung"],
+      "examples": [
+        "Ordne diese Situation nach BANI ein: unser Markt bricht unvorhersehbar ein."
+      ]
+    },
+    {
+      "id": "notfall_griff",
+      "name": "Notfall-Griff für Führungskräfte",
+      "description": "Gibt einen sofort anwendbaren Führungs-Griff für akute Drucksituationen (Krise, Überforderung, Team unter Stress) aus dem Buch.",
+      "tags": ["krise", "sofortmaßnahme", "führung", "stress", "resilienz"],
+      "examples": [
+        "Mein Team ist in Panik, was mache ich in den nächsten 10 Minuten?"
+      ]
+    },
+    {
+      "id": "kapitel_these",
+      "name": "Kapitel-These",
+      "description": "Liefert die Kernthese eines Buchkapitels und ihre praktische Konsequenz für Führungskräfte.",
+      "tags": ["buch", "these", "kapitel", "leadership", "argument"],
+      "examples": [
+        "Was ist die Kernthese des Kapitels über Entscheiden unter Unsicherheit?"
+      ]
+    },
+    {
+      "id": "experiment_status",
+      "name": "Experiment-Status",
+      "description": "Gibt den aktuellen, öffentlich dokumentierten Stand des Marketing-Experiments aus: eine KI verantwortet 12 Monate lang das Marketing des Buchs mit dem Ziel Bestsellerliste.",
+      "tags": ["experiment", "ki", "marketing", "transparenz", "status"],
+      "examples": [
+        "Wie läuft das KI-Marketing-Experiment gerade?"
+      ]
+    }
+  ]
+}
