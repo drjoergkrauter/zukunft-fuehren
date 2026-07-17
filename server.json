@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.drjoergkrauter/leadership-agent",
-  "description": "Agenten-Zugang zum Buch 'Zukunft führen' von Dr. Jörg Krauter: BANI-Einordnung, Leadership-Glossar, Notfall-Griffe, Kapitel-Thesen und Live-Status des öffentlichen KI-Marketing-Experiments. Vermutlich erstes dt. Leadership-Buch mit eigenem MCP-Server.",
+  "description": "MCP-Server zum Buch 'Zukunft führen' (Dr. Jörg Krauter): BANI & Leadership-Impulse.",
   "repository": {
     "url": "https://github.com/drjoergkrauter/zukunft-fuehren",
     "source": "github"
