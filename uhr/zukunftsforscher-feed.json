@@ -1,75 +1,75 @@
 {
-  "datum": "2026-07-17",
-  "aktualisiert": "2026-07-17T07:20:00+02:00",
-  "index": 79,
-  "uhrzeit": "23:47",
+  "datum": "2026-07-18",
+  "aktualisiert": "2026-07-18T07:30:00+02:00",
+  "index": 80,
+  "uhrzeit": "23:48",
   "trend": "steigend",
   "trend_delta": 1,
-  "leitsatz": "Der KI-Umbruch verschiebt sich von Nutzung zu Kontrolle – und die Führung selbst gerät unter Druck: 71 % mehr Stress, 40 % erwägen den Rückzug.",
+  "leitsatz": "80 % der neuen Unternehmens-Apps enthalten einen KI-Agenten. 12 % der Beschäftigten sagen, KI habe ihre Arbeit wirklich verändert. Diese Lücke ist keine Technikfrage.",
   "leitsignal": {
-    "titel": "Wer soll das noch führen? – Die Führung gerät selbst unter Druck",
-    "quelle": "Zukunftsforscher-Bericht 17.07.2026 (DDI Global Leadership Forecast / Deloitte Gen Z & Millennial 2026); Kernbeleg gegengeprüft: DDI Global Leadership Forecast – 71 % erhöhter Stress, 54 % Burnout-Sorge, 40 % erwägen Rückzug aus Führung (>10.000 Führungskräfte)",
-    "befund": "Zwei Bewegungen treffen aufeinander. Erstens kippt die KI-Debatte von ‚Nutzung‘ zu ‚Kontrolle‘: 80 % der neu ausgelieferten Enterprise-Apps enthalten mindestens einen Agenten, aber 89 % der Pilots skalieren nie – der Engpass ist Orchestrierung und Vertrauen, nicht das Modell (MIT ordnet die KI-Automatisierung als ‚steigende Flut‘ ein, nicht als ‚brechende Welle‘). Zweitens – und das ist das eigentlich neue Signal – gerät die Führung selbst ins Wanken: 71 % der Führungskräfte berichten deutlich mehr Stress (Vorjahr 63 %), 40 % erwägen den Rückzug aus Führung, und nur 6 % der Gen Z nennen Führung als Hauptziel. Der Preis der Rolle – Stress, Überverantwortung – ist sichtbar geworden. Gleichzeitig verfestigt sich FOBO (40 % nennen KI-Jobverlust als Hauptangst), während nur ~33 % adäquates KI-Training erhalten (−10 Pp. ggü. 2024).",
-    "fuehrungsimplikation": "Wer jetzt führt, muss zwei Dinge gleichzeitig aushalten: den externen Schock puffern UND die eigene Kraftquelle schützen. Führung, die sich selbst verausgabt, kann weder Angst adressieren noch KI-Aneignung moderieren. Selbstführung ist kein Wellness-Thema – sie ist die Voraussetzung dafür, dass überhaupt noch jemand die Rolle will. Das Buch nennt es ‚Führen, wenn es wehtut‘: Bevor man Halt gibt, braucht man selbst welchen.",
-    "kapitel": "Kapitel 16 Kraftquellen / Selbstführung – sekundär AI-Mindset / Co-Intelligenz (‚Die Frage ist nicht mehr, ob Sie KI nutzen, sondern mit welcher Haltung‘) und Kapitel 1 Polykrise & BANI"
+    "titel": "Adoption ist nicht Wirkung – und der Unterschied heißt Führung",
+    "quelle": "Zukunftsforscher-Bericht 18.07.2026; Kernbelege gegengeprüft: Gallup State of the Global Workplace 2026 (nur 12 % sagen, KI habe die Arbeit im Betrieb wirklich transformiert; Manager-Engagement 27 auf 22 %; Beschäftigte mit aktiv unterstützender Führungskraft berichten 8,7-mal häufiger von echter Veränderung) · Gartner (80 % neuer Apps mit mindestens einem Agenten, über 40 % der Agenten-Projekte scheitern bis 2027) · Bloomberg/Fortune/VentureBeat 16.–17.07.2026 (Moonshot Kimi K3, 2,8 Bio Parameter, SOX über 20 % unter Junihoch)",
+    "befund": "Heute treffen zwei Bewegungen aufeinander. Erstens der Preisschock: Moonshots Open-Weight-Modell Kimi K3 erreicht Frontier-Niveau, der Halbleiterindex SOX rutscht über 20 % unter sein Junihoch – ein zweiter DeepSeek-Moment. Modelle werden zur Commodity. Zweitens – und das ist das eigentliche Signal – liefert Gallup die Zahl, die alles zusammenhält: 80 % der neu ausgelieferten Unternehmens-Apps enthalten mindestens einen KI-Agenten, aber nur 12 % der Beschäftigten sagen, KI habe ihre Arbeit im Betrieb wirklich verändert. Der entscheidende Unterschied ist nicht das Tool: Wer eine Führungskraft hat, die den KI-Einsatz aktiv unterstützt, berichtet 8,7-mal häufiger von echter Veränderung – aber weniger als ein Drittel erlebt diese Unterstützung. Gleichzeitig bricht die Führungsschicht selbst weg: Manager-Engagement 27 auf 22 Prozent, der größte je gemessene Einbruch.",
+    "fuehrungsimplikation": "Die Wirkungslücke ist eine Führungslücke. Solange Technologie eingekauft und Haltung nicht organisiert wird, entsteht Adoption ohne Wirkung – teuer, sichtbar, folgenlos. Der Hebel liegt nicht im nächsten Modell, sondern in der Frage, ob Menschen erleben, dass ihre Führungskraft den Einsatz wirklich will, erklärt und trägt. Genau das meint das Buch mit Co-Intelligenz als Haltung: Die Frage ist nicht mehr, ob Sie KI nutzen, sondern mit welcher Haltung.",
+    "kapitel": "AI-Mindset / Co-Intelligenz – sekundär Kapitel 1 Polykrise & BANI und Kapitel 19 Psychologische Sicherheit"
   },
   "bani": [
     {
       "code": "B",
       "dim": "Brüchig",
       "en": "Brittle",
-      "wert": 84,
-      "signal": "Energie-/Handelsschock erreicht heute einen Eskalationspunkt: US-Iran-Sanktionsausnahme (General License X) läuft heute 17.07. 12:01 EDT aus, Hafenblockade + US-Luftschläge, Hormuz-Transits kollabiert auf ~6 pro 12-h-Fenster (normal 18–22/Tag), Brent ~85 USD. Neue US-Zollrunde ab Ende Juli testet den 15-%-EU-Deal.",
-      "quelle": "US-Treasury/OFAC, Al Jazeera/CNBC 07.–16.07.2026 / IMF WEO Jul 2026",
-      "fuehrung": "Energie-, Lieferketten- und Zoll-Exposure jetzt stresstesten; DE als Exportnation doppelt in der Klemme (Ölschock + Zölle)."
+      "wert": 85,
+      "signal": "Doppelbruch an zwei Fronten: US-Iran-Eskalation in dritter Nacht, Hormuz-Transits auf 7 Schiffe (normal 18–22), Brent auf 1-Monats-Hoch (rund 85 USD, Wochenplus über 10 %). Parallel Halbleiter-Ausverkauf: SOX über 20 % unter Junihoch = Bärenmarkt, S&P 500 minus 1,0 %, Nasdaq minus 1,4 % (17.07.). US-Zölle von 15 % auf EU-Importe seit 01.07.",
+      "quelle": "Al Jazeera/CNBC 14.–17.07.2026 · Motley Fool/Schwab/HNGN 17.07.2026 · IWF WEO-Update 08.07.2026",
+      "fuehrung": "Energie-, Lieferketten- und Zoll-Exposure jetzt durchspielen – und gleichzeitig KI-Investitionen nicht vom Kursrauschen steuern lassen."
     },
     {
       "code": "A",
       "dim": "Ängstlich",
       "en": "Anxious",
-      "wert": 81,
-      "signal": "Doppelte Angstlast: Bei Mitarbeitenden verfestigt sich FOBO (40 % nennen KI-Jobverlust als Hauptangst, <25 % halten Job für sicher, nur ~33 % erhalten KI-Training, −10 Pp.). Neu und stark: die Führung selbst – 71 % mehr Stress (Vj. 63 %), 54 % Burnout-Sorge, 40 % erwägen den Rückzug aus Führung; nur 6 % der Gen Z wollen Führung als Hauptziel.",
-      "quelle": "DDI Global Leadership Forecast 2026 / Deloitte Gen Z & Millennial 2026 / KPMG-ADP 2026",
-      "fuehrung": "Selbstführung und psychologische Sicherheit als harte Produktivitätsfaktoren behandeln – die Stresswelle bei Führung ist der stille Blocker jeder Transformation."
+      "wert": 82,
+      "signal": "Angst auf beiden Seiten des Schreibtischs. Unten: 40 % nennen KI-Jobverlust als Hauptangst (fast verdoppelt), unter 25 % halten ihren Job für sicher, nur rund ein Drittel erhält adäquates KI-Training (minus 10 Prozentpunkte gegenüber 2024). Oben: Manager-Engagement bricht von 27 auf 22 Prozent ein – der größte je gemessene Rückgang; nur 6 % der Gen Z nennen Führung als Hauptziel.",
+      "quelle": "KPMG 2026 · ADP People at Work 2026 (39.000 Beschäftigte/36 Länder) · JFF 2026 · Gallup State of the Global Workplace 2026 · Deloitte Gen Z & Millennial Survey 2026",
+      "fuehrung": "FOBO direkt ansprechen statt aussitzen – und die Führungsschicht selbst stützen. Erschöpfte Führung kann keine Angst auffangen."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
-      "wert": 75,
-      "signal": "KI-Debatte kippt sprunghaft von ‚Werkzeug‘ zu ‚Kontrolle‘ (Everlast/Leahy ‚Kontrollverlust in ~18 Monaten‘ als umstrittene Risiko-Position; MIT dagegen ‚steigende Flut‘, nicht ‚brechende Welle‘). Demografie verschärft nichtlinear (Erwerbspersonenpotenzial 2026 erstmals negativ, −35 Tsd; bis 2028 −4,7 Mio Erwerbstätige).",
-      "quelle": "Everlast AI 16.07. / MIT FutureTech 2026 / IAB-Destatis 2026",
-      "fuehrung": "In Szenarien führen statt linear planen; Change-Fitness als Kernkompetenz – Produktivität je Kopf muss den demografischen Rückgang kompensieren."
+      "wert": 78,
+      "signal": "Ein einzelnes Modell-Release verschiebt binnen 48 Stunden eine Anlageklasse: Kimi K3 (2,8 Bio Parameter, Open Weight, 1 Mio Token Kontext) trifft Frontier-Niveau, Halbleiter fallen in den Bärenmarkt, einzelne KI-Titel bis minus 27 %. Nichtlinear auch die Demografie: Erwerbstätige minus 184.000 gegenüber Vorjahr, bis 2028 rund 4,7 Mio Abgänge.",
+      "quelle": "Bloomberg/Fortune/VentureBeat/TechCrunch 16.–17.07.2026 · Destatis Press 05/2026 · IAB 2026",
+      "fuehrung": "In Szenarien führen statt fortzuschreiben. Wer seine Strategie an ein bestimmtes Modell gebunden hat, plant gerade an der Realität vorbei."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
-      "wert": 74,
-      "signal": "Fähigkeitssprung trifft Umsetzungslücke: 80 % neuer Enterprise-Apps mit ≥1 Agenten, 31 % betreiben ≥1 Agenten produktiv (mediane Time-to-Value 5,1 Monate) – aber 89 % der Pilots skalieren nie, >40 % der Agenten-Projekte werden bis 2027 abgebrochen. Blocker sind Wissensbasis, Governance, Orchestrierung – keine Technikthemen.",
-      "quelle": "Gartner Q1/2026 / S&P Global-McKinsey 2026",
-      "fuehrung": "KI-Urteilskraft statt Tool-Schulung; ‚Company Brain‘/gemeinsame Wissensbasis aufsetzen, wenige ROI-klare Use-Cases mit Governance sichern – sonst landet man in der 40-%-Abbruchquote."
+      "wert": 75,
+      "signal": "Die Zahlen widersprechen sich nur scheinbar: 80 % der neu ausgelieferten Apps enthalten mindestens einen KI-Agenten – aber nur 12 % der Beschäftigten erleben, dass KI ihre Arbeit verändert hat, und über 40 % der Agenten-Projekte werden bis 2027 abgebrochen. MIT ordnet die Automatisierung als steigende Flut ein, nicht als brechende Welle. Dazu neue Governance-Themen: Agenten lernen aus Bildschirmaufnahmen, Jailbreak-Risiken.",
+      "quelle": "Gartner 2026 · Gallup 2026 · MIT FutureTech 2026",
+      "fuehrung": "Nicht mehr Tools, sondern Urteilskraft: wenige Anwendungsfälle mit klarem Nutzen, sauberer Governance – und einer Führungskraft, die sichtbar dahintersteht."
     }
   ],
   "quellen": [
     {
-      "titel": "DDI Global Leadership Forecast 2026 (verifiziert: 71 % mehr Stress, 54 % Burnout-Sorge, 40 % erwägen Rückzug aus Führung, >10.000 Führungskräfte)",
-      "url": "https://de.ddi.com/blog/employee-retention-strategies"
+      "titel": "Gallup, State of the Global Workplace 2026 (12 % erlebte KI-Transformation; Manager-Engagement 27 auf 22 %; 8,7-fache Wirkung bei aktiver Führungsunterstützung)",
+      "url": "https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx"
     },
     {
-      "titel": "Deloitte Gen Z & Millennial Survey 2026 (76 % wollen ‚irgendwann‘ führen, nur 6 % nennen Führung als Hauptziel)",
-      "url": "https://www.deloitte.com/global/en/issues/work/genzmillennialsurvey.html"
+      "titel": "Fortune: Markets experience new DeepSeek shock after Moonshot AI releases Kimi K3 (17.07.2026)",
+      "url": "https://fortune.com/2026/07/17/china-moonshot-kimi-k3-markets-china-ai/"
     },
     {
-      "titel": "Gartner/IDC – AI Agents 2026 (80 % neuer Enterprise-Apps mit ≥1 Agenten; 89 % Pilots ohne Skalierung; >40 % Abbruch bis 2027)",
-      "url": "https://www.gartner.com/en/newsroom"
+      "titel": "VentureBeat: China's Moonshot AI releases Kimi K3, the largest open-source model ever (16.07.2026)",
+      "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems"
     },
     {
-      "titel": "MIT FutureTech 2026 – ‚rising tide, not breaking wave‘ (>3.000 Task-Bewertungen)",
-      "url": "https://futuretech.mit.edu/"
+      "titel": "IMF, World Economic Outlook Update – Global Economy in Crosscurrents of War and Technology (08.07.2026)",
+      "url": "https://www.imf.org/en/Publications/WEO"
     },
     {
-      "titel": "Zukunftsforscher (SYNK) – Trendbericht 17.07.2026 (von Nutzung zu Kontrolle; Führungs-Stresswelle)",
+      "titel": "Zukunftsforscher (SYNK) – Trendbericht 18.07.2026 (Krieg und Technologie zugleich; Adoption ist nicht Wirkung)",
       "url": "https://zukunft-fuehren.com/uhr/"
     }
   ]
