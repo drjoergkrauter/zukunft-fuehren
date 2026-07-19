@@ -1,76 +1,89 @@
 {
-  "datum": "2026-07-18",
-  "aktualisiert": "2026-07-18T07:30:00+02:00",
-  "index": 80,
-  "uhrzeit": "23:48",
-  "trend": "steigend",
-  "trend_delta": 1,
-  "leitsatz": "80 % der neuen Unternehmens-Apps enthalten einen KI-Agenten. 12 % der Beschäftigten sagen, KI habe ihre Arbeit wirklich verändert. Diese Lücke ist keine Technikfrage.",
+  "datum": "2026-07-19",
+  "aktualisiert": "2026-07-19T07:30:00+02:00",
+  "index": 79,
+  "uhrzeit": "23:47",
+  "trend": "fallend",
+  "trend_delta": -1,
+  "leitsatz": "Die Anforderungen in KI-nahen Berufen verändern sich 66 % schneller als anderswo. Nur gut ein Drittel der Beschäftigten fühlt sich angemessen befähigt. Diese Schere ist die operativste Zahl der Woche.",
   "leitsignal": {
-    "titel": "Adoption ist nicht Wirkung – und der Unterschied heißt Führung",
-    "quelle": "Zukunftsforscher-Bericht 18.07.2026; Kernbelege gegengeprüft: Gallup State of the Global Workplace 2026 (nur 12 % sagen, KI habe die Arbeit im Betrieb wirklich transformiert; Manager-Engagement 27 auf 22 %; Beschäftigte mit aktiv unterstützender Führungskraft berichten 8,7-mal häufiger von echter Veränderung) · Gartner (80 % neuer Apps mit mindestens einem Agenten, über 40 % der Agenten-Projekte scheitern bis 2027) · Bloomberg/Fortune/VentureBeat 16.–17.07.2026 (Moonshot Kimi K3, 2,8 Bio Parameter, SOX über 20 % unter Junihoch)",
-    "befund": "Heute treffen zwei Bewegungen aufeinander. Erstens der Preisschock: Moonshots Open-Weight-Modell Kimi K3 erreicht Frontier-Niveau, der Halbleiterindex SOX rutscht über 20 % unter sein Junihoch – ein zweiter DeepSeek-Moment. Modelle werden zur Commodity. Zweitens – und das ist das eigentliche Signal – liefert Gallup die Zahl, die alles zusammenhält: 80 % der neu ausgelieferten Unternehmens-Apps enthalten mindestens einen KI-Agenten, aber nur 12 % der Beschäftigten sagen, KI habe ihre Arbeit im Betrieb wirklich verändert. Der entscheidende Unterschied ist nicht das Tool: Wer eine Führungskraft hat, die den KI-Einsatz aktiv unterstützt, berichtet 8,7-mal häufiger von echter Veränderung – aber weniger als ein Drittel erlebt diese Unterstützung. Gleichzeitig bricht die Führungsschicht selbst weg: Manager-Engagement 27 auf 22 Prozent, der größte je gemessene Einbruch.",
-    "fuehrungsimplikation": "Die Wirkungslücke ist eine Führungslücke. Solange Technologie eingekauft und Haltung nicht organisiert wird, entsteht Adoption ohne Wirkung – teuer, sichtbar, folgenlos. Der Hebel liegt nicht im nächsten Modell, sondern in der Frage, ob Menschen erleben, dass ihre Führungskraft den Einsatz wirklich will, erklärt und trägt. Genau das meint das Buch mit Co-Intelligenz als Haltung: Die Frage ist nicht mehr, ob Sie KI nutzen, sondern mit welcher Haltung.",
-    "kapitel": "AI-Mindset / Co-Intelligenz – sekundär Kapitel 1 Polykrise & BANI und Kapitel 19 Psychologische Sicherheit"
+    "titel": "Der Engpass wandert von der Technik in die Führungsetage",
+    "quelle": "Zukunftsforscher-Bericht 19.07.2026; Kernbelege gegengeprüft: Anforderungstempo in KI-exponierten Berufen 66 % schneller als in am wenigsten exponierten (Vorjahr 25 %) · 72 % der Beschäftigten berichten verschobene Kompetenzerwartungen, aber nur 36 % fühlen sich angemessen weitergebildet, nur 26 % wurden im Umgang mit KI geschult · Gartner CIO Survey 2026 (17 % haben Agenten produktiv, über 60 % planen es binnen zwei Jahren, über 40 % der agentischen Projekte werden bis 2027 gestoppt) · ifo 85,6 (Juni, von 85,0) · HVPI Euroraum 2,8 % · Brent 78,24 USD · IW Köln (7 Mio. Arbeitskräfte weniger bis 2035) · DDI Global Leadership Forecast 2026 (71 % Stressanstieg, 40 % erwägen Rückzug aus Führung)",
+    "befund": "Heute läuft die Konjunktur zum ersten Mal seit Wochen in die freundliche Richtung: ifo steigt auf 85,6, die Inflation im Euroraum fällt auf 2,8 Prozent, Brent gab auf 78 Dollar nach. Das entspannt die Lage — aber es entspannt die falsche Lage. Denn parallel öffnet sich eine Schere, die niemand mit Zinsen schließen kann: Die verlangten Fähigkeiten verändern sich in KI-nahen Berufen 66 Prozent schneller als anderswo, im Vorjahr waren es 25 Prozent. Gleichzeitig sagen nur 36 Prozent der Beschäftigten, sie seien angemessen weitergebildet worden — und nur 26 Prozent wurden überhaupt darin geschult, mit KI zusammenzuarbeiten. Dazu passt der Umsetzungsstau: 17 Prozent der Organisationen haben KI-Agenten produktiv im Einsatz, über 60 Prozent planen es binnen zwei Jahren, über 40 Prozent der Projekte werden bis 2027 gestoppt. Und die Instanz, die das auffangen müsste, wird selbst dünner: 71 Prozent der Führungskräfte berichten deutlichen Stressanstieg, 40 Prozent erwägen den Rückzug aus der Rolle.",
+    "fuehrungsimplikation": "Die zyklische Entspannung ist gefährlicher als die Krise, weil sie den Handlungsdruck bei den strukturellen Themen senkt. Die knappste Ressource dieses Jahres ist nicht Rechenleistung und nicht Kapital, sondern Menschen, die bereit sind zu führen — und Menschen, die man befähigt hat, mitzukommen. Die Trainingsschere ist die eine Zahl auf dieser Seite, die eine einzelne Führungskraft nächste Woche selbst verändern kann: nicht durch ein weiteres Tool, sondern indem sie aufhört, Tempo zu verlangen, das sie nicht begleitet.",
+    "kapitel": "AI-Mindset / Co-Intelligenz — sekundär Kapitel 19 Psychologische Sicherheit und Kapitel 16 Kraftquellen/Selbstführung"
   },
   "bani": [
     {
       "code": "B",
       "dim": "Brüchig",
       "en": "Brittle",
-      "wert": 85,
-      "signal": "Doppelbruch an zwei Fronten: US-Iran-Eskalation in dritter Nacht, Hormuz-Transits auf 7 Schiffe (normal 18–22), Brent auf 1-Monats-Hoch (rund 85 USD, Wochenplus über 10 %). Parallel Halbleiter-Ausverkauf: SOX über 20 % unter Junihoch = Bärenmarkt, S&P 500 minus 1,0 %, Nasdaq minus 1,4 % (17.07.). US-Zölle von 15 % auf EU-Importe seit 01.07.",
-      "quelle": "Al Jazeera/CNBC 14.–17.07.2026 · Motley Fool/Schwab/HNGN 17.07.2026 · IWF WEO-Update 08.07.2026",
-      "fuehrung": "Energie-, Lieferketten- und Zoll-Exposure jetzt durchspielen – und gleichzeitig KI-Investitionen nicht vom Kursrauschen steuern lassen."
+      "wert": 82,
+      "signal": "Erstmals seit Wochen Entlastung an der Konjunkturfront: ifo-Geschäftsklima 85,6 (von 85,0), Lage 87,0, Erwartungen 84,1; HVPI Euroraum fällt auf 2,8 Prozent (Kern 2,4); Brent nach dem MoU-Rahmen auf 78,24 USD, Tiefstand seit dem 3. März. Die Brüchigkeit sinkt — aber nur taktisch: Die Golf-Gespräche pausieren seit Ende Juni, es folgten erneute Schläge, und das ifo-Niveau bleibt historisch schwach. Stabilisierung auf niedrigem Niveau, kein Aufschwung.",
+      "quelle": "ifo 24.06.2026 · Eurostat/EZB 06/2026 · Al Jazeera/CNBC 06–07/2026 · IMF WEO Update 07/2026",
+      "fuehrung": "Die Entlastung nutzen, statt sie zu verwechseln. Wer jetzt den Fuß vom strukturellen Thema nimmt, weil die Zahlen freundlicher aussehen, zahlt in zwei Jahren."
     },
     {
       "code": "A",
       "dim": "Ängstlich",
       "en": "Anxious",
       "wert": 82,
-      "signal": "Angst auf beiden Seiten des Schreibtischs. Unten: 40 % nennen KI-Jobverlust als Hauptangst (fast verdoppelt), unter 25 % halten ihren Job für sicher, nur rund ein Drittel erhält adäquates KI-Training (minus 10 Prozentpunkte gegenüber 2024). Oben: Manager-Engagement bricht von 27 auf 22 Prozent ein – der größte je gemessene Rückgang; nur 6 % der Gen Z nennen Führung als Hauptziel.",
-      "quelle": "KPMG 2026 · ADP People at Work 2026 (39.000 Beschäftigte/36 Länder) · JFF 2026 · Gallup State of the Global Workplace 2026 · Deloitte Gen Z & Millennial Survey 2026",
-      "fuehrung": "FOBO direkt ansprechen statt aussitzen – und die Führungsschicht selbst stützen. Erschöpfte Führung kann keine Angst auffangen."
+      "signal": "Die Angst bleibt auf hohem Niveau und wandert nach oben: 71 Prozent der Führungskräfte berichten deutlichen Stressanstieg seit Amtsübernahme (2022: 63 Prozent), 54 Prozent sorgen sich um Burnout, 40 Prozent erwägen den Rückzug aus der Führungsrolle. Bei den Beschäftigten fürchten laut Mercer 40 Prozent weltweit die Obsoleszenz ihres Jobs (2024: 28 Prozent); Gallup misst im Februar 18 Prozent, die einen KI-bedingten Wegfall binnen fünf Jahren für wahrscheinlich halten — 23 Prozent in Organisationen, die KI bereits einführen.",
+      "quelle": "DDI Global Leadership Forecast 2026 · Mercer Global Talent Trends 2026 · Gallup 02/2026",
+      "fuehrung": "Zuerst die Führungsschicht stützen. Eine erschöpfte Führungskraft kann die Angst ihres Teams nicht auffangen — sie gibt sie weiter."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
-      "wert": 78,
-      "signal": "Ein einzelnes Modell-Release verschiebt binnen 48 Stunden eine Anlageklasse: Kimi K3 (2,8 Bio Parameter, Open Weight, 1 Mio Token Kontext) trifft Frontier-Niveau, Halbleiter fallen in den Bärenmarkt, einzelne KI-Titel bis minus 27 %. Nichtlinear auch die Demografie: Erwerbstätige minus 184.000 gegenüber Vorjahr, bis 2028 rund 4,7 Mio Abgänge.",
-      "quelle": "Bloomberg/Fortune/VentureBeat/TechCrunch 16.–17.07.2026 · Destatis Press 05/2026 · IAB 2026",
-      "fuehrung": "In Szenarien führen statt fortzuschreiben. Wer seine Strategie an ein bestimmtes Modell gebunden hat, plant gerade an der Realität vorbei."
+      "wert": 77,
+      "signal": "Die Juli-Modellwelle rollt weiter (GPT-5.6 in drei Varianten, Claude Sonnet 5 und Fable 5, Meta Muse Spark 1.1 mit 1-Mio-Kontext), während Google Gemini 3.5 Pro nach enttäuschenden internen Tests verzögert — Fortschritt ist nicht mehr planbar, auch nicht für die Anbieter. Nichtlinear auch die Demografie: Erwerbstätigkeit sinkt das dritte Quartal in Folge (Q1/26: 45,6 Mio., minus 157 Tsd. gegenüber Vorjahr), das IW erwartet bis 2035 sieben Millionen Arbeitskräfte weniger.",
+      "quelle": "Herstellerankündigungen 07/2026 · Destatis 05/2026 · Bundesagentur für Arbeit 06/2026 · IW Köln 2026",
+      "fuehrung": "In Szenarien planen, nicht in Fortschreibungen. Und Aufgabenverzicht als Führungsdisziplin üben — bei sieben Millionen fehlenden Kräften ist Priorisierung keine Effizienzfrage."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
       "wert": 75,
-      "signal": "Die Zahlen widersprechen sich nur scheinbar: 80 % der neu ausgelieferten Apps enthalten mindestens einen KI-Agenten – aber nur 12 % der Beschäftigten erleben, dass KI ihre Arbeit verändert hat, und über 40 % der Agenten-Projekte werden bis 2027 abgebrochen. MIT ordnet die Automatisierung als steigende Flut ein, nicht als brechende Welle. Dazu neue Governance-Themen: Agenten lernen aus Bildschirmaufnahmen, Jailbreak-Risiken.",
-      "quelle": "Gartner 2026 · Gallup 2026 · MIT FutureTech 2026",
-      "fuehrung": "Nicht mehr Tools, sondern Urteilskraft: wenige Anwendungsfälle mit klarem Nutzen, sauberer Governance – und einer Führungskraft, die sichtbar dahintersteht."
+      "signal": "Die Zahlen widersprechen sich nur scheinbar: Über 60 Prozent der Organisationen planen KI-Agenten binnen zwei Jahren, aber erst 17 Prozent haben sie produktiv — und über 40 Prozent der agentischen Projekte werden bis 2027 gestoppt. Dass OpenAI mit DeployCo eine Beratungstochter über vier Milliarden Dollar gründet und Tomoro kauft, ist das ehrlichste Eingeständnis der Woche: Der Flaschenhals ist die Implementierung, nicht das Modell. Parallel wächst der Governance-Raum schneller, als Regeln entstehen.",
+      "quelle": "Gartner CIO & Technology Executive Survey 2026 · Herstellermeldungen 07/2026",
+      "fuehrung": "Nicht mehr Werkzeuge, sondern Urteilskraft: wenige Anwendungsfälle mit klarem Nutzen, geklärter Datengrundlage und einer benannten Person, die die Entscheidung verantwortet."
     }
   ],
   "quellen": [
     {
-      "titel": "Gallup, State of the Global Workplace 2026 (12 % erlebte KI-Transformation; Manager-Engagement 27 auf 22 %; 8,7-fache Wirkung bei aktiver Führungsunterstützung)",
-      "url": "https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx"
+      "titel": "Gartner CIO & Technology Executive Survey 2026 (17 % Agenten produktiv, über 60 % geplant, über 40 % der agentischen Projekte bis 2027 gestoppt)",
+      "url": "https://www.gartner.com/en/newsroom"
     },
     {
-      "titel": "Fortune: Markets experience new DeepSeek shock after Moonshot AI releases Kimi K3 (17.07.2026)",
-      "url": "https://fortune.com/2026/07/17/china-moonshot-kimi-k3-markets-china-ai/"
+      "titel": "ifo Geschäftsklimaindex Juni 2026 (85,6 — Lage 87,0 / Erwartungen 84,1)",
+      "url": "https://www.ifo.de/umfragen/geschaeftsklima"
     },
     {
-      "titel": "VentureBeat: China's Moonshot AI releases Kimi K3, the largest open-source model ever (16.07.2026)",
-      "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems"
+      "titel": "Eurostat/EZB: HVPI Euroraum Juni 2026 (2,8 %, Kernrate 2,4 %)",
+      "url": "https://ec.europa.eu/eurostat"
     },
     {
-      "titel": "IMF, World Economic Outlook Update – Global Economy in Crosscurrents of War and Technology (08.07.2026)",
-      "url": "https://www.imf.org/en/Publications/WEO"
+      "titel": "DDI Global Leadership Forecast 2026 (71 % Stressanstieg, 54 % Burnout-Sorge, 40 % erwägen Rückzug aus Führung)",
+      "url": "https://www.ddiworld.com/global-leadership-forecast"
     },
     {
-      "titel": "Zukunftsforscher (SYNK) – Trendbericht 18.07.2026 (Krieg und Technologie zugleich; Adoption ist nicht Wirkung)",
-      "url": "https://zukunft-fuehren.com/uhr/"
+      "titel": "Mercer Global Talent Trends 2026 (40 % fürchten Obsoleszenz, 2024: 28 %)",
+      "url": "https://www.mercer.com/insights/people-strategy/future-of-work/global-talent-trends/"
+    },
+    {
+      "titel": "PwC Global AI Jobs Barometer 2026 (Anforderungstempo in KI-exponierten Berufen)",
+      "url": "https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer.html"
+    },
+    {
+      "titel": "IW Köln 2026 (7 Mio. Arbeitskräfte weniger bis 2035, Zuwanderung deckt rund 70 % der Lücke)",
+      "url": "https://www.iwkoeln.de/"
+    },
+    {
+      "titel": "Destatis: Erwerbstätigkeit Q1/2026 (45,6 Mio., dritter Rückgang in Folge)",
+      "url": "https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/_inhalt.html"
     }
-  ]
+  ],
+  "hinweis": "Der Leadership-Disruptions-Index ist ein Deutungs-, kein Messinstrument. Er verdichtet öffentlich verfügbare Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte — er misst nichts, er ordnet ein."
 }
