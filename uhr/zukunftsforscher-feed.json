@@ -1,87 +1,87 @@
 {
-  "datum": "2026-07-20",
-  "aktualisiert": "2026-07-20T07:30:00+02:00",
-  "index": 82,
-  "uhrzeit": "23:49",
+  "datum": "2026-07-21",
+  "aktualisiert": "2026-07-21T07:30:00+02:00",
+  "index": 84,
+  "uhrzeit": "23:50",
   "trend": "steigend",
-  "trend_delta": 3,
-  "leitsatz": "Die Entlastung der vergangenen Woche hing an einem einzigen Puffer: dem billigen Öl. Der Puffer ist binnen zwei Wochen weggebrochen. Stabilität, die an einer einzigen Bedingung hängt, ist keine Stabilität — sie ist eine Frist.",
+  "trend_delta": 2,
+  "leitsatz": "Zwei Schocks laufen gleichzeitig, aber in entgegengesetzte Richtungen: Material wird knapper, Denkleistung wird gratis. Beide treffen denselben Engpass — und der ist weder ein Rohstoff noch ein Modell, sondern die Umsetzungsfähigkeit der eigenen Organisation.",
   "leitsignal": {
-    "titel": "Die Entspannung war geliehen",
-    "quelle": "Zukunftsforscher-Bericht 20.07.2026; Kernbelege gegengeprüft: Brent 90,88 USD am 19.07. (plus rund 27 % gegenüber dem Monatstief 71,59 USD am 06.07.), höchster Stand seit Mitte Juni, nach faktischem Kollaps der US-iranischen Waffenruhe und Angriffen auf Öl-, Strom- und Entsalzungsanlagen in Kuwait (Bloomberg/Axios/KUNA, 18.–19.07.2026) · HVPI Euroraum Juni 2,8 % bei Energiekomponente 8,7 % · ifo Juni 85,6 · PwC AI Jobs Barometer 2026: Korrelation zwischen KI-Exponierung und Netto-Skill-Wandel in Deutschland 0,02, Anwender-zu-Entwickler-Verhältnis 7:1, 1,3 % aller Stellenanzeigen KI-bezogen (rund 125.000) · Gallup: Manager-Engagement 22 % (2024: 27 %) · Destatis: Erwerbstätigkeit dritter Rückgang in Folge",
-    "befund": "Vor 24 Stunden lautete der Befund noch: konjunkturelle Erleichterung bei struktureller Verschärfung. Das Wochenende hat die geliehene Hälfte zurückgefordert. Brent sprang auf 90,88 Dollar, rund 27 Prozent über dem Monatstief vom 6. Juli, nachdem die US-iranische Waffenruhe faktisch kollabiert ist und Angriffe erstmals auch die Trinkwasserversorgung eines Golfstaats trafen. Das ist deshalb so folgenreich, weil der Disinflationspfad im Euroraum fast vollständig am fallenden Ölpreis hing: Die Energiekomponente lag im Juni bei 8,7 Prozent und damit weit über allen anderen Positionen. Der Treiber hat sich umgekehrt. Gleichzeitig erodieren laut Analysten genau die Schockabsorber, die bisher größere Ausschläge verhindert haben — Reservefreigaben, volle Lager, schwache chinesische Nachfrage. Die strukturelle Hälfte bleibt unverändert: Das PwC AI Jobs Barometer misst für Deutschland eine Korrelation von 0,02 zwischen KI-Exponierung eines Berufs und tatsächlichem Kompetenzwandel — global ist dieser Zusammenhang stark und hat sich binnen eines Jahres um 75 Prozent verstärkt. Deutschland wendet KI an, ohne sich zu verändern.",
-    "fuehrungsimplikation": "Das ist Brüchigkeit im Wortsinn: Ein System wirkt stabil, weil eine einzelne günstige Bedingung es trägt — und bricht, sobald diese Bedingung wegfällt. Die Führungsfrage ist deshalb nicht, ob man den Ölpreis prognostizieren kann, sondern ob man weiß, woran die eigene Stabilität gerade hängt. Wer im Juni Entlastung gespürt und sie als Trendwende gedeutet hat, hat eine Bedingung mit einer Fähigkeit verwechselt. Konkret: benennen, welche einzelne Annahme die aktuelle Planung trägt — und was passiert, wenn sie in zwei Wochen nicht mehr gilt.",
-    "kapitel": "Kapitel 1 Polykrise/BANI (brüchig) — sekundär Kapitel 13 Change Fitness"
+    "titel": "Zwei Schocks, ein Engpass",
+    "quelle": "Zukunftsforscher-Bericht 21.07.2026; Kernbelege gegengeprüft: Straße von Hormus offiziell geschlossen, Passagen von acht auf vier pro Tag halbiert, seit Donnerstag keine LNG-Tanker gesichtet, Brent über 90 USD und damit höchster Stand seit Mitte Juni (Reuters/Bloomberg, 19.–20.07.2026) · rund ein Fünftel des globalen Energiehandels läuft durch die Meerenge (IW Köln) · 31,2 % der Chemieunternehmen melden Materialmangel (ifo, Mai 2026) · Moonshot AI stellt Kimi K3 vor: 2,8 Billionen Parameter, größtes je veröffentlichtes offenes Modell, Platz 1 im Frontend Code Arena mit 1.679 Punkten vor Claude Fable 5 mit 1.631, volle Gewichte ab 27.07. unter Modified-MIT-Lizenz (Moonshot AI 16.07.2026, verifiziert über Tom's Hardware) · Gartner: 17 % der Organisationen haben Agenten produktiv ausgerollt, über 60 % planen es, über 40 % der agentischen Projekte werden bis 2027 gestoppt · MIT: 95 % ohne messbaren Gewinneffekt · TÜV-Weiterbildungsstudie 2026: 56 % der Unternehmen nutzen generative KI, nur 27 % haben geschult, 45 % sehen keinen Bedarf",
+    "befund": "Gestern lautete der Befund, die Entspannung sei geliehen. Heute ist der Kredit fällig gestellt — und zwar nicht mehr über den Preis, sondern über die physische Verfügbarkeit. Iran hält die Straße von Hormus geschlossen, der Schiffsverkehr ist auf vier Passagen pro Tag eingebrochen, LNG-Tanker wurden seit Donnerstag gar nicht mehr gesichtet. Durch diese Meerenge läuft rund ein Fünftel des globalen Energiehandels. Das ist die Schwelle vom Preisschock zum Mengenschock, und Mengenschocks lassen sich nicht aussitzen — sie werden zu Produktionsentscheidungen. In der deutschen Chemie meldeten bereits im Mai 31,2 Prozent der Unternehmen Materialmangel, und das war vor der Schließung. Gleichzeitig geschieht an der zweiten Front das genaue Gegenteil: Moonshot AI hat mit Kimi K3 das größte offene Modell der Geschichte vorgestellt und gibt die vollen Gewichte am 27. Juli frei. Während materielle Ressourcen knapper und teurer werden, wird kognitive Spitzenkapazität binnen weniger Tage zur frei verfügbaren Ressource. Die Gleichzeitigkeit ist der eigentliche Befund, nicht die Einzelmeldung.",
+    "fuehrungsimplikation": "Beide Schocks verlangen entgegengesetzte Reflexe. Knappheit außen erfordert Rationieren und Priorisieren, Überfluss innen erfordert Öffnen und Experimentieren. Wer beides mit demselben Managementmodus behandelt, macht entweder die Lieferkette fahrlässig oder die KI-Nutzung ängstlich. Und beide laufen über denselben Engpass: die Fähigkeit der Organisation, eine Entscheidung tatsächlich in Handlung zu übersetzen. Genau dort wird gerade nicht investiert — die TÜV-Weiterbildungsstudie 2026 findet 56 Prozent der Unternehmen, die generative KI einsetzen, aber nur 27 Prozent, die dafür geschult haben, und 45 Prozent, die aktuell keinen Bedarf sehen. Konkret: Die Priorisierung, welche Aufträge bedient werden, wenn Vorprodukte fehlen, sollte jetzt schriftlich existieren — nicht im Moment des Ausfalls verhandelt werden.",
+    "kapitel": "Kapitel 1 Polykrise/BANI (brüchig) — sekundär AI-Mindset/Co-Intelligenz"
   },
   "bani": [
     {
       "code": "B",
       "dim": "Brüchig",
       "en": "Brittle",
-      "wert": 86,
-      "signal": "Der Puffer, der die deutsche Konjunkturstabilisierung im Juni getragen hatte, ist binnen zwei Wochen weggebrochen: Brent 90,88 USD (plus rund 27 % gegenüber 71,59 USD am 06.07.), höchster Stand seit Mitte Juni. Die US-iranische Waffenruhe ist faktisch kollabiert; Angriffe trafen Öl-, Strom- und Entsalzungsanlagen in Kuwait — erstmals in dieser Eskalationsrunde ist die Trinkwasserversorgung eines Golfstaats Ziel. Zusätzlich hat Russland nach Drohnenangriffen auf Raffinerien Dieselexporte verboten. Die Schockabsorber, die bisher gedämpft haben (strategische Reserven, volle kommerzielle Lager, schwache chinesische Nachfrage), erodieren laut Analysten.",
-      "quelle": "Bloomberg 19.07.2026 · Axios/Financial Modeling Prep 19.07.2026 · NBC News/KUNA 18.–19.07.2026",
-      "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Die Frage ist nicht, wie robust Ihr Plan aussieht, sondern an wie wenigen Bedingungen er hängt."
+      "wert": 88,
+      "signal": "Die Eskalation hat eine qualitative Schwelle überschritten. Die Straße von Hormus ist offiziell geschlossen, die Passagen sind von acht auf vier pro Tag halbiert, LNG-Tanker wurden seit Donnerstag nicht mehr gesichtet. Rund ein Fünftel des globalen Energiehandels läuft durch diese Meerenge; Umleitungsrouten decken nur einen Bruchteil. Brent notiert über 90 Dollar, dem höchsten Stand seit Mitte Juni. Deutschland bezieht kaum Energie direkt aus der Golfregion — die Wirkung läuft über Vorprodukte: 31,2 Prozent der Chemieunternehmen meldeten bereits im Mai Materialmangel, bei Gummi- und Kunststoffwaren stieg der Anteil von 22,9 auf 23,7 Prozent. Zusätzlich kündigen die Huthi eine Seeblockade gegen Saudi-Arabien an — ein zweiter maritimer Engpass parallel zum Roten Meer.",
+      "quelle": "Reuters/Bloomberg 19.–20.07.2026 · ifo Mai 2026 · IW Köln",
+      "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Beim Preisschock verhandeln Sie Kosten, beim Mengenschock verhandeln Sie, welcher Kunde nicht beliefert wird. Diese Reihenfolge sollte auf Papier stehen, bevor sie gebraucht wird."
     },
     {
       "code": "A",
       "dim": "Ängstlich",
       "en": "Anxious",
-      "wert": 84,
-      "signal": "Die Angst hat einen neuen Kanal bekommen: nicht nur Job-Obsoleszenz, sondern wieder Preise. Der Disinflationspfad im Euroraum hing fast vollständig an der Energiekomponente (Juni 8,7 % bei 2,8 % Gesamtrate) — mit der Ölspitze kippt der Basiseffekt, und die Straffungsdebatte verschiebt sich zurück Richtung Herbst. Auf der Führungsebene bleibt der Druck hoch: Gallup misst Manager-Engagement von 22 Prozent (2024: 27, seit 2022 minus 9 Punkte); Führungskräfte sind gleichzeitig die engagierteste (26 %) und die gestresteste (46 %), einsamste (31 %) und wütendste (33 %) Gruppe.",
-      "quelle": "Eurostat 17.07.2026 · EZB/LBBW 07/2026 · Gallup State of the Global Workplace 2026",
-      "fuehrung": "Wenn Unsicherheit zurückkehrt, kehren auch die alten Reflexe zurück: mehr Kontrolle, kürzere Leine. Genau das kostet die Bindung, die man in der nächsten Enge braucht."
+      "wert": 85,
+      "signal": "Die Angst läuft jetzt auf zwei Kanälen gleichzeitig. Materiell kippt der Basiseffekt: Der Disinflationspfad im Euroraum hing fast vollständig an der Energiekomponente, die im Juni bei 8,5 Prozent lag, während die Gesamtrate 2,8 Prozent betrug. Der Treiber hat sich umgekehrt; die Tarifrunden im Herbst gehen mit erneuter Energiepreisspitze in die Verhandlung. Beruflich bleibt FOBO: 40 Prozent nennen KI-bedingten Jobverlust als eine ihrer Hauptängste — ein Anteil, der sich binnen eines Jahres nahezu verdoppelt hat — und 63 Prozent sagen, KI mache den Arbeitsplatz weniger menschlich. Die Ebene, die beide Schocks übersetzen soll, ist die erschöpfteste im System: Manager-Engagement liegt bei 22 Prozent gegenüber 31 Prozent im Jahr 2022.",
+      "quelle": "Eurostat 01.07.2026 · KPMG 2026 · Gallup State of the Global Workplace 2026",
+      "fuehrung": "Angst vor Knappheit und Angst vor Überflüssigkeit erzeugen dasselbe Verhalten: Man hält still und sichert ab. Genau das ist der Modus, in dem eine Organisation weder rationieren noch experimentieren kann."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
-      "wert": 81,
-      "signal": "Plus 27 Prozent in dreizehn Tagen — der Ölmarkt liefert das Lehrbuchbeispiel für Nichtlinearität: Monatelang absorbierten Puffer jede Nachricht, dann bewertete der Markt an einem Wochenende alles neu. Weil die Puffer jetzt dünner sind, werden die nächsten Ausschläge schärfer, nicht flacher. Nichtlinear auch der Arbeitsmarkt: Die Erwerbstätigkeit sinkt das dritte Quartal in Folge (Mai 45,68 Mio.), aber die Summe verdeckt die Struktur — außerhalb der Dienstleistungen minus 202.000 (minus 1,8 %), in öffentlichem Dienst, Bildung und Gesundheit plus 181.000 (plus 1,5 %).",
-      "quelle": "Bloomberg/Axios 18.–19.07.2026 · Destatis PM Nr. 167/2026 und Erwerbstätigenrechnung 2026",
-      "fuehrung": "Kleine Ursache, große Wirkung: Wer nur Durchschnitte betrachtet, sieht die Verschiebung erst, wenn sie abgeschlossen ist. Struktur schlägt Summe."
+      "wert": 83,
+      "signal": "Zwei nichtlineare Sprünge in entgegengesetzte Richtungen innerhalb einer Woche. Auf der Materialseite signalisiert der Terminmarkt über eine ausgeprägte Backwardation ernsthafte Sorge um die kurzfristige Versorgung — und weil die Puffer dünner sind, werden die nächsten Ausschläge schärfer statt flacher. Auf der Modellseite hat Kimi K3 die Parameterzahl des Vorgängers binnen weniger Monate knapp verdreifacht und liegt in Blindtests von Entwicklern vor den führenden westlichen Systemen. Beides folgt demselben Muster: Monatelang absorbieren Puffer jede Nachricht, dann bewertet der Markt an einem Wochenende alles neu.",
+      "quelle": "Reuters/Terminmarktdaten 19.–20.07.2026 · Moonshot AI 16.07.2026 · Tom's Hardware",
+      "fuehrung": "Nichtlinear heißt: Die Vorbereitungszeit liegt vor dem Ereignis, nicht danach. Wer erst plant, wenn der Sprung sichtbar ist, plant bereits unter den neuen Bedingungen."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
-      "wert": 78,
-      "signal": "Der aufschlussreichste Befund des Tages ist eine Zahl, die eigentlich nicht sein dürfte: Das PwC AI Jobs Barometer 2026 (über eine Milliarde Stellenanzeigen aus 27 Ländern) misst für Deutschland eine Korrelation von 0,02 zwischen der KI-Exponierung eines Berufs und dem tatsächlichen Netto-Kompetenzwandel — praktisch null. Global verändern sich die Kompetenzen in stark exponierten Rollen mehr als doppelt so schnell, und dieser Abstand hat sich binnen eines Jahres um 75 Prozent vergrößert. Deutschland ist zudem klar Anwendermarkt: 109.400 Anwender- gegenüber 15.400 Entwicklerrollen (7:1). Im Finanzsektor ist die Lohnprämie für KI-Kompetenz bereits negativ (minus 9 %) — dort ist sie keine Prämie mehr wert, weil sie zur Grundausstattung geworden ist.",
-      "quelle": "PwC AI Jobs Barometer 2026, veröffentlicht 30.06.2026 (an der Primärquelle pwc.de verifiziert) · MIT FutureTech 2026",
-      "fuehrung": "Unbegreiflich heißt hier nicht kompliziert, sondern folgenlos verstanden: Man kann eine Technologie flächendeckend einführen und trotzdem nichts lernen. Der Unterschied entsteht nicht im Tool, sondern in der Frage, was jemand danach anders können muss."
+      "wert": 80,
+      "signal": "Der aufschlussreichste Befund ist die Gleichzeitigkeit selbst: Während physische Ressourcen rationiert werden, wird Spitzenintelligenz binnen elf Tagen von der Ankündigung zur frei herunterladbaren Datei. Dass daraus kein Vorteil entsteht, ist der zweite Teil des Rätsels. Gartner findet 17 Prozent der Organisationen mit produktiv ausgerollten Agenten, über 60 Prozent mit Absicht und über 40 Prozent der agentischen Projekte, die bis 2027 gestoppt werden. MIT sieht bei rund 40 Milliarden Dollar Investitionen in 95 Prozent der Organisationen keinen messbaren Gewinneffekt; eine NBER-Befragung von knapp 6.000 Führungskräften findet bei 89 Prozent keinen Effekt auf die Arbeitsproduktivität. Und die deutsche Investitionsseite schrumpft an der entscheidenden Stelle: 56 Prozent der Unternehmen nutzen generative KI, nur 27 Prozent haben geschult, 45 Prozent sehen aktuell keinen Bedarf.",
+      "quelle": "Gartner 2026 · MIT 2026 · NBER 2026 · TÜV-Weiterbildungsstudie 2026 (rund 500 Befragte, Erhebung Januar bis März 2026)",
+      "fuehrung": "Unbegreiflich heißt hier nicht kompliziert, sondern folgenlos verfügbar. Ein Werkzeug, das jeder haben kann, erzeugt keinen Vorsprung. Der Unterschied entsteht in der Frage, was in der Organisation danach anders läuft."
     }
   ],
   "quellen": [
     {
-      "titel": "PwC AI Jobs Barometer 2026 Deutschland (Korrelation KI-Exponierung/Skill-Wandel 0,02; Anwender:Entwickler 7:1; 1,3 % aller Stellenanzeigen)",
-      "url": "https://www.pwc.de/de/pressemitteilungen/2026/pwc-studie-ki-erreicht-den-kern-des-deutschen-jobmarkts-treibt-den-skill-wandel-aber-noch-kaum.html"
+      "titel": "Tom's Hardware: Moonshot releases 2.8-trillion-parameter Kimi K3 (größtes offenes Modell, Platz 1 Frontend Code Arena, Gewichte ab 27.07.2026)",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3"
     },
     {
-      "titel": "PwC 2026 Global AI Jobs Barometer (Gesamtbericht, 27 Länder)",
-      "url": "https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html"
-    },
-    {
-      "titel": "Bloomberg: Brent Oil Tops $90 as Middle East Attacks Threaten Hormuz Flows (19.07.2026)",
+      "titel": "Bloomberg/Reuters: Straße von Hormus geschlossen, Passagen halbiert, Brent über 90 USD (19.–20.07.2026)",
       "url": "https://www.bloomberg.com/news/articles/2026-07-19/latest-oil-market-news-and-analysis-for-july-20"
     },
     {
-      "titel": "Eurostat: HVPI Euroraum Juni 2026 (2,8 %, Energiekomponente 8,7 %)",
-      "url": "https://ec.europa.eu/eurostat"
+      "titel": "ifo Konjunkturumfrage: 31,2 % der Chemieunternehmen melden Materialmangel (Mai 2026)",
+      "url": "https://www.ifo.de/umfragen/konjunkturumfragen"
     },
     {
-      "titel": "ifo Geschäftsklimaindex Juni 2026 (85,6)",
-      "url": "https://www.ifo.de/umfragen/geschaeftsklima"
+      "titel": "TÜV-Verband Weiterbildungsstudie 2026 (56 % KI-Nutzung, 27 % geschult, 45 % sehen keinen Bedarf)",
+      "url": "https://www.haufe.de/personal/neues-lernen/tuev-weiterbildungsstudie-2026-zu-ki-weiterbildungen_589614_686216.html"
+    },
+    {
+      "titel": "Eurostat: HVPI Euroraum Juni 2026 (2,8 %, Energiekomponente 8,5 %)",
+      "url": "https://ec.europa.eu/eurostat"
     },
     {
       "titel": "Gallup State of the Global Workplace 2026 (Manager-Engagement 22 %)",
       "url": "https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx"
     },
     {
-      "titel": "Deloitte Global Gen Z and Millennial Survey 2026 (76 % streben Senior-Rollen an, 6 % primär Führung)",
+      "titel": "Deloitte Global Gen Z and Millennial Survey 2026 (76 % streben Senior-Rollen an, 6 % primär Führung, 74 % nutzen KI im Arbeitsalltag)",
       "url": "https://www.deloitte.com/global/en/issues/work/genz-millennialsurvey.html"
     },
     {
-      "titel": "Destatis: Erwerbstätigkeit Mai 2026 (45,68 Mio.) und Q1/2026, dritter Rückgang in Folge",
+      "titel": "Destatis: 13,3 Mio. Erwerbspersonen erreichen bis 2040 das Rentenalter (rund 30 %)",
       "url": "https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/_inhalt.html"
     }
   ],
