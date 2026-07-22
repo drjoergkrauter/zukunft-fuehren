@@ -1,88 +1,80 @@
 {
-  "datum": "2026-07-21",
-  "aktualisiert": "2026-07-21T07:30:00+02:00",
-  "index": 84,
-  "uhrzeit": "23:50",
+  "datum": "2026-07-22",
+  "aktualisiert": "2026-07-22T07:40:00+02:00",
+  "index": 85,
+  "uhrzeit": "23:51",
   "trend": "steigend",
-  "trend_delta": 2,
-  "leitsatz": "Zwei Schocks laufen gleichzeitig, aber in entgegengesetzte Richtungen: Material wird knapper, Denkleistung wird gratis. Beide treffen denselben Engpass — und der ist weder ein Rohstoff noch ein Modell, sondern die Umsetzungsfähigkeit der eigenen Organisation.",
+  "trend_delta": 1,
+  "leitsatz": "Der Engpass vervielfältigt sich — außen als Netz gleichzeitiger Störungen, innen als Stillstand beim Umbau. Beide Fronten laufen über dieselbe Fähigkeit: sich schneller neu zu konfigurieren, als die Umwelt einen destabilisiert.",
   "leitsignal": {
-    "titel": "Zwei Schocks, ein Engpass",
-    "quelle": "Zukunftsforscher-Bericht 21.07.2026; Kernbelege gegengeprüft: Straße von Hormus offiziell geschlossen, Passagen von acht auf vier pro Tag halbiert, seit Donnerstag keine LNG-Tanker gesichtet, Brent über 90 USD und damit höchster Stand seit Mitte Juni (Reuters/Bloomberg, 19.–20.07.2026) · rund ein Fünftel des globalen Energiehandels läuft durch die Meerenge (IW Köln) · 31,2 % der Chemieunternehmen melden Materialmangel (ifo, Mai 2026) · Moonshot AI stellt Kimi K3 vor: 2,8 Billionen Parameter, größtes je veröffentlichtes offenes Modell, Platz 1 im Frontend Code Arena mit 1.679 Punkten vor Claude Fable 5 mit 1.631, volle Gewichte ab 27.07. unter Modified-MIT-Lizenz (Moonshot AI 16.07.2026, verifiziert über Tom's Hardware) · Gartner: 17 % der Organisationen haben Agenten produktiv ausgerollt, über 60 % planen es, über 40 % der agentischen Projekte werden bis 2027 gestoppt · MIT: 95 % ohne messbaren Gewinneffekt · TÜV-Weiterbildungsstudie 2026: 56 % der Unternehmen nutzen generative KI, nur 27 % haben geschult, 45 % sehen keinen Bedarf",
-    "befund": "Gestern lautete der Befund, die Entspannung sei geliehen. Heute ist der Kredit fällig gestellt — und zwar nicht mehr über den Preis, sondern über die physische Verfügbarkeit. Iran hält die Straße von Hormus geschlossen, der Schiffsverkehr ist auf vier Passagen pro Tag eingebrochen, LNG-Tanker wurden seit Donnerstag gar nicht mehr gesichtet. Durch diese Meerenge läuft rund ein Fünftel des globalen Energiehandels. Das ist die Schwelle vom Preisschock zum Mengenschock, und Mengenschocks lassen sich nicht aussitzen — sie werden zu Produktionsentscheidungen. In der deutschen Chemie meldeten bereits im Mai 31,2 Prozent der Unternehmen Materialmangel, und das war vor der Schließung. Gleichzeitig geschieht an der zweiten Front das genaue Gegenteil: Moonshot AI hat mit Kimi K3 das größte offene Modell der Geschichte vorgestellt und gibt die vollen Gewichte am 27. Juli frei. Während materielle Ressourcen knapper und teurer werden, wird kognitive Spitzenkapazität binnen weniger Tage zur frei verfügbaren Ressource. Die Gleichzeitigkeit ist der eigentliche Befund, nicht die Einzelmeldung.",
-    "fuehrungsimplikation": "Beide Schocks verlangen entgegengesetzte Reflexe. Knappheit außen erfordert Rationieren und Priorisieren, Überfluss innen erfordert Öffnen und Experimentieren. Wer beides mit demselben Managementmodus behandelt, macht entweder die Lieferkette fahrlässig oder die KI-Nutzung ängstlich. Und beide laufen über denselben Engpass: die Fähigkeit der Organisation, eine Entscheidung tatsächlich in Handlung zu übersetzen. Genau dort wird gerade nicht investiert — die TÜV-Weiterbildungsstudie 2026 findet 56 Prozent der Unternehmen, die generative KI einsetzen, aber nur 27 Prozent, die dafür geschult haben, und 45 Prozent, die aktuell keinen Bedarf sehen. Konkret: Die Priorisierung, welche Aufträge bedient werden, wenn Vorprodukte fehlen, sollte jetzt schriftlich existieren — nicht im Moment des Ausfalls verhandelt werden.",
-    "kapitel": "Kapitel 1 Polykrise/BANI (brüchig) — sekundär AI-Mindset/Co-Intelligenz"
+    "titel": "Zugang rast, Umbau stockt",
+    "quelle": "Zukunftsforscher-Bericht 22.07.2026; Kernbelege gegengeprüft: Deloitte Human Capital Trends 2026 — 85 % der Führungskräfte halten es für kritisch, die Anpassungsfähigkeit zu erhöhen, aber nur 7 % sehen sich dabei führend („Adaptability Gap"; „technology is replicable, people are not"), verifiziert über prnewswire/hrexecutive · Mercer Global Talent Trends 2026 — 63 % würden eine 10-%-Gehaltserhöhung gegen den Ausbau ihrer KI-Kompetenzen eintauschen, Jobangst wegen KI 40 % (2024: 28 %), nur 44 % „thriving" (2024: 66 %), verifiziert über mercer.com · Gallup 2026: Manager-Engagement 22 % (2022: 31 %) · Geopolitik: Straße von Hormus geschlossen (4 statt 8 Passagen/Tag, keine LNG-Tanker), Huthi-Seeembargo gegen Saudi-Arabien im Roten Meer, iranische Schläge gegen Kuwait, 10. Tag US-Angriffe in Folge, Brent über 90 USD (CNBC/Reuters 20.07.2026) · NICHT übernommen: der im Bericht genannte Angriff auf das Caspian Pipeline Consortium (nicht unabhängig bestätigt) und die Deloitte-State-of-AI-Werte 60/84/6 (an der Primärquelle nicht auffindbar; durch HCT 85/7 + Mercer ersetzt)",
+    "befund": "Gestern liefen zwei Schocks in entgegengesetzte Richtungen. Heute verschärft sich die eine Hälfte qualitativ: Die Versorgungsstörung ist kein einzelner Punkt mehr, sie ist ein Netz geworden. Neben der geschlossenen Straße von Hormus verhängen die Huthi ein Seeembargo gegen Saudi-Arabien, dessen Rote-Meer-Route bisher als Ausweichventil diente — die Redundanz wird selbst getroffen. Iran greift Kuwait an, es ist der zehnte Tag US-Schläge in Folge, Brent notiert über 90 Dollar. Ein einzelner Chokepoint lässt sich umfahren, ein Netz gleichzeitiger Störungen nicht. An der zweiten Front liefert die Forschung die präzise Gegenzahl zum Stillstand: Der Zugang zu KI ist da, der Umbau der Arbeit nicht. Deloitte findet 85 Prozent, die Anpassungsfähigkeit für kritisch halten, aber nur 7 Prozent, die ihre Leute dabei tatsächlich führen. Mercer findet 63 Prozent, die auf Gehalt verzichten würden, um mit KI umgehen zu lernen. Zugang rast, Umbau stockt.",
+    "fuehrungsimplikation": "Beide Fronten verlangen entgegengesetzte Reflexe. Knappheit außen erfordert Rationieren und Priorisieren, Überfluss innen erfordert Öffnen und Experimentieren. Wer beides mit demselben Managementmodus behandelt, macht entweder die Lieferkette fahrlässig oder die KI-Nutzung ängstlich. Und beide laufen über denselben Engpass: die Rekonfigurationsgeschwindigkeit der Organisation. Der wirksamste Hebel dafür wird gerade nicht bedient. Die Menschen bestellen Befähigung, die Organisationen liefern Beruhigung. Konkret: Zugang war nie das Ziel, Redesign ist es — den Umbau einzelner Abläufe anordnen, nicht die Tool-Freigabe feiern. Und die mittlere Ebene, die beides übersetzen soll, mit 22 Prozent Engagement zuerst entlasten, nicht mit dem nächsten Programm beauftragen.",
+    "kapitel": "Kapitel 1 Polykrise/BANI (brüchig) — sekundär AI-Mindset / Selbstwirksamkeits-Lücke"
   },
   "bani": [
     {
       "code": "B",
       "dim": "Brüchig",
       "en": "Brittle",
-      "wert": 88,
-      "signal": "Die Eskalation hat eine qualitative Schwelle überschritten. Die Straße von Hormus ist offiziell geschlossen, die Passagen sind von acht auf vier pro Tag halbiert, LNG-Tanker wurden seit Donnerstag nicht mehr gesichtet. Rund ein Fünftel des globalen Energiehandels läuft durch diese Meerenge; Umleitungsrouten decken nur einen Bruchteil. Brent notiert über 90 Dollar, dem höchsten Stand seit Mitte Juni. Deutschland bezieht kaum Energie direkt aus der Golfregion — die Wirkung läuft über Vorprodukte: 31,2 Prozent der Chemieunternehmen meldeten bereits im Mai Materialmangel, bei Gummi- und Kunststoffwaren stieg der Anteil von 22,9 auf 23,7 Prozent. Zusätzlich kündigen die Huthi eine Seeblockade gegen Saudi-Arabien an — ein zweiter maritimer Engpass parallel zum Roten Meer.",
-      "quelle": "Reuters/Bloomberg 19.–20.07.2026 · ifo Mai 2026 · IW Köln",
-      "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Beim Preisschock verhandeln Sie Kosten, beim Mengenschock verhandeln Sie, welcher Kunde nicht beliefert wird. Diese Reihenfolge sollte auf Papier stehen, bevor sie gebraucht wird."
+      "wert": 89,
+      "signal": "Die Störung hat die Topologie gewechselt: vom Punkt zum Netz. Die Straße von Hormus bleibt geschlossen (rund vier Passagen pro Tag statt acht, seit Donnerstag keine LNG-Tanker). Parallel verhängen die Huthi ein Seeembargo gegen Saudi-Arabien im Roten Meer und zwingen mindestens einen saudischen Rohöltanker zur Umkehr — ausgerechnet die Route, die als Ausweichventil für Hormus diente. Iran greift Kuwait an, es ist der zehnte Tag US-Schläge in Folge, Brent notiert über 90 Dollar. Redundanzrouten, die eine Blockade auffangen sollten, werden gleichzeitig getroffen. In Deutschland kommt das über Vorprodukte an: 31,2 Prozent der Chemieunternehmen meldeten bereits im Mai Materialmangel — vor der Eskalation.",
+      "quelle": "CNBC/Reuters 20.07.2026 · ifo Mai 2026",
+      "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Ein Chokepoint lässt sich umfahren, ein Netz nicht. Die Priorisierung, welcher Kunde bei Vorproduktmangel nicht beliefert wird, gehört jetzt auf Papier — nicht in den Moment des Ausfalls."
     },
     {
       "code": "A",
       "dim": "Ängstlich",
       "en": "Anxious",
       "wert": 85,
-      "signal": "Die Angst läuft jetzt auf zwei Kanälen gleichzeitig. Materiell kippt der Basiseffekt: Der Disinflationspfad im Euroraum hing fast vollständig an der Energiekomponente, die im Juni bei 8,5 Prozent lag, während die Gesamtrate 2,8 Prozent betrug. Der Treiber hat sich umgekehrt; die Tarifrunden im Herbst gehen mit erneuter Energiepreisspitze in die Verhandlung. Beruflich bleibt FOBO: 40 Prozent nennen KI-bedingten Jobverlust als eine ihrer Hauptängste — ein Anteil, der sich binnen eines Jahres nahezu verdoppelt hat — und 63 Prozent sagen, KI mache den Arbeitsplatz weniger menschlich. Die Ebene, die beide Schocks übersetzen soll, ist die erschöpfteste im System: Manager-Engagement liegt bei 22 Prozent gegenüber 31 Prozent im Jahr 2022.",
-      "quelle": "Eurostat 01.07.2026 · KPMG 2026 · Gallup State of the Global Workplace 2026",
-      "fuehrung": "Angst vor Knappheit und Angst vor Überflüssigkeit erzeugen dasselbe Verhalten: Man hält still und sichert ab. Genau das ist der Modus, in dem eine Organisation weder rationieren noch experimentieren kann."
+      "signal": "Die Angst wächst schneller als die Befähigung. Mercer misst die Jobangst wegen KI bei 40 Prozent (2024: 28 Prozent), Gallup den FOBO-Anteil bei 22 Prozent (2021: 15 Prozent); nur noch 44 Prozent erleben sich als „thriving" gegenüber 66 Prozent im Jahr 2024. Zugleich kippt materiell der Basiseffekt: Der Disinflationspfad im Euroraum hing fast vollständig an der Energiekomponente, die zuletzt bei 8,5 Prozent lag — dieser Treiber hat sich innerhalb von zwei Wochen umgekehrt, und am 23. Juli tagt die EZB. Die Ebene, die beide Fronten übersetzen soll, ist die erschöpfteste: Manager-Engagement 22 Prozent gegenüber 31 Prozent 2022.",
+      "quelle": "Mercer 2026 · Gallup Feb 2026 · Eurostat 2026",
+      "fuehrung": "Der Befund des Tages ist die Gegenbewegung: Dieselben Menschen, die Angst äußern, verlangen aktiv nach Befähigung. 63 Prozent würden Gehalt gegen Lernen tauschen. Angst ist damit adressierbar — über Training, nicht über Beruhigung."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
-      "wert": 83,
-      "signal": "Zwei nichtlineare Sprünge in entgegengesetzte Richtungen innerhalb einer Woche. Auf der Materialseite signalisiert der Terminmarkt über eine ausgeprägte Backwardation ernsthafte Sorge um die kurzfristige Versorgung — und weil die Puffer dünner sind, werden die nächsten Ausschläge schärfer statt flacher. Auf der Modellseite hat Kimi K3 die Parameterzahl des Vorgängers binnen weniger Monate knapp verdreifacht und liegt in Blindtests von Entwicklern vor den führenden westlichen Systemen. Beides folgt demselben Muster: Monatelang absorbieren Puffer jede Nachricht, dann bewertet der Markt an einem Wochenende alles neu.",
-      "quelle": "Reuters/Terminmarktdaten 19.–20.07.2026 · Moonshot AI 16.07.2026 · Tom's Hardware",
+      "wert": 84,
+      "signal": "Zwei nichtlineare Bewegungen in entgegengesetzte Richtungen. Auf der Materialseite reicht nicht mehr die Ausweichroute, weil die Ausweichroute selbst zum Ziel wird — die Backwardation am Terminmarkt signalisiert Sorge um die kurzfristige Verfügbarkeit, und dünnere Puffer machen die nächsten Ausschläge schärfer statt flacher. Auf der Modellseite wird kognitive Spitzenkapazität binnen Tagen zur frei verfügbaren Ressource (Kimi K3, volle Gewichte ab 27.07.). Beides folgt demselben Muster: monatelang absorbieren Puffer jede Nachricht, dann bewertet der Markt an einem Wochenende alles neu.",
+      "quelle": "Reuters/Terminmarktdaten 20.07.2026 · Moonshot AI 16.07.2026",
       "fuehrung": "Nichtlinear heißt: Die Vorbereitungszeit liegt vor dem Ereignis, nicht danach. Wer erst plant, wenn der Sprung sichtbar ist, plant bereits unter den neuen Bedingungen."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
-      "wert": 80,
-      "signal": "Der aufschlussreichste Befund ist die Gleichzeitigkeit selbst: Während physische Ressourcen rationiert werden, wird Spitzenintelligenz binnen elf Tagen von der Ankündigung zur frei herunterladbaren Datei. Dass daraus kein Vorteil entsteht, ist der zweite Teil des Rätsels. Gartner findet 17 Prozent der Organisationen mit produktiv ausgerollten Agenten, über 60 Prozent mit Absicht und über 40 Prozent der agentischen Projekte, die bis 2027 gestoppt werden. MIT sieht bei rund 40 Milliarden Dollar Investitionen in 95 Prozent der Organisationen keinen messbaren Gewinneffekt; eine NBER-Befragung von knapp 6.000 Führungskräften findet bei 89 Prozent keinen Effekt auf die Arbeitsproduktivität. Und die deutsche Investitionsseite schrumpft an der entscheidenden Stelle: 56 Prozent der Unternehmen nutzen generative KI, nur 27 Prozent haben geschult, 45 Prozent sehen aktuell keinen Bedarf.",
-      "quelle": "Gartner 2026 · MIT 2026 · NBER 2026 · TÜV-Weiterbildungsstudie 2026 (rund 500 Befragte, Erhebung Januar bis März 2026)",
-      "fuehrung": "Unbegreiflich heißt hier nicht kompliziert, sondern folgenlos verfügbar. Ein Werkzeug, das jeder haben kann, erzeugt keinen Vorsprung. Der Unterschied entsteht in der Frage, was in der Organisation danach anders läuft."
+      "wert": 81,
+      "signal": "Das eigentliche Rätsel ist die Folgenlosigkeit: Der Zugang zu KI ist weitgehend gelöst, der Wert entsteht trotzdem nicht. Deloitte findet 85 Prozent der Führungskräfte, die Anpassungsfähigkeit für kritisch halten, aber nur 7 Prozent, die ihre Leute dabei führen — und den Kernsatz, dass Technologie kopierbar ist, Menschen aber nicht. Gartner sieht 80 Prozent der Unternehmen mit mindestens einer Produktiv-App mit KI-Agent, aber nur 36 Prozent mit zentraler Governance und über 40 Prozent der agentischen Projekte, die bis 2027 gestoppt werden. Ein Werkzeug, das jeder haben kann, erzeugt keinen Vorsprung — der Unterschied liegt in der Ordnung, in die es eingebettet wird.",
+      "quelle": "Deloitte Human Capital Trends 2026 · Gartner 2026",
+      "fuehrung": "Unbegreiflich heißt hier nicht kompliziert, sondern folgenlos verfügbar. Der Unterschied entsteht in der Frage, was in der Organisation danach anders läuft — und ob die Menschen befähigt werden, es zu gestalten."
     }
   ],
   "quellen": [
     {
-      "titel": "Tom's Hardware: Moonshot releases 2.8-trillion-parameter Kimi K3 (größtes offenes Modell, Platz 1 Frontend Code Arena, Gewichte ab 27.07.2026)",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3"
+      "titel": "Deloitte: In a New Era of Work, Winning Organizations Will Build the Human Advantage — Human Capital Trends 2026 (85 % Anpassungsfähigkeit kritisch, 7 % führend)",
+      "url": "https://www.prnewswire.com/news-releases/deloitte-in-a-new-era-of-work-winning-organizations-will-build-the-human-advantage-302703266.html"
     },
     {
-      "titel": "Bloomberg/Reuters: Straße von Hormus geschlossen, Passagen halbiert, Brent über 90 USD (19.–20.07.2026)",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-19/latest-oil-market-news-and-analysis-for-july-20"
+      "titel": "Mercer Global Talent Trends 2026 (63 % tauschen Gehalt gegen KI-Skilling, Jobangst 40 %, 44 % thriving)",
+      "url": "https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/"
+    },
+    {
+      "titel": "CNBC: Iran's Houthi allies declare maritime embargo against Saudi Arabia, escalating threat to oil market (20.07.2026)",
+      "url": "https://www.cnbc.com/2026/07/20/iran-houthi-yemen-saudi-arabia.html"
     },
     {
       "titel": "ifo Konjunkturumfrage: 31,2 % der Chemieunternehmen melden Materialmangel (Mai 2026)",
       "url": "https://www.ifo.de/umfragen/konjunkturumfragen"
     },
     {
-      "titel": "TÜV-Verband Weiterbildungsstudie 2026 (56 % KI-Nutzung, 27 % geschult, 45 % sehen keinen Bedarf)",
-      "url": "https://www.haufe.de/personal/neues-lernen/tuev-weiterbildungsstudie-2026-zu-ki-weiterbildungen_589614_686216.html"
-    },
-    {
-      "titel": "Eurostat: HVPI Euroraum Juni 2026 (2,8 %, Energiekomponente 8,5 %)",
-      "url": "https://ec.europa.eu/eurostat"
-    },
-    {
       "titel": "Gallup State of the Global Workplace 2026 (Manager-Engagement 22 %)",
       "url": "https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx"
     },
     {
-      "titel": "Deloitte Global Gen Z and Millennial Survey 2026 (76 % streben Senior-Rollen an, 6 % primär Führung, 74 % nutzen KI im Arbeitsalltag)",
-      "url": "https://www.deloitte.com/global/en/issues/work/genz-millennialsurvey.html"
-    },
-    {
-      "titel": "Destatis: 13,3 Mio. Erwerbspersonen erreichen bis 2040 das Rentenalter (rund 30 %)",
-      "url": "https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/_inhalt.html"
+      "titel": "Tom's Hardware: Moonshot releases 2.8-trillion-parameter Kimi K3 (Gewichte ab 27.07.2026)",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3"
     }
   ],
   "hinweis": "Der Leadership-Disruptions-Index ist ein Deutungs-, kein Messinstrument. Er verdichtet öffentlich verfügbare Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte — er misst nichts, er ordnet ein."
