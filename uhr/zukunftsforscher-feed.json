@@ -1,80 +1,76 @@
 {
-  "datum": "2026-07-22",
-  "aktualisiert": "2026-07-22T07:40:00+02:00",
-  "index": 85,
-  "uhrzeit": "23:51",
+  "datum": "2026-07-23",
+  "aktualisiert": "2026-07-23T07:50:00+02:00",
+  "index": 86,
+  "uhrzeit": "23:52",
   "trend": "steigend",
   "trend_delta": 1,
-  "leitsatz": "Der Engpass vervielfältigt sich — außen als Netz gleichzeitiger Störungen, innen als Stillstand beim Umbau. Beide Fronten laufen über dieselbe Fähigkeit: sich schneller neu zu konfigurieren, als die Umwelt einen destabilisiert.",
+  "leitsatz": "Zur Knappheit an Material und Zeit tritt die Knappheit an Menschen — und an Menschen, die führen wollen. Die Technik lässt sich vervielfältigen, die erfahrene Kraft und die übernahmebereite Führungskraft nicht. Der Engpass wandert von den Werkzeugen zu den Trägern der Organisation.",
   "leitsignal": {
-    "titel": "Zugang rast, Umbau stockt",
-    "quelle": "Zukunftsforscher-Bericht 22.07.2026; Kernbelege gegengeprüft: Deloitte Human Capital Trends 2026 — 85 % der Führungskräfte halten es für kritisch, die Anpassungsfähigkeit zu erhöhen, aber nur 7 % sehen sich dabei führend („Adaptability Gap“; „technology is replicable, people are not“), verifiziert über prnewswire/hrexecutive · Mercer Global Talent Trends 2026 — 63 % würden eine 10-%-Gehaltserhöhung gegen den Ausbau ihrer KI-Kompetenzen eintauschen, Jobangst wegen KI 40 % (2024: 28 %), nur 44 % „thriving“ (2024: 66 %), verifiziert über mercer.com · Gallup 2026: Manager-Engagement 22 % (2022: 31 %) · Geopolitik: Straße von Hormus geschlossen (4 statt 8 Passagen/Tag, keine LNG-Tanker), Huthi-Seeembargo gegen Saudi-Arabien im Roten Meer, iranische Schläge gegen Kuwait, 10. Tag US-Angriffe in Folge, Brent über 90 USD (CNBC/Reuters 20.07.2026) · NICHT übernommen: der im Bericht genannte Angriff auf das Caspian Pipeline Consortium (nicht unabhängig bestätigt) und die Deloitte-State-of-AI-Werte 60/84/6 (an der Primärquelle nicht auffindbar; durch HCT 85/7 + Mercer ersetzt)",
-    "befund": "Gestern liefen zwei Schocks in entgegengesetzte Richtungen. Heute verschärft sich die eine Hälfte qualitativ: Die Versorgungsstörung ist kein einzelner Punkt mehr, sie ist ein Netz geworden. Neben der geschlossenen Straße von Hormus verhängen die Huthi ein Seeembargo gegen Saudi-Arabien, dessen Rote-Meer-Route bisher als Ausweichventil diente — die Redundanz wird selbst getroffen. Iran greift Kuwait an, es ist der zehnte Tag US-Schläge in Folge, Brent notiert über 90 Dollar. Ein einzelner Chokepoint lässt sich umfahren, ein Netz gleichzeitiger Störungen nicht. An der zweiten Front liefert die Forschung die präzise Gegenzahl zum Stillstand: Der Zugang zu KI ist da, der Umbau der Arbeit nicht. Deloitte findet 85 Prozent, die Anpassungsfähigkeit für kritisch halten, aber nur 7 Prozent, die ihre Leute dabei tatsächlich führen. Mercer findet 63 Prozent, die auf Gehalt verzichten würden, um mit KI umgehen zu lernen. Zugang rast, Umbau stockt.",
-    "fuehrungsimplikation": "Beide Fronten verlangen entgegengesetzte Reflexe. Knappheit außen erfordert Rationieren und Priorisieren, Überfluss innen erfordert Öffnen und Experimentieren. Wer beides mit demselben Managementmodus behandelt, macht entweder die Lieferkette fahrlässig oder die KI-Nutzung ängstlich. Und beide laufen über denselben Engpass: die Rekonfigurationsgeschwindigkeit der Organisation. Der wirksamste Hebel dafür wird gerade nicht bedient. Die Menschen bestellen Befähigung, die Organisationen liefern Beruhigung. Konkret: Zugang war nie das Ziel, Redesign ist es — den Umbau einzelner Abläufe anordnen, nicht die Tool-Freigabe feiern. Und die mittlere Ebene, die beides übersetzen soll, mit 22 Prozent Engagement zuerst entlasten, nicht mit dem nächsten Programm beauftragen.",
-    "kapitel": "Kapitel 1 Polykrise/BANI (brüchig) — sekundär AI-Mindset / Selbstwirksamkeits-Lücke"
+    "titel": "Die zweite Knappheit",
+    "quelle": "Zukunftsforscher-Bericht 23.07.2026; Kernbelege gegengeprüft: Bundesagentur für Arbeit 2026 — 183 von 522 Berufsgruppen als Mangelberufe klassifiziert (rund 40 % aller Beschäftigten in einem Engpassberuf), verifiziert über BA-Engpassanalyse/Skill-Sprinters · IAB (Enzo Weber) — Deutschland verliert bis 2035 rund 7 Mio Erwerbstätige (ein Siebtel), 80.000 Renteneintritte/Monat, verifiziert über Handelsblatt · Deloitte GenZ & Millennial Survey 2026 (22.500 Befragte) — 76 % der Gen Z wollen irgendwann führen, nur 6 % nennen Führung als primäres Ziel, Barrieren Stress/Burnout und Überverantwortung je 50 % · Geopolitik: Brent ~94 USD (Höchststand seit 8. Juni), 11. Nacht US-Schläge in Folge, große Tanker meiden den US-Korridor durch Hormus faktisch vollständig (Reuters/CSIS/Al Jazeera 10.–22.07.) · Nebenbeleg: EU AI Act — ab 02.08.2026 Durchsetzungsbefugnisse gegenüber GPAI-Anbietern + Art.-50-Transparenzpflichten (nicht als Post verwertet)",
+    "befund": "Zwei Wochen lang lief das Muster außen/innen: die Welt wird brüchiger, die Technik schneller, die Führung kommt in beidem nicht nach. Heute schiebt sich eine dritte, leisere Front dazwischen, und sie ist die härteste, weil sie sich nicht deeskalieren lässt. Deutschland verliert bis 2035 rund sieben Millionen Erwerbstätige — ein Siebtel des Arbeitsmarkts —, 80.000 Menschen gehen Monat für Monat in Rente, und schon heute sind 183 von 522 Berufsgruppen Mangelberufe. Gleichzeitig verengt sich die Führungspipeline: 76 Prozent der jüngeren Generation wollen irgendwann führen, aber nur sechs Prozent nennen Führung als eigentliches Ziel — nicht aus Desinteresse, sondern weil die Rolle als gesundheitlicher Nettoverlust wahrgenommen wird, Burnout und Überverantwortung je zur Hälfte. Zwei Knappheiten laufen auf denselben Punkt zu: Es fehlen Kräfte, und es fehlen Menschen, die sie führen wollen. Ölpreis und Modellgröße kann man umschichten. Eine ausgedünnte, übernahmeunwillige Führungsebene nicht.",
+    "fuehrungsimplikation": "Die demografische Knappheit ist die einzige der drei Fronten, die vollständig planbar ist — sie kommt mit Ansage, jeder Renteneintritt steht seit Jahrzehnten im Kalender. Genau deshalb ist Nichtstun hier am teuersten. Konkret heißt das zweierlei. Erstens: Wissensübergabe organisieren, bevor die erfahrene Kraft geht, nicht danach — Bindung und Übergabe werden zur Leistungsfrage, nicht zur HR-Kür. Zweitens: die Führungsrolle so zuschneiden, dass sie kein Gesundheitsrisiko mehr ist. Wer will, dass mehr als sechs Prozent Führung anstreben, muss die Rolle entlasten — geteilte Führung, weniger operativer Ballast, psychologische Sicherheit —, statt sie mit dem nächsten Verantwortungspaket weiter zu beladen. Die Pipeline verengt sich nicht, weil die Jungen nicht können. Sie verengt sich, weil das, was wir Führung nennen, gerade unattraktiv gemacht wird.",
+    "kapitel": "Kapitel 1 Polykrise/BANI (brüchig) — sekundär Kapitel 16 Kraftquellen / Selbstführung"
   },
   "bani": [
     {
       "code": "B",
       "dim": "Brüchig",
       "en": "Brittle",
-      "wert": 89,
-      "signal": "Die Störung hat die Topologie gewechselt: vom Punkt zum Netz. Die Straße von Hormus bleibt geschlossen (rund vier Passagen pro Tag statt acht, seit Donnerstag keine LNG-Tanker). Parallel verhängen die Huthi ein Seeembargo gegen Saudi-Arabien im Roten Meer und zwingen mindestens einen saudischen Rohöltanker zur Umkehr — ausgerechnet die Route, die als Ausweichventil für Hormus diente. Iran greift Kuwait an, es ist der zehnte Tag US-Schläge in Folge, Brent notiert über 90 Dollar. Redundanzrouten, die eine Blockade auffangen sollten, werden gleichzeitig getroffen. In Deutschland kommt das über Vorprodukte an: 31,2 Prozent der Chemieunternehmen meldeten bereits im Mai Materialmangel — vor der Eskalation.",
-      "quelle": "CNBC/Reuters 20.07.2026 · ifo Mai 2026",
-      "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Ein Chokepoint lässt sich umfahren, ein Netz nicht. Die Priorisierung, welcher Kunde bei Vorproduktmangel nicht beliefert wird, gehört jetzt auf Papier — nicht in den Moment des Ausfalls."
+      "wert": 90,
+      "signal": "Der Eskalationspfad hält an: Brent springt auf rund 94 Dollar, den höchsten Stand seit dem 8. Juni, es ist die elfte Nacht US-Luftschläge gegen Iran in Folge, und große Tanker meiden den US-koordinierten Korridor durch die Straße von Hormus inzwischen faktisch vollständig. Die Juniruhe ist seit dem 7. Juli hinfällig. Zur akuten Brüchigkeit tritt die strukturelle: 183 von 522 Berufsgruppen sind Mangelberufe, bis 2035 verliert Deutschland ein Siebtel seiner Erwerbstätigen. Beides sind Sollbruchstellen — die eine schlägt in Tagen zu, die andere in Jahren, aber beide sind angelegt, bevor sie sichtbar werden.",
+      "quelle": "Reuters/CSIS/Al Jazeera 10.–22.07.2026 · Bundesagentur für Arbeit 2026 · IAB 2026",
+      "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Der Renteneintritt der erfahrensten Kraft ist der planbarste Bruch überhaupt. Die Wissensübergabe gehört auf einen Termin vor dem letzten Arbeitstag — nicht in die Lücke danach."
     },
     {
       "code": "A",
       "dim": "Ängstlich",
       "en": "Anxious",
-      "wert": 85,
-      "signal": "Die Angst wächst schneller als die Befähigung. Mercer misst die Jobangst wegen KI bei 40 Prozent (2024: 28 Prozent), Gallup den FOBO-Anteil bei 22 Prozent (2021: 15 Prozent); nur noch 44 Prozent erleben sich als „thriving“ gegenüber 66 Prozent im Jahr 2024. Zugleich kippt materiell der Basiseffekt: Der Disinflationspfad im Euroraum hing fast vollständig an der Energiekomponente, die zuletzt bei 8,5 Prozent lag — dieser Treiber hat sich innerhalb von zwei Wochen umgekehrt, und am 23. Juli tagt die EZB. Die Ebene, die beide Fronten übersetzen soll, ist die erschöpfteste: Manager-Engagement 22 Prozent gegenüber 31 Prozent 2022.",
-      "quelle": "Mercer 2026 · Gallup Feb 2026 · Eurostat 2026",
-      "fuehrung": "Der Befund des Tages ist die Gegenbewegung: Dieselben Menschen, die Angst äußern, verlangen aktiv nach Befähigung. 63 Prozent würden Gehalt gegen Lernen tauschen. Angst ist damit adressierbar — über Training, nicht über Beruhigung."
+      "wert": 86,
+      "signal": "Die Angst zieht sich durch beide Enden der Laufbahn. Vorne meiden die Jüngeren Führung, weil sie sie als gesundheitlichen Nettoverlust erleben — 76 Prozent wollen grundsätzlich führen, nur sechs Prozent als Hauptziel, Burnout und Überverantwortung je zur Hälfte als Barriere. Über allen liegt die KI-Jobangst: 40 Prozent nennen sie als Hauptangst, binnen eines Jahres nahezu verdoppelt, während nur etwa ein Drittel angemessenes KI-Training erhält. Die Ebene, die beides auffangen soll, ist die dünnste und erschöpfteste.",
+      "quelle": "Deloitte GenZ & Millennial Survey 2026 · KPMG 2026",
+      "fuehrung": "Angst wird adressierbar, wo man ihr etwas Konkretes entgegensetzt: Befähigung statt Beruhigung, und eine Führungsrolle, die man übernehmen kann, ohne die eigene Gesundheit als Einsatz zu setzen."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
-      "wert": 84,
-      "signal": "Zwei nichtlineare Bewegungen in entgegengesetzte Richtungen. Auf der Materialseite reicht nicht mehr die Ausweichroute, weil die Ausweichroute selbst zum Ziel wird — die Backwardation am Terminmarkt signalisiert Sorge um die kurzfristige Verfügbarkeit, und dünnere Puffer machen die nächsten Ausschläge schärfer statt flacher. Auf der Modellseite wird kognitive Spitzenkapazität binnen Tagen zur frei verfügbaren Ressource (Kimi K3, volle Gewichte ab 27.07.). Beides folgt demselben Muster: monatelang absorbieren Puffer jede Nachricht, dann bewertet der Markt an einem Wochenende alles neu.",
-      "quelle": "Reuters/Terminmarktdaten 20.07.2026 · Moonshot AI 16.07.2026",
-      "fuehrung": "Nichtlinear heißt: Die Vorbereitungszeit liegt vor dem Ereignis, nicht danach. Wer erst plant, wenn der Sprung sichtbar ist, plant bereits unter den neuen Bedingungen."
+      "wert": 85,
+      "signal": "Die Versorgungsstörung verschiebt sich vom Preis- zum Mengenschock: nicht mehr nur teurer, sondern knapp und verspätet bei Energie und Vorprodukten — und für Deutschland wirkt das vor allem indirekt über Chemie und Industrie, wo dünnere Puffer die nächsten Ausschläge schärfer statt flacher machen. Auf der Modellseite bestätigt ein MIT/Stanford-Preprint, dass der Erfolg von Reasoning-Modellen nicht an der Größe hängt, sondern am Training auf Selbstkorrektur — kognitive Spitzenkapazität kommoditisiert weiter im Sprung, nicht im Trend.",
+      "quelle": "Reuters 20.–22.07.2026 · MIT/Stanford-Preprint Juli 2026",
+      "fuehrung": "Nichtlinear heißt: Die Vorbereitungszeit liegt vor dem Ereignis. Mehrfach-Optionen bei Lieferanten und Energie sind kein Effizienzverlust, sondern die Versicherung gegen den Mengenschock."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
-      "wert": 81,
-      "signal": "Das eigentliche Rätsel ist die Folgenlosigkeit: Der Zugang zu KI ist weitgehend gelöst, der Wert entsteht trotzdem nicht. Deloitte findet 85 Prozent der Führungskräfte, die Anpassungsfähigkeit für kritisch halten, aber nur 7 Prozent, die ihre Leute dabei führen — und den Kernsatz, dass Technologie kopierbar ist, Menschen aber nicht. Gartner sieht 80 Prozent der Unternehmen mit mindestens einer Produktiv-App mit KI-Agent, aber nur 36 Prozent mit zentraler Governance und über 40 Prozent der agentischen Projekte, die bis 2027 gestoppt werden. Ein Werkzeug, das jeder haben kann, erzeugt keinen Vorsprung — der Unterschied liegt in der Ordnung, in die es eingebettet wird.",
-      "quelle": "Deloitte Human Capital Trends 2026 · Gartner 2026",
-      "fuehrung": "Unbegreiflich heißt hier nicht kompliziert, sondern folgenlos verfügbar. Der Unterschied entsteht in der Frage, was in der Organisation danach anders läuft — und ob die Menschen befähigt werden, es zu gestalten."
+      "wert": 82,
+      "signal": "Das Rätsel bleibt die Folgenlosigkeit: 80 Prozent der in Q1 ausgelieferten Enterprise-Apps enthalten mindestens einen KI-Agenten, aber erst 31 Prozent der Unternehmen haben einen Agenten produktiv im Betrieb. Ab dem 2. August greifen zusätzlich die Durchsetzungsbefugnisse und Transparenzpflichten des EU AI Act — eine neue Regelschicht legt sich über eine Technik, deren Wirkung viele noch gar nicht erschlossen haben. Zugang, Regulierung und Erwartung wachsen schneller als das Verständnis, was das alles in der eigenen Organisation eigentlich verändert.",
+      "quelle": "Gartner 2026 · EU AI Act (Durchsetzung ab 02.08.2026)",
+      "fuehrung": "Unbegreiflich heißt hier nicht kompliziert, sondern folgenlos verfügbar. Der Vorsprung entsteht nicht durch mehr Zugang, sondern durch die Frage, was danach im Ablauf wirklich anders läuft."
     }
   ],
   "quellen": [
     {
-      "titel": "Deloitte: In a New Era of Work, Winning Organizations Will Build the Human Advantage — Human Capital Trends 2026 (85 % Anpassungsfähigkeit kritisch, 7 % führend)",
-      "url": "https://www.prnewswire.com/news-releases/deloitte-in-a-new-era-of-work-winning-organizations-will-build-the-human-advantage-302703266.html"
+      "titel": "Bundesagentur für Arbeit — Engpassanalyse 2026 (183 von 522 Berufsgruppen Mangelberufe)",
+      "url": "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Interaktive-Statistiken/Fachkraeftebedarf/Engpassanalyse-Nav.html"
     },
     {
-      "titel": "Mercer Global Talent Trends 2026 (63 % tauschen Gehalt gegen KI-Skilling, Jobangst 40 %, 44 % thriving)",
-      "url": "https://www.mercer.com/about/newsroom/mercer-s-global-talent-trends-2026-report/"
+      "titel": "Handelsblatt/IAB: Arbeitsmarkt verliert bis 2035 rund sieben Millionen Menschen (Enzo Weber)",
+      "url": "https://www.handelsblatt.com/politik/konjunktur/iab-studie-deutscher-arbeitsmarkt-verliert-bis-2035-rund-sieben-millionen-menschen/28822072.html"
     },
     {
-      "titel": "CNBC: Iran's Houthi allies declare maritime embargo against Saudi Arabia (20.07.2026)",
-      "url": "https://www.cnbc.com/2026/07/20/iran-houthi-yemen-saudi-arabia.html"
+      "titel": "Deloitte Gen Z and Millennial Survey 2026 (76 % wollen führen, 6 % als Hauptziel)",
+      "url": "https://www.deloitte.com/global/en/issues/work/genz-millennial-survey.html"
     },
     {
-      "titel": "ifo Konjunkturumfrage: 31,2 % der Chemieunternehmen melden Materialmangel (Mai 2026)",
-      "url": "https://www.ifo.de/umfragen/konjunkturumfragen"
+      "titel": "Reuters: Oil jumps as Hormuz tanker traffic dries up amid Iran strikes (22.07.2026)",
+      "url": "https://www.reuters.com/business/energy/"
     },
     {
-      "titel": "Gallup State of the Global Workplace 2026 (Manager-Engagement 22 %)",
-      "url": "https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx"
-    },
-    {
-      "titel": "Tom's Hardware: Moonshot releases 2.8-trillion-parameter Kimi K3 (Gewichte ab 27.07.2026)",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3"
+      "titel": "EU AI Act — GPAI-Durchsetzung und Art.-50-Transparenzpflichten ab 02.08.2026",
+      "url": "https://artificialintelligenceact.eu/"
     }
   ],
   "hinweis": "Der Leadership-Disruptions-Index ist ein Deutungs-, kein Messinstrument. Er verdichtet öffentlich verfügbare Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte — er misst nichts, er ordnet ein."
