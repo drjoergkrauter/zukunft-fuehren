@@ -1,76 +1,76 @@
 {
-  "datum": "2026-07-23",
-  "aktualisiert": "2026-07-23T07:50:00+02:00",
+  "datum": "2026-07-24",
+  "aktualisiert": "2026-07-24T08:10:00+02:00",
   "index": 86,
   "uhrzeit": "23:52",
-  "trend": "steigend",
-  "trend_delta": 1,
-  "leitsatz": "Zur Knappheit an Material und Zeit tritt die Knappheit an Menschen — und an Menschen, die führen wollen. Die Technik lässt sich vervielfältigen, die erfahrene Kraft und die übernahmebereite Führungskraft nicht. Der Engpass wandert von den Werkzeugen zu den Trägern der Organisation.",
+  "trend": "stabil",
+  "trend_delta": 0,
+  "leitsatz": "Die Eskalation deeskaliert nicht, sie wechselt den Schauplatz. Neben Hormus gerät jetzt ein zweiter Seeweg unter Beschuss, und der Ölpreis überschreitet erstmals seit zwei Monaten die Hundert-Dollar-Marke. Was gestern noch als Einzelrisiko galt, wird zum Muster: Stabilität, die an einer einzigen offenen Route hängt, ist keine Stabilität, sondern eine Frist.",
   "leitsignal": {
-    "titel": "Die zweite Knappheit",
-    "quelle": "Zukunftsforscher-Bericht 23.07.2026; Kernbelege gegengeprüft: Bundesagentur für Arbeit 2026 — 183 von 522 Berufsgruppen als Mangelberufe klassifiziert (rund 40 % aller Beschäftigten in einem Engpassberuf), verifiziert über BA-Engpassanalyse/Skill-Sprinters · IAB (Enzo Weber) — Deutschland verliert bis 2035 rund 7 Mio Erwerbstätige (ein Siebtel), 80.000 Renteneintritte/Monat, verifiziert über Handelsblatt · Deloitte GenZ & Millennial Survey 2026 (22.500 Befragte) — 76 % der Gen Z wollen irgendwann führen, nur 6 % nennen Führung als primäres Ziel, Barrieren Stress/Burnout und Überverantwortung je 50 % · Geopolitik: Brent ~94 USD (Höchststand seit 8. Juni), 11. Nacht US-Schläge in Folge, große Tanker meiden den US-Korridor durch Hormus faktisch vollständig (Reuters/CSIS/Al Jazeera 10.–22.07.) · Nebenbeleg: EU AI Act — ab 02.08.2026 Durchsetzungsbefugnisse gegenüber GPAI-Anbietern + Art.-50-Transparenzpflichten (nicht als Post verwertet)",
-    "befund": "Zwei Wochen lang lief das Muster außen/innen: die Welt wird brüchiger, die Technik schneller, die Führung kommt in beidem nicht nach. Heute schiebt sich eine dritte, leisere Front dazwischen, und sie ist die härteste, weil sie sich nicht deeskalieren lässt. Deutschland verliert bis 2035 rund sieben Millionen Erwerbstätige — ein Siebtel des Arbeitsmarkts —, 80.000 Menschen gehen Monat für Monat in Rente, und schon heute sind 183 von 522 Berufsgruppen Mangelberufe. Gleichzeitig verengt sich die Führungspipeline: 76 Prozent der jüngeren Generation wollen irgendwann führen, aber nur sechs Prozent nennen Führung als eigentliches Ziel — nicht aus Desinteresse, sondern weil die Rolle als gesundheitlicher Nettoverlust wahrgenommen wird, Burnout und Überverantwortung je zur Hälfte. Zwei Knappheiten laufen auf denselben Punkt zu: Es fehlen Kräfte, und es fehlen Menschen, die sie führen wollen. Ölpreis und Modellgröße kann man umschichten. Eine ausgedünnte, übernahmeunwillige Führungsebene nicht.",
-    "fuehrungsimplikation": "Die demografische Knappheit ist die einzige der drei Fronten, die vollständig planbar ist — sie kommt mit Ansage, jeder Renteneintritt steht seit Jahrzehnten im Kalender. Genau deshalb ist Nichtstun hier am teuersten. Konkret heißt das zweierlei. Erstens: Wissensübergabe organisieren, bevor die erfahrene Kraft geht, nicht danach — Bindung und Übergabe werden zur Leistungsfrage, nicht zur HR-Kür. Zweitens: die Führungsrolle so zuschneiden, dass sie kein Gesundheitsrisiko mehr ist. Wer will, dass mehr als sechs Prozent Führung anstreben, muss die Rolle entlasten — geteilte Führung, weniger operativer Ballast, psychologische Sicherheit —, statt sie mit dem nächsten Verantwortungspaket weiter zu beladen. Die Pipeline verengt sich nicht, weil die Jungen nicht können. Sie verengt sich, weil das, was wir Führung nennen, gerade unattraktiv gemacht wird.",
-    "kapitel": "Kapitel 1 Polykrise/BANI (brüchig) — sekundär Kapitel 16 Kraftquellen / Selbstführung"
+    "titel": "Der zweite Seeweg",
+    "quelle": "Zukunftsforscher-Lage 24.07.2026 (kein neuer Eingang-Bericht, Websuche-Fallback, jede Zahl gegengeprüft): Brent überschritt erstmals seit zwei Monaten die 100-Dollar-Marke nach gemeldeten Angriffen auf Tanker vor Saudi-Arabien / im Roten Meer — ein zweiter maritimer Choke-Point neben der Straße von Hormus (CNBC 23.07., Bloomberg 23./24.07.); Rohöl 92,36 USD am 23.07. (+6,37 %), Freitag Rueckgang auf die 90er, +13 % auf Wochensicht (TradingEconomics); Trump droht mit Ausweitung der US-Schlaege. Kontext-Reserve nicht als Post verwertet: WEF Future of Jobs — 39 % der Kernkompetenzen aendern sich bis 2030, 'Leadership & Social Influence' unter den am schnellsten wachsenden Skills, 'Empowering-Leadership'-Training +126 % (2024->2025).",
+    "befund": "Zwei Wochen lang war die geopolitische Front ein einzelner Engpass: die Straße von Hormus. Heute zeigt sich, dass das nie das eigentliche Risiko war. Die Angriffe verlagern sich auf einen zweiten Seeweg, das Rote Meer, und der Ölpreis springt erstmals seit zwei Monaten über hundert Dollar, bevor er sich am Freitag wieder in den Neunzigern fängt — plus dreizehn Prozent auf die Woche. Das Muster ist wichtiger als der Tageswert: Wer seine Versorgung auf eine offene Route optimiert hat, ist nicht stabil, sondern nur noch nicht getroffen. Genau das meint Brüchigkeit — ein System sieht robust aus, bis die eine Bedingung wegfällt, auf die alles gebaut war. Und Brüchigkeit kommt selten allein: Sie trifft auf die demografische und die Kompetenz-Knappheit der Vortage, die alle drei denselben Punkt belasten — die Fähigkeit der Organisation, unter Druck handlungsfähig zu bleiben.",
+    "fuehrungsimplikation": "Die Lehre ist keine geopolitische, sondern eine der Vorbereitung. Man kann den nächsten Choke-Point nicht vorhersagen — man kann nur aufhören, sich auf eine einzige Route, einen einzigen Lieferanten, eine einzige Annahme zu verlassen. Mehrfach-Optionen sehen im ruhigen Quartal aus wie Ineffizienz; im Ernstfall sind sie der Unterschied zwischen Ausfall und Weiterarbeit. Das gilt für Lieferketten so wie für Führung: Wer alle kritische Verantwortung auf eine Person legt, hat dasselbe Klumpenrisiko wie ein Werk mit einem einzigen Zulieferer. Die Frage ist nicht, ob die nächste Bedingung wegbricht, sondern ob der Plan B schon steht, bevor man ihn braucht.",
+    "kapitel": "Kapitel 1 Polykrise/BANI (bruechig) — Abschnitt 'Mehrfach-Optionen statt Optimierung'"
   },
   "bani": [
     {
       "code": "B",
       "dim": "Brüchig",
       "en": "Brittle",
-      "wert": 90,
-      "signal": "Der Eskalationspfad hält an: Brent springt auf rund 94 Dollar, den höchsten Stand seit dem 8. Juni, es ist die elfte Nacht US-Luftschläge gegen Iran in Folge, und große Tanker meiden den US-koordinierten Korridor durch die Straße von Hormus inzwischen faktisch vollständig. Die Juniruhe ist seit dem 7. Juli hinfällig. Zur akuten Brüchigkeit tritt die strukturelle: 183 von 522 Berufsgruppen sind Mangelberufe, bis 2035 verliert Deutschland ein Siebtel seiner Erwerbstätigen. Beides sind Sollbruchstellen — die eine schlägt in Tagen zu, die andere in Jahren, aber beide sind angelegt, bevor sie sichtbar werden.",
-      "quelle": "Reuters/CSIS/Al Jazeera 10.–22.07.2026 · Bundesagentur für Arbeit 2026 · IAB 2026",
-      "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Der Renteneintritt der erfahrensten Kraft ist der planbarste Bruch überhaupt. Die Wissensübergabe gehört auf einen Termin vor dem letzten Arbeitstag — nicht in die Lücke danach."
+      "wert": 91,
+      "signal": "Der Eskalationspfad springt auf einen zweiten Schauplatz: Neben Hormus werden nun Tanker im Roten Meer / vor Saudi-Arabien angegriffen, Brent überschreitet erstmals seit zwei Monaten die 100-Dollar-Marke (Freitag Rückgang in die 90er, +13 % auf Wochensicht). Ein zweiter maritimer Choke-Point unter Feuer heißt: Das Risiko war nie die eine Meerenge, sondern die Abhängigkeit von wenigen offenen Routen. Dazu bleibt die strukturelle Brüchigkeit — Mangelberufe, demografischer Aderlass — als langsamer, ebenso angelegter Bruch bestehen.",
+      "quelle": "CNBC 23.07.2026 · Bloomberg 23./24.07.2026 · TradingEconomics",
+      "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Wer auf eine einzige Route, einen einzigen Lieferanten, eine einzige Führungskraft optimiert hat, ist schneller — und brüchiger. Plan B gehört gebaut, bevor der Tag kommt, an dem man ihn braucht."
     },
     {
       "code": "A",
       "dim": "Ängstlich",
       "en": "Anxious",
       "wert": 86,
-      "signal": "Die Angst zieht sich durch beide Enden der Laufbahn. Vorne meiden die Jüngeren Führung, weil sie sie als gesundheitlichen Nettoverlust erleben — 76 Prozent wollen grundsätzlich führen, nur sechs Prozent als Hauptziel, Burnout und Überverantwortung je zur Hälfte als Barriere. Über allen liegt die KI-Jobangst: 40 Prozent nennen sie als Hauptangst, binnen eines Jahres nahezu verdoppelt, während nur etwa ein Drittel angemessenes KI-Training erhält. Die Ebene, die beides auffangen soll, ist die dünnste und erschöpfteste.",
-      "quelle": "Deloitte GenZ & Millennial Survey 2026 · KPMG 2026",
-      "fuehrung": "Angst wird adressierbar, wo man ihr etwas Konkretes entgegensetzt: Befähigung statt Beruhigung, und eine Führungsrolle, die man übernehmen kann, ohne die eigene Gesundheit als Einsatz zu setzen."
+      "signal": "Die Angst bleibt zweiseitig und hoch: KI-Jobangst auf nahezu verdopptem Niveau bei nur etwa einem Drittel angemessenem Training, und eine Führungspipeline, in der nur sechs Prozent der Jüngeren die Rolle tatsächlich anstreben, weil sie als gesundheitlicher Nettoverlust gilt. Die neue Preis- und Versorgungsunsicherheit legt sich als Kostendruck darüber — die Ebene, die all das auffangen soll, ist die dünnste und erschöpfteste.",
+      "quelle": "Deloitte GenZ 2026 · KPMG 2026 · Mercer GTT 2026",
+      "fuehrung": "Angst wird adressierbar, wo man ihr Konkretes entgegensetzt: Befähigung statt Beruhigung, und eine Führungsrolle, die man übernehmen kann, ohne die eigene Gesundheit als Einsatz zu setzen."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
       "wert": 85,
-      "signal": "Die Versorgungsstörung verschiebt sich vom Preis- zum Mengenschock: nicht mehr nur teurer, sondern knapp und verspätet bei Energie und Vorprodukten — und für Deutschland wirkt das vor allem indirekt über Chemie und Industrie, wo dünnere Puffer die nächsten Ausschläge schärfer statt flacher machen. Auf der Modellseite bestätigt ein MIT/Stanford-Preprint, dass der Erfolg von Reasoning-Modellen nicht an der Größe hängt, sondern am Training auf Selbstkorrektur — kognitive Spitzenkapazität kommoditisiert weiter im Sprung, nicht im Trend.",
-      "quelle": "Reuters 20.–22.07.2026 · MIT/Stanford-Preprint Juli 2026",
-      "fuehrung": "Nichtlinear heißt: Die Vorbereitungszeit liegt vor dem Ereignis. Mehrfach-Optionen bei Lieferanten und Energie sind kein Effizienzverlust, sondern die Versicherung gegen den Mengenschock."
+      "signal": "Der Sprung statt der Trend bleibt das Kennzeichen: Der Ölpreis bewegt sich nicht linear mit der Nachrichtenlage, sondern springt bei einem einzelnen Ereignis um Prozentpunkte — Angriff auf einen zweiten Seeweg, sofort über hundert Dollar. Für Deutschland wirkt das indirekt über Chemie und Industrie mit dünnen Puffern, wo kleine Auslöser große Ausschläge erzeugen. Vorbereitungszeit liegt strukturell vor dem Ereignis, nicht danach.",
+      "quelle": "CNBC/Bloomberg 23./24.07.2026 · ifo (Materialmangel Chemie)",
+      "fuehrung": "Nichtlinear heißt: Die Vorbereitungszeit liegt vor dem Ereignis. Mehrfach-Optionen bei Lieferanten und Energie sind kein Effizienzverlust, sondern die Versicherung gegen den Sprung."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
       "wert": 82,
-      "signal": "Das Rätsel bleibt die Folgenlosigkeit: 80 Prozent der in Q1 ausgelieferten Enterprise-Apps enthalten mindestens einen KI-Agenten, aber erst 31 Prozent der Unternehmen haben einen Agenten produktiv im Betrieb. Ab dem 2. August greifen zusätzlich die Durchsetzungsbefugnisse und Transparenzpflichten des EU AI Act — eine neue Regelschicht legt sich über eine Technik, deren Wirkung viele noch gar nicht erschlossen haben. Zugang, Regulierung und Erwartung wachsen schneller als das Verständnis, was das alles in der eigenen Organisation eigentlich verändert.",
-      "quelle": "Gartner 2026 · EU AI Act (Durchsetzung ab 02.08.2026)",
-      "fuehrung": "Unbegreiflich heißt hier nicht kompliziert, sondern folgenlos verfügbar. Der Vorsprung entsteht nicht durch mehr Zugang, sondern durch die Frage, was danach im Ablauf wirklich anders läuft."
+      "signal": "Das Rätsel bleibt die Folgenlosigkeit trotz Verfügbarkeit: KI ist überall eingebaut und verändert doch bei den wenigsten die tatsächliche Arbeit, während das CTO-Vertrauen in die KI-Skalierung im dritten Jahr in Folge fällt (82 % 2024 auf 48 % 2026) — trotz steigender Investitionen. Ab dem 2. August legt sich mit den Durchsetzungsbefugnissen des EU AI Act eine neue Regelschicht über eine Technik, deren Wirkung viele noch nicht erschlossen haben.",
+      "quelle": "Akkodis 2026 · Gartner 2026 · EU AI Act (Durchsetzung ab 02.08.2026)",
+      "fuehrung": "Unbegreiflich heißt hier nicht kompliziert, sondern folgenlos verfügbar. Der Vorsprung entsteht nicht durch mehr Zugang oder mehr Investition, sondern durch die Frage, was danach im Ablauf wirklich anders läuft."
     }
   ],
   "quellen": [
     {
-      "titel": "Bundesagentur für Arbeit — Engpassanalyse 2026 (183 von 522 Berufsgruppen Mangelberufe)",
-      "url": "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Interaktive-Statistiken/Fachkraeftebedarf/Engpassanalyse-Nav.html"
+      "titel": "CNBC: Brent crude crosses $100 after tankers reportedly struck off Saudi Arabia (23.07.2026)",
+      "url": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html"
     },
     {
-      "titel": "Handelsblatt/IAB: Arbeitsmarkt verliert bis 2035 rund sieben Millionen Menschen (Enzo Weber)",
-      "url": "https://www.handelsblatt.com/politik/konjunktur/iab-studie-deutscher-arbeitsmarkt-verliert-bis-2035-rund-sieben-millionen-menschen/28822072.html"
+      "titel": "Bloomberg: Latest Oil Market News and Analysis for July 24 (2026)",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-23/latest-oil-market-news-and-analysis-for-july-24"
     },
     {
-      "titel": "Deloitte Gen Z and Millennial Survey 2026 (76 % wollen führen, 6 % als Hauptziel)",
-      "url": "https://www.deloitte.com/global/en/issues/work/genz-millennial-survey.html"
+      "titel": "TradingEconomics — Brent Crude Oil (92,36 USD am 23.07.2026, +13 % auf Wochensicht)",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
     },
     {
-      "titel": "Reuters: Oil jumps as Hormuz tanker traffic dries up amid Iran strikes (22.07.2026)",
-      "url": "https://www.reuters.com/business/energy/"
+      "titel": "WEF Future of Jobs Report 2025 (39 % Kernkompetenzen bis 2030, Empowering-Leadership +126 %)",
+      "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
     },
     {
-      "titel": "EU AI Act — GPAI-Durchsetzung und Art.-50-Transparenzpflichten ab 02.08.2026",
-      "url": "https://artificialintelligenceact.eu/"
+      "titel": "Akkodis-Studie 2026: CTO-Vertrauen in KI-Skalierung 82 % (2024) -> 48 % (2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/06/23/3315695/0/de/"
     }
   ],
   "hinweis": "Der Leadership-Disruptions-Index ist ein Deutungs-, kein Messinstrument. Er verdichtet öffentlich verfügbare Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte — er misst nichts, er ordnet ein."
