@@ -1,77 +1,62 @@
 {
-  "datum": "2026-07-24",
-  "aktualisiert": "2026-07-24T08:10:00+02:00",
-  "index": 86,
-  "uhrzeit": "23:52",
-  "trend": "stabil",
-  "trend_delta": 0,
-  "leitsatz": "Die Eskalation deeskaliert nicht, sie wechselt den Schauplatz. Neben Hormus gerät jetzt ein zweiter Seeweg unter Beschuss, und der Ölpreis überschreitet erstmals seit zwei Monaten die Hundert-Dollar-Marke. Was gestern noch als Einzelrisiko galt, wird zum Muster: Stabilität, die an einer einzigen offenen Route hängt, ist keine Stabilität, sondern eine Frist.",
+  "datum": "2026-07-25",
+  "aktualisiert": "2026-07-25T08:05:00+02:00",
+  "index": 85,
+  "uhrzeit": "23:51",
+  "trend": "fallend",
+  "trend_delta": -1,
+  "leitsatz": "Zum ersten Mal seit zwei Wochen fällt der Index — aber die Entspannung ist geliehen. Ein regional vermittelter Zehn-Tage-Waffenruhe-Vorschlag hat den Ölpreis von der Hundert-Dollar-Marke gelöst und eine Erleichterungsrally ausgelöst. Der entscheidende Befund: Die Erleichterung ist eine Verhandlungsposition, keine Lösung. Wer sie mit Sicherheit verwechselt, macht denselben Fehler, den das Buch beim Wort brüchig meint — ein System sieht robust aus, bis die eine Bedingung wegfällt, auf die alles gebaut war.",
   "leitsignal": {
-    "titel": "Der zweite Seeweg",
-    "quelle": "Zukunftsforscher-Lage 24.07.2026 (kein neuer Eingang-Bericht, Websuche-Fallback, jede Zahl gegengeprüft): Brent überschritt erstmals seit zwei Monaten die 100-Dollar-Marke nach gemeldeten Angriffen auf Tanker vor Saudi-Arabien / im Roten Meer — ein zweiter maritimer Choke-Point neben der Straße von Hormus (CNBC 23.07., Bloomberg 23./24.07.); Rohöl 92,36 USD am 23.07. (+6,37 %), Freitag Rueckgang auf die 90er, +13 % auf Wochensicht (TradingEconomics); Trump droht mit Ausweitung der US-Schlaege. Kontext-Reserve nicht als Post verwertet: WEF Future of Jobs — 39 % der Kernkompetenzen aendern sich bis 2030, 'Leadership & Social Influence' unter den am schnellsten wachsenden Skills, 'Empowering-Leadership'-Training +126 % (2024->2025).",
-    "befund": "Zwei Wochen lang war die geopolitische Front ein einzelner Engpass: die Straße von Hormus. Heute zeigt sich, dass das nie das eigentliche Risiko war. Die Angriffe verlagern sich auf einen zweiten Seeweg, das Rote Meer, und der Ölpreis springt erstmals seit zwei Monaten über hundert Dollar, bevor er sich am Freitag wieder in den Neunzigern fängt — plus dreizehn Prozent auf die Woche. Das Muster ist wichtiger als der Tageswert: Wer seine Versorgung auf eine offene Route optimiert hat, ist nicht stabil, sondern nur noch nicht getroffen. Genau das meint Brüchigkeit — ein System sieht robust aus, bis die eine Bedingung wegfällt, auf die alles gebaut war. Und Brüchigkeit kommt selten allein: Sie trifft auf die demografische und die Kompetenz-Knappheit der Vortage, die alle drei denselben Punkt belasten — die Fähigkeit der Organisation, unter Druck handlungsfähig zu bleiben.",
-    "fuehrungsimplikation": "Die Lehre ist keine geopolitische, sondern eine der Vorbereitung. Man kann den nächsten Choke-Point nicht vorhersagen — man kann nur aufhören, sich auf eine einzige Route, einen einzigen Lieferanten, eine einzige Annahme zu verlassen. Mehrfach-Optionen sehen im ruhigen Quartal aus wie Ineffizienz; im Ernstfall sind sie der Unterschied zwischen Ausfall und Weiterarbeit. Das gilt für Lieferketten so wie für Führung: Wer alle kritische Verantwortung auf eine Person legt, hat dasselbe Klumpenrisiko wie ein Werk mit einem einzigen Zulieferer. Die Frage ist nicht, ob die nächste Bedingung wegbricht, sondern ob der Plan B schon steht, bevor man ihn braucht.",
+    "titel": "Nicht auf das Aufatmen wetten",
+    "quelle": "Zukunftsforscher-Bericht 25.07.2026 (Eingang) + Websuche-Gegenpruefung: Ein von regionalen Vermittlern vorgelegter 10-Tage-Waffenstillstands-Vorschlag hat Brent von der 100-Dollar-Marke geloest (~100 -> ~95 USD, WTI 90,12); Dow auf Rekord (52.319), DAX +0,7 %; zugleich EZB-Tonwechsel Richtung September-Anhebung (Einlagensatz 2,25 %). Verifiziert: 10-Tage-Waffenruhe-Vorschlag + Oel-Pullback auf Waffenruhe-Hoffnung (CNBC/Bloomberg/TradingEconomics 20.-24.07.); Gartner (20.07.): KI-Plattformen/Modelle 2026 +63 % auf 64 Mrd USD, GenAI +117 %, erst 17 % der Organisationen mit produktiven Agenten, 234 Mrd USD Software-Ausgaben 'at risk'; Deloitte GenZ 2026 (22.500 Befragte): 76 % wollen irgendwann fuehren, nur 6 % nennen Aufstieg als aktuelles Hauptziel; KPMG: 40 % nennen KI-Jobverlust als Hauptangst (in einem Jahr nahezu verdoppelt).",
+    "befund": "Nach zwei Wochen synchroner Verschaerfung zeigt das Tagesbild die erste Gegenbewegung — und genau darin liegt die Falle. Der Oelpreis loest sich von hundert Dollar, die Boersen laufen auf Rekord, es fuehlt sich an wie Entwarnung. Aber die Erleichterung haengt an einem Vorschlag, nicht an einer Einigung. Schon die April-Waffenruhe eskalierte neu; das Rote-Meer-Embargo und die Hormus-Restriktionen bestehen fort. Der Schock ist nicht verschwunden, er ist latent vom Preis- zum Mengenrisiko gewandert. Und waehrend aussen die Spannung nur pausiert, wird innen die KI zur Commodity: viel Zugang, wenig nachgewiesene Wirkung, erst 17 Prozent mit produktiven Agenten. Zwei Bewegungen, eine Lehre — wer jetzt aufatmet und das Steuer aus der Hand legt, verwechselt eine Pause mit einer Loesung.",
+    "fuehrungsimplikation": "Die gefaehrlichste Reaktion auf eine fragile Entspannung ist, sie fuer das Ende der Lage zu halten. Fuehrung heisst hier: die Ruhe nutzen, um Resilienz zu institutionalisieren, statt sie zu verbrauchen — Energie- und Lieferanten-Plan-B bauen, solange man Zeit hat, nicht wenn man ihn braucht. Nach innen dasselbe Muster: Die KI ist billig und ueberall, der Vorteil liegt nicht mehr im Modell, sondern in der Faehigkeit, aus Zugang nachweisbare Wirkung zu machen — und in einer Fuehrungsrolle, die junge Talente wieder annehmen, weil ihr Preis nicht die eigene Gesundheit ist. Sehen kommt vor Tun: erst begreifen, dass die Erleichterung geliehen ist, dann handeln.",
     "kapitel": "Kapitel 1 Polykrise/BANI (bruechig) — Abschnitt 'Mehrfach-Optionen statt Optimierung'"
   },
   "bani": [
     {
       "code": "B",
-      "dim": "Brüchig",
+      "dim": "Bruechig",
       "en": "Brittle",
-      "wert": 91,
-      "signal": "Der Eskalationspfad springt auf einen zweiten Schauplatz: Neben Hormus werden nun Tanker im Roten Meer / vor Saudi-Arabien angegriffen, Brent überschreitet erstmals seit zwei Monaten die 100-Dollar-Marke (Freitag Rückgang in die 90er, +13 % auf Wochensicht). Ein zweiter maritimer Choke-Point unter Feuer heißt: Das Risiko war nie die eine Meerenge, sondern die Abhängigkeit von wenigen offenen Routen. Dazu bleibt die strukturelle Brüchigkeit — Mangelberufe, demografischer Aderlass — als langsamer, ebenso angelegter Bruch bestehen.",
-      "quelle": "CNBC 23.07.2026 · Bloomberg 23./24.07.2026 · TradingEconomics",
-      "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Wer auf eine einzige Route, einen einzigen Lieferanten, eine einzige Führungskraft optimiert hat, ist schneller — und brüchiger. Plan B gehört gebaut, bevor der Tag kommt, an dem man ihn braucht."
+      "wert": 88,
+      "signal": "Die Entspannung haengt an einem 10-Tage-Waffenruhe-Vorschlag, nicht an einer Einigung — wie die April-Waffenruhe kann sie kippen. Brent loest sich von 100 auf ~95 USD, doch Rotes-Meer-Embargo und Hormus-Restriktionen bestehen fort (Bab-el-Mandeb-Verkehr −34 %). Ein System, das robust aussieht, solange eine offene Route haelt, ist nicht stabil, sondern nur noch nicht getroffen.",
+      "quelle": "CNBC/Bloomberg 23.-25.07.2026 · TradingEconomics",
+      "fuehrung": "Bruechig heisst: wirkt stabil, bricht ploetzlich. Die geliehene Ruhe ist die Zeit, in der man Plan B baut — nicht die, in der man ihn fuer ueberfluessig erklaert."
     },
     {
       "code": "A",
-      "dim": "Ängstlich",
+      "dim": "Aengstlich",
       "en": "Anxious",
-      "wert": 86,
-      "signal": "Die Angst bleibt zweiseitig und hoch: KI-Jobangst auf nahezu verdopptem Niveau bei nur etwa einem Drittel angemessenem Training, und eine Führungspipeline, in der nur sechs Prozent der Jüngeren die Rolle tatsächlich anstreben, weil sie als gesundheitlicher Nettoverlust gilt. Die neue Preis- und Versorgungsunsicherheit legt sich als Kostendruck darüber — die Ebene, die all das auffangen soll, ist die dünnste und erschöpfteste.",
-      "quelle": "Deloitte GenZ 2026 · KPMG 2026 · Mercer GTT 2026",
-      "fuehrung": "Angst wird adressierbar, wo man ihr Konkretes entgegensetzt: Befähigung statt Beruhigung, und eine Führungsrolle, die man übernehmen kann, ohne die eigene Gesundheit als Einsatz zu setzen."
+      "wert": 85,
+      "signal": "Die menschliche Kostenseite der KI wird zum Fuehrungsthema: 40 % nennen KI-bedingten Jobverlust als eine ihrer Hauptaengste (in einem Jahr nahezu verdoppelt), 63 % sagen, KI mache den Arbeitsplatz 'weniger menschlich'. Dazu eine Fuehrungspipeline, in der nur 6 % der Juengeren die Rolle aktiv anstreben, weil sie als gesundheitlicher Nettoverlust gilt. Der EZB-Tonwechsel Richtung September-Hike legt Kostendruck darueber.",
+      "quelle": "KPMG 2026 · Deloitte GenZ 2026 · EZB/ING 24.07.2026",
+      "fuehrung": "Angst wird adressierbar, wo man ihr Konkretes entgegensetzt: Befaehigung statt Beruhigung, und eine Fuehrungsrolle, die man annehmen kann, ohne die eigene Gesundheit als Einsatz zu setzen."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
-      "wert": 85,
-      "signal": "Der Sprung statt der Trend bleibt das Kennzeichen: Der Ölpreis bewegt sich nicht linear mit der Nachrichtenlage, sondern springt bei einem einzelnen Ereignis um Prozentpunkte — Angriff auf einen zweiten Seeweg, sofort über hundert Dollar. Für Deutschland wirkt das indirekt über Chemie und Industrie mit dünnen Puffern, wo kleine Auslöser große Ausschläge erzeugen. Vorbereitungszeit liegt strukturell vor dem Ereignis, nicht danach.",
-      "quelle": "CNBC/Bloomberg 23./24.07.2026 · ifo (Materialmangel Chemie)",
-      "fuehrung": "Nichtlinear heißt: Die Vorbereitungszeit liegt vor dem Ereignis. Mehrfach-Optionen bei Lieferanten und Energie sind kein Effizienzverlust, sondern die Versicherung gegen den Sprung."
+      "wert": 84,
+      "signal": "Der Sprung statt der Trend: Der Oelpreis bewegt sich nicht mit der Nachrichtenlage mit, sondern springt bei einem einzelnen Ereignis um Prozentpunkte — ein Waffenruhe-Vorschlag genuegt, um ihn von hundert Dollar zu loesen, ein einzelner Angriff, um ihn zurueckzutreiben. Fuer Deutschland wirkt das indirekt ueber Chemie und Industrie mit duennen Puffern, wo kleine Ausloeser grosse Ausschlaege erzeugen.",
+      "quelle": "CNBC/Bloomberg 23.-25.07.2026 · ifo (Materialmangel Chemie)",
+      "fuehrung": "Nichtlinear heisst: Die Vorbereitungszeit liegt vor dem Ereignis. Mehrfach-Optionen bei Lieferanten und Energie sind kein Effizienzverlust, sondern die Versicherung gegen den Sprung."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
       "wert": 82,
-      "signal": "Das Rätsel bleibt die Folgenlosigkeit trotz Verfügbarkeit: KI ist überall eingebaut und verändert doch bei den wenigsten die tatsächliche Arbeit, während das CTO-Vertrauen in die KI-Skalierung im dritten Jahr in Folge fällt (82 % 2024 auf 48 % 2026) — trotz steigender Investitionen. Ab dem 2. August legt sich mit den Durchsetzungsbefugnissen des EU AI Act eine neue Regelschicht über eine Technik, deren Wirkung viele noch nicht erschlossen haben.",
-      "quelle": "Akkodis 2026 · Gartner 2026 · EU AI Act (Durchsetzung ab 02.08.2026)",
-      "fuehrung": "Unbegreiflich heißt hier nicht kompliziert, sondern folgenlos verfügbar. Der Vorsprung entsteht nicht durch mehr Zugang oder mehr Investition, sondern durch die Frage, was danach im Ablauf wirklich anders läuft."
+      "signal": "Das Raetsel bleibt die Folgenlosigkeit trotz Verfuegbarkeit: Der KI-Markt waechst 2026 um 63 % auf 64 Mrd USD, GenAI +117 % — und doch setzen erst 17 % der Organisationen Agenten produktiv ein, 234 Mrd USD Software-Ausgaben gelten als 'at risk'. Ab dem 2. August legen sich die Durchsetzungsbefugnisse des EU AI Act ueber eine Technik, deren Wirkung viele noch nicht erschlossen haben.",
+      "quelle": "Gartner 20.07.2026 · EU AI Act (Durchsetzung ab 02.08.2026)",
+      "fuehrung": "Unbegreiflich heisst nicht handlungsunfaehig: Der Test verschiebt sich von Adoption zu nachweisbarer Wirkung. Nicht das naechste Tool entscheidet, sondern die Fuehrung, die aus Zugang Wirkung macht."
     }
   ],
   "quellen": [
-    {
-      "titel": "CNBC: Brent crude crosses $100 after tankers reportedly struck off Saudi Arabia (23.07.2026)",
-      "url": "https://www.cnbc.com/2026/07/23/oil-prices-today-wti-brent-trump-iran-hormuz.html"
-    },
-    {
-      "titel": "Bloomberg: Latest Oil Market News and Analysis for July 24 (2026)",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-23/latest-oil-market-news-and-analysis-for-july-24"
-    },
-    {
-      "titel": "TradingEconomics — Brent Crude Oil (92,36 USD am 23.07.2026, +13 % auf Wochensicht)",
-      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-    },
-    {
-      "titel": "WEF Future of Jobs Report 2025 (39 % Kernkompetenzen bis 2030, Empowering-Leadership +126 %)",
-      "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
-    },
-    {
-      "titel": "Akkodis-Studie 2026: CTO-Vertrauen in KI-Skalierung 82 % (2024) -> 48 % (2026)",
-      "url": "https://www.globenewswire.com/news-release/2026/06/23/3315695/0/de/"
-    }
-  ],
-  "hinweis": "Der Leadership-Disruptions-Index ist ein Deutungs-, kein Messinstrument. Er verdichtet öffentlich verfügbare Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte — er misst nichts, er ordnet ein."
+    "Zukunftsforscher-Trendbericht 25.07.2026 (Eingang)",
+    "CNBC/Bloomberg/TradingEconomics 20.-25.07.2026 (Brent, 10-Tage-Waffenruhe-Vorschlag)",
+    "Gartner 20.07.2026 (KI-Plattformen/Modelle 2026: +63 % auf 64 Mrd USD)",
+    "Deloitte Gen Z & Millennial Survey 2026 (76 % / 6 %)",
+    "KPMG 2026 (40 % KI-Jobangst)",
+    "EZB/ING 24.07.2026 (Einlagensatz 2,25 %, September-Hike-Erwartung)"
+  ]
 }
