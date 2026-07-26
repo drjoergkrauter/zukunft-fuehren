@@ -1,62 +1,62 @@
 {
-  "datum": "2026-07-25",
-  "aktualisiert": "2026-07-25T08:05:00+02:00",
-  "index": 85,
-  "uhrzeit": "23:51",
+  "datum": "2026-07-26",
+  "aktualisiert": "2026-07-26T08:20:00+02:00",
+  "index": 84,
+  "uhrzeit": "23:50",
   "trend": "fallend",
   "trend_delta": -1,
-  "leitsatz": "Zum ersten Mal seit zwei Wochen fällt der Index — aber die Entspannung ist geliehen. Ein regional vermittelter Zehn-Tage-Waffenruhe-Vorschlag hat den Ölpreis von der Hundert-Dollar-Marke gelöst und eine Erleichterungsrally ausgelöst. Der entscheidende Befund: Die Erleichterung ist eine Verhandlungsposition, keine Lösung. Wer sie mit Sicherheit verwechselt, macht denselben Fehler, den das Buch beim Wort brüchig meint — ein System sieht robust aus, bis die eine Bedingung wegfällt, auf die alles gebaut war.",
+  "leitsatz": "Ein ruhiges Wochenende legt eine unbequeme Struktur frei. Außen kühlt der Öl-Schock leicht ab — Brent schloss Freitag bei 97,24 USD (−3,3 %), bleibt aber auf Wochensicht über 12 % im Plus, und die Straße von Hormus ist seit Februar blockiert. Innen liefert die frischeste Datenlage den eigentlichen Befund: Nach drei Jahren KI berichten über 80 % der Unternehmen keine messbare Wirkung — 88 % nutzen KI, nur ein kleiner Teil baut die Arbeit tatsächlich um. Die Kluft liegt nicht im Modell, sondern im ausgebliebenen Umbau der Arbeit. Genau das meint das Buch, wenn es sagt: Wir sind noch in der Experimentierphase, was fehlt, ist die Haltung.",
   "leitsignal": {
-    "titel": "Nicht auf das Aufatmen wetten",
-    "quelle": "Zukunftsforscher-Bericht 25.07.2026 (Eingang) + Websuche-Gegenpruefung: Ein von regionalen Vermittlern vorgelegter 10-Tage-Waffenstillstands-Vorschlag hat Brent von der 100-Dollar-Marke geloest (~100 -> ~95 USD, WTI 90,12); Dow auf Rekord (52.319), DAX +0,7 %; zugleich EZB-Tonwechsel Richtung September-Anhebung (Einlagensatz 2,25 %). Verifiziert: 10-Tage-Waffenruhe-Vorschlag + Oel-Pullback auf Waffenruhe-Hoffnung (CNBC/Bloomberg/TradingEconomics 20.-24.07.); Gartner (20.07.): KI-Plattformen/Modelle 2026 +63 % auf 64 Mrd USD, GenAI +117 %, erst 17 % der Organisationen mit produktiven Agenten, 234 Mrd USD Software-Ausgaben 'at risk'; Deloitte GenZ 2026 (22.500 Befragte): 76 % wollen irgendwann fuehren, nur 6 % nennen Aufstieg als aktuelles Hauptziel; KPMG: 40 % nennen KI-Jobverlust als Hauptangst (in einem Jahr nahezu verdoppelt).",
-    "befund": "Nach zwei Wochen synchroner Verschaerfung zeigt das Tagesbild die erste Gegenbewegung — und genau darin liegt die Falle. Der Oelpreis loest sich von hundert Dollar, die Boersen laufen auf Rekord, es fuehlt sich an wie Entwarnung. Aber die Erleichterung haengt an einem Vorschlag, nicht an einer Einigung. Schon die April-Waffenruhe eskalierte neu; das Rote-Meer-Embargo und die Hormus-Restriktionen bestehen fort. Der Schock ist nicht verschwunden, er ist latent vom Preis- zum Mengenrisiko gewandert. Und waehrend aussen die Spannung nur pausiert, wird innen die KI zur Commodity: viel Zugang, wenig nachgewiesene Wirkung, erst 17 Prozent mit produktiven Agenten. Zwei Bewegungen, eine Lehre — wer jetzt aufatmet und das Steuer aus der Hand legt, verwechselt eine Pause mit einer Loesung.",
-    "fuehrungsimplikation": "Die gefaehrlichste Reaktion auf eine fragile Entspannung ist, sie fuer das Ende der Lage zu halten. Fuehrung heisst hier: die Ruhe nutzen, um Resilienz zu institutionalisieren, statt sie zu verbrauchen — Energie- und Lieferanten-Plan-B bauen, solange man Zeit hat, nicht wenn man ihn braucht. Nach innen dasselbe Muster: Die KI ist billig und ueberall, der Vorteil liegt nicht mehr im Modell, sondern in der Faehigkeit, aus Zugang nachweisbare Wirkung zu machen — und in einer Fuehrungsrolle, die junge Talente wieder annehmen, weil ihr Preis nicht die eigene Gesundheit ist. Sehen kommt vor Tun: erst begreifen, dass die Erleichterung geliehen ist, dann handeln.",
-    "kapitel": "Kapitel 1 Polykrise/BANI (bruechig) — Abschnitt 'Mehrfach-Optionen statt Optimierung'"
+    "titel": "Adoption ohne Wirkung",
+    "quelle": "Zukunftsforscher-Bericht 26.07.2026 (Eingang) + Websuche-Gegenpruefung: McKinsey/Deloitte State of AI 2026 — 88 % der Organisationen nutzen KI in mindestens einer Funktion, aber ueber 80 % berichten in drei Jahren keine messbare Wirkung auf Produktivitaet oder Beschaeftigung; nur ein kleiner Teil ('AI high performer') erzielt >5 % EBIT-Effekt, und diese haben zuerst die Workflows um KI herum neu gestaltet, statt KI nur aufzusetzen. Verifiziert (Websuche 26.07.): 88 % experimentieren mit KI, ~80 % ohne messbaren Bottom-line-Effekt, ~6 % 'AI high performer' mit Workflow-Redesign zuerst; McKinsey: 'not a technology problem, it is an organisational readiness problem'. Geopolitik gegengeprueft: Brent ~97 USD (Fr-Schluss −3,3 %, Wochensicht +12 %), Hormus seit 28.02. blockiert, zweite Front Rotes Meer; EZB haelt 2,25 %, Markt preist September-Hike mit 92 %.",
+    "befund": "Das ruhige Wochenende taeuscht in beide Richtungen. Aussen loest sich der Oelpreis leicht von hundert Dollar — aber das ist Volatilitaet auf hohem Niveau, kein Trendbruch; zwei Chokepoints stehen weiter unter Druck. Innen wird der eigentliche Befund sichtbar: Nach drei Jahren KI ist der Zugang gekauft, die Wirkung nicht. 88 Prozent nutzen KI, ueber 80 Prozent sehen keinen messbaren Effekt. Der Unterschied zwischen beiden Gruppen ist kein Modell und kein Budget, sondern ob eine Organisation ihre Arbeit tatsaechlich umbaut. Damit ist 'Adoption ohne Wirkung' kein Technologie-, sondern ein Fuehrungsproblem — dieselbe Diagnose, die das Buch mit dem Bild der 'Experimentierphase' beschreibt.",
+    "fuehrungsimplikation": "Der Test verschiebt sich von Adoption zu nachweisbarer Wirkung. Fuehrung heisst hier nicht, das naechste Tool zu kaufen, sondern ein oder zwei Prozesse vollstaendig um KI herum neu zu gestalten und das Ergebnis zu messen — und der FOBO-Angst (40 % nennen KI-Jobverlust als Hauptangst) mit rollenspezifischer Befaehigung statt Beruhigung zu begegnen. Sehen kommt vor Tun: erst begreifen, dass Nutzung nicht Wirkung ist, dann die Arbeit umbauen. Was aus 88 Prozent Nutzung fuenf Prozent EBIT-Effekt macht, ist die einzige Variable, die kein Anbieter liefert — die Haltung, mit der ein Mensch die KI fuehrt.",
+    "kapitel": "Kapitel 5 (AI-Mindset / Co-Intelligenz): 'Wir sind noch in der Experimentierphase … was fehlt, ist eine klare Haltung' — plus Kapitel 1 Polykrise/BANI (bruechig) fuer die geopolitische Lage"
   },
   "bani": [
     {
       "code": "B",
       "dim": "Bruechig",
       "en": "Brittle",
-      "wert": 88,
-      "signal": "Die Entspannung haengt an einem 10-Tage-Waffenruhe-Vorschlag, nicht an einer Einigung — wie die April-Waffenruhe kann sie kippen. Brent loest sich von 100 auf ~95 USD, doch Rotes-Meer-Embargo und Hormus-Restriktionen bestehen fort (Bab-el-Mandeb-Verkehr −34 %). Ein System, das robust aussieht, solange eine offene Route haelt, ist nicht stabil, sondern nur noch nicht getroffen.",
-      "quelle": "CNBC/Bloomberg 23.-25.07.2026 · TradingEconomics",
-      "fuehrung": "Bruechig heisst: wirkt stabil, bricht ploetzlich. Die geliehene Ruhe ist die Zeit, in der man Plan B baut — nicht die, in der man ihn fuer ueberfluessig erklaert."
+      "wert": 87,
+      "signal": "Der Oelpreis kuehlt am Wochenende leicht ab (Brent 97,24 USD, Fr −3,3 %), bleibt aber auf Wochensicht ueber 12 % im Plus; Hormus ist seit dem 28.02. blockiert, im Roten Meer eine zweite Front. Ein Rueckgang unter 98 USD ist Volatilitaet, keine Trendwende — solange zwei Chokepoints zugleich unter Druck stehen, bleibt der Risikoaufschlag eingepreist.",
+      "quelle": "CNBC/Bloomberg/TradingEconomics 24.-25.07.2026",
+      "fuehrung": "Bruechig heisst: wirkt stabil, bricht ploetzlich. Die geliehene Ruhe ist die Zeit, in der man Energie- und Lieferanten-Plan-B aktiv haelt — nicht die, in der man ihn fuer ueberfluessig erklaert."
     },
     {
       "code": "A",
       "dim": "Aengstlich",
       "en": "Anxious",
       "wert": 85,
-      "signal": "Die menschliche Kostenseite der KI wird zum Fuehrungsthema: 40 % nennen KI-bedingten Jobverlust als eine ihrer Hauptaengste (in einem Jahr nahezu verdoppelt), 63 % sagen, KI mache den Arbeitsplatz 'weniger menschlich'. Dazu eine Fuehrungspipeline, in der nur 6 % der Juengeren die Rolle aktiv anstreben, weil sie als gesundheitlicher Nettoverlust gilt. Der EZB-Tonwechsel Richtung September-Hike legt Kostendruck darueber.",
-      "quelle": "KPMG 2026 · Deloitte GenZ 2026 · EZB/ING 24.07.2026",
-      "fuehrung": "Angst wird adressierbar, wo man ihr Konkretes entgegensetzt: Befaehigung statt Beruhigung, und eine Fuehrungsrolle, die man annehmen kann, ohne die eigene Gesundheit als Einsatz zu setzen."
+      "signal": "Die menschliche Kostenseite der KI bleibt das Fuehrungsthema: 40 % nennen KI-bedingten Jobverlust als Hauptangst (in einem Jahr nahezu verdoppelt), 63 % erleben KI als 'weniger menschlich', 42 % fuerchten veraltende Skills — und nur rund ein Drittel erhaelt angemessene KI-Weiterbildung (−10 Pp seit 2024).",
+      "quelle": "KPMG 2026 · JFF 2026",
+      "fuehrung": "Angst wird adressierbar, wo man ihr Konkretes entgegensetzt: rollenspezifische Befaehigung plus psychologische Sicherheit statt Beruhigung."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
-      "wert": 84,
-      "signal": "Der Sprung statt der Trend: Der Oelpreis bewegt sich nicht mit der Nachrichtenlage mit, sondern springt bei einem einzelnen Ereignis um Prozentpunkte — ein Waffenruhe-Vorschlag genuegt, um ihn von hundert Dollar zu loesen, ein einzelner Angriff, um ihn zurueckzutreiben. Fuer Deutschland wirkt das indirekt ueber Chemie und Industrie mit duennen Puffern, wo kleine Ausloeser grosse Ausschlaege erzeugen.",
-      "quelle": "CNBC/Bloomberg 23.-25.07.2026 · ifo (Materialmangel Chemie)",
-      "fuehrung": "Nichtlinear heisst: Die Vorbereitungszeit liegt vor dem Ereignis. Mehrfach-Optionen bei Lieferanten und Energie sind kein Effizienzverlust, sondern die Versicherung gegen den Sprung."
+      "wert": 83,
+      "signal": "Der Sprung statt der Trend: Der Oelpreis bewegt sich nicht mit der Nachrichtenlage mit, sondern springt bei einzelnen Ereignissen um Prozentpunkte; die Geldpolitik ist daran gekoppelt (September-Hike-Wahrscheinlichkeit 85 → 92 %). Fuer Deutschland wirkt das indirekt ueber Chemie und Industrie mit duennen Puffern.",
+      "quelle": "EZB/ING 23.-24.07.2026 · ifo (Materialmangel Chemie)",
+      "fuehrung": "Nichtlinear heisst: Die Vorbereitungszeit liegt vor dem Ereignis. Mehrfach-Optionen bei Lieferanten und Energie sind Versicherung, kein Effizienzverlust."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
       "wert": 82,
-      "signal": "Das Raetsel bleibt die Folgenlosigkeit trotz Verfuegbarkeit: Der KI-Markt waechst 2026 um 63 % auf 64 Mrd USD, GenAI +117 % — und doch setzen erst 17 % der Organisationen Agenten produktiv ein, 234 Mrd USD Software-Ausgaben gelten als 'at risk'. Ab dem 2. August legen sich die Durchsetzungsbefugnisse des EU AI Act ueber eine Technik, deren Wirkung viele noch nicht erschlossen haben.",
-      "quelle": "Gartner 20.07.2026 · EU AI Act (Durchsetzung ab 02.08.2026)",
-      "fuehrung": "Unbegreiflich heisst nicht handlungsunfaehig: Der Test verschiebt sich von Adoption zu nachweisbarer Wirkung. Nicht das naechste Tool entscheidet, sondern die Fuehrung, die aus Zugang Wirkung macht."
+      "signal": "Das Raetsel bleibt die Folgenlosigkeit trotz Verfuegbarkeit: 88 % nutzen KI, ueber 80 % sehen in drei Jahren keine messbare Wirkung; nur 23 % skalieren agentische Systeme, nur 21 % haben reife Agentic-Governance. Ab dem 2. August legen sich die Durchsetzungsbefugnisse des EU AI Act ueber eine Technik, deren Wirkung viele noch nicht erschlossen haben.",
+      "quelle": "McKinsey/Deloitte State of AI 2026 · EU AI Act (Durchsetzung ab 02.08.2026)",
+      "fuehrung": "Unbegreiflich heisst nicht handlungsunfaehig: Der Test verschiebt sich von Adoption zu nachweisbarer Wirkung — nicht das naechste Tool entscheidet, sondern die Fuehrung, die aus Zugang Wirkung macht."
     }
   ],
   "quellen": [
-    "Zukunftsforscher-Trendbericht 25.07.2026 (Eingang)",
-    "CNBC/Bloomberg/TradingEconomics 20.-25.07.2026 (Brent, 10-Tage-Waffenruhe-Vorschlag)",
-    "Gartner 20.07.2026 (KI-Plattformen/Modelle 2026: +63 % auf 64 Mrd USD)",
-    "Deloitte Gen Z & Millennial Survey 2026 (76 % / 6 %)",
-    "KPMG 2026 (40 % KI-Jobangst)",
-    "EZB/ING 24.07.2026 (Einlagensatz 2,25 %, September-Hike-Erwartung)"
+    "Zukunftsforscher-Trendbericht 26.07.2026 (Eingang)",
+    "McKinsey/Deloitte State of AI in the Enterprise 2026 (88 % Nutzung, >80 % ohne messbare Wirkung, Workflow-Redesign → >5 % EBIT) — Websuche verifiziert 26.07.",
+    "CNBC/Bloomberg/TradingEconomics 24.-25.07.2026 (Brent 97,24 USD, −3,3 %, Wochensicht +12 %; Hormus seit 28.02. blockiert)",
+    "EZB/ING/CNBC 23.-24.07.2026 (Einlagensatz 2,25 %; September-Hike mit 92 % gepreist; HVPI 2,8 %)",
+    "KPMG 2026 / JFF 2026 (40 % KI-Jobangst; ~1/3 angemessene KI-Weiterbildung, −10 Pp)",
+    "Deloitte Gen Z & Millennial Survey 2026 (76 % wollen fuehren, 6 % aktuelles Hauptziel)"
   ]
 }
