@@ -1,62 +1,60 @@
 {
-  "datum": "2026-07-26",
-  "aktualisiert": "2026-07-26T08:20:00+02:00",
-  "index": 84,
-  "uhrzeit": "23:50",
-  "trend": "fallend",
-  "trend_delta": -1,
-  "leitsatz": "Ein ruhiges Wochenende legt eine unbequeme Struktur frei. Außen kühlt der Öl-Schock leicht ab — Brent schloss Freitag bei 97,24 USD (−3,3 %), bleibt aber auf Wochensicht über 12 % im Plus, und die Straße von Hormus ist seit Februar blockiert. Innen liefert die frischeste Datenlage den eigentlichen Befund: Nach drei Jahren KI berichten über 80 % der Unternehmen keine messbare Wirkung — 88 % nutzen KI, nur ein kleiner Teil baut die Arbeit tatsächlich um. Die Kluft liegt nicht im Modell, sondern im ausgebliebenen Umbau der Arbeit. Genau das meint das Buch, wenn es sagt: Wir sind noch in der Experimentierphase, was fehlt, ist die Haltung.",
+  "datum": "2026-07-30",
+  "aktualisiert": "2026-07-30T07:20:00+02:00",
+  "index": 85,
+  "uhrzeit": "23:51",
+  "trend": "steigend",
+  "trend_delta": 1,
+  "leitsatz": "Die frischeste Datenlage verschiebt den Blick von der Technik auf die Menschen, die sie führen sollen. Gallup meldet für 2026 das global niedrigste Mitarbeiter-Engagement seit den Lockdowns 2020 — und den größten je gemessenen Einbruch beim Engagement der Manager (27 auf 22 Prozent seit 2022). Die Führungsebene, die alles zusammenhalten soll, läuft selbst am längsten auf Reserve. Außen bleibt die Lage brüchig: Nach Hormus ist nun auch die zweite Golf-Ausfuhrroute über das Rote Meer faktisch blockiert — primäre und sekundäre Exportroute stehen gleichzeitig unter Druck. Genau das meint das Buch mit Selbstführung: Wer sich selbst nicht führt, führt niemanden anders gut.",
   "leitsignal": {
-    "titel": "Adoption ohne Wirkung",
-    "quelle": "Zukunftsforscher-Bericht 26.07.2026 (Eingang) + Websuche-Gegenpruefung: McKinsey/Deloitte State of AI 2026 — 88 % der Organisationen nutzen KI in mindestens einer Funktion, aber ueber 80 % berichten in drei Jahren keine messbare Wirkung auf Produktivitaet oder Beschaeftigung; nur ein kleiner Teil ('AI high performer') erzielt >5 % EBIT-Effekt, und diese haben zuerst die Workflows um KI herum neu gestaltet, statt KI nur aufzusetzen. Verifiziert (Websuche 26.07.): 88 % experimentieren mit KI, ~80 % ohne messbaren Bottom-line-Effekt, ~6 % 'AI high performer' mit Workflow-Redesign zuerst; McKinsey: 'not a technology problem, it is an organisational readiness problem'. Geopolitik gegengeprueft: Brent ~97 USD (Fr-Schluss −3,3 %, Wochensicht +12 %), Hormus seit 28.02. blockiert, zweite Front Rotes Meer; EZB haelt 2,25 %, Markt preist September-Hike mit 92 %.",
-    "befund": "Das ruhige Wochenende taeuscht in beide Richtungen. Aussen loest sich der Oelpreis leicht von hundert Dollar — aber das ist Volatilitaet auf hohem Niveau, kein Trendbruch; zwei Chokepoints stehen weiter unter Druck. Innen wird der eigentliche Befund sichtbar: Nach drei Jahren KI ist der Zugang gekauft, die Wirkung nicht. 88 Prozent nutzen KI, ueber 80 Prozent sehen keinen messbaren Effekt. Der Unterschied zwischen beiden Gruppen ist kein Modell und kein Budget, sondern ob eine Organisation ihre Arbeit tatsaechlich umbaut. Damit ist 'Adoption ohne Wirkung' kein Technologie-, sondern ein Fuehrungsproblem — dieselbe Diagnose, die das Buch mit dem Bild der 'Experimentierphase' beschreibt.",
-    "fuehrungsimplikation": "Der Test verschiebt sich von Adoption zu nachweisbarer Wirkung. Fuehrung heisst hier nicht, das naechste Tool zu kaufen, sondern ein oder zwei Prozesse vollstaendig um KI herum neu zu gestalten und das Ergebnis zu messen — und der FOBO-Angst (40 % nennen KI-Jobverlust als Hauptangst) mit rollenspezifischer Befaehigung statt Beruhigung zu begegnen. Sehen kommt vor Tun: erst begreifen, dass Nutzung nicht Wirkung ist, dann die Arbeit umbauen. Was aus 88 Prozent Nutzung fuenf Prozent EBIT-Effekt macht, ist die einzige Variable, die kein Anbieter liefert — die Haltung, mit der ein Mensch die KI fuehrt.",
-    "kapitel": "Kapitel 5 (AI-Mindset / Co-Intelligenz): 'Wir sind noch in der Experimentierphase … was fehlt, ist eine klare Haltung' — plus Kapitel 1 Polykrise/BANI (bruechig) fuer die geopolitische Lage"
+    "titel": "Die Führung selbst geht auf Reserve",
+    "quelle": "Websuche-Gegenprüfung 30.07.2026 (kein neuer Eingang-Bericht seit 26.07.): Gallup „State of the Global Workplace 2026“ — globales Engagement auf dem tiefsten Stand seit den Lockdowns 2020; Manager-Engagement 2022–2025 um 9 Punkte gefallen (27 % → 22 %, größter je gemessener Einbruch); Manager-Burnout beschleunigt, Manager nur noch so engagiert wie ihre Teams; Führungskräfte berichten seltener als ihre Teams, am Vortag gelacht zu haben; in Best-Practice-Organisationen dagegen 79 % engagierte Manager. Verifiziert: gallup.com, forbes.com, unleash.ai. Geopolitik gegengeprüft (CNBC/TradingEconomics/discoveryalert 30.07.): Hormus stark eingeschränkt, jetzt auch Bab el-Mandeb/Rotes Meer für saudische Rohöl-Verschiffung faktisch unpassierbar — beide Golf-Exportrouten gleichzeitig unter Druck (Brent-Punktwert widersprüchlich, daher qualitativ).",
+    "befund": "Nach einer Woche Öl- und KI-Schlagzeilen legt die Personalforschung den eigentlichen Engpass frei: nicht das Werkzeug, sondern die Kraft der Menschen, die es führen sollen. Das globale Engagement ist auf dem tiefsten Stand seit 2020, und zum ersten Mal bricht es bei den Managern stärker ein als bei ihren Teams. Der Energie-Vorsprung der Führung ist aufgebraucht. Eine erschöpfte Führung führt nicht schlechter, weil ihr Können fehlt, sondern weil eine Kraftquelle leer ist, die niemand nachgefüllt hat. Außen bleibt die Lage brüchig: Mit Hormus und dem Roten Meer stehen beide Golf-Ausfuhrrouten gleichzeitig unter Druck — Stabilität, die an einer einzigen Bedingung hängt.",
+    "fuehrungsimplikation": "Der Test verschiebt sich von „mehr leisten“ zu „Reserven ernst nehmen“. Führung heißt hier zuerst Selbstführung: den eigenen Zustand und den der Führungsmannschaft wahrnehmen, bevor man ihn überfährt — die ruhigere Woche kann die beste Investition in Wirksamkeit sein. Die stille Variante von Ausfall sieht nicht nach Zusammenbruch aus, sondern nach leisem Rückzug. Sehen kommt vor Tun: erst erkennen, dass die Führungsebene selbst leer läuft, dann handeln.",
+    "kapitel": "Kapitel 16 (Kraftquellen / Selbstwirksamkeit / Selbstführung): „Wer sich selbst nicht führt, führt niemanden anders gut“ — plus Kapitel 1 Polykrise/BANI (brüchig) für die geopolitische Lage"
   },
   "bani": [
     {
       "code": "B",
-      "dim": "Bruechig",
+      "dim": "Brüchig",
       "en": "Brittle",
-      "wert": 87,
-      "signal": "Der Oelpreis kuehlt am Wochenende leicht ab (Brent 97,24 USD, Fr −3,3 %), bleibt aber auf Wochensicht ueber 12 % im Plus; Hormus ist seit dem 28.02. blockiert, im Roten Meer eine zweite Front. Ein Rueckgang unter 98 USD ist Volatilitaet, keine Trendwende — solange zwei Chokepoints zugleich unter Druck stehen, bleibt der Risikoaufschlag eingepreist.",
-      "quelle": "CNBC/Bloomberg/TradingEconomics 24.-25.07.2026",
-      "fuehrung": "Bruechig heisst: wirkt stabil, bricht ploetzlich. Die geliehene Ruhe ist die Zeit, in der man Energie- und Lieferanten-Plan-B aktiv haelt — nicht die, in der man ihn fuer ueberfluessig erklaert."
+      "wert": 89,
+      "signal": "Nach der Straße von Hormus ist nun auch die zweite Golf-Ausfuhrroute über das Rote Meer (Bab el-Mandeb) für saudische Rohöl-Verschiffung faktisch unpassierbar — primäre und sekundäre Exportroute stehen gleichzeitig unter Druck. Zwei Chokepoints zugleich halten den Risikoaufschlag eingepreist.",
+      "quelle": "CNBC / discoveryalert / TradingEconomics 30.07.2026",
+      "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Stabilität, die an einer einzigen offenen Route hängt, ist keine Stabilität — sie ist eine Frist. Plan B vor dem Tag bauen, an dem man ihn braucht."
     },
     {
       "code": "A",
-      "dim": "Aengstlich",
+      "dim": "Ängstlich",
       "en": "Anxious",
-      "wert": 85,
-      "signal": "Die menschliche Kostenseite der KI bleibt das Fuehrungsthema: 40 % nennen KI-bedingten Jobverlust als Hauptangst (in einem Jahr nahezu verdoppelt), 63 % erleben KI als 'weniger menschlich', 42 % fuerchten veraltende Skills — und nur rund ein Drittel erhaelt angemessene KI-Weiterbildung (−10 Pp seit 2024).",
-      "quelle": "KPMG 2026 · JFF 2026",
-      "fuehrung": "Angst wird adressierbar, wo man ihr Konkretes entgegensetzt: rollenspezifische Befaehigung plus psychologische Sicherheit statt Beruhigung."
+      "wert": 86,
+      "signal": "Die menschliche Kostenseite wird zur Führungsfrage in eigener Sache: globales Engagement auf Tiefststand seit 2020, Manager-Engagement 27 % → 22 % (größter je gemessener Einbruch), Manager-Burnout beschleunigt, Führungskräfte lachen seltener als ihre Teams.",
+      "quelle": "Gallup State of the Global Workplace 2026",
+      "fuehrung": "Angst und Erschöpfung werden adressierbar, wo man ihnen Konkretes entgegensetzt: psychologische Sicherheit plus echte Erholungsräume statt Durchhalte-Appelle."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
       "wert": 83,
-      "signal": "Der Sprung statt der Trend: Der Oelpreis bewegt sich nicht mit der Nachrichtenlage mit, sondern springt bei einzelnen Ereignissen um Prozentpunkte; die Geldpolitik ist daran gekoppelt (September-Hike-Wahrscheinlichkeit 85 → 92 %). Fuer Deutschland wirkt das indirekt ueber Chemie und Industrie mit duennen Puffern.",
-      "quelle": "EZB/ING 23.-24.07.2026 · ifo (Materialmangel Chemie)",
-      "fuehrung": "Nichtlinear heisst: Die Vorbereitungszeit liegt vor dem Ereignis. Mehrfach-Optionen bei Lieferanten und Energie sind Versicherung, kein Effizienzverlust."
+      "signal": "Führungswirkung kippt nicht linear: Der Rückzug einer erschöpften Führungskraft ist leise und wird lange übersehen — bis Motivation und Change-Fähigkeit im Bereich plötzlich wegbrechen. Kleine, unbeachtete Ursache, große verzögerte Wirkung.",
+      "quelle": "Gallup 2026 / Buch Kap. 16",
+      "fuehrung": "Nichtlinear heißt: kleine Ursache, große Wirkung. Den leisen Rückzug früh hören, nicht erst den lauten Ausfall."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
       "wert": 82,
-      "signal": "Das Raetsel bleibt die Folgenlosigkeit trotz Verfuegbarkeit: 88 % nutzen KI, ueber 80 % sehen in drei Jahren keine messbare Wirkung; nur 23 % skalieren agentische Systeme, nur 21 % haben reife Agentic-Governance. Ab dem 2. August legen sich die Durchsetzungsbefugnisse des EU AI Act ueber eine Technik, deren Wirkung viele noch nicht erschlossen haben.",
-      "quelle": "McKinsey/Deloitte State of AI 2026 · EU AI Act (Durchsetzung ab 02.08.2026)",
-      "fuehrung": "Unbegreiflich heisst nicht handlungsunfaehig: Der Test verschiebt sich von Adoption zu nachweisbarer Wirkung — nicht das naechste Tool entscheidet, sondern die Fuehrung, die aus Zugang Wirkung macht."
+      "signal": "Zwei Entwicklungen laufen gleichzeitig und lassen sich nicht auf eine Ursache zurückführen: außen eine Energie-Geografie mit zwei bedrohten Routen, innen eine Führungsebene, deren Energie-Vorsprung verschwindet. Kein einzelner Hebel erklärt beides.",
+      "quelle": "Gallup 2026 + Geopolitik 30.07.",
+      "fuehrung": "Unbegreiflich heißt: entzieht sich der einfachen Erklärung. Nicht die eine Ursache suchen, sondern robuste Routinen für mehrere mögliche Verläufe bauen."
     }
   ],
   "quellen": [
-    "Zukunftsforscher-Trendbericht 26.07.2026 (Eingang)",
-    "McKinsey/Deloitte State of AI in the Enterprise 2026 (88 % Nutzung, >80 % ohne messbare Wirkung, Workflow-Redesign → >5 % EBIT) — Websuche verifiziert 26.07.",
-    "CNBC/Bloomberg/TradingEconomics 24.-25.07.2026 (Brent 97,24 USD, −3,3 %, Wochensicht +12 %; Hormus seit 28.02. blockiert)",
-    "EZB/ING/CNBC 23.-24.07.2026 (Einlagensatz 2,25 %; September-Hike mit 92 % gepreist; HVPI 2,8 %)",
-    "KPMG 2026 / JFF 2026 (40 % KI-Jobangst; ~1/3 angemessene KI-Weiterbildung, −10 Pp)",
-    "Deloitte Gen Z & Millennial Survey 2026 (76 % wollen fuehren, 6 % aktuelles Hauptziel)"
+    "Gallup, State of the Global Workplace 2026 (gallup.com)",
+    "Forbes: Gallups 2026 Workplace Report — Leaders more engaged, also more stressed (forbes.com, 08.04.2026)",
+    "UNLEASH: Gallup State of the Global Workplace 2026 (unleash.ai)",
+    "CNBC / discoveryalert / TradingEconomics: Brent / Hormus / Rotes Meer (30.07.2026)"
   ]
 }
