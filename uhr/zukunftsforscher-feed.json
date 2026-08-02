@@ -1,60 +1,60 @@
 {
-  "datum": "2026-07-30",
-  "aktualisiert": "2026-07-30T07:20:00+02:00",
-  "index": 85,
-  "uhrzeit": "23:51",
-  "trend": "steigend",
-  "trend_delta": 1,
-  "leitsatz": "Die frischeste Datenlage verschiebt den Blick von der Technik auf die Menschen, die sie führen sollen. Gallup meldet für 2026 das global niedrigste Mitarbeiter-Engagement seit den Lockdowns 2020 — und den größten je gemessenen Einbruch beim Engagement der Manager (27 auf 22 Prozent seit 2022). Die Führungsebene, die alles zusammenhalten soll, läuft selbst am längsten auf Reserve. Außen bleibt die Lage brüchig: Nach Hormus ist nun auch die zweite Golf-Ausfuhrroute über das Rote Meer faktisch blockiert — primäre und sekundäre Exportroute stehen gleichzeitig unter Druck. Genau das meint das Buch mit Selbstführung: Wer sich selbst nicht führt, führt niemanden anders gut.",
+  "datum": "2026-08-02",
+  "aktualisiert": "2026-08-02T08:15:00+02:00",
+  "index": 83,
+  "uhrzeit": "23:50",
+  "trend": "fallend",
+  "trend_delta": -1,
+  "leitsatz": "Die frischeste Arbeitsplatzforschung legt den eigentlichen Engpass der KI-Wende frei — und er sitzt nicht im Serverraum, sondern in der Führungsetage. Gallup „State of the Global Workplace 2026\" meldet den Manager-Engagement-Wert auf 22 Prozent, Tiefststand seit 2020, mit dem größten je gemessenen Einbruch (27 auf 22 Prozent binnen eines Jahres). Zugleich zeigt derselbe Report: Der stärkste Einzelfaktor für wirksame KI-Einführung ist, ob die direkte Führungskraft den Einsatz aktiv unterstützt. Der Hebel der Transformation liegt also bei genau den Menschen, denen gerade die Kraft ausgeht. Außen entspannt sich die Öllage weiter leicht (Brent um 86 Dollar, monatlich aber noch gut 20 Prozent im Plus; mehr Golf-Tanker fahren), während das Rote Meer unruhig bleibt. Genau hier setzt das Buch an: Wer die eigene Kraftquelle nicht kennt, kann keine Wende führen.",
   "leitsignal": {
-    "titel": "Die Führung selbst geht auf Reserve",
-    "quelle": "Websuche-Gegenprüfung 30.07.2026 (kein neuer Eingang-Bericht seit 26.07.): Gallup „State of the Global Workplace 2026“ — globales Engagement auf dem tiefsten Stand seit den Lockdowns 2020; Manager-Engagement 2022–2025 um 9 Punkte gefallen (27 % → 22 %, größter je gemessener Einbruch); Manager-Burnout beschleunigt, Manager nur noch so engagiert wie ihre Teams; Führungskräfte berichten seltener als ihre Teams, am Vortag gelacht zu haben; in Best-Practice-Organisationen dagegen 79 % engagierte Manager. Verifiziert: gallup.com, forbes.com, unleash.ai. Geopolitik gegengeprüft (CNBC/TradingEconomics/discoveryalert 30.07.): Hormus stark eingeschränkt, jetzt auch Bab el-Mandeb/Rotes Meer für saudische Rohöl-Verschiffung faktisch unpassierbar — beide Golf-Exportrouten gleichzeitig unter Druck (Brent-Punktwert widersprüchlich, daher qualitativ).",
-    "befund": "Nach einer Woche Öl- und KI-Schlagzeilen legt die Personalforschung den eigentlichen Engpass frei: nicht das Werkzeug, sondern die Kraft der Menschen, die es führen sollen. Das globale Engagement ist auf dem tiefsten Stand seit 2020, und zum ersten Mal bricht es bei den Managern stärker ein als bei ihren Teams. Der Energie-Vorsprung der Führung ist aufgebraucht. Eine erschöpfte Führung führt nicht schlechter, weil ihr Können fehlt, sondern weil eine Kraftquelle leer ist, die niemand nachgefüllt hat. Außen bleibt die Lage brüchig: Mit Hormus und dem Roten Meer stehen beide Golf-Ausfuhrrouten gleichzeitig unter Druck — Stabilität, die an einer einzigen Bedingung hängt.",
-    "fuehrungsimplikation": "Der Test verschiebt sich von „mehr leisten“ zu „Reserven ernst nehmen“. Führung heißt hier zuerst Selbstführung: den eigenen Zustand und den der Führungsmannschaft wahrnehmen, bevor man ihn überfährt — die ruhigere Woche kann die beste Investition in Wirksamkeit sein. Die stille Variante von Ausfall sieht nicht nach Zusammenbruch aus, sondern nach leisem Rückzug. Sehen kommt vor Tun: erst erkennen, dass die Führungsebene selbst leer läuft, dann handeln.",
-    "kapitel": "Kapitel 16 (Kraftquellen / Selbstwirksamkeit / Selbstführung): „Wer sich selbst nicht führt, führt niemanden anders gut“ — plus Kapitel 1 Polykrise/BANI (brüchig) für die geopolitische Lage"
+    "titel": "Die KI-Wende hängt an erschöpften Managern",
+    "quelle": "Websuche-Gegenpruefung 02.08.2026 (kein neuer Eingang-Bericht seit 30.07.): Gallup State of the Global Workplace 2026 (gallup.com, unleash.ai, sociabble.com) — globales Mitarbeiter-Engagement 20 % (Tiefststand seit 2020); Manager-Engagement 27 % (2024) auf 22 % (2025) = größter je gemessener Jahreseinbruch, von 31 % (2022); Manager-Burnout ~56 %; Report benennt „Manager unterstützt KI-Nutzung aktiv\" als einen der stärksten Faktoren für wirksame KI-Adoption. Geopolitik gegengeprüft (cnbc.com/tradingeconomics 31.07.-02.08.): Brent Freitag ~86 USD, Monatsplus > 20 %; Hormus-Verkehr wieder etwas höher, Rotes Meer/Bab el-Mandeb weiter gestört. Ergänzend AI-Adoption (Bain/CrewAI-Aggregat, als Backdrop): 65 % nutzen KI-Agenten, aber nur 41 % erreichen positiven ROI binnen 12 Monaten.",
+    "befund": "Nach einer Woche Öl- und Selbstbild-Schlagzeilen zeigt die Arbeitsplatzforschung, wo die KI-Transformation wirklich entschieden wird: bei den Managern in der Mitte. Ihr Engagement ist auf den tiefsten Stand seit Jahren gefallen, ihr Burnout steigt — und ausgerechnet ihre aktive Unterstützung ist der stärkste Hebel dafür, ob KI im Unternehmen Wirkung entfaltet. Das ist die unbequeme Gleichung: Wir laden die größte Veränderung seit Jahrzehnten auf die Schultern von Menschen, die schon jetzt auf Reserve fahren. Außen atmet die Öllage kurz auf (Brent sinkt, weil wieder mehr Tanker fahren) — aber es ist ein geliehenes Aufatmen, das Rote Meer bleibt unruhig.",
+    "fuehrungsimplikation": "Der Engpass ist nicht das Modell, sondern die Kraft der Führung. Bevor eine Organisation die nächste KI-Initiative ausrollt, lohnt die ehrlichere Frage: Haben die Manager in der Mitte überhaupt die Energie, diese Wende zu tragen — und wer kümmert sich um ihre Kraftquellen? Selbstführung und psychologische Sicherheit sind hier keine Wohlfühlthemen, sondern die Vorbedingung dafür, dass Technik überhaupt Wirkung zeigt.",
+    "kapitel": "Kapitel 16 (Kraftquellen / Selbstführung) und Kapitel 5 (AI-Mindset / Co-Intelligenz): Wer die eigene Kraft nicht führt, führt keine Transformation — und KI wird erst mit Haltung wirksam"
   },
   "bani": [
     {
       "code": "B",
       "dim": "Brüchig",
       "en": "Brittle",
-      "wert": 89,
-      "signal": "Nach der Straße von Hormus ist nun auch die zweite Golf-Ausfuhrroute über das Rote Meer (Bab el-Mandeb) für saudische Rohöl-Verschiffung faktisch unpassierbar — primäre und sekundäre Exportroute stehen gleichzeitig unter Druck. Zwei Chokepoints zugleich halten den Risikoaufschlag eingepreist.",
-      "quelle": "CNBC / discoveryalert / TradingEconomics 30.07.2026",
-      "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Stabilität, die an einer einzigen offenen Route hängt, ist keine Stabilität — sie ist eine Frist. Plan B vor dem Tag bauen, an dem man ihn braucht."
+      "wert": 85,
+      "signal": "Die Öllage atmet weiter kurz auf — Brent um 86 Dollar, weil wieder mehr Golf-Tanker fahren; im Monat aber noch gut 20 Prozent im Plus. Hormus bleibt sensibel, das Rote Meer/Bab el-Mandeb gestört: eine Entspannung, die an einer einzigen ruhigen Woche hängt.",
+      "quelle": "cnbc.com / tradingeconomics.com 31.07.-02.08.2026",
+      "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Ein sinkender Preis ist kein gelöstes Risiko. Das Aufatmen ist die Zeit, in der man Plan B baut."
     },
     {
       "code": "A",
       "dim": "Ängstlich",
       "en": "Anxious",
-      "wert": 86,
-      "signal": "Die menschliche Kostenseite wird zur Führungsfrage in eigener Sache: globales Engagement auf Tiefststand seit 2020, Manager-Engagement 27 % → 22 % (größter je gemessener Einbruch), Manager-Burnout beschleunigt, Führungskräfte lachen seltener als ihre Teams.",
+      "wert": 84,
+      "signal": "Manager-Engagement auf 22 Prozent (Tiefststand seit 2020), Manager-Burnout um 56 Prozent. Die Mitte der Organisation, die jede KI-Wende tragen soll, fährt selbst auf Reserve.",
       "quelle": "Gallup State of the Global Workplace 2026",
-      "fuehrung": "Angst und Erschöpfung werden adressierbar, wo man ihnen Konkretes entgegensetzt: psychologische Sicherheit plus echte Erholungsräume statt Durchhalte-Appelle."
+      "fuehrung": "Angst wird adressierbar, wo man ihr Konkretes entgegensetzt: echte Kraftquellen und Entlastung für die Führung statt Durchhalte-Appell."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
-      "wert": 83,
-      "signal": "Führungswirkung kippt nicht linear: Der Rückzug einer erschöpften Führungskraft ist leise und wird lange übersehen — bis Motivation und Change-Fähigkeit im Bereich plötzlich wegbrechen. Kleine, unbeachtete Ursache, große verzögerte Wirkung.",
-      "quelle": "Gallup 2026 / Buch Kap. 16",
-      "fuehrung": "Nichtlinear heißt: kleine Ursache, große Wirkung. Den leisen Rückzug früh hören, nicht erst den lauten Ausfall."
+      "wert": 82,
+      "signal": "65 Prozent nutzen KI-Agenten, aber nur 41 Prozent erreichen binnen zwölf Monaten positiven ROI. Die Wirkung hängt weniger am Modell als an einer unscheinbaren Größe: ob die Führungskraft den Einsatz aktiv trägt.",
+      "quelle": "Gallup 2026 + Bain/CrewAI-Adoptionsdaten 2026 (Backdrop)",
+      "fuehrung": "Nichtlinear heißt: kleine Ursache, große Wirkung. Die aktive Unterstützung eines erschöpften Managers entscheidet über den Ertrag einer Millioneninvestition."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
-      "wert": 82,
-      "signal": "Zwei Entwicklungen laufen gleichzeitig und lassen sich nicht auf eine Ursache zurückführen: außen eine Energie-Geografie mit zwei bedrohten Routen, innen eine Führungsebene, deren Energie-Vorsprung verschwindet. Kein einzelner Hebel erklärt beides.",
-      "quelle": "Gallup 2026 + Geopolitik 30.07.",
-      "fuehrung": "Unbegreiflich heißt: entzieht sich der einfachen Erklärung. Nicht die eine Ursache suchen, sondern robuste Routinen für mehrere mögliche Verläufe bauen."
+      "wert": 81,
+      "signal": "Innen erschöpfte Manager als heimlicher Engpass der Technikwende; außen eine Energie-Geografie mit zwei bedrohten Seewegen. Kein einzelner Hebel erklärt, warum die teuerste Technik an der Kraft weniger Menschen scheitert.",
+      "quelle": "Gallup 2026 + Geopolitik 02.08.",
+      "fuehrung": "Unbegreiflich heißt: entzieht sich der einfachen Erklärung. Nicht die eine Ursache suchen, sondern zuerst die Kraftquellen der Führung ehrlich prüfen."
     }
   ],
   "quellen": [
-    "Gallup, State of the Global Workplace 2026 (gallup.com)",
-    "Forbes: Gallups 2026 Workplace Report — Leaders more engaged, also more stressed (forbes.com, 08.04.2026)",
-    "UNLEASH: Gallup State of the Global Workplace 2026 (unleash.ai)",
-    "CNBC / discoveryalert / TradingEconomics: Brent / Hormus / Rotes Meer (30.07.2026)"
+    "Gallup: State of the Global Workplace 2026 (gallup.com)",
+    "UNLEASH: Gallup 2026 — three essential actions for HR leaders (unleash.ai)",
+    "Sociabble: 7 Key Findings From Gallup's 2026 Workplace Report (sociabble.com)",
+    "CNBC / TradingEconomics: Brent / Hormus / Rotes Meer (31.07.-02.08.2026)"
   ]
 }
