@@ -1,60 +1,62 @@
 {
-  "datum": "2026-08-02",
-  "aktualisiert": "2026-08-02T08:15:00+02:00",
-  "index": 83,
+  "datum": "2026-08-03",
+  "aktualisiert": "2026-08-03T08:20:00+02:00",
+  "index": 84,
   "uhrzeit": "23:50",
-  "trend": "fallend",
-  "trend_delta": -1,
-  "leitsatz": "Die frischeste Arbeitsplatzforschung legt den eigentlichen Engpass der KI-Wende frei — und er sitzt nicht im Serverraum, sondern in der Führungsetage. Gallup „State of the Global Workplace 2026\" meldet den Manager-Engagement-Wert auf 22 Prozent, Tiefststand seit 2020, mit dem größten je gemessenen Einbruch (27 auf 22 Prozent binnen eines Jahres). Zugleich zeigt derselbe Report: Der stärkste Einzelfaktor für wirksame KI-Einführung ist, ob die direkte Führungskraft den Einsatz aktiv unterstützt. Der Hebel der Transformation liegt also bei genau den Menschen, denen gerade die Kraft ausgeht. Außen entspannt sich die Öllage weiter leicht (Brent um 86 Dollar, monatlich aber noch gut 20 Prozent im Plus; mehr Golf-Tanker fahren), während das Rote Meer unruhig bleibt. Genau hier setzt das Buch an: Wer die eigene Kraftquelle nicht kennt, kann keine Wende führen.",
+  "trend": "steigend",
+  "trend_delta": 1,
+  "leitsatz": "Die Preistafel beruhigt sich, die Bruchlinien darunter mehren sich. Brent hat das Juli-Hoch (über 98 Dollar) verlassen und liegt um 88 Dollar; der ifo-Geschäftsklimaindex ist im Juli zum dritten Mal in Folge gestiegen (86,6). Das liest sich wie Entwarnung. Doch gleichzeitig laufen drei unabhängige Strukturrisse breiter: ein zweiter maritimer Choke-Point (Rotes Meer neben Hormus) und eine zurückkehrende US-Zolldrohung gegen EU-Kernländer; ein demografischer Erstrückgang in Deutschland (das Erwerbspersonenpotenzial sinkt 2026 zum ersten Mal, die sozialversicherungspflichtige Beschäftigung wächst erstmals seit 2009 nicht mehr); und eine Führungsebene, die selbst auf Reserve fährt (Manager-Engagement 22 Prozent, Rekordtief). Wer die kurzfristige Beruhigung mit Stabilitaet verwechselt, baut den Plan B nicht, den er 2027 brauchen wird.",
   "leitsignal": {
-    "titel": "Die KI-Wende hängt an erschöpften Managern",
-    "quelle": "Websuche-Gegenpruefung 02.08.2026 (kein neuer Eingang-Bericht seit 30.07.): Gallup State of the Global Workplace 2026 (gallup.com, unleash.ai, sociabble.com) — globales Mitarbeiter-Engagement 20 % (Tiefststand seit 2020); Manager-Engagement 27 % (2024) auf 22 % (2025) = größter je gemessener Jahreseinbruch, von 31 % (2022); Manager-Burnout ~56 %; Report benennt „Manager unterstützt KI-Nutzung aktiv\" als einen der stärksten Faktoren für wirksame KI-Adoption. Geopolitik gegengeprüft (cnbc.com/tradingeconomics 31.07.-02.08.): Brent Freitag ~86 USD, Monatsplus > 20 %; Hormus-Verkehr wieder etwas höher, Rotes Meer/Bab el-Mandeb weiter gestört. Ergänzend AI-Adoption (Bain/CrewAI-Aggregat, als Backdrop): 65 % nutzen KI-Agenten, aber nur 41 % erreichen positiven ROI binnen 12 Monaten.",
-    "befund": "Nach einer Woche Öl- und Selbstbild-Schlagzeilen zeigt die Arbeitsplatzforschung, wo die KI-Transformation wirklich entschieden wird: bei den Managern in der Mitte. Ihr Engagement ist auf den tiefsten Stand seit Jahren gefallen, ihr Burnout steigt — und ausgerechnet ihre aktive Unterstützung ist der stärkste Hebel dafür, ob KI im Unternehmen Wirkung entfaltet. Das ist die unbequeme Gleichung: Wir laden die größte Veränderung seit Jahrzehnten auf die Schultern von Menschen, die schon jetzt auf Reserve fahren. Außen atmet die Öllage kurz auf (Brent sinkt, weil wieder mehr Tanker fahren) — aber es ist ein geliehenes Aufatmen, das Rote Meer bleibt unruhig.",
-    "fuehrungsimplikation": "Der Engpass ist nicht das Modell, sondern die Kraft der Führung. Bevor eine Organisation die nächste KI-Initiative ausrollt, lohnt die ehrlichere Frage: Haben die Manager in der Mitte überhaupt die Energie, diese Wende zu tragen — und wer kümmert sich um ihre Kraftquellen? Selbstführung und psychologische Sicherheit sind hier keine Wohlfühlthemen, sondern die Vorbedingung dafür, dass Technik überhaupt Wirkung zeigt.",
-    "kapitel": "Kapitel 16 (Kraftquellen / Selbstführung) und Kapitel 5 (AI-Mindset / Co-Intelligenz): Wer die eigene Kraft nicht führt, führt keine Transformation — und KI wird erst mit Haltung wirksam"
+    "titel": "Die Ruhe an der Oberflaeche, die Risse darunter",
+    "quelle": "Zukunftsforscher-Bericht 02.08.2026 (neuester Eingang) + Primaerquellen-Gegenpruefung 03.08.: ifo-Geschaeftsklimaindex Juli 2026 = 86,6 (dritter Anstieg in Folge, ifo.de 27.07.); Brent vom 90-Dollar-Niveau geloest, um 88 USD (cnbc/tradingeconomics); IAB-Prognose 2025/26: Erwerbspersonenpotenzial sinkt 2026 erstmals -40.000 auf 48,62 Mio., sozialversicherungspflichtige Beschaeftigung -30.000 auf 34,93 Mio. = erstes Jahr ohne Wachstum seit 2009 (iab.de, finanznachrichten.de); Gallup State of the Global Workplace 2026: globales Engagement 20 %, Manager-Engagement 22 % (von 31 % 2022); McKinsey State of AI 2026: 88 % KI-Nutzung, nur 23 % skalieren ein agentisches System (mckinsey.com).",
+    "befund": "Die Oberflaeche entspannt sich: Der Oelpreis faellt, die Stimmung der Unternehmen hellt sich zum dritten Mal in Folge auf. Es waere verfuehrerisch, das fuer Stabilitaet zu halten. Aber darunter werden drei Risse gleichzeitig breiter, und keiner haengt am Tagespreis: ein zweiter unsicherer Seeweg plus eine zurueckkehrende Zolldrohung, ein demografischer Kipppunkt, der 2026 erstmals sichtbar wird, und eine mittlere Fuehrungsebene, deren Engagement auf einem Rekordtief steht. Zyklische Entlastung bei struktureller Verschaerfung - das ist die gefaehrlichste Konstellation, weil sie zum Wegschauen einlaedt.",
+    "fuehrungsimplikation": "Die ruhige Woche ist nicht die Loesung, sie ist das Zeitfenster. Wer jetzt die Beruhigung als Dauerzustand verbucht, spart sich genau die Vorbereitung, die er in der naechsten Stoerung braucht. Bruechig heisst: wirkt stabil, bricht ploetzlich. Fuehrung in dieser Lage bedeutet, im Aufatmen den Plan B zu bauen - Mehrfach-Optionen statt Optimierung auf den guenstigsten Fall.",
+    "kapitel": "Kapitel 1 (Polykrise / BANI, bruechig): Systeme, die stabil aussahen, brechen ploetzlich - Lieferketten, Arbeitsmaerkte, Energieversorgung. Die Beruhigung an der Oberflaeche ist kein Beleg fuer Stabilitaet darunter."
   },
   "bani": [
     {
       "code": "B",
-      "dim": "Brüchig",
+      "dim": "Bruechig",
       "en": "Brittle",
-      "wert": 85,
-      "signal": "Die Öllage atmet weiter kurz auf — Brent um 86 Dollar, weil wieder mehr Golf-Tanker fahren; im Monat aber noch gut 20 Prozent im Plus. Hormus bleibt sensibel, das Rote Meer/Bab el-Mandeb gestört: eine Entspannung, die an einer einzigen ruhigen Woche hängt.",
-      "quelle": "cnbc.com / tradingeconomics.com 31.07.-02.08.2026",
-      "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Ein sinkender Preis ist kein gelöstes Risiko. Das Aufatmen ist die Zeit, in der man Plan B baut."
+      "wert": 87,
+      "signal": "Oel loest sich vom 90-Dollar-Niveau (um 88 USD), aber zwei Seewege bleiben gestoert (Hormus + Rotes Meer) und die US-Zolldrohung gegen EU-Kernlaender (15 auf 25 Prozent) kehrt zurueck. Eine Entspannung, die an einer ruhigen Woche haengt.",
+      "quelle": "cnbc.com / tradingeconomics.com / EU-Parlament 31.07.-02.08.2026",
+      "fuehrung": "Bruechig heisst: wirkt stabil, bricht ploetzlich. Ein sinkender Preis ist kein geloestes Risiko - das Aufatmen ist die Zeit, in der man Plan B baut."
     },
     {
       "code": "A",
-      "dim": "Ängstlich",
+      "dim": "Aengstlich",
       "en": "Anxious",
-      "wert": 84,
-      "signal": "Manager-Engagement auf 22 Prozent (Tiefststand seit 2020), Manager-Burnout um 56 Prozent. Die Mitte der Organisation, die jede KI-Wende tragen soll, fährt selbst auf Reserve.",
-      "quelle": "Gallup State of the Global Workplace 2026",
-      "fuehrung": "Angst wird adressierbar, wo man ihr Konkretes entgegensetzt: echte Kraftquellen und Entlastung für die Führung statt Durchhalte-Appell."
+      "wert": 85,
+      "signal": "Manager-Engagement 22 Prozent (Rekordtief, von 31 Prozent 2022); 40 Prozent nennen KI-Jobverlust als Hauptangst (KPMG, binnen eines Jahres fast verdoppelt), nur rund ein Drittel erhaelt angemessene KI-Weiterbildung.",
+      "quelle": "Gallup State of the Global Workplace 2026 / KPMG",
+      "fuehrung": "Angst wird adressierbar, wo man ihr Konkretes entgegensetzt: Befaehigung und Kraftquellen fuer die Fuehrung statt Durchhalte-Appell."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
       "wert": 82,
-      "signal": "65 Prozent nutzen KI-Agenten, aber nur 41 Prozent erreichen binnen zwölf Monaten positiven ROI. Die Wirkung hängt weniger am Modell als an einer unscheinbaren Größe: ob die Führungskraft den Einsatz aktiv trägt.",
-      "quelle": "Gallup 2026 + Bain/CrewAI-Adoptionsdaten 2026 (Backdrop)",
-      "fuehrung": "Nichtlinear heißt: kleine Ursache, große Wirkung. Die aktive Unterstützung eines erschöpften Managers entscheidet über den Ertrag einer Millioneninvestition."
+      "signal": "88 Prozent der Organisationen nutzen KI, aber nur 23 Prozent skalieren ein agentisches System; in keiner Funktion mehr als rund 10 Prozent. Die Wirkung haengt weniger am Modell als an der Reife der Organisation.",
+      "quelle": "McKinsey State of AI 2026 / Gartner",
+      "fuehrung": "Kleine Ursache, grosse Wirkung - und umgekehrt: mehr Technik erzeugt nicht automatisch mehr Wirkung. Der Hebel liegt in Prozess- und Fuehrungsreife."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
-      "wert": 81,
-      "signal": "Innen erschöpfte Manager als heimlicher Engpass der Technikwende; außen eine Energie-Geografie mit zwei bedrohten Seewegen. Kein einzelner Hebel erklärt, warum die teuerste Technik an der Kraft weniger Menschen scheitert.",
-      "quelle": "Gallup 2026 + Geopolitik 02.08.",
-      "fuehrung": "Unbegreiflich heißt: entzieht sich der einfachen Erklärung. Nicht die eine Ursache suchen, sondern zuerst die Kraftquellen der Führung ehrlich prüfen."
+      "wert": 82,
+      "signal": "Deutschland an einem stillen Kipppunkt: Das Erwerbspersonenpotenzial sinkt 2026 erstmals, die Beschaeftigung waechst erstmals seit 2009 nicht mehr - und trotzdem 3,0 Mio. Arbeitslose. Ueberangebot und Fachkraeftemangel zugleich.",
+      "quelle": "IAB-Prognose 2025/26 (iab.de)",
+      "fuehrung": "Widerspruechliche Signale gleichzeitig - das entzieht sich der einfachen Erklaerung. Fuehrung heisst hier: die Lage aushalten und trotzdem handlungsfaehig bleiben, statt auf die eine saubere Deutung zu warten."
     }
   ],
   "quellen": [
-    "Gallup: State of the Global Workplace 2026 (gallup.com)",
-    "UNLEASH: Gallup 2026 — three essential actions for HR leaders (unleash.ai)",
-    "Sociabble: 7 Key Findings From Gallup's 2026 Workplace Report (sociabble.com)",
-    "CNBC / TradingEconomics: Brent / Hormus / Rotes Meer (31.07.-02.08.2026)"
+    "Zukunftsforscher-Bericht 02.08.2026 (Eingang)",
+    "ifo Geschaeftsklimaindex Juli 2026, ifo.de 27.07.2026 (86,6, dritter Anstieg)",
+    "IAB-Prognose 2025/26, iab.de + finanznachrichten.de (Erwerbspersonenpotenzial -40.000/48,62 Mio.)",
+    "Gallup State of the Global Workplace 2026 (Engagement 20 %, Manager 22 %)",
+    "McKinsey State of AI 2026, mckinsey.com (88 % Nutzung, 23 % agentisch skaliert)",
+    "cnbc.com / tradingeconomics.com (Brent ~88 USD)"
   ]
 }
