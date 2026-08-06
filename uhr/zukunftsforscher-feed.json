@@ -1,63 +1,66 @@
 {
-  "datum": "2026-08-05",
-  "aktualisiert": "2026-08-05T08:25:00+02:00",
-  "index": 83,
+  "datum": "2026-08-06",
+  "aktualisiert": "2026-08-06T08:20:00+02:00",
+  "index": 84,
   "uhrzeit": "23:50",
-  "trend": "stabil",
-  "trend_delta": 0,
-  "leitsatz": "Die Oberflaeche atmet auf, das Fundament nicht. Brent faellt am 5. August um rund fuenf Prozent unter 80 Dollar (79,47 USD), der DAX schliesst erstmals ueber 26.000 Punkten, der ifo-Index steigt zum dritten Mal in Folge auf 86,6 - eine echte, aber stimmungs- und oelgetriebene Erleichterung. Darunter verschaerfen sich drei strukturelle Linien gleichzeitig: Das deutsche Erwerbspersonenpotenzial sinkt 2026 zum ersten Mal ueberhaupt (minus 40.000 auf 48,62 Mio., IAB), das Manager-Engagement steht bei 22 Prozent (Gallup, 2022: 31 %), und 80 Prozent der neuen Enterprise-Apps enthalten einen KI-Agenten, aber nur 12 Prozent der Beschaeftigten spueren eine Wirkung. Die gefaehrlichste Konstellation fuer Fuehrung ist genau diese: zyklische Entlastung bei struktureller Verschaerfung. Das Aufatmen ist kein Plan, sondern die Zeit, in der man Plan B baut.",
+  "trend": "steigend",
+  "trend_delta": 1,
+  "leitsatz": "Rekordkurse, bruechiger Grund. Die Oberflaeche der Zahlen war selten optimistischer, das Fundament selten fragiler. Der DAX schliesst mit 26.202 Punkten (04.08.) erstmals ueber 26.000 - getragen von der Hoffnung auf US-Iran-Gespraeche. Zugleich zieht ein neuer Houthi-Angriff im Roten Meer den Brent-Preis wieder an, ein zweiter aktiver Choke-Point neben Hormus. Darunter verhaerten sich drei strukturelle Linien: 80 Prozent der neuen Enterprise-Apps enthalten einen KI-Agenten, aber unter 10 Prozent der Unternehmen skalieren daraus Wert; nur 6 Prozent der Gen Z wollen Fuehrung als Hauptziel; und 40 Prozent der Beschaeftigten nennen KI-bedingten Jobverlust als Hauptangst (KPMG, in einem Jahr fast verdoppelt) - Angst, die sich als stiller Widerstand gegen die Adoption niederschlaegt. Zyklische Entlastung bei struktureller Verschaerfung, weil die Ruhe geliehen ist.",
   "leitsignal": {
-    "titel": "Das Aufatmen ist kein Plan",
-    "quelle": "Zukunftsforscher-Bericht 05.08.2026 (Eingang) + Primaerquellen-Gegenpruefung 05.08.: Brent -5,1 % auf 79,47 USD am 04./05.08. nach US-Iran-Signalen zur Hormus-Oeffnung (thenationalnews.com/tradingeconomics 04.08.); DAX-Schluss 26.001 Punkte am 03.08., Allzeithoch (boersen-zeitung.de/handelsblatt); IAB: Erwerbspersonenpotenzial sinkt 2026 erstmals -40.000 auf 48,62 Mio., Beschaeftigung -90.000 auf 45,89 Mio. (iab.de); Gallup State of the Global Workplace 2026: Manager-Engagement 22 %; Gartner/Gallup: 80 % Apps mit Agent vs. 12 % spuerbare Wirkung.",
-    "befund": "Maerkte auf Rekord, Oelpreis im Sinkflug - es waere verfuehrerisch, das fuer Entwarnung zu halten. Aber die Erleichterung ist stimmungs- und oelgetrieben, nicht strukturell. Drei Risse werden zeitgleich breiter, und keiner haengt am Tagespreis: die Zahl der Erwerbsfaehigen schrumpft zum ersten Mal, die Fuehrungsschicht faehrt selbst auf Reserve, und die KI-Adoption bleibt ohne Wirkung. Das ruhige Fenster ist ein Zeitfenster, keine Entwarnung.",
-    "fuehrungsimplikation": "Sehen kommt vor Tun. Fuehrung heisst hier: die ruhige Woche nutzen, nicht sie feiern - Resilienz guenstig einkaufen (Zweitlieferanten, Energie, Puffer), die eigene Fuehrungsschicht regenerieren, bevor die naechste Welle kommt. Mehrfach-Optionen statt Optimierung auf den guenstigsten Fall.",
-    "kapitel": "Kapitel 1 (Sehen / Polykrise): bruechig statt volatil - Systeme, die stabil aussehen und trotzdem ploetzlich brechen. Das Aufatmen ist die Zeit, in der man Plan B baut."
+    "titel": "Der stille Widerstand",
+    "quelle": "Zukunftsforscher-Bericht 06.08.2026 (Eingang) + Primaerquellen-Gegenpruefung 06.08.: KPMG 2026 - 40 % nennen KI-bedingten Jobverlust als Hauptangst, in einem Jahr nahezu verdoppelt (Fortune 04/2026); Fortune - FOBO (Fear of Becoming Obsolete) befeuert stillen Widerstand gegen KI-Adoption, ~44 % juengerer Beschaeftigter bremsen/sabotieren KI-Initiativen, ueber die Haelfte verbirgt eigene KI-Nutzung; Stepstone 35 % Obsoleszenz-Angst; Gartner 80 % Enterprise-Apps mit Agent vs. unter 10 % skalieren Wert; Deloitte 2026 - 6 % der Gen Z wollen Fuehrung als Hauptziel; DAX-Rekord 26.202 (04.08., Handelsblatt). Hinweis: Brent-Punktwert uneinheitlich belegt (Bericht rund 80, andere Meldungen deutlich hoeher) - daher qualitativ ohne harte Zahl.",
+    "befund": "Die gefaehrlichste Adoptionsbremse steht nicht im Serverraum, sie sitzt in den Koepfen. Wo Menschen fuerchten, durch KI ueberfluessig zu werden, wird der Rollout von innen ausgebremst - leise, ohne offenen Protest: langsamer arbeiten, Nutzung verbergen, Initiativen versanden lassen. Technik ist verfuegbar, die Wirkung bleibt aus. Der Engpass ist nicht das Modell, sondern die psychologische Sicherheit, unter der Menschen bereit sind, mit dem Neuen zu arbeiten, statt sich davor zu schuetzen.",
+    "fuehrungsimplikation": "KI-Adoption menschlich moderieren, bevor man Tools ausrollt. Fuehrung heisst hier: die Angst nicht wegreden, sondern adressieren - Klarheit ueber Rollen, ehrliche Kommunikation, Befaehigung statt Beruhigung. Psychologische Sicherheit ist keine weiche Zutat, sie ist die Vorbedingung dafuer, dass Technik ueberhaupt wirkt.",
+    "kapitel": "Kapitel 19 (psychologische Sicherheit): Menschen bringen ihr Bestes erst ein, wenn sie sich sicher fuehlen. Ohne diese Sicherheit scheitert jeder KI-Rollout am stillen Widerstand - Angst blockiert Adoption von innen."
   },
   "bani": [
     {
       "code": "B",
       "dim": "Bruechig",
       "en": "Brittle",
-      "wert": 84,
-      "signal": "Brent faellt unter 80 USD (-5,1 % auf 79,47), ein moegliches US-Iran-Memorandum oeffnet die Strasse von Hormus wieder, der DAX schliesst ueber 26.000. Zyklische Entlastung - aber die April-Waffenruhe eskalierte danach erneut, ein zweiter Choke-Point (Rotes Meer) bleibt latent.",
-      "quelle": "thenationalnews.com / tradingeconomics.com / boersen-zeitung.de 03.-05.08.2026",
-      "fuehrung": "Bruechig heisst: wirkt stabil, bricht ploetzlich. Ein fallender Preis ist kein geloestes Risiko - das Aufatmen ist die Zeit, in der man Plan B baut."
+      "wert": 85,
+      "signal": "DAX-Allzeithoch 26.202 (04.08.) bei nur ~0,8 % Realwachstum - Bewertungen laufen der Realwirtschaft voraus. Zugleich zweiter aktiver Choke-Point: neuer Houthi-Angriff im Roten Meer laesst den Oelpreis wieder anziehen, der Hormus-Interim-Deal ist erst in Verhandlung.",
+      "quelle": "handelsblatt.com (DAX 26.202, 04.08.2026) / CNBC/TradingEconomics (Rotes Meer, 05.08.2026) / Reuters (US-Iran-Oman 60-Tage-Deal, Verhandlung)",
+      "fuehrung": "Bruechig heisst: wirkt stabil, bricht ploetzlich. Ein Boersenrekord ueber fragilem Grund ist kein geloestes Risiko - das Aufatmen ist die Zeit, in der man Plan B baut."
     },
     {
       "code": "A",
       "dim": "Aengstlich",
       "en": "Anxious",
       "wert": 86,
-      "signal": "Manager-Engagement 22 Prozent (Gallup, 2022: 31 %, staerkster je gemessener Einbruch); globales Engagement 20 % (Tief seit 2020); FOBO/KI-Jobangst 35-40 %. Die Erschoepfung wandert nach oben - die Fuehrungsschicht faehrt selbst auf Reserve.",
-      "quelle": "Gallup State of the Global Workplace 2026 / Stepstone / KPMG",
-      "fuehrung": "Angst wird adressierbar, wo man ihr Konkretes entgegensetzt: Selbstfuehrung und Kraftquellen (HERO) fuer die Fuehrung zuerst, vor Methoden-Training."
+      "signal": "40 % der Beschaeftigten nennen KI-bedingten Jobverlust als Hauptangst (KPMG, in einem Jahr fast verdoppelt), 35 % fuerchten Obsoleszenz (Stepstone). FOBO wird laut Fortune zum Dauerzustand und schlaegt in stillen Widerstand gegen die Adoption um.",
+      "quelle": "KPMG 2026 / Stepstone / Fortune 04/2026 (FOBO, quiet resistance)",
+      "fuehrung": "Aengstlich heisst: Dauerunsicherheit laehmt. Angst, die nicht adressiert wird, wandert nicht weg - sie geht in Deckung und bremst von innen."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
-      "wert": 82,
-      "signal": "80 Prozent der Q1-2026-Enterprise-Apps enthalten einen KI-Agenten (2024: 33 %), aber nur 12 Prozent der Beschaeftigten spueren eine Wirkung, unter 10 Prozent skalieren mit greifbarem Wert, ueber 40 Prozent agentischer Projekte werden bis 2027 abgebrochen. Mehr Technik erzeugt nicht mehr Wirkung.",
-      "quelle": "Gartner Enterprise AI Agents 2026 / Gallup State of the Global Workplace 2026",
-      "fuehrung": "Der Engpass ist nicht das Modell, sondern die Fuehrung. KI gehoert auf die Fuehrungsagenda als Umsetzungs-, nicht als Beschaffungsthema."
+      "wert": 83,
+      "signal": "80 % der neuen Enterprise-Apps enthalten einen KI-Agenten, aber unter 10 % der Unternehmen skalieren spuerbaren Wert und ueber 40 % der agentischen Projekte werden bis 2027 abgebrochen - grosse Einfuehrung, kleine Wirkung. Ein einzelner Angriff im Roten Meer bewegt global den Oelpreis.",
+      "quelle": "Gartner / McKinsey State of AI 2026 / CNBC (Rotes Meer)",
+      "fuehrung": "Nichtlinear heisst: kleine Ursache, grosse Wirkung - und umgekehrt grosser Aufwand, kaum Wirkung. Wo Einfuehrung und Wirkung auseinanderfallen, liegt der Hebel in der Umsetzung, nicht im naechsten Tool."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
-      "wert": 80,
-      "signal": "Das Modell wird zur Commodity: GPT-5.6 Luna -80 % Kosten, Chinas Open-Source-Offensive (Kimi K3 schlaegt westliche Spitzenmodelle im Coding), Vorstoss in Physical AI (Gemini Robotics 2) und organoide Intelligenz. Das Tempo entkoppelt sich von der Verstehbarkeit.",
-      "quelle": "Everlast AI (Signalscout, Kennzahlen ueber Primaerquellen gegengeprueft) 04.08.2026",
-      "fuehrung": "Unbegreiflich heisst: entzieht sich der Erklaerung. Der Unterschied liegt nicht mehr im Modell, sondern in Haltung und Umsetzung - Co-Intelligenz als Fuehrungshaltung."
+      "wert": 82,
+      "signal": "Modelle werden zur Commodity (Kimi K3 open-weight seit 27.07., Preise fallen), waehrend nur 6 % der Gen Z Fuehrung als Hauptziel nennen und das Erwerbspersonenpotenzial 2026 erstmals sinkt. Die Frage verschiebt sich von 'welches Modell' zu 'welche Haltung' - und laesst sich nicht mehr technisch beantworten.",
+      "quelle": "Everlast AI (Modell-Landschaft, primaerquellengeprueft) / Deloitte 2026 / IAB 2026",
+      "fuehrung": "Unbegreiflich heisst: entzieht sich der einfachen Erklaerung. Wenn Technik gratis wird und Menschen knapp, ist die Antwort keine Software, sondern Fuehrung."
     }
   ],
   "quellen": [
-    "thenationalnews.com / tradingeconomics.com - Brent -5,1 % auf 79,47 USD, 04.08.2026",
-    "boersen-zeitung.de / handelsblatt.com - DAX-Schluss 26.001 Punkte (Allzeithoch), 03.08.2026",
-    "ifo.de - Geschaeftsklimaindex Juli 2026 (86,6), dritter Anstieg in Folge",
-    "iab.de - Erwerbspersonenpotenzial 2026 erstmals -40.000 auf 48,62 Mio.",
-    "Gallup - State of the Global Workplace 2026: Manager-Engagement 22 %, globales Engagement 20 %, 12 % spueren KI-Wirkung",
-    "Gartner - 80 % der Q1-2026-Enterprise-Apps mit KI-Agent, >40 % agentische Projekte bis 2027 abgebrochen",
-    "Deloitte - Gen Z & Millennial Survey 2026: 6 % Fuehrung als Hauptziel, 48 % Gen Z ausgebrannt"
+    "handelsblatt.com - DAX-Allzeithoch 26.202 Punkte (Schlusskurs 04.08.2026)",
+    "CNBC / TradingEconomics - neuer Houthi-Angriff Rotes Meer, Oelpreis-Reaktion, 05.08.2026",
+    "Reuters - US-Iran-Oman 60-Tage-Interim-Deal Strasse von Hormus (in Verhandlung), Aug. 2026",
+    "KPMG 2026 - 40 % nennen KI-bedingten Jobverlust als Hauptangst (in einem Jahr fast verdoppelt)",
+    "Fortune 04/2026 - FOBO / Fear of Becoming Obsolete befeuert stillen Widerstand gegen KI-Adoption",
+    "Stepstone - 35 % Obsoleszenz-Angst; WTW/WEF - 76 % laufender Skill-Bedarf",
+    "Gartner - 80 % Enterprise-Apps mit KI-Agent (Q1/2026), >40 % agentische Projekte bis 2027 abgebrochen",
+    "McKinsey State of AI 2026 - Wertpotenzial bis 2,9 Bio. USD (2030), <10 % skalieren Wert",
+    "Deloitte Global Gen Z & Millennial Survey 2026 - 6 % nennen Fuehrung als Hauptziel",
+    "IAB 2026 - Erwerbspersonenpotenzial sinkt erstmals -40.000 auf 48,62 Mio."
   ]
 }
