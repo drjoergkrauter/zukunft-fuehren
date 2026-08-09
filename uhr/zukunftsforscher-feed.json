@@ -1,64 +1,62 @@
 {
-  "datum": "2026-08-08",
-  "aktualisiert": "2026-08-08T08:30:00+02:00",
+  "datum": "2026-08-09",
+  "aktualisiert": "2026-08-09T09:30:00+02:00",
   "index": 85,
   "uhrzeit": "23:51",
-  "trend": "steigend",
-  "trend_delta": 1,
-  "leitsatz": "Die Ruhe war wieder nur geliehen - und das Einzige, was jetzt traegt, ist Vertrauen. Der Oelpreis zieht erneut an: Ein iranischer Parlamentsausschuss prueft einen Entwurf, der US- und israelischen Schiffen die Durchfahrt durch die Strasse von Hormus verbieten wuerde, dazu neue Houthi-Angriffe - Brent legt binnen eines Tages ueber 4 Prozent zu. Der zweite Choke-Point ist zurueck, kaum dass die Boerse die Erleichterung eingepreist hatte. In genau solchen Phasen entscheidet sich Fuehrung nicht an der Lage, sondern am Vertrauensnetz darunter: Der Vertrauensindex 2026 (pilot/brand eins, 1.048 Berufstaetige) zeigt, dass 95 Prozent Vertrauen im Beruf fuer wichtig halten - aber ausgerechnet grosse Organisationen es seltener schaffen, es aufzubauen (59 Prozent Grossunternehmen vs. 64 Prozent kleine). Wenn die Aussenlage bruechig wird, ist Vertrauen keine weiche Zutat mehr. Es ist die tragende Struktur.",
+  "trend": "stabil",
+  "trend_delta": 0,
+  "leitsatz": "Die Boerse atmet auf, die Landkarte nicht. Der Oelpreis bleibt nervoes: Die Strasse von Hormus ist faktisch geschlossen, und die Houthi drohen zusaetzlich mit einer Blockade von Bab el-Mandeb - der zweiten Engstelle fuer Ladungen Richtung Europa. Zwei Choke-Points gleichzeitig unter Druck. Gegenlaeufig stieg das ifo-Geschaeftsklima den dritten Monat in Folge - aber der Aufschlag ist eine Kriegspraemie, keine Nachfragerally: Mit jedem Eskalationstag waechst das Konjunkturrisiko, das den Preis nach oben begrenzt. Darunter laeuft die strukturelle Uhr unveraendert weiter: 88 Prozent der Organisationen nutzen KI, aber nur 23 Prozent skalieren sie in mindestens einer Funktion, und 72 Prozent der Projekte liefern nicht das Versprochene (McKinsey). Zyklische Entlastung bei struktureller Verschaerfung - die gefaehrlichste Konstellation, weil sie zur Ruhe verleitet.",
   "leitsignal": {
-    "titel": "Vertrauen ist die tragende Struktur",
-    "quelle": "Zukunftsforscher-Websuche 08.08.2026 (kein neuer Eingang-Bericht) + Primaerquellen-Gegenpruefung: Vertrauensindex 2026 (Agenturgruppe pilot + brand eins, 1.048 Berufstaetige in DE, Feld 21.01.-16.03.2026) - 95 % halten berufliches Vertrauen fuer wichtig, Groessen-Gefaelle 64 % kleine vs. 59 % Grossunternehmen bei Ressourcen-Vertrauen; Edelman Trust Barometer 2026 (DE) + Gallup 2026 als belastbare Anker; Oel-Re-Eskalation: Brent +4 % (07.08.), iranischer Parlaments-Entwurf zu Hormus-Durchfahrtsbeschraenkung, Houthi-Angriffe (CNBC/TradingEconomics/Fortune 07.08.). Deutsche Branchenstudie nur als Aktualitaets-Aufhaenger, nicht als alleiniger Beleg.",
-    "befund": "Wenn die Aussenlage kippt, wird sichtbar, worauf eine Organisation wirklich steht. Werkzeuge, Prozesse und Ansagen tragen nur so weit, wie das Vertrauen darunter haelt. Genau hier zeigt der Vertrauensindex eine unbequeme Asymmetrie: Je groesser die Organisation, desto schwerer faellt es ihr, Vertrauen aufzubauen - weil Ziele und Entscheidungen nicht transparent kommuniziert werden. In der Krise ist das kein Kulturthema, sondern eine Frage der Handlungsfaehigkeit.",
-    "fuehrungsimplikation": "Vertrauen nicht als Ergebnis behandeln, das irgendwann entsteht, sondern als Vorschuss, den Fuehrung aktiv gibt - sichtbar, wiederholt, verlaesslich. Das Buch nennt das Swift Trust: Vertrauen entsteht aus sichtbarer Verlaesslichkeit, und zwar schnell. In unsicheren Phasen heisst Fuehren: eine Sache transparent machen, eine klare Zusage geben, sie halten.",
-    "kapitel": "Kapitel zu hybriden Teams (Swift Trust): Vertrauen entsteht aus sichtbarer Verlaesslichkeit, und zwar schnell. Ein Vertrauensnetz, in das man fallen kann, ohne dass etwas zerbricht - das haelt, wenn die Kommunikation einmal nicht traegt."
+    "titel": "Zwei Engstellen, eine geliehene Ruhe",
+    "quelle": "Zukunftsforscher-Websuche 09.08.2026 (kein neuer Eingang-Bericht) + Primaerquellen-Gegenpruefung: Oelmarkt/Hormus/Rotes Meer (WiWo Oelmarkt-Ticker, TradingEconomics Brent, ifo-Geschaeftsklima Juli - 3. Anstieg in Folge, 08./09.08.2026); McKinsey State of Organizations 2026 (>10.000 Fuehrungskraefte: 88 % KI-Nutzung, 23 % skalieren Agenten, 72 % der Projekte liefern nicht) und Gartner (40 % Enterprise-Apps mit aufgabenspezifischen Agenten 2026). McKinsey-Aggregatzahlen vor breiter Post-Verwendung an Primaerquelle pruefen. Deutsche Konjunkturdaten nur als Aktualitaets-Aufhaenger.",
+    "befund": "Die Aussenlage zeigt zwei Gesichter zugleich: An der Boerse loest sich die Anspannung, auf der geopolitischen Landkarte verdichtet sie sich. Wenn zwei Seewege gleichzeitig unter Druck stehen und der Aktienmarkt trotzdem Rekorde feiert, ist das kein Widerspruch, sondern eine Warnung - die Ruhe ist eingepreist, nicht verdient. Parallel bleibt der eigentliche Engpass unveraendert: nicht die Verfuegbarkeit von KI, sondern die Faehigkeit der Organisation, sie in Wirkung zu uebersetzen.",
+    "fuehrungsimplikation": "Fuehrung darf die konjunkturelle Entlastung nicht mit struktureller Sicherheit verwechseln. Die Aufgabe ist, in der ruhigen Phase das zu bauen, was in der lauten fehlt: Mehrfach-Optionen statt Optimierung auf den einen Lieferanten, den einen Seeweg, das eine Tool. Und den Abstand zwischen KI-Einsatz und KI-Wirkung nicht als Technik-, sondern als Fuehrungsfrage behandeln.",
+    "kapitel": "Kapitel 1 (Polykrise/BANI): Bruechig statt nur volatil. Systeme, die stabil aussahen, brechen ploetzlich - Lieferketten, Arbeitsmaerkte, Energieversorgung. Bauen Sie Plan B vor dem Tag, an dem Sie ihn brauchen."
   },
   "bani": [
     {
       "code": "B",
       "dim": "Bruechig",
       "en": "Brittle",
-      "wert": 87,
-      "signal": "Der zweite Choke-Point ist zurueck: iranischer Parlamentsausschuss prueft Entwurf zur Beschraenkung der Hormus-Durchfahrt (Verbot fuer US-/israelische Schiffe, Kompensationszahlungen), dazu neue Houthi-Angriffe - Brent +4 % binnen eines Tages auf ~82-86 USD. Die eingepreiste Erleichterung der Vorwoche ist bereits wieder infrage gestellt.",
-      "quelle": "CNBC / TradingEconomics / Fortune (Brent 07.08.2026, Hormus-Entwurf, Rotes Meer)",
-      "fuehrung": "Bruechig heisst: wirkt stabil, bricht ploetzlich. Eine Entspannung, die an einer einzigen politischen Bedingung haengt, ist keine Loesung - sie ist eine Frist."
+      "wert": 88,
+      "signal": "Zwei Engstellen gleichzeitig: Hormus faktisch geschlossen (Iran auf unbestimmte Zeit), Houthi drohen mit Bab-el-Mandeb-Blockade als zweitem Choke-Point Richtung Europa. Brent bleibt volatil unter dem April-Hoch (~126 USD), der Aufschlag ist Kriegspraemie.",
+      "quelle": "WiWo Oelmarkt / TradingEconomics Brent / ifo (08./09.08.2026)",
+      "fuehrung": "Bruechig heisst: wirkt stabil, bricht ploetzlich. Wer auf einen Seeweg, einen Lieferanten, ein Tool optimiert hat, ist schneller - und bruechiger."
     },
     {
       "code": "A",
       "dim": "Aengstlich",
       "en": "Anxious",
-      "wert": 86,
-      "signal": "40 % nennen KI-bedingten Jobverlust als Hauptangst (KPMG, in einem Jahr fast verdoppelt); zugleich zeigt der Vertrauensindex 2026, dass ausgerechnet grosse Organisationen Vertrauen schwerer aufbauen (59 % vs. 64 %) - Unsicherheit trifft dort auf das duennste Netz.",
-      "quelle": "KPMG 2026 / Vertrauensindex 2026 (pilot/brand eins, 1.048 Berufstaetige)",
-      "fuehrung": "Aengstlich heisst: Dauerunsicherheit laehmt. Ohne belastbares Vertrauensnetz wird jede zusaetzliche Erschuetterung zur Bedrohung statt zur Aufgabe."
+      "wert": 85,
+      "signal": "40 % nennen KI-bedingten Jobverlust als Hauptangst (KPMG, in einem Jahr fast verdoppelt); die Boersen-Erleichterung beruhigt dieses Gefuehl nicht, weil sie an einer einzigen geopolitischen Bedingung haengt.",
+      "quelle": "KPMG 2026 / Marktberichterstattung 08.08.2026",
+      "fuehrung": "Aengstlich heisst: Dauerunsicherheit laehmt. Eine eingepreiste Ruhe ist kein Grund zur Entwarnung, sondern eine Frist."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
       "wert": 84,
-      "signal": "Ein einzelner Parlaments-Entwurf und ein Angriff im Roten Meer bewegen global den Oelpreis um mehr als 4 %. Gleichzeitig fallen Einfuehrung und Wirkung von KI weiter auseinander (80 % Enterprise-Apps mit Agent, unter 10 % skalieren Wert) - grosser Input, kleine Wirkung.",
-      "quelle": "CNBC (Rotes Meer/Hormus) / Gartner / McKinsey State of AI 2026",
-      "fuehrung": "Nichtlinear heisst: kleine Ursache, grosse Wirkung. Wer nur auf die grossen Hebel schaut, uebersieht, dass eine einzige Zusage - gehalten - in der Krise mehr bewegt als jedes Tool."
+      "signal": "Ein Parlaments-Entwurf und eine Blockade-Drohung bewegen den globalen Oelpreis; zugleich fallen KI-Einsatz (88 %) und KI-Wirkung (23 % skalieren) weit auseinander - grosser Input, kleine Wirkung.",
+      "quelle": "McKinsey State of Organizations 2026 / Marktberichte",
+      "fuehrung": "Nichtlinear heisst: kleine Ursache, grosse Wirkung. Die Hebel liegen selten dort, wo das Budget liegt."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
       "wert": 83,
-      "signal": "Modelle werden zur Commodity, Preise fallen, Erwerbspersonenpotenzial sinkt 2026 erstmals - waehrend 95 % Vertrauen fuer wichtig halten, aber niemand es technisch herstellen kann. Die tragende Groesse laesst sich nicht kaufen und nicht automatisieren.",
-      "quelle": "Everlast AI (Modell-Landschaft) / IAB 2026 / Vertrauensindex 2026",
-      "fuehrung": "Unbegreiflich heisst: entzieht sich der einfachen Erklaerung. Vertrauen ist kein Feature - es entsteht nur durch sichtbare Verlaesslichkeit ueber Zeit."
+      "signal": "Rekorde an der Boerse bei gleichzeitig zwei bedrohten Seewegen - das Signal widerspricht der Lage. 72 % der KI-Projekte liefern nicht das Versprochene, obwohl die Technik verfuegbar ist.",
+      "quelle": "McKinsey 2026 / Marktberichte 08.08.2026",
+      "fuehrung": "Unbegreiflich heisst: entzieht sich der einfachen Erklaerung. Nicht mehr Daten helfen, sondern der Mut, Annahmen offen zu pruefen."
     }
   ],
   "quellen": [
-    "Vertrauensindex 2026 (Agenturgruppe pilot + brand eins) - 1.048 Berufstaetige DE, Feld 21.01.-16.03.2026, 95 % halten berufliches Vertrauen fuer wichtig, 64 % kleine vs. 59 % Grossunternehmen",
-    "presseportal.de / haufe.de - Berichterstattung Vertrauensindex 2026",
-    "Edelman Trust Barometer 2026 (Deutschland) - Vertrauen verschiebt sich in Unternehmen",
-    "Gallup State of the Global Workplace 2026 - Kritik an Unternehmenskultur und Fuehrung in Deutschland",
-    "CNBC / TradingEconomics / Fortune - Brent +4 % (07.08.2026), iranischer Parlaments-Entwurf zu Hormus-Durchfahrt, Houthi-Angriffe",
-    "KPMG 2026 - 40 % nennen KI-bedingten Jobverlust als Hauptangst (in einem Jahr fast verdoppelt)",
-    "Gartner - 80 % Enterprise-Apps mit KI-Agent (Q1/2026); McKinsey State of AI 2026 - <10 % skalieren Wert",
-    "IAB 2026 - Erwerbspersonenpotenzial sinkt erstmals -40.000 auf 48,62 Mio."
+    "WiWo Oelmarkt-Ticker / wiwo.de - Zweifel ueber schnelle Oeffnung der Strasse von Hormus, Houthi drohen mit Bab-el-Mandeb (08.08.2026)",
+    "TradingEconomics - Brent Crude Oil, volatil unter April-Hoch ~126 USD",
+    "ifo-Geschaeftsklima Juli 2026 - dritter Anstieg in Folge (Kriegspraemie, keine Nachfragerally)",
+    "McKinsey State of Organizations 2026 (>10.000 Fuehrungskraefte) - 88 % KI-Nutzung, 23 % skalieren Agenten, 72 % der Projekte liefern nicht (Aggregatzahlen, Primaerquelle vor Post-Verwendung pruefen)",
+    "Gartner - 40 % der Unternehmens-Apps mit aufgabenspezifischen KI-Agenten 2026 (2025 <5 %)",
+    "KPMG 2026 - 40 % nennen KI-bedingten Jobverlust als Hauptangst"
   ]
 }
