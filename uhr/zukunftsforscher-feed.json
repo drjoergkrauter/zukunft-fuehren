@@ -1,16 +1,16 @@
 {
   "datum": "2026-08-09",
-  "aktualisiert": "2026-08-09T09:30:00+02:00",
+  "aktualisiert": "2026-08-09T11:15:00+02:00",
   "index": 85,
   "uhrzeit": "23:51",
-  "trend": "stabil",
-  "trend_delta": 0,
-  "leitsatz": "Die Boerse atmet auf, die Landkarte nicht. Der Oelpreis bleibt nervoes: Die Strasse von Hormus ist faktisch geschlossen, und die Houthi drohen zusaetzlich mit einer Blockade von Bab el-Mandeb - der zweiten Engstelle fuer Ladungen Richtung Europa. Zwei Choke-Points gleichzeitig unter Druck. Gegenlaeufig stieg das ifo-Geschaeftsklima den dritten Monat in Folge - aber der Aufschlag ist eine Kriegspraemie, keine Nachfragerally: Mit jedem Eskalationstag waechst das Konjunkturrisiko, das den Preis nach oben begrenzt. Darunter laeuft die strukturelle Uhr unveraendert weiter: 88 Prozent der Organisationen nutzen KI, aber nur 23 Prozent skalieren sie in mindestens einer Funktion, und 72 Prozent der Projekte liefern nicht das Versprochene (McKinsey). Zyklische Entlastung bei struktureller Verschaerfung - die gefaehrlichste Konstellation, weil sie zur Ruhe verleitet.",
+  "trend": "steigend",
+  "trend_delta": 1,
+  "leitsatz": "Die geliehene Ruhe. An der Oberflaeche Entspannung: Der DAX steht erstmals ueber 26.000 Punkten, der Oelpreis hat sich von der 100-Dollar-Marke geloest, die Zinssenkungsfantasie treibt die Boersen. Doch der Rekord ist kein Zeichen von Staerke - er wird von schwachen US-Arbeitsmarktdaten getragen (Payrolls Juli -23.000, Quote 4,3 %) und der Hoffnung auf eine Fed-Zinssenkung im September. Darunter verschaerfen sich drei Risse gleichzeitig: ein ploetzlich brechender US-Arbeitsmarkt, die manifest gewordene demografische Wende (Erwerbspersonenpotenzial erstmals ruecklaeufig, -40.000 auf 48,62 Mio, IAB) und eine wachsende KI-Angst (36 % erwarten den Verlust ihres Jobs durch KI, Ipsos AI Monitor 2026; Nervositaet ist der am staerksten gestiegene Wert). Genau diese Gleichzeitigkeit von zyklischer Entlastung und struktureller Verschaerfung ist die schwierigste Konstellation fuer Fuehrung - weil sie zur Ruhe verleitet, waehrend der Boden sich verschiebt.",
   "leitsignal": {
-    "titel": "Zwei Engstellen, eine geliehene Ruhe",
-    "quelle": "Zukunftsforscher-Websuche 09.08.2026 (kein neuer Eingang-Bericht) + Primaerquellen-Gegenpruefung: Oelmarkt/Hormus/Rotes Meer (WiWo Oelmarkt-Ticker, TradingEconomics Brent, ifo-Geschaeftsklima Juli - 3. Anstieg in Folge, 08./09.08.2026); McKinsey State of Organizations 2026 (>10.000 Fuehrungskraefte: 88 % KI-Nutzung, 23 % skalieren Agenten, 72 % der Projekte liefern nicht) und Gartner (40 % Enterprise-Apps mit aufgabenspezifischen Agenten 2026). McKinsey-Aggregatzahlen vor breiter Post-Verwendung an Primaerquelle pruefen. Deutsche Konjunkturdaten nur als Aktualitaets-Aufhaenger.",
-    "befund": "Die Aussenlage zeigt zwei Gesichter zugleich: An der Boerse loest sich die Anspannung, auf der geopolitischen Landkarte verdichtet sie sich. Wenn zwei Seewege gleichzeitig unter Druck stehen und der Aktienmarkt trotzdem Rekorde feiert, ist das kein Widerspruch, sondern eine Warnung - die Ruhe ist eingepreist, nicht verdient. Parallel bleibt der eigentliche Engpass unveraendert: nicht die Verfuegbarkeit von KI, sondern die Faehigkeit der Organisation, sie in Wirkung zu uebersetzen.",
-    "fuehrungsimplikation": "Fuehrung darf die konjunkturelle Entlastung nicht mit struktureller Sicherheit verwechseln. Die Aufgabe ist, in der ruhigen Phase das zu bauen, was in der lauten fehlt: Mehrfach-Optionen statt Optimierung auf den einen Lieferanten, den einen Seeweg, das eine Tool. Und den Abstand zwischen KI-Einsatz und KI-Wirkung nicht als Technik-, sondern als Fuehrungsfrage behandeln.",
+    "titel": "Die geliehene Ruhe",
+    "quelle": "Zukunftsforscher-Trendbericht 09.08.2026 (SYNK) + Primaerquellen: DAX >26.000 / ifo-Geschaeftsklima 86,6 (3. Anstieg) / US-Payrolls Juli -23.000, Quote 4,3 % (BLS/CNBC 07.08.); Brent ~82 USD, Hormuz umkaempft (World Bank/CNBC/Al Jazeera); IAB Erwerbspersonenpotenzial -40.000 auf 48,62 Mio (erster Rueckgang), -7 Mio bis 2035; Ipsos AI Monitor 2026 (36 % KI-Jobverlust-Erwartung, Nervositaet staerkster Anstieg, 83 % Lernzwang, 72 % FOBO-Zusatzaufgaben); Deloitte Gen Z 2026 (76 % wollen fuehren, 6 % als Hauptziel); Gartner (40 % Enterprise-Apps mit KI-Agenten bis Ende 2026); Gallup (KI-Wirkung nur 12 % spuerbar). Aggregat-/Trendquellen vor breiter Post-Verwendung an Primaerquelle absichern.",
+    "befund": "Die Aussenlage zeigt zwei Gesichter zugleich: An der Boerse loest sich die Anspannung, in der Realwirtschaft verdichtet sie sich. Ein DAX-Rekord, der auf schwachen US-Arbeitsmarktdaten und Zinssenkungshoffnung ruht, feiert die Konjunkturschwaeche, weil sie billigeres Geld verspricht - die Luecke zwischen Marktstimmung und Fundamentaldaten waechst. Darunter arbeiten drei strukturelle Risse gegen die Ruhe: der kippende US-Arbeitsmarkt (historischer Fruehindikator), die eingetretene demografische Wende und die zur Massenerscheinung gewordene KI-Angst. Der eigentliche Fuehrungsbefund bleibt die Adoptions-Wirkungs-Luecke: 40 % Agenten-Apps bis Ende 2026 bei nur 12 % spuerbarer Arbeitswirkung.",
+    "fuehrungsimplikation": "Der ruhigen Boerse nicht trauen. Lage-Check statt Euphorie: Wo haengt unsere Stabilitaet an einer einzigen Bedingung - Energie, Lieferant, Schluesselperson? Plan B jetzt bauen, vor dem Tag, an dem man ihn braucht. Und die KI-Angst der Belegschaft mit psychologischer Sicherheit adressieren, statt sie zu ueberspielen - sonst blockiert der stille Widerstand die Wirkung.",
     "kapitel": "Kapitel 1 (Polykrise/BANI): Bruechig statt nur volatil. Systeme, die stabil aussahen, brechen ploetzlich - Lieferketten, Arbeitsmaerkte, Energieversorgung. Bauen Sie Plan B vor dem Tag, an dem Sie ihn brauchen."
   },
   "bani": [
@@ -18,45 +18,48 @@
       "code": "B",
       "dim": "Bruechig",
       "en": "Brittle",
-      "wert": 88,
-      "signal": "Zwei Engstellen gleichzeitig: Hormus faktisch geschlossen (Iran auf unbestimmte Zeit), Houthi drohen mit Bab-el-Mandeb-Blockade als zweitem Choke-Point Richtung Europa. Brent bleibt volatil unter dem April-Hoch (~126 USD), der Aufschlag ist Kriegspraemie.",
-      "quelle": "WiWo Oelmarkt / TradingEconomics Brent / ifo (08./09.08.2026)",
-      "fuehrung": "Bruechig heisst: wirkt stabil, bricht ploetzlich. Wer auf einen Seeweg, einen Lieferanten, ein Tool optimiert hat, ist schneller - und bruechiger."
+      "wert": 87,
+      "signal": "Ein DAX-Rekord (26.014) auf schwachem Fundament: getragen von US-Payrolls -23.000 und Zinssenkungshoffnung, nicht von realer Staerke. Zugleich bleibt der Oelpreis Geisel der Hormuz-Verhandlung (~82 USD, ADNOC meldet Angriffe auf drei Schiffe) - jede Preisberuhigung ist reversibel.",
+      "quelle": "boersennews / BLS / CNBC / World Bank (07.-08.08.2026)",
+      "fuehrung": "Bruechig heisst: wirkt stabil, bricht ploetzlich. Wer auf einen Lieferweg, einen Markt, eine Annahme optimiert hat, ist schneller - und zerbrechlicher."
     },
     {
       "code": "A",
       "dim": "Aengstlich",
       "en": "Anxious",
-      "wert": 85,
-      "signal": "40 % nennen KI-bedingten Jobverlust als Hauptangst (KPMG, in einem Jahr fast verdoppelt); die Boersen-Erleichterung beruhigt dieses Gefuehl nicht, weil sie an einer einzigen geopolitischen Bedingung haengt.",
-      "quelle": "KPMG 2026 / Marktberichterstattung 08.08.2026",
-      "fuehrung": "Aengstlich heisst: Dauerunsicherheit laehmt. Eine eingepreiste Ruhe ist kein Grund zur Entwarnung, sondern eine Frist."
+      "wert": 86,
+      "signal": "36 % erwarten, dass KI ihren Job ersetzt; Nervositaet (52 %) ist der am staerksten gestiegene Wert und fast gleichauf mit Euphorie (54 %); 83 % fuehlen staendigen Lernzwang, 72 % uebernehmen Zusatzaufgaben, um relevant zu bleiben (Ipsos AI Monitor 2026). Gleichzeitig meiden 94 % der Gen Z die Fuehrungsrolle als oberstes Ziel.",
+      "quelle": "Ipsos AI Monitor 2026 / Deloitte Gen Z 2026",
+      "fuehrung": "Aengstlich heisst: Dauerunsicherheit laehmt. Wo Angst regiert, wird KI verdeckt genutzt oder gebremst - psychologische Sicherheit ist die Voraussetzung fuer produktiven Einsatz."
     },
     {
       "code": "N",
       "dim": "Nichtlinear",
       "en": "Nonlinear",
       "wert": 84,
-      "signal": "Ein Parlaments-Entwurf und eine Blockade-Drohung bewegen den globalen Oelpreis; zugleich fallen KI-Einsatz (88 %) und KI-Wirkung (23 % skalieren) weit auseinander - grosser Input, kleine Wirkung.",
-      "quelle": "McKinsey State of Organizations 2026 / Marktberichte",
-      "fuehrung": "Nichtlinear heisst: kleine Ursache, grosse Wirkung. Die Hebel liegen selten dort, wo das Budget liegt."
+      "signal": "Schwache Jobdaten treiben Aktien auf Rekord - kleine Fundamentaldaten-Verschiebung, grosse Marktbewegung. Zugleich klaffen KI-Einsatz (40 % Agenten-Apps bis Ende 2026) und KI-Wirkung (12 % spuerbar, Gallup) weit auseinander.",
+      "quelle": "Gartner 2026 / Gallup 2026 / CNBC",
+      "fuehrung": "Nichtlinear heisst: kleine Ursache, grosse Wirkung. Die Hebel liegen selten dort, wo das Budget liegt - sondern in der Prozess- und Fuehrungsreife."
     },
     {
       "code": "I",
       "dim": "Unbegreiflich",
       "en": "Incomprehensible",
       "wert": 83,
-      "signal": "Rekorde an der Boerse bei gleichzeitig zwei bedrohten Seewegen - das Signal widerspricht der Lage. 72 % der KI-Projekte liefern nicht das Versprochene, obwohl die Technik verfuegbar ist.",
-      "quelle": "McKinsey 2026 / Marktberichte 08.08.2026",
-      "fuehrung": "Unbegreiflich heisst: entzieht sich der einfachen Erklaerung. Nicht mehr Daten helfen, sondern der Mut, Annahmen offen zu pruefen."
+      "signal": "Der Markt feiert eine Konjunkturschwaeche, weil sie billigeres Geld verspricht - das Signal widerspricht der Lage. Der brechende US-Arbeitsmarkt ist historisch ein Fruehindikator, der Europa mit Verzoegerung erreicht.",
+      "quelle": "BLS / CNBC / ifo (Aug 2026)",
+      "fuehrung": "Unbegreiflich heisst: entzieht sich der einfachen Erklaerung. Nicht mehr Daten helfen, sondern der Mut, die eigene Annahme offen zu pruefen."
     }
   ],
   "quellen": [
-    "WiWo Oelmarkt-Ticker / wiwo.de - Zweifel ueber schnelle Oeffnung der Strasse von Hormus, Houthi drohen mit Bab-el-Mandeb (08.08.2026)",
-    "TradingEconomics - Brent Crude Oil, volatil unter April-Hoch ~126 USD",
-    "ifo-Geschaeftsklima Juli 2026 - dritter Anstieg in Folge (Kriegspraemie, keine Nachfragerally)",
-    "McKinsey State of Organizations 2026 (>10.000 Fuehrungskraefte) - 88 % KI-Nutzung, 23 % skalieren Agenten, 72 % der Projekte liefern nicht (Aggregatzahlen, Primaerquelle vor Post-Verwendung pruefen)",
-    "Gartner - 40 % der Unternehmens-Apps mit aufgabenspezifischen KI-Agenten 2026 (2025 <5 %)",
-    "KPMG 2026 - 40 % nennen KI-bedingten Jobverlust als Hauptangst"
+    "Zukunftsforscher-Trendbericht 09.08.2026 (SYNK) - Leitgedanke 'Die geliehene Ruhe', Leadership-Disruptions-Index 85/100 (9 vor 12, +1)",
+    "boersennews - DAX ueber 26.000 Punkte (Allzeithoch, 26.014), Aug 2026",
+    "BLS / CNBC - US-Payrolls Juli -23.000, Arbeitslosenquote 4,3 % (15-Monats-Hoch), Fed-Zinssenkung September erwartet (07.08.2026)",
+    "ifo-Geschaeftsklima Juli 2026 - 86,6, dritter Anstieg in Folge",
+    "World Bank / CNBC / Al Jazeera - Brent ~82 USD, Strasse von Hormuz umkaempft (ADNOC: Angriffe auf drei Schiffe, Iran/Oman verhandeln)",
+    "IAB 2026 - Erwerbspersonenpotenzial erstmals ruecklaeufig (-40.000 auf 48,62 Mio), -7 Mio bis 2035; DIHK: 36 % unbesetzbare Stellen",
+    "Ipsos AI Monitor 2026 (32 Laender) - 36 % erwarten KI-Jobverlust, Nervositaet staerkster Anstieg, 83 % Lernzwang, 72 % FOBO-Zusatzaufgaben",
+    "Deloitte Global Gen Z & Millennial Survey 2026 (>22.500 Befragte) - 76 % wollen fuehren, 6 % als Hauptziel",
+    "Gartner - 40 % Enterprise-Apps mit task-spezifischen KI-Agenten bis Ende 2026; Gallup State of the Global Workplace 2026 - KI-Wirkung nur 12 % spuerbar"
   ]
 }
