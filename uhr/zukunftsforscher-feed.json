@@ -1,64 +1,65 @@
 {
-  "datum": "2026-08-10",
-  "aktualisiert": "2026-08-10T07:30:00+02:00",
-  "index": 86,
-  "uhrzeit": "23:52",
-  "trend": "steigend",
-  "trend_delta": 1,
-  "leitsatz": "Die Fleissarbeit der Maschine. Die KI-Adoption ist auf dem Hoechststand - und erzeugt an vielen Stellen negative Produktivitaet. Erstmals ist die verdeckte Reibung beziffert: „Workslop“, KI-generierter Output, der nach Arbeit aussieht, aber die Aufgabe nicht voranbringt und die Kosten stromabwaerts auf Kolleg:innen verschiebt. 41 % der Beschaeftigten erhielten im letzten Monat solchen Schein-Output, je Vorfall fast zwei Stunden Nachbearbeitung, rund 40 % aller KI-Inhalte fallen darunter - ~9 Mio USD/Jahr je 10.000 Beschaeftigte (Stanford/BetterUp, HBR). Der Engpass ist nicht die Technik und nicht der Zugang, sondern die Urteilskraft und der Qualitaetsanspruch, den Fuehrung setzt. Parallel firmt der Oelpreis wieder (Brent 84,18 USD, 3. Anstieg, Angriffe auf Jazan-Raffinerie und einen Hormus-Tanker), waehrend der DAX ein neues Allzeithoch feiert (26.319) - die geliehene Ruhe bleibt reversibel.",
-  "leitsignal": {
-    "titel": "Die Fleissarbeit der Maschine (Workslop)",
-    "quelle": "Zukunftsforscher-Trendbericht 10.08.2026 (SYNK) + Primaerquellen: Stanford Social Media Lab & BetterUp Labs / HBR Sept. 2025 (~1.150 US-Bueroarbeitende) - 41 % erhielten Workslop, ~1 h 56 min je Vorfall, ~40 % der KI-Inhalte, ~9 Mio USD/Jahr je 10.000, 42 % halten den Absender fuer weniger vertrauenswuerdig; MIT Media Lab (95 % ohne messbaren GenAI-ROI); Goldman Sachs (kein gesamtwirtschaftlicher Produktivitaetseffekt); Brent 84,18 USD (TradingEconomics/AGBI/Reuters); DAX 26.319 Allzeithoch (boerse-global/Handelsblatt); ifo 86,6 (3. Anstieg); IAB (Erwerbstaetige 2026 -20.000, Potenzial erstmals ruecklaeufig); KPMG (40 % KI-Jobverlust-Angst, fast verdoppelt) / Gallup (18 %/23 %) / Deloitte Gen Z 2026. Aggregat-/Trendquellen vor breiter Post-Verwendung an Primaerquelle absichern.",
-    "befund": "Die KI-Adoption ist auf dem Hoechststand - und schlaegt an vielen Stellen ins Negative um. Workslop gibt der Adoptions-Wirkungs-Luecke erstmals einen Preis und einen Namen: Schein-Output, der andere Zeit kostet und Vertrauen zerstoert. Der Kern-Fuehrungsbefund verschaerft sich von „keine Wirkung“ zu „negative Wirkung“. Der Wettbewerbsvorteil verschiebt sich vom Tool-Zugang zur Urteils- und Qualitaetskompetenz: Was ist gut genug, um weitergegeben zu werden? Parallel firmt der Oelpreis erneut (Re-Eskalation an Hormus), waehrend die Boerse eine zinsgetriebene Rally feiert - zyklische Ruhe ueber struktureller Verschaerfung.",
-    "fuehrungsimplikation": "Qualitaet vor Ausstoss. Explizit machen, was „gut genug zum Weitergeben“ heisst, und Review-Rituale fuer KI-Output verankern - das spart mehr als das naechste Tool. Der ruhigen Boerse nicht trauen: Plan B fuer Energie und Lieferwege pruefen, bevor der Tag kommt. Und die KI-Angst der Belegschaft mit psychologischer Sicherheit adressieren - sonst wird KI verdeckt und ungeprueft genutzt und erzeugt genau den Workslop, den andere reparieren muessen.",
-    "kapitel": "Kapitel 5 (AI-Mindset/Co-Intelligenz): Die Frage ist nicht, ob Sie KI nutzen, sondern mit welcher Haltung. + Kapitel 19 (psychologische Sicherheit): Voraussetzung dafuer, dass ein Team in unsicheren Zeiten klueger wird als seine Mitglieder - und KI produktiv statt defensiv nutzt."
+ "datum": "2026-08-13",
+ "aktualisiert": "2026-08-13T08:05:00+02:00",
+ "index": 87,
+ "uhrzeit": "23:52",
+ "trend": "fallend",
+ "trend_delta": -1,
+ "leitsatz": "Die Leiter zerbricht — von oben und von unten zugleich. Von oben zieht die Demografie: Das Erwerbspersonenpotenzial sinkt 2026 erstmals, die Boomer treten schneller ab, als Nachwuchs nachkommt. Von unten schneidet die KI genau die Einstiegs-Sprossen weg, auf denen aus jungen Menschen erfahrene Fach- und Führungskräfte werden. Die neue ILO-Jugendstudie (11.08.: 12,4 % globale Jugendarbeitslosigkeit, 67 Mio; NEET-Quote 20 %, 257 Mio) und eine Stanford-Auswertung (Beschäftigung der 22–25-Jährigen in KI-exponierten Berufen −13 % seit 2022, während 30+ in denselben Berufen um 6–13 % wächst) zeigen dasselbe Muster: Einstiegsjobs verschwinden dort, wo KI eingeführt wird. Eine Gesellschaft, die ihre junge Generation dringender braucht als je zuvor, entfernt gerade den Trainingsboden, auf dem diese Generation kompetent und führungsfähig wird. Die Öl-Entspannung (Brent −1,75 % auf 87,73 USD, Hormuz-Deal-Signale) senkt heute vor allem die Brüchigkeit — konjunkturelle Entlastung bei unverändert hohem strukturellem Grundpegel.",
+ "leitsignal": {
+  "titel": "Die zerbrochene Leiter",
+  "quelle": "Zukunftsforscher-Trendbericht 13.08.2026 (SYNK) + Primärquellen: ILO Global Employment Trends for Youth 2026 (11.08. — Jugendarbeitslosigkeit 12,4 %/67 Mio, NEET 20 %/257 Mio, verifiziert ilo.org); Stanford Digital Economy Lab / Brynjolfsson „Canaries in the Coal Mine“ (Beschäftigung 22–25 in KI-exponierten Berufen −13 % seit 2022, 30+ +6–13 %, verifiziert TIME/Fortune/Stanford); IAB (Erwerbspersonenpotenzial 2026 erstmals rückläufig); Deloitte Gen Z & Millennial Survey 2026 (76 % wollen irgendwann in die Führungsspitze, nur 6 % nennen Führung als oberstes Ziel; Barrieren Stress/Burnout & Überverantwortung je ~50 %); KPMG (40 % KI-Jobverlust-Hauptangst); Gartner/McKinsey (40 % Enterprise-Apps mit Task-KI-Agent bis Ende 2026, 88 % Nutzung / 23 % skalierend agentisch, >40 % Projekte bis 2027 gestoppt); Brent −1,75 % auf 87,73 USD (Hormuz-Deal-Signale, CNBC/Al Jazeera/TradingEconomics). Hinweis: das im Bericht genannte Harvard-„−80 %/Quartal“-Detail nicht unabhängig verifizierbar → hier bewusst weggelassen.",
+  "befund": "Nach „Rendite-Lücke“ (11.08.) und „Hand am Steuer“ (12.08.) verschiebt sich der Fokus von der Wirkung der KI heute auf ihre Nebenwirkung an den Menschen: Sie automatisiert zuerst die Einstiegsaufgaben (Dateneingabe, Kundenservice, Administration) — genau die Sprossen, auf denen aus Jungen Erfahrene werden. Gleichzeitig verengt die Demografie die Basis von oben. Die Führungspipeline verengt sich doppelt: weniger Sprossen, auf denen Kompetenz überhaupt entsteht, und (Deloitte) weniger Wille zur klassischen Führungsrolle, weil sie als zu teuer gelesen wird.",
+  "fuehrungsimplikation": "Die Einstiegs-Etage verteidigen statt streichen: Junior-Rollen als Mensch-KI-Tandem neu zuschneiden, nicht wegrationalisieren; bewusst Lernräume erhalten, in denen Urteilskraft entsteht. Führung teilbar machen (geteilte Führung als Ausfallsicherheit), damit die Rolle für die nächste Generation tragbar wird — gesund, sinnvoll, schrittweise. Die Öl-Entspannung nicht mit Stabilität verwechseln: sie ist taktisch, die Brüchigkeit strukturell.",
+  "kapitel": "Kapitel 1 (Polykrise/BANI): brüchig statt nur volatil — die Erwerbs- und Nachwuchsbasis bricht an zwei Enden zugleich. + Kapitel zur nächsten Generation: „Er verliert Glaubwürdigkeit gegenüber einer Generation, die seine Substanz in den nächsten Jahren tragen soll.“ + geteilte Führung als Ausfallsicherheit."
+ },
+ "bani": [
+  {
+   "code": "B",
+   "dim": "Brüchig",
+   "en": "Brittle",
+   "wert": 89,
+   "signal": "Zwei Chokepoints tragen ~25 % des Welt-Ölhandels: Hormuz (heute taktische Entspannung, Brent −1,75 % auf 87,73 USD dank Iran-Oman-Deal-Signalen) und die Houthi-Blockade im Roten Meer/Bab-el-Mandeb bleibt aktiv. Der DAX-Rekord (~26.574) hängt an Disinflations- und Zinsfantasie, nicht an realer Stärke (BIP 2026 ~+0,8 %). Die Öl-Entspannung senkt die Brüchigkeit leicht (von 91), die Grundlage bleibt fragil.",
+   "quelle": "CNBC / Al Jazeera / TradingEconomics / ifo (Aug 2026)",
+   "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Wer auf einen Lieferweg, einen Markt, eine Annahme optimiert hat, ist schneller — und zerbrechlicher."
   },
-  "bani": [
-    {
-      "code": "B",
-      "dim": "Bruechig",
-      "en": "Brittle",
-      "wert": 88,
-      "signal": "DAX-Allzeithoch (26.319/26.445 intraday) auf schwachem Fundament - getragen von Zinssenkungshoffnung und Tech-Erholung, nicht von Fundamentaldaten (BIP-Prognose 2026 nur +0,6 %). Zugleich firmt Brent wieder (84,18 USD, 3. Anstieg): Houthi-Angriff auf die Jazan-Raffinerie und ein Tanker-Angriff in Hormus - jede Preisberuhigung bleibt reversibel.",
-      "quelle": "boerse-global / TradingEconomics / Reuters (10.08.2026)",
-      "fuehrung": "Bruechig heisst: wirkt stabil, bricht ploetzlich. Wer auf einen Lieferweg, einen Markt, eine Annahme optimiert hat, ist schneller - und zerbrechlicher."
-    },
-    {
-      "code": "A",
-      "dim": "Aengstlich",
-      "en": "Anxious",
-      "wert": 87,
-      "signal": "40 % nennen KI-bedingten Jobverlust als eine ihrer Hauptaengste - fast verdoppelt in einem Jahr (KPMG). Gallup: 18 % erwarten den Wegfall ihres Jobs binnen fuenf Jahren, 23 % in KI-einfuehrenden Organisationen; 53 % der Gen Z sind aengstlich wegen KI (WEF: FOBO). Angst ist die innere Adoptionsbremse - und teils die Quelle von Workslop (defensive, oberflaechliche Nutzung).",
-      "quelle": "KPMG / Gallup / WEF / Ipsos AI Monitor 2026",
-      "fuehrung": "Aengstlich heisst: Dauerunsicherheit laehmt. Wo Angst regiert, wird KI verdeckt genutzt oder ueberproduziert - psychologische Sicherheit ist die Voraussetzung fuer produktiven Einsatz."
-    },
-    {
-      "code": "N",
-      "dim": "Nichtlinear",
-      "en": "Nonlinear",
-      "wert": 85,
-      "signal": "Workslop macht die Nichtlinearitaet greifbar: mehr KI-Output, weniger Fortschritt. Rund 40 % der KI-Inhalte kosten stromabwaerts fast zwei Stunden je Vorfall - kleine Zeitersparnis vorne, grosser Reibungsverlust hinten. Zugleich feiern schwache Jobdaten die Boerse auf Rekord.",
-      "quelle": "Stanford/BetterUp/HBR / MIT Media Lab / CNBC (2025/26)",
-      "fuehrung": "Nichtlinear heisst: kleine Ursache, grosse Wirkung. Die Hebel liegen selten dort, wo das Budget liegt - sondern in Urteilskraft, Prozess- und Fuehrungsreife."
-    },
-    {
-      "code": "I",
-      "dim": "Unbegreiflich",
-      "en": "Incomprehensible",
-      "wert": 84,
-      "signal": "95 % der Organisationen sehen keinen messbaren GenAI-ROI (MIT Media Lab), Goldman Sachs findet keinen gesamtwirtschaftlichen Produktivitaetseffekt - waehrend die Adoption Hoechststaende erreicht. Der Markt feiert zugleich eine Konjunkturschwaeche, weil sie billigeres Geld verspricht: das Signal widerspricht der Lage.",
-      "quelle": "MIT Media Lab / Goldman Sachs / BLS / CNBC (2026)",
-      "fuehrung": "Unbegreiflich heisst: entzieht sich der einfachen Erklaerung. Nicht mehr Daten oder mehr Tools helfen, sondern der Mut, die eigene Annahme und den Qualitaetsmassstab offen zu pruefen."
-    }
-  ],
-  "quellen": [
-    "Zukunftsforscher-Trendbericht 10.08.2026 (SYNK) - Leitgedanke 'Die Fleissarbeit der Maschine', Leadership-Disruptions-Index 86/100 (8 vor 12, +1)",
-    "Stanford Social Media Lab & BetterUp Labs / HBR (Sept. 2025) - Workslop: 41 % erhielten Schein-Output, ~1 h 56 min je Vorfall, ~40 % der KI-Inhalte, ~9 Mio USD/Jahr je 10.000, 42 % weniger Vertrauen",
-    "MIT Media Lab - 95 % der Organisationen ohne messbaren GenAI-ROI; Goldman Sachs (Maerz 2026) - kein gesamtwirtschaftlicher Produktivitaetseffekt",
-    "TradingEconomics / AGBI / Reuters - Brent 84,18 USD (3. Anstieg), Angriff auf Jazan-Raffinerie + Hormus-Tanker (10.08.2026)",
-    "boerse-global / Handelsblatt - DAX Allzeithoch 26.319 (Schluss) / 26.445 intraday; ifo-Geschaeftsklima 86,6 (3. Anstieg)",
-    "IAB Arbeitsmarktprognose 2025/26 - Erwerbstaetige 2026 -20.000, Erwerbspersonenpotenzial erstmals ruecklaeufig (~48,62 Mio), -7 Mio bis 2035; DIHK 36 % unbesetzbare Stellen",
-    "KPMG / Gallup / WEF - KI-Jobverlust-Angst 40 % (fast verdoppelt), Gallup 18 %/23 %, Gen Z 53 % aengstlich, FOBO",
-    "Zenjob-Studie 2026 - 88 % der Gen Z nutzen woechentlich KI-Tools, 71 % fuehlen sich bereit (selbst beigebracht); Deloitte Gen Z 2026 - 76 % wollen fuehren, 6 % als oberstes Ziel"
-  ]
+  {
+   "code": "A",
+   "dim": "Ängstlich",
+   "en": "Anxious",
+   "wert": 89,
+   "signal": "Das neue strukturelle Signal hebt die Ängstlichkeit: ILO meldet 12,4 % globale Jugendarbeitslosigkeit (67 Mio) und NEET 20 % (257 Mio); Stanford zeigt −13 % Beschäftigung bei den 22–25-Jährigen in KI-exponierten Berufen. Dazu KPMG 40 % KI-Jobverlust-Hauptangst, Gallup 53 % der Gen Z ängstlich wegen KI — bei <19 % realer Betriebs-Adoption (Goldman). Die Angstkurve steigt schneller als Verbreitung und Kompetenz.",
+   "quelle": "ILO 2026 / Stanford Digital Economy Lab / KPMG / Gallup / Goldman (Aug 2026)",
+   "fuehrung": "Angst ist eine Adoptionsbremse von innen. Sichtbare Lernräume und ehrliche Perspektiven für die Jungen sind die Gegenkraft — nicht Beschwichtigung."
+  },
+  {
+   "code": "N",
+   "dim": "Nichtlinear",
+   "en": "Non-linear",
+   "wert": 86,
+   "signal": "Der Nachwuchs-Effekt ist ein Zeitbomben-Muster: KI schneidet heute Einstiegsaufgaben weg, der Schaden (fehlende erfahrene Fach- und Führungskräfte) zeigt sich erst in Jahren. Von oben schrumpft die Erwerbsbasis (IAB: Erwerbspersonenpotenzial 2026 erstmals rückläufig), von unten die Nachwuchsbasis. Kleine Entscheidungen heute (Junior-Rollen streichen) skalieren zu einer Pipeline-Krise morgen.",
+   "quelle": "ILO / Stanford / IAB / Deloitte (2026)",
+   "fuehrung": "Nichtlinear heißt: kleine Ursache, große Wirkung — zeitversetzt. Wer heute die Einstiegs-Sprossen entfernt, merkt es erst, wenn niemand mehr nachrückt."
+  },
+  {
+   "code": "I",
+   "dim": "Unbegreiflich",
+   "en": "Incomprehensible",
+   "wert": 85,
+   "signal": "Zugang eilt der Wirkung weit voraus und entzieht sich der eindeutigen Erklärung: Gartner erwartet Task-KI-Agenten in 40 % der Enterprise-Apps bis Ende 2026 (2025 <5 %), aber nur 23 % skalieren agentisch und >40 % der Projekte werden bis 2027 gestoppt. Stanford HAI misst reale Produktivität bislang v. a. in strukturierter Arbeit (Dev +26 %, Support +14–15 %). Was KI wo netto bewirkt, bleibt unscharf.",
+   "quelle": "Gartner / McKinsey / Stanford HAI AI Index 2026 (2026)",
+   "fuehrung": "Unbegreiflich heißt: die Lage entzieht sich der eindeutigen Erklärung. Führung setzt Standards und Prüfrituale, statt auf Eindeutigkeit zu warten."
+  }
+ ],
+ "quellen": [
+  "Zukunftsforscher-Trendbericht 13.08.2026 (SYNK) — Leitgedanke „Die Leiter zerbricht — von oben und von unten zugleich“, Leadership-Disruptions-Index 87/100 (8 vor 12, −1)",
+  "ILO — Global Employment Trends for Youth 2026 (11.08.2026): Jugendarbeitslosigkeit 12,4 % / 67 Mio, NEET 20 % / 257 Mio (verifiziert ilo.org)",
+  "Stanford Digital Economy Lab / E. Brynjolfsson „Canaries in the Coal Mine“ — Beschäftigung 22–25 in KI-exponierten Berufen −13 % seit 2022, 30+ +6–13 % (verifiziert TIME/Fortune/Stanford 08/2026)",
+  "IAB — Erwerbspersonenpotenzial nimmt 2026 erstmals ab (Prognose 2026)",
+  "Deloitte Global Gen Z & Millennial Survey 2026 (22.500 Befragte/44 Länder) — 76 % wollen irgendwann in die Führungsspitze, 6 % nennen Führung als oberstes Ziel; Barrieren Stress/Burnout & Überverantwortung je ~50 %",
+  "KPMG — 40 % KI-Jobverlust als Hauptangst; Gallup — 53 % Gen Z ängstlich wegen KI; Goldman — <19 % reale Betriebs-Adoption (Aug 2026)",
+  "Gartner / McKinsey — 40 % Enterprise-Apps mit Task-KI-Agent bis Ende 2026, 88 % Nutzung / 23 % skalierend agentisch, >40 % Projekte bis 2027 gestoppt",
+  "Brent −1,75 % auf 87,73 USD (Hormuz-Deal-Signale, CNBC / Al Jazeera / TradingEconomics 10.–13.08.2026); DAX-Rekord ~26.574; ifo 86,6",
+  "Stanford HAI — 2026 AI Index Report / AI and Organizations Lab (Produktivität v. a. in strukturierter Arbeit)"
+ ]
 }
