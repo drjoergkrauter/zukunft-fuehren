@@ -1,64 +1,77 @@
 {
- "datum": "2026-08-15",
- "aktualisiert": "2026-08-15T08:20:00+02:00",
+ "datum": "2026-08-16",
+ "aktualisiert": "2026-08-16T08:30:00+02:00",
  "index": 88,
  "uhrzeit": "23:53",
  "trend": "stabil",
  "trend_delta": 0,
- "leitsatz": "Das Vertrauen zieht sich zurück — und landet am Arbeitsplatz. Das Edelman Trust Barometer 2026 zeigt für Deutschland ein Bild, das in dieser Deutlichkeit neu ist: Der eigene Arbeitgeber ist die einzige Institution, der eine klare Mehrheit noch vertraut (74 Prozent). Wirtschaft (48), Medien (46), Regierung (42) und NGOs (41) liegen allesamt im Misstrauensbereich. Die Studie nennt die Bewegung Rückzug ins Vertraute: Vertrauen wandert von abstrakten Institutionen zu dem, was Menschen unmittelbar erleben — ihr Umfeld, ihr Arbeitsplatz, konkrete Beziehungen. Parallel bleibt die äußere Lage angespannt: Die Straße von Hormuz ist trotz begonnener Minenräumung faktisch weiter blockiert, in der Nacht wurden zwei Tanker des Konzerns Adnoc angegriffen, und die 60-tägige Waffenruhe läuft aus. Brent notiert um 87 bis 88 Dollar. Für Führung ergibt das eine unbequeme Verschiebung: Was Gesellschaft, Politik und Medien an Orientierung nicht mehr liefern, wird jetzt von Vorgesetzten erwartet.",
+ "leitsatz": "Der Veränderungsdruck ist gemessen höher als die Fähigkeit der Organisationen, ihn zu verarbeiten. Deloitte beziffert die Lücke im Global Human Capital Trends 2026: 85 Prozent der Verantwortlichen halten schnelle Anpassung für kritisch, 7 Prozent sehen sich darin führend, und nur 27 Prozent managen Wandel wirksam — bei einem Drittel der Belegschaften, das im vergangenen Jahr 15 größere Veränderungen erlebt hat. Gleichzeitig verhärtet sich die äußere Lage: Die USA erklären die Marineblockade iranischer Häfen für potenziell unbefristet, die Straße von Hormuz bleibt bei rund acht Durchfahrten pro Tag faktisch gesperrt, Brent notiert um 88 Dollar. Und die Basis schrumpft messbar: 223.000 Erwerbstätige weniger als im Vorjahr, 154.000 Menschen weniger im Land. Der Engpass ist damit dreifach besetzt — Energie, Menschen, Anpassungsfähigkeit. Nur der dritte lässt sich durch Führung unmittelbar beeinflussen.",
  "leitsignal": {
-  "titel": "Der letzte Vertrauensanker",
-  "quelle": "Edelman Trust Barometer 2026, Deutschland-Report (Primärquelle edelman.com, Germany Report PDF): 74 Prozent Vertrauen in den eigenen Arbeitgeber — einzige Institution mit klarer Vertrauensmehrheit; Wirtschaft 48 %, Medien 46 %, Regierung 42 %, NGOs 41 %; inländische Unternehmen +29 Punkte gegenüber internationalen; n=1.200 Deutschland, global 34.000 Befragte in 28 Ländern (verifiziert). Lage-Update Energie: t-online / aktien.news (14.–15.08.) — Straße von Hormuz trotz begonnener US-Minenräumung faktisch weiter blockiert, Iran knüpft Öffnung an politische Bedingungen und plant Durchfahrtsgebvohren, Angriff auf zwei Adnoc-Tanker in der Meerenge, Ablauf der 60-tägigen Waffenruhe; Brent rund 87 bis 88 USD (wiwo / TECSON). Flankierend: Gallup State of the Global Workplace 2026 (Manager-Engagement 22 %), Haufe Leadership-Studie 2026 (88,2 % hohe Belastung, nur 20,5 % erleben ihr Unternehmen als lernorientiert).",
-  "befund": "Der Befund ist kein Kompliment, sondern eine Lastenverschiebung. Wenn der Arbeitgeber die einzige Institution mit Vertrauensmehrheit ist, dann wird das Unternehmen zum Ersatz-Orientierungssystem für Fragen, für die es nie gebaut wurde: Sicherheit, Einordnung der Weltlage, Zukunftsperspektive. Diese Erwartung landet nicht im Vorstand, sondern bei der direkten Führungskraft — genau bei der Gruppe, deren Engagement Gallup 2026 auf 22 Prozent misst und von der 88,2 Prozent in der Haufe-Studie hohe Belastung melden. Vertrauen ist damit kein weiches Thema mehr, sondern eine Ressourcenfrage: Es wird an einer Stelle abgerufen, die selbst auf Reserve läuft.",
-  "fuehrungsimplikation": "Zwei Konsequenzen. Erstens: Das Vertrauen ist geliehen, nicht verdient — es kommt aus dem Mangel an Alternativen und ist entsprechend schnell verspielt. Nichts entwertet es schneller als ein gebrochenes Versprechen oder zwei Gesichter. Zweitens: Wer diese Erwartung ernst nimmt, muss nicht mehr erklären, sondern verlässlich sein. Weniger Ansagen, mehr eingehaltene Zusagen. Und wer das leisten soll, braucht selbst einen Ort, an dem er nicht Anker sein muss.",
-  "kapitel": "Kapitel 19 (Psychologische Sicherheit) und Kapitel 16 (Kraftquellen/Selbstführung). Buchanker: Vertrauen entsteht aus sichtbarer Verlaesslichkeit, und zwar schnell. Dazu die Beobachtung zu gebrochenen Versprechen: Wer leichtfertig zusagt, verbrennt Vertrauen, das er spaeter schwer aufbaut."
+  "titel": "Die Anpassungslücke",
+  "quelle": "Deloitte Global Human Capital Trends 2026, From Tensions to Tipping Points (Primärquelle deloitte.com / Pressemitteilung verifiziert): 85 Prozent halten Anpassungsfähigkeit für kritisch, nur 7 Prozent führen dabei; 27 Prozent managen Wandel wirksam; ein Drittel der Belegschaften erlebte 15 größere Veränderungen im vergangenen Jahr; 65 Prozent sehen Kulturänderungsbedarf wegen KI, 6 Prozent kommen beim Design der Mensch-KI-Zusammenarbeit voran. Lage: CNBC/Bloomberg (14.08.) — US-Marineblockade iranischer Häfen auf unbestimmte Zeit, zwei angegriffene Tanker, Brent 87 bis 88,52 USD, Hormuz-Durchfahrt rund acht Schiffe pro Tag. Basis: Statistisches Bundesamt PD 26/271 (31.07.2026) — 45,54 Millionen Erwerbstätige, minus 223.000 gegenüber Vorjahr; Bevölkerung 83,4 Millionen, minus 154.000.",
+  "befund": "Die Lücke ist kein Kompetenz-, sondern ein Kapazitätsproblem. Es fehlt nicht das Wissen darüber, wie Veränderung funktioniert — es fehlt die Verarbeitungsfähigkeit für die Menge an Veränderung, die gleichzeitig läuft. 15 größere Veränderungen in einem Jahr sind für ein Drittel der Belegschaften keine Ausnahme mehr, und nur gut ein Viertel der Organisationen bringt Wandel überhaupt wirksam zu Ende. Was dabei entsteht, ist nicht Widerstand, sondern Erschöpfung: Wer alles gleichzeitig anfängt, beendet nichts, und wer nichts beendet, erlebt Veränderung als Zustand ohne Ergebnis.",
+  "fuehrungsimplikation": "Die unbequeme Konsequenz ist nicht, mehr zu entwickeln, sondern weniger gleichzeitig zu tun. Konkret: die laufenden Veränderungsvorhaben inventarisieren und mindestens ein Drittel stoppen oder verschieben. Das ist eine Führungsentscheidung, keine Ressourcenfrage — und sie ist unangenehm, weil jede dieser Initiativen einmal gut begründet war. Von den drei Engpässen dieser Woche ist es der einzige, der sich am Montagmorgen tatsächlich verändern lässt.",
+  "kapitel": "Kapitel 13 (Change Fitness) und das Kapitel GRIT und das Recht aufzuhören. Buchanker (verbatim): Eine ehrliche Inventur Ihrer großen Projekte. Schreiben Sie alle Initiativen auf, in denen Sie aktuell substantielle Energie investieren. Markieren Sie für jede einzelne, ob Sie sie heute, mit allem, was Sie wissen, noch einmal starten würden. Die Antworten verraten oft mehr, als ein ganzer Strategie-Workshop."
  },
  "bani": [
   {
    "code": "B",
    "dim": "Brüchig",
    "en": "Brittle",
-   "wert": 90,
-   "signal": "Leicht unter dem Höchstwert der Messreihe, aber ohne Entwarnung. Die Straße von Hormuz bleibt trotz begonnener Minenräumung faktisch blockiert; Iran knüpft die Öffnung an politische Bedingungen und plant Durchfahrtsgebühren. In der Nacht wurden zwei Tanker des staatlichen emiratischen Konzerns Adnoc in der Meerenge angegriffen, die 60-tägige Waffenruhe läuft aus. Brent gibt leicht nach auf rund 87 bis 88 USD — die Preisentspannung beruht auf einer Zusage, nicht auf freier Durchfahrt.",
-   "quelle": "t-online / aktien.news (14.–15.08.2026) / wiwo / TECSON",
-   "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Ein nachgebender Preis bei unveränderter physischer Sperre ist eine Erwartung, kein Zustand."
+   "wert": 91,
+   "signal": "Die Blockade wechselt vom Ereignis in den Zustand. Die USA erklärten am 14.08., die Marineblockade iranischer Häfen könne auf unbestimmte Zeit fortdauern; zwei Tanker der Vereinigten Arabischen Emirate wurden beim Transitversuch angegriffen. Die Durchfahrt liegt bei rund acht Schiffen pro Tag gegenüber 130 bis 140 vor dem Krieg. Brent notiert bei 87 bis 88,52 USD — der Preis gibt leicht nach, während die physische Sperre sich verfestigt.",
+   "quelle": "CNBC / Bloomberg / Transport Topics (13.–14.08.2026); DIW Berlin zur Hormuz-Blockade",
+   "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Neu ist nicht der Preis, sondern die Dauer — eine Risikoprämie, die zur Konstante wird, gehört in die Planungsprämisse, nicht in die Sonderlage."
   },
   {
    "code": "A",
    "dim": "Ängstlich",
    "en": "Anxious",
-   "wert": 89,
-   "signal": "Höchster Wert dieser Dimension in der Messreihe. Das Edelman Trust Barometer 2026 beschreibt für Deutschland einen Rückzug ins Vertraute: Wirtschaft (48 %), Medien (46 %), Regierung (42 %) und NGOs (41 %) liegen im Misstrauensbereich, allein der eigene Arbeitgeber hält mit 74 Prozent eine Vertrauensmehrheit. Wer den Institutionen nicht mehr glaubt, sucht Halt im Nahbereich — und erwartet ihn dort.",
-   "quelle": "Edelman Trust Barometer 2026, Deutschland-Report (n=1.200; global 34.000 in 28 Ländern)",
-   "fuehrung": "Ängstlich heißt: Dauerunsicherheit lähmt. Die Suche nach Halt ist kein Vertrauensbeweis, sondern eine Bitte — und sie richtet sich an die direkte Führungskraft."
+   "wert": 88,
+   "signal": "Leicht unter dem Rekordwert des Vortages, ohne Entlastung in der Substanz. Pew misst 52 Prozent, die sich um die Wirkung von KI auf ihre berufliche Zukunft sorgen; KPMG und Mercer je 40 Prozent mit Jobverlust-Angst (Mercer 2024: 28 Prozent), Stepstone 35 Prozent Obsoleszenz-Sorge. Die Angstkurve steigt weiterhin schneller als die Befähigungskurve.",
+   "quelle": "Pew Research; KPMG (via Fortune); Mercer Global Talent Trends 2026; Stepstone",
+   "fuehrung": "Ängstlich heißt: Dauerunsicherheit lähmt. Wo Sorge schneller wächst als Befähigung, entsteht stiller Widerstand statt offenes Lernen."
   },
   {
    "code": "N",
    "dim": "Nichtlinear",
    "en": "Non-linear",
-   "wert": 87,
-   "signal": "Zwei angegriffene Tanker und ein auslaufendes Waffenruhe-Datum bewegen Inflationserwartung, Zinspfad und Aktienbewertung in Europa. Zugleich verschiebt eine gesellschaftliche Bewegung — schwindendes Institutionenvertrauen — Erwartungen in Unternehmen hinein, ohne dass dort irgendetwas entschieden wurde.",
-   "quelle": "t-online / Edelman Trust Barometer 2026 / IEA Oil Market Report August 2026",
-   "fuehrung": "Nichtlinear heißt: kleine Ursache, große Wirkung. Prüfen Sie, welche Erwartungen an Sie gewandert sind, ohne dass Sie sie je übernommen haben."
+   "wert": 88,
+   "signal": "Deutschland schrumpft und hat gleichzeitig mehr Arbeitslose. Destatis meldet für Juni 45,54 Millionen Erwerbstätige, 223.000 weniger als ein Jahr zuvor, bei einer Bevölkerung von 83,4 Millionen (minus 154.000 binnen zwölf Monaten) — und zugleich 179.000 mehr Erwerbslose als im Vorjahr. Der DAX schloss die Woche bei 26.440 Punkten, knapp unter dem Rekord, während die BIP-Prognose bei 0,6 Prozent liegt.",
+   "quelle": "Statistisches Bundesamt PD 26/271 (31.07.2026, Primärquelle verifiziert); Bundesagentur für Arbeit Juli 2026; ARIVA/onvista (14.08.)",
+   "fuehrung": "Nichtlinear heißt: kleine Ursache, große Wirkung. Schrumpfende Basis bei steigender Arbeitslosigkeit ist kein Widerspruch, sondern ein Passungsproblem — und es entlastet kurzfristig, während es langfristig verengt."
   },
   {
    "code": "I",
    "dim": "Unbegreiflich",
    "en": "Incomprehensible",
    "wert": 86,
-   "signal": "Die Gleichzeitigkeit bleibt schwer deutbar: Das Vertrauen in den Arbeitgeber ist hoch, während Gallup das Engagement der Manager auf 22 Prozent misst und die Haufe Leadership-Studie 2026 bei 88,2 Prozent der Führungskräfte hohe Belastung feststellt — bei nur 20,5 Prozent, die ihr Unternehmen als lernorientiert erleben. Hohes Vertrauen in ein System, das seine eigenen Träger auszehrt.",
-   "quelle": "Gallup State of the Global Workplace 2026 / Haufe Leadership-Studie 2026 (220 FK, 135 PE)",
-   "fuehrung": "Unbegreiflich heißt: entzieht sich der Erklärung. Wer Vertrauen bekommt, ohne die Kraft zu haben, es zu tragen, braucht zuerst eine ehrliche Bestandsaufnahme der eigenen Reserven."
+   "signal": "Die Anpassungslücke ist beziffert. 85 Prozent der Verantwortlichen halten die Fähigkeit zur schnellen Anpassung für kritisch, nur 7 Prozent sehen sich darin führend; nur 27 Prozent der Organisationen managen Wandel wirksam, während ein Drittel der Belegschaften im vergangenen Jahr 15 größere Veränderungen erlebte. 65 Prozent sagen, ihre Kultur müsse sich wegen KI ändern — 6 Prozent kommen beim Design der Mensch-KI-Zusammenarbeit voran.",
+   "quelle": "Deloitte Global Human Capital Trends 2026, From Tensions to Tipping Points (Primärquelle deloitte.com verifiziert)",
+   "fuehrung": "Unbegreiflich heißt: entzieht sich der Erklärung. Wenn das Veränderungsvolumen die Verarbeitungsfähigkeit übersteigt, hilft keine weitere Initiative — sondern die Entscheidung, welche nicht mehr läuft."
   }
  ],
  "quellen": [
-  "Edelman Trust Barometer 2026, Deutschland-Report (edelman.com) — Arbeitgeber 74 % (einzige Institution mit Vertrauensmehrheit), Wirtschaft 48 %, Medien 46 %, Regierung 42 %, NGOs 41 %; inländische Unternehmen +29 Punkte; n=1.200 DE, global 34.000 in 28 Ländern (verifiziert)",
-  "t-online / aktien.news (14.–15.08.2026) — Straße von Hormuz trotz begonnener US-Minenräumung faktisch blockiert, Angriff auf zwei Adnoc-Tanker, Ablauf der 60-tägigen Waffenruhe, geplante Durchfahrtsgebühren",
-  "wiwo / TECSON (14.–15.08.2026) — Brent rund 87 bis 88 USD, leicht nachgebend",
-  "IEA — Oil Market Report August 2026: sichtbare Ölvorräte unter 7,9 Mrd. Barrel, Angebotsprognose 102 mb/d",
-  "Gallup — State of the Global Workplace 2026: Manager-Engagement 22 % (Vorjahr 27 %)",
-  "Haufe Leadership-Studie 2026 (haufe-akademie.de) — 220 Führungskräfte und 135 Personalentwickelnde: 88,2 % hohe Belastung, nur 20,5 % erleben ihr Unternehmen als lernorientiert (verifiziert)",
-  "Hinweis Methodik: Der Index ist ein Deutungs-, kein Messinstrument. Index = Mittelwert der vier BANI-Werte (90+89+87+86)/4 = 88; Uhrzeit = Mitternacht minus (100−88)·0,6 Minuten = 23:53, also 7 vor 12.",
-  "Hinweis Faktenhygiene: Kein neuer Zukunftsforscher-Bericht im Eingang (letzter 14.08.) — heute Websuche-Fallback nach Quellen-Hierarchie; alle Kernzahlen an Primär- bzw. Erstquelle geprüft."
- ]
+  {
+   "titel": "Deloitte — 2026 Global Human Capital Trends: From Tensions to Tipping Points",
+   "url": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html"
+  },
+  {
+   "titel": "Statistisches Bundesamt — Erwerbstätigkeit im Juni 2026 (PD Nr. 271)",
+   "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_271_132.html"
+  },
+  {
+   "titel": "CNBC — Oil prices rise as U.S. threatens economic isolation of Iran (14.08.2026)",
+   "url": "https://www.cnbc.com/2026/08/14/oil-prices-today-brent-wti-hormuz.html"
+  },
+  {
+   "titel": "DIW Berlin — Blockade der Straße von Hormus: Angebotsschock",
+   "url": "https://www.diw.de/de/diw_01.c.1016802.de/publikationen/diw_aktuell/2026_0122/blockade_der_strasse_von_hormus__angebotsschock_ueberlagert___ache_nachfrage__oelpreise_bleiben_anfaellig_fuer_ausschlaege.html"
+  },
+  {
+   "titel": "Bundesagentur für Arbeit — Der Arbeitsmarkt im Juli 2026",
+   "url": "https://www.arbeitsagentur.de/presse/2026-30-arbeitsmarkt-im-juli-2026"
+  }
+ ],
+ "hinweis": "Der Leadership-Disruptions-Index ist ein Deutungs-, kein Messinstrument. Er verdichtet öffentlich verfügbare Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte."
 }
