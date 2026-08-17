@@ -1,17 +1,17 @@
 {
- "datum": "2026-08-16",
- "aktualisiert": "2026-08-16T08:30:00+02:00",
- "index": 88,
- "uhrzeit": "23:53",
- "trend": "stabil",
- "trend_delta": 0,
- "leitsatz": "Der Veränderungsdruck ist gemessen höher als die Fähigkeit der Organisationen, ihn zu verarbeiten. Deloitte beziffert die Lücke im Global Human Capital Trends 2026: 85 Prozent der Verantwortlichen halten schnelle Anpassung für kritisch, 7 Prozent sehen sich darin führend, und nur 27 Prozent managen Wandel wirksam — bei einem Drittel der Belegschaften, das im vergangenen Jahr 15 größere Veränderungen erlebt hat. Gleichzeitig verhärtet sich die äußere Lage: Die USA erklären die Marineblockade iranischer Häfen für potenziell unbefristet, die Straße von Hormuz bleibt bei rund acht Durchfahrten pro Tag faktisch gesperrt, Brent notiert um 88 Dollar. Und die Basis schrumpft messbar: 223.000 Erwerbstätige weniger als im Vorjahr, 154.000 Menschen weniger im Land. Der Engpass ist damit dreifach besetzt — Energie, Menschen, Anpassungsfähigkeit. Nur der dritte lässt sich durch Führung unmittelbar beeinflussen.",
+ "datum": "2026-08-17",
+ "aktualisiert": "2026-08-17T08:20:00+02:00",
+ "index": 90,
+ "uhrzeit": "23:54",
+ "trend": "steigend",
+ "trend_delta": 2,
+ "leitsatz": "Zum ersten Mal lässt sich in industriellem Maßstab prüfen, ob eine Maschine an einem Text beteiligt war. Anthropic hat Mitte August offengelegt, dass alle ab dem 2. August 2026 erschienenen Claude-Modelle ein unsichtbares statistisches Wasserzeichen in jede Ausgabe einbetten — weltweit, nicht nur im europäischen Markt; Auslöser sind Artikel 50 der KI-Verordnung und der EU Code of Practice on Transparency of AI-Generated Content mit rund 190 Unterzeichnern. Am selben Tag meldete das Statistische Bundesamt den tiefsten Beschäftigungsstand der Automobilindustrie seit 2005, und eine EY-Erhebung zeigt die Sorge um den eigenen Arbeitsplatz auf dem höchsten Niveau seit 2009. Maschinenarbeit wird nachweisbar, Industriearbeit wird weniger, und die Menschen spüren beides. Für Führung entsteht daraus eine Pflicht, die bisher Geschmacksfrage war und ab jetzt technisch entscheidbar ist: zu erklären, was im eigenen Haus als eigene Leistung gilt.",
  "leitsignal": {
-  "titel": "Die Anpassungslücke",
-  "quelle": "Deloitte Global Human Capital Trends 2026, From Tensions to Tipping Points (Primärquelle deloitte.com / Pressemitteilung verifiziert): 85 Prozent halten Anpassungsfähigkeit für kritisch, nur 7 Prozent führen dabei; 27 Prozent managen Wandel wirksam; ein Drittel der Belegschaften erlebte 15 größere Veränderungen im vergangenen Jahr; 65 Prozent sehen Kulturänderungsbedarf wegen KI, 6 Prozent kommen beim Design der Mensch-KI-Zusammenarbeit voran. Lage: CNBC/Bloomberg (14.08.) — US-Marineblockade iranischer Häfen auf unbestimmte Zeit, zwei angegriffene Tanker, Brent 87 bis 88,52 USD, Hormuz-Durchfahrt rund acht Schiffe pro Tag. Basis: Statistisches Bundesamt PD 26/271 (31.07.2026) — 45,54 Millionen Erwerbstätige, minus 223.000 gegenüber Vorjahr; Bevölkerung 83,4 Millionen, minus 154.000.",
-  "befund": "Die Lücke ist kein Kompetenz-, sondern ein Kapazitätsproblem. Es fehlt nicht das Wissen darüber, wie Veränderung funktioniert — es fehlt die Verarbeitungsfähigkeit für die Menge an Veränderung, die gleichzeitig läuft. 15 größere Veränderungen in einem Jahr sind für ein Drittel der Belegschaften keine Ausnahme mehr, und nur gut ein Viertel der Organisationen bringt Wandel überhaupt wirksam zu Ende. Was dabei entsteht, ist nicht Widerstand, sondern Erschöpfung: Wer alles gleichzeitig anfängt, beendet nichts, und wer nichts beendet, erlebt Veränderung als Zustand ohne Ergebnis.",
-  "fuehrungsimplikation": "Die unbequeme Konsequenz ist nicht, mehr zu entwickeln, sondern weniger gleichzeitig zu tun. Konkret: die laufenden Veränderungsvorhaben inventarisieren und mindestens ein Drittel stoppen oder verschieben. Das ist eine Führungsentscheidung, keine Ressourcenfrage — und sie ist unangenehm, weil jede dieser Initiativen einmal gut begründet war. Von den drei Engpässen dieser Woche ist es der einzige, der sich am Montagmorgen tatsächlich verändern lässt.",
-  "kapitel": "Kapitel 13 (Change Fitness) und das Kapitel GRIT und das Recht aufzuhören. Buchanker (verbatim): Eine ehrliche Inventur Ihrer großen Projekte. Schreiben Sie alle Initiativen auf, in denen Sie aktuell substantielle Energie investieren. Markieren Sie für jede einzelne, ob Sie sie heute, mit allem, was Sie wissen, noch einmal starten würden. Die Antworten verraten oft mehr, als ein ganzer Strategie-Workshop."
+  "titel": "Die Herkunft wird sichtbar",
+  "quelle": "Anthropic, How Claude's text watermark works (Primärquelle anthropic.com, veröffentlicht 11.–14.08.2026; gegengeprüft TechCrunch 11.08., Forbes 13.08., the-decoder): statistisches Wasserzeichen nach dem SynthID-Text-Verfahren in allen ab 02.08.2026 erschienenen Claude-Modellen, weltweit; signierte C2PA-Herkunftsangabe für Dateien; Erkennungs-API angekündigt. Regulatorischer Treiber: Artikel 50 KI-VO, anwendbar seit 02.08.2026, sowie der EU Code of Practice on Transparency of AI-Generated Content mit rund 190 Unterzeichnern (Juli 2026). Industrie: Statistisches Bundesamt, Pressemitteilung N057 vom 14.08.2026 (Primärquelle destatis.de verifiziert) — Verarbeitendes Gewerbe 5,29 Millionen Beschäftigte, minus 144.100 oder 2,7 Prozent gegenüber Vorjahr; Automobilindustrie 691.500 Beschäftigte, minus 42.300 oder 5,8 Prozent, tiefster Stand seit 2005. Angst: EY-Erhebung unter rund 1.000 repräsentativ Befragten (Feld November) — 16 Prozent halten ihren Arbeitsplatz für unsicher, höchster Wert seit 2009 (damals 22 Prozent), plus drei Punkte gegenüber Vorjahr; 36 Prozent bei Einkommen unter 25.000 Euro gegenüber 8 Prozent bei über 70.000 Euro.",
+  "befund": "Das Wasserzeichen beantwortet eine engere Frage, als die öffentliche Aufregung nahelegt: Es belegt Beteiligung, nicht Autorschaft. Es trägt keine Information über Person oder Organisation, es sagt nichts über Eigentum und nichts über Verantwortung, und bei kurzen, rein faktischen oder stark überarbeiteten Texten bleibt kaum etwas übrig, woran es haften könnte. Genau darin liegt das Risiko: Ein Verfahren, das Beteiligung misst, wird als Beweismittel gegen Personen missbraucht werden, weil der falsche Verdacht jetzt technisch begründet klingt. Parallel bleibt die Adoptionslücke offen — 70 Prozent der Organisationen nutzen generative KI in mindestens einer Funktion, 17 Prozent betreiben Agenten produktiv, und diese Schere bewegt sich seit Monaten kaum.",
+  "fuehrungsimplikation": "Die Frage verschiebt sich von 'darf man KI nutzen' zu 'was gilt bei uns als eigene Leistung'. Wer diese Regel nicht selbst formuliert, beantwortet sie im Einzelfall — unter Zeitdruck, im Konflikt, mit maximalem Reputationsrisiko. Drei Sätze der Geschäftsführung reichen, wenn sie sagen, wo KI-Mitarbeit selbstverständlich, wo sie kennzeichnungspflichtig und wo sie ausgeschlossen ist. Zweitens gehört ausdrücklich untersagt, die Erkennung als Überführungsinstrument gegen einzelne Menschen einzusetzen. Und drittens brauchen die beiden Ängste im selben Team getrennte Antworten: Die konjunkturelle Sorge um den Arbeitsplatz beruhigt man mit Klarheit über Auftragslage und Szenarien, die technologische Sorge vor Obsoleszenz ausschließlich mit Befähigung. Wer beide mit derselben Ansprache bedient, verfehlt beide.",
+  "kapitel": "Kapitel 5 (AI-Mindset, Co-Intelligenz) und Kapitel 1 (Polykrise/BANI). Buchanker (verbatim aus der veroeffentlichten Fassung, Schlusskapitel AI-Mindset): „In der Beschleunigung, in der wir alle stehen, ist die Frage nicht mehr, ob Sie KI nutzen. Sie tun es bereits, oder Sie werden es tun. Die Frage ist, mit welcher Haltung Sie es tun, mit Verantwortung, Klarheit, Weitsicht und in echter Co-Intelligenz.“"
  },
  "bani": [
   {
@@ -19,58 +19,58 @@
    "dim": "Brüchig",
    "en": "Brittle",
    "wert": 91,
-   "signal": "Die Blockade wechselt vom Ereignis in den Zustand. Die USA erklärten am 14.08., die Marineblockade iranischer Häfen könne auf unbestimmte Zeit fortdauern; zwei Tanker der Vereinigten Arabischen Emirate wurden beim Transitversuch angegriffen. Die Durchfahrt liegt bei rund acht Schiffen pro Tag gegenüber 130 bis 140 vor dem Krieg. Brent notiert bei 87 bis 88,52 USD — der Preis gibt leicht nach, während die physische Sperre sich verfestigt.",
-   "quelle": "CNBC / Bloomberg / Transport Topics (13.–14.08.2026); DIW Berlin zur Hormuz-Blockade",
-   "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Neu ist nicht der Preis, sondern die Dauer — eine Risikoprämie, die zur Konstante wird, gehört in die Planungsprämisse, nicht in die Sonderlage."
+   "signal": "Die industrielle Basis gibt breit nach, während die Energie-Engstelle zum Dauerzustand wird. Im Verarbeitenden Gewerbe arbeiteten zum Ende des ersten Halbjahres 144.100 Menschen weniger als ein Jahr zuvor, in der Automobilindustrie 42.300 weniger — mit 691.500 Beschäftigten der tiefste Stand seit 2005. Auch Metallerzeugnisse (minus 3,8 Prozent), Chemie (minus 3,6 Prozent) und Maschinenbau (minus 2,7 Prozent) verlieren. Die Durchfahrt durch die Straße von Hormuz liegt weiter bei rund acht Schiffen pro Tag gegenüber 130 bis 140 vor dem Krieg, Brent notiert bei 88,72 USD, und die US-Energiebehörde erwartet die Nahost-Förderung nicht vor Anfang 2027 auf Vorkriegsniveau.",
+   "quelle": "Statistisches Bundesamt PD N057 (14.08.2026, Primärquelle verifiziert); EIA Short-Term Energy Outlook; UKMTO-Marktberichte 08/2026",
+   "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Wer heute Industriearbeitsplätze abbaut, gewinnt sie demografisch nicht zurück — Kapazitätsentscheidungen bekommen eine Einbahnstraßen-Eigenschaft, die klassische Kostenmodelle nicht abbilden."
   },
   {
    "code": "A",
    "dim": "Ängstlich",
    "en": "Anxious",
-   "wert": 88,
-   "signal": "Leicht unter dem Rekordwert des Vortages, ohne Entlastung in der Substanz. Pew misst 52 Prozent, die sich um die Wirkung von KI auf ihre berufliche Zukunft sorgen; KPMG und Mercer je 40 Prozent mit Jobverlust-Angst (Mercer 2024: 28 Prozent), Stepstone 35 Prozent Obsoleszenz-Sorge. Die Angstkurve steigt weiterhin schneller als die Befähigungskurve.",
-   "quelle": "Pew Research; KPMG (via Fortune); Mercer Global Talent Trends 2026; Stepstone",
-   "fuehrung": "Ängstlich heißt: Dauerunsicherheit lähmt. Wo Sorge schneller wächst als Befähigung, entsteht stiller Widerstand statt offenes Lernen."
+   "wert": 91,
+   "signal": "Neuer Höchstwert dieser Dimension in der Messreihe. Laut EY halten 16 Prozent der Befragten ihren Arbeitsplatz für unsicher — der höchste Wert seit der Finanzkrise 2009 (damals 22 Prozent), dritter Anstieg in Folge. Der eigentliche Befund ist die Spreizung: 36 Prozent bei Jahreseinkommen unter 25.000 Euro gegenüber 8 Prozent bei über 70.000 Euro, 21 Prozent bei den Unter-35-Jährigen gegenüber 10 Prozent bei den Über-55-Jährigen. Die Sorge schlägt bereits auf das Verhalten durch: 48 Prozent wollen bei größeren Anschaffungen sparen. Parallel sorgen sich laut Stepstone 35 Prozent um Ersetzbarkeit durch KI, 76 Prozent spüren Lerndruck, aber nur 35 Prozent haben sich gezielt zu KI weitergebildet.",
+   "quelle": "EY-Erhebung zur Arbeitsplatzsicherheit (rund 1.000 Befragte, Feld November; berichtet WirtschaftsWoche/Handelsblatt 08/2026); Stepstone Hiring Trends Update 2026 (6.114 Beschäftigte)",
+   "fuehrung": "Ängstlich heißt: Dauerunsicherheit lähmt. Die Angst ist nach Einkommen ungleich verteilt, und Führungskräfte sitzen überwiegend am sicheren Ende — wer selbst kaum betroffen ist, unterschätzt regelmäßig, wie viel Aufmerksamkeit die Sorge im Team bindet."
   },
   {
    "code": "N",
    "dim": "Nichtlinear",
    "en": "Non-linear",
-   "wert": 88,
-   "signal": "Deutschland schrumpft und hat gleichzeitig mehr Arbeitslose. Destatis meldet für Juni 45,54 Millionen Erwerbstätige, 223.000 weniger als ein Jahr zuvor, bei einer Bevölkerung von 83,4 Millionen (minus 154.000 binnen zwölf Monaten) — und zugleich 179.000 mehr Erwerbslose als im Vorjahr. Der DAX schloss die Woche bei 26.440 Punkten, knapp unter dem Rekord, während die BIP-Prognose bei 0,6 Prozent liegt.",
-   "quelle": "Statistisches Bundesamt PD 26/271 (31.07.2026, Primärquelle verifiziert); Bundesagentur für Arbeit Juli 2026; ARIVA/onvista (14.08.)",
-   "fuehrung": "Nichtlinear heißt: kleine Ursache, große Wirkung. Schrumpfende Basis bei steigender Arbeitslosigkeit ist kein Widerspruch, sondern ein Passungsproblem — und es entlastet kurzfristig, während es langfristig verengt."
+   "wert": 89,
+   "signal": "Die Widersprüche stehen nebeneinander, ohne sich aufzulösen. Der DAX startet in Rekordnähe in die Woche und liegt im August über drei Prozent im Plus, während die US-Einzelhandelsumsätze im Juli überraschend fielen und die Zinssenkungserwartung für 2026 weitgehend ausgepreist ist. Für dasselbe Jahr reicht die BIP-Prognose von 0,7 Prozent (Bundesbank) über 1,0 bis 1,5 Prozent (Institute) bis 1,5 Prozent (ifo). Innerhalb der Automobilindustrie brechen Teile und Zubehör um 7,6 Prozent ein, während Karosserien und Aufbauten um 10,0 Prozent zulegen.",
+   "quelle": "ifo Konjunkturprognose 2026; Deutsche Bundesbank Deutschland-Prognose; Statistisches Bundesamt PD N057",
+   "fuehrung": "Nichtlinear heißt: kleine Ursache, große Wirkung. Eine Prognosespanne von 0,7 bis 1,5 Prozent für dasselbe Jahr ist selbst das Signal — sie gehört als Unsicherheitsmaß gelesen und an beiden Enden durchgerechnet, nicht zum Mittelwert verrechnet."
   },
   {
    "code": "I",
    "dim": "Unbegreiflich",
    "en": "Incomprehensible",
-   "wert": 86,
-   "signal": "Die Anpassungslücke ist beziffert. 85 Prozent der Verantwortlichen halten die Fähigkeit zur schnellen Anpassung für kritisch, nur 7 Prozent sehen sich darin führend; nur 27 Prozent der Organisationen managen Wandel wirksam, während ein Drittel der Belegschaften im vergangenen Jahr 15 größere Veränderungen erlebte. 65 Prozent sagen, ihre Kultur müsse sich wegen KI ändern — 6 Prozent kommen beim Design der Mensch-KI-Zusammenarbeit voran.",
-   "quelle": "Deloitte Global Human Capital Trends 2026, From Tensions to Tipping Points (Primärquelle deloitte.com verifiziert)",
-   "fuehrung": "Unbegreiflich heißt: entzieht sich der Erklärung. Wenn das Veränderungsvolumen die Verarbeitungsfähigkeit übersteigt, hilft keine weitere Initiative — sondern die Entscheidung, welche nicht mehr läuft."
+   "wert": 89,
+   "signal": "Die Herkunft von Texten wird prüfbar, und zugleich wird die Prüfung selbst missverständlich. Das Wasserzeichen verändert nicht den Inhalt, sondern die Quelle des Zufalls bei gleichwertigen Wortentscheidungen; es beantwortet ausschließlich, wie wahrscheinlich das Modell beteiligt war — nicht, ob ein Mensch den Text geschrieben hat, nicht, ob eine andere KI beteiligt war, und nichts über Eigentum oder rechtliche Verantwortung. Leichtes Redigieren überlebt es meist, vollständiges Umschreiben nicht. Parallel bleibt die Adoptionslücke unverändert: 70 Prozent der Organisationen nutzen generative KI in mindestens einer Funktion, 17 Prozent betreiben Agenten produktiv, über 40 Prozent der agentischen Projekte werden bis Ende 2027 eingestellt.",
+   "quelle": "Anthropic (Primärquelle, 08/2026); Google DeepMind SynthID-Text, Nature 2024; Stanford HAI AI Index 2026; Gartner; MIT NANDA (95 Prozent der GenAI-Pilotprogramme ohne messbaren Finanzeffekt)",
+   "fuehrung": "Unbegreiflich heißt: entzieht sich der Erklärung. Ein Verfahren, das Beteiligung misst und als Autorschaftsbeweis gelesen wird, produziert Ungerechtigkeit mit technischem Anstrich — und die ist schwerer zu widerlegen als ein bloßer Verdacht."
   }
  ],
  "quellen": [
   {
-   "titel": "Deloitte — 2026 Global Human Capital Trends: From Tensions to Tipping Points",
-   "url": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html"
+   "titel": "Anthropic — How Claude's text watermark works (08/2026)",
+   "url": "https://www.anthropic.com/news/claude-text-watermark"
   },
   {
-   "titel": "Statistisches Bundesamt — Erwerbstätigkeit im Juni 2026 (PD Nr. 271)",
-   "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_271_132.html"
+   "titel": "Statistisches Bundesamt — Stellenabbau in der Automobilindustrie, PM N057 (14.08.2026)",
+   "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N057_42.html"
   },
   {
-   "titel": "CNBC — Oil prices rise as U.S. threatens economic isolation of Iran (14.08.2026)",
-   "url": "https://www.cnbc.com/2026/08/14/oil-prices-today-brent-wti-hormuz.html"
+   "titel": "WirtschaftsWoche — Arbeitsplatzsorgen auf höchstem Stand seit der Finanzkrise (EY)",
+   "url": "https://www.wiwo.de/politik/deutschland/arbeitsmarkt-arbeitsplatzsorgen-auf-hoechstem-stand-seit-der-finanzkrise/100187943.html"
   },
   {
-   "titel": "DIW Berlin — Blockade der Straße von Hormus: Angebotsschock",
-   "url": "https://www.diw.de/de/diw_01.c.1016802.de/publikationen/diw_aktuell/2026_0122/blockade_der_strasse_von_hormus__angebotsschock_ueberlagert___ache_nachfrage__oelpreise_bleiben_anfaellig_fuer_ausschlaege.html"
+   "titel": "TechCrunch — Anthropic says it will watermark text generated by its AI models (11.08.2026)",
+   "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/"
   },
   {
-   "titel": "Bundesagentur für Arbeit — Der Arbeitsmarkt im Juli 2026",
-   "url": "https://www.arbeitsagentur.de/presse/2026-30-arbeitsmarkt-im-juli-2026"
+   "titel": "Europäische Kommission — Code of Practice on Transparency of AI-Generated Content",
+   "url": "https://digital-strategy.ec.europa.eu/"
   }
  ],
  "hinweis": "Der Leadership-Disruptions-Index ist ein Deutungs-, kein Messinstrument. Er verdichtet öffentlich verfügbare Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte."
