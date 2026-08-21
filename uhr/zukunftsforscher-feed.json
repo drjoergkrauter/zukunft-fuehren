@@ -1,77 +1,67 @@
 {
- "datum": "2026-08-17",
- "aktualisiert": "2026-08-17T08:20:00+02:00",
- "index": 90,
- "uhrzeit": "23:54",
- "trend": "steigend",
- "trend_delta": 2,
- "leitsatz": "Zum ersten Mal lässt sich in industriellem Maßstab prüfen, ob eine Maschine an einem Text beteiligt war. Anthropic hat Mitte August offengelegt, dass alle ab dem 2. August 2026 erschienenen Claude-Modelle ein unsichtbares statistisches Wasserzeichen in jede Ausgabe einbetten — weltweit, nicht nur im europäischen Markt; Auslöser sind Artikel 50 der KI-Verordnung und der EU Code of Practice on Transparency of AI-Generated Content mit rund 190 Unterzeichnern. Am selben Tag meldete das Statistische Bundesamt den tiefsten Beschäftigungsstand der Automobilindustrie seit 2005, und eine EY-Erhebung zeigt die Sorge um den eigenen Arbeitsplatz auf dem höchsten Niveau seit 2009. Maschinenarbeit wird nachweisbar, Industriearbeit wird weniger, und die Menschen spüren beides. Für Führung entsteht daraus eine Pflicht, die bisher Geschmacksfrage war und ab jetzt technisch entscheidbar ist: zu erklären, was im eigenen Haus als eigene Leistung gilt.",
+ "datum": "2026-08-21",
+ "aktualisiert": "2026-08-21T08:30:00+02:00",
+ "index": 89,
+ "uhrzeit": "23:53",
+ "trend": "fallend",
+ "trend_delta": -1,
+ "leitsatz": "Heute entspannt sich die Lage dort, wo sie physisch ist, und verschaerft sich dort, wo Fuehrung tatsaechlich handeln kann. Der Pegel bei Kaub steigt zum ersten Mal seit Wochen wieder, von minus zwei auf vierzehn Zentimeter, und selbst die optimistische Vorhersage endet bei einundvierzig, waehrend fuer normalen Transport siebenundsiebzig noetig waeren: Entlastung ja, Entwarnung nein. Gleichzeitig kommt der Energieschock in den Verbraucherpreisen an, die Euroraum-Inflation steigt im Juli auf 2,9 Prozent bei einer Energiekomponente von 10,0 Prozent. Und im Maschinenraum der Organisationen oeffnet sich eine Luecke, die mit Wetter nichts zu tun hat: Agenten werden eingefuehrt, bevor geklaert ist, wer fuer sie geradesteht. Der Engpass wandert von der Geografie in die Verantwortung.",
  "leitsignal": {
-  "titel": "Die Herkunft wird sichtbar",
-  "quelle": "Anthropic, How Claude's text watermark works (Primärquelle anthropic.com, veröffentlicht 11.–14.08.2026; gegengeprüft TechCrunch 11.08., Forbes 13.08., the-decoder): statistisches Wasserzeichen nach dem SynthID-Text-Verfahren in allen ab 02.08.2026 erschienenen Claude-Modellen, weltweit; signierte C2PA-Herkunftsangabe für Dateien; Erkennungs-API angekündigt. Regulatorischer Treiber: Artikel 50 KI-VO, anwendbar seit 02.08.2026, sowie der EU Code of Practice on Transparency of AI-Generated Content mit rund 190 Unterzeichnern (Juli 2026). Industrie: Statistisches Bundesamt, Pressemitteilung N057 vom 14.08.2026 (Primärquelle destatis.de verifiziert) — Verarbeitendes Gewerbe 5,29 Millionen Beschäftigte, minus 144.100 oder 2,7 Prozent gegenüber Vorjahr; Automobilindustrie 691.500 Beschäftigte, minus 42.300 oder 5,8 Prozent, tiefster Stand seit 2005. Angst: EY-Erhebung unter rund 1.000 repräsentativ Befragten (Feld November) — 16 Prozent halten ihren Arbeitsplatz für unsicher, höchster Wert seit 2009 (damals 22 Prozent), plus drei Punkte gegenüber Vorjahr; 36 Prozent bei Einkommen unter 25.000 Euro gegenüber 8 Prozent bei über 70.000 Euro.",
-  "befund": "Das Wasserzeichen beantwortet eine engere Frage, als die öffentliche Aufregung nahelegt: Es belegt Beteiligung, nicht Autorschaft. Es trägt keine Information über Person oder Organisation, es sagt nichts über Eigentum und nichts über Verantwortung, und bei kurzen, rein faktischen oder stark überarbeiteten Texten bleibt kaum etwas übrig, woran es haften könnte. Genau darin liegt das Risiko: Ein Verfahren, das Beteiligung misst, wird als Beweismittel gegen Personen missbraucht werden, weil der falsche Verdacht jetzt technisch begründet klingt. Parallel bleibt die Adoptionslücke offen — 70 Prozent der Organisationen nutzen generative KI in mindestens einer Funktion, 17 Prozent betreiben Agenten produktiv, und diese Schere bewegt sich seit Monaten kaum.",
-  "fuehrungsimplikation": "Die Frage verschiebt sich von 'darf man KI nutzen' zu 'was gilt bei uns als eigene Leistung'. Wer diese Regel nicht selbst formuliert, beantwortet sie im Einzelfall — unter Zeitdruck, im Konflikt, mit maximalem Reputationsrisiko. Drei Sätze der Geschäftsführung reichen, wenn sie sagen, wo KI-Mitarbeit selbstverständlich, wo sie kennzeichnungspflichtig und wo sie ausgeschlossen ist. Zweitens gehört ausdrücklich untersagt, die Erkennung als Überführungsinstrument gegen einzelne Menschen einzusetzen. Und drittens brauchen die beiden Ängste im selben Team getrennte Antworten: Die konjunkturelle Sorge um den Arbeitsplatz beruhigt man mit Klarheit über Auftragslage und Szenarien, die technologische Sorge vor Obsoleszenz ausschließlich mit Befähigung. Wer beide mit derselben Ansprache bedient, verfehlt beide.",
-  "kapitel": "Kapitel 5 (AI-Mindset, Co-Intelligenz) und Kapitel 1 (Polykrise/BANI). Buchanker (verbatim aus der veroeffentlichten Fassung, Schlusskapitel AI-Mindset): „In der Beschleunigung, in der wir alle stehen, ist die Frage nicht mehr, ob Sie KI nutzen. Sie tun es bereits, oder Sie werden es tun. Die Frage ist, mit welcher Haltung Sie es tun, mit Verantwortung, Klarheit, Weitsicht und in echter Co-Intelligenz.“"
+  "titel": "Der Engpass wandert in die Verantwortung",
+  "quelle": "Eurostat, 19.08.2026: Euroraum-Inflation Juli 2,9 Prozent nach 2,8 Prozent im Juni, Energiekomponente 10,0 Prozent nach 8,5 Prozent - an der Meldungslage verifiziert. Bundesverband der Deutschen Binnenschifffahrt und dpa, 19.08.2026: Pegel Kaub 14 Zentimeter, Vorhersage bis 21.08. hoechstens 41 Zentimeter, Gleichwertiger Wasserstand fuer normalen Transport 77 Zentimeter, Duisburg-Ruhrort 1,34 Meter, Fahrrinnentiefe bei Kaub zuletzt 119 Zentimeter. Gartner CIO and Technology Executive Survey 2026: 17 Prozent der Organisationen mit produktiven KI-Agenten, ueber 60 Prozent planen es binnen zwei Jahren, ueber 40 Prozent der agentischen Projekte bis 2027 abbruchgefaehrdet - der Anteil mit reifem Governance-Modell wird je nach Erhebung zwischen 13 und 21 Prozent angegeben, die Groessenordnung ist belastbar, der Punktwert nicht. EU-KI-Verordnung: Transparenzpflichten nach Artikel 50 anwendbar seit 02.08.2026, maschinenlesbare Kennzeichnung nach Artikel 50 Absatz 2 bis 02.12.2026 - noch 103 Tage. Deloitte Gen Z and Millennial Survey 2026, 22.595 Befragte in 44 Laendern, Feld 24.11.2025 bis 15.01.2026: Stichprobe und Feldzeit an der Primaerquelle bestaetigt; die Einzelwerte 68 Prozent eigene KI-Sicherheit gegenueber 60 Prozent zugetrauter Fuehrungskompetenz stammen aus der Berichtslage und sind an der Primaerquelle nicht einzeln belegt - der Befund, dass diese Generation sich schneller an KI anpasst als ihre Organisationen sie stuetzen koennen, ist es. WTW Global Employee Experience Market Study 2026, referiert in Forbes am 17.08.2026: rund die Haelfte der Beschaeftigten haelt das KI-bezogene Veraenderungsmanagement fuer wirksam, Anforderungen in KI-exponierten Rollen verschieben sich 66 Prozent schneller als im Vorjahr. Harris Poll fuer ETS: 68 Prozent nennen Kosten, 63 Prozent Zeitmangel als Lernhuerde. Destatis Q2 2026: 45,7 Millionen Erwerbstaetige, Arbeitnehmer minus 154.000 im Jahresvergleich, erstmals seit der Corona-Krise auch im Dienstleistungssektor spuerbar.",
+  "befund": "Der Index gibt zum ersten Mal seit Wochen nach, und die Absenkung ist ehrlich betrachtet keine gute Nachricht, sondern eine unwichtige. Sie stammt vollstaendig aus dem Wetter: Der Rhein steigt um sechzehn Zentimeter, im Hormus-Konflikt kursieren Verhandlungssignale. Beides ist real und beides ist reversibel. Was sich nicht bewegt, sind die drei strukturellen Treiber - Demografie, KI-Governance, Vertrauens- und Angstlage liegen seit ueber zwei Wochen unveraendert hoch. Die interessantere Bewegung findet innerhalb der Summe statt: Bruechig faellt vom Rekordwert zurueck, Aengstlich steigt gegenlaeufig auf 90. Die Physik entspannt sich, die Wahrnehmung nicht. Dahinter steht ein Muster, das in drei verschiedenen Datensaetzen dasselbe sagt. Organisationen fuehren KI-Agenten schneller ein, als sie klaeren, wer fuer deren Entscheidungen einsteht. Beschaeftigte wollen lernen, bekommen aber weder Zeit noch Budget - 68 Prozent nennen Kosten, 63 Prozent fehlende Zeit. Und die juengere Haelfte der Belegschaft traut sich im Umgang mit KI mehr zu als ihrer eigenen Fuehrungskraft. Drei Befunde, ein Nenner: Es fehlt nicht an Technik und nicht an Willen, sondern an einer geklaerten Verantwortungsarchitektur.",
+  "fuehrungsimplikation": "Fuer dieses Quartal ergeben sich drei Aufgaben, von denen keine ein Technikbudget braucht. Erstens eine Governance-Inventur: Fuer jede produktive und jede pilotierte KI-Anwendung schriftlich festhalten, wer entscheidet, wer verantwortet, wer eskaliert. Bei einem einstelligen bis niedrig zweistelligen Anteil an Organisationen mit reifem Modell ist das ein Vorsprung, kein Formalismus. Zweitens die Frist 02.12.2026: Systeme mit generativen Funktionen, die vor dem 02.08.2026 im Einsatz waren, muessen ihre Ausgaben bis dahin maschinenlesbar kennzeichnen. 103 Tage ueber mehrere Fachbereiche sind knapp, und die pauschale Aussage, der AI Act sei verschoben, ist falsch und haftungsrelevant - verschoben sind die Hochrisikopflichten des Anhangs III, nicht Artikel 50. Drittens Ermoeglichung statt Angebot: Wenn Kosten und Zeit die genannten Huerden sind, wirkt kein weiteres Lernportal, sondern geschuetzte Lernzeit im Kalender mit zugewiesenem Budget. Und eine vierte Sache, die nichts kostet: Wer Fuehrungslegitimation heute aus Wissensvorsprung ableitet, baut auf Sand. Tragfaehig ist sichtbare Urteilsfaehigkeit - im Zweifel gemeinsam mit denen, die es besser koennen.",
+  "kapitel": "Kapitel 5 (AI-Mindset) fuer die Verantwortungsfrage, Kapitel 1 (Polykrise/BANI) fuer die Engstellen. Buchanker verbatim aus der veroeffentlichten Fassung: „In der Beschleunigung, in der wir alle stehen, ist die Frage nicht mehr, ob Sie KI nutzen. Sie tun es bereits, oder Sie werden es tun. Die Frage ist, mit welcher Haltung Sie es tun, mit Verantwortung, Klarheit, Weitsicht und in echter Co-Intelligenz.“"
  },
  "bani": [
   {
    "code": "B",
    "dim": "Brüchig",
    "en": "Brittle",
-   "wert": 91,
-   "signal": "Die industrielle Basis gibt breit nach, während die Energie-Engstelle zum Dauerzustand wird. Im Verarbeitenden Gewerbe arbeiteten zum Ende des ersten Halbjahres 144.100 Menschen weniger als ein Jahr zuvor, in der Automobilindustrie 42.300 weniger — mit 691.500 Beschäftigten der tiefste Stand seit 2005. Auch Metallerzeugnisse (minus 3,8 Prozent), Chemie (minus 3,6 Prozent) und Maschinenbau (minus 2,7 Prozent) verlieren. Die Durchfahrt durch die Straße von Hormuz liegt weiter bei rund acht Schiffen pro Tag gegenüber 130 bis 140 vor dem Krieg, Brent notiert bei 88,72 USD, und die US-Energiebehörde erwartet die Nahost-Förderung nicht vor Anfang 2027 auf Vorkriegsniveau.",
-   "quelle": "Statistisches Bundesamt PD N057 (14.08.2026, Primärquelle verifiziert); EIA Short-Term Energy Outlook; UKMTO-Marktberichte 08/2026",
-   "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Wer heute Industriearbeitsplätze abbaut, gewinnt sie demografisch nicht zurück — Kapazitätsentscheidungen bekommen eine Einbahnstraßen-Eigenschaft, die klassische Kostenmodelle nicht abbilden."
+   "wert": 92,
+   "signal": "Faellt um zwei Punkte vom Rekordwert des Vortages zurueck - die erste Entlastung seit Wochen, und sie ist duenn. Der Pegel Kaub durchlief in dieser Woche 24 Zentimeter, minus 2 Zentimeter und liegt heute bei 14; die Wasserstrassen- und Schifffahrtsverwaltung rechnet mit hoechstens 41 Zentimetern, waehrend der fuer normalen Transport noetige Gleichwertige Wasserstand bei 77 Zentimetern liegt. Duisburg-Ruhrort steht bei 1,34 Metern, die Fahrrinnentiefe bei Kaub zuletzt bei 119 Zentimetern, Frachtschiffe fahren auf noerdlichen Abschnitten teils mit einem Fuenftel der ueblichen Ladung. Die Strasse von Hormus bleibt faktisch geschlossen: rund acht Schiffe taeglich gegenueber 130 bis 140 vor dem Krieg, Brent gegen 92 US-Dollar im fuenften Anstieg in Folge.",
+   "quelle": "Bundesverband der Deutschen Binnenschifffahrt und dpa, 19.08.2026; WirtschaftsWoche, 18.08.2026; Bloomberg, 18.08.2026",
+   "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Sechzehn Zentimeter mehr Wasser sind keine Entwarnung, sondern eine Atempause. Wer daraus Planungssicherheit ableitet, plant gegen die Halbwertszeit der letzten drei Wochen."
   },
   {
    "code": "A",
    "dim": "Ängstlich",
    "en": "Anxious",
-   "wert": 91,
-   "signal": "Neuer Höchstwert dieser Dimension in der Messreihe. Laut EY halten 16 Prozent der Befragten ihren Arbeitsplatz für unsicher — der höchste Wert seit der Finanzkrise 2009 (damals 22 Prozent), dritter Anstieg in Folge. Der eigentliche Befund ist die Spreizung: 36 Prozent bei Jahreseinkommen unter 25.000 Euro gegenüber 8 Prozent bei über 70.000 Euro, 21 Prozent bei den Unter-35-Jährigen gegenüber 10 Prozent bei den Über-55-Jährigen. Die Sorge schlägt bereits auf das Verhalten durch: 48 Prozent wollen bei größeren Anschaffungen sparen. Parallel sorgen sich laut Stepstone 35 Prozent um Ersetzbarkeit durch KI, 76 Prozent spüren Lerndruck, aber nur 35 Prozent haben sich gezielt zu KI weitergebildet.",
-   "quelle": "EY-Erhebung zur Arbeitsplatzsicherheit (rund 1.000 Befragte, Feld November; berichtet WirtschaftsWoche/Handelsblatt 08/2026); Stepstone Hiring Trends Update 2026 (6.114 Beschäftigte)",
-   "fuehrung": "Ängstlich heißt: Dauerunsicherheit lähmt. Die Angst ist nach Einkommen ungleich verteilt, und Führungskräfte sitzen überwiegend am sicheren Ende — wer selbst kaum betroffen ist, unterschätzt regelmäßig, wie viel Aufmerksamkeit die Sorge im Team bindet."
+   "wert": 90,
+   "signal": "Steigt gegenlaeufig zur physischen Entlastung - der Energieschock ist in den Verbraucherpreisen angekommen. Die Euroraum-Inflation stieg im Juli auf 2,9 Prozent nach 2,8 im Juni, getrieben fast ausschliesslich von der Energiekomponente mit 10,0 Prozent nach 8,5; Deutschland 2,8 Prozent, Spanien 3,9. Das trifft die Reallohnentwicklung und die Tarifrunden im Herbst unmittelbar. Parallel zeigt die WTW Global Employee Experience Market Study 2026, dass nur rund die Haelfte der Beschaeftigten das KI-bezogene Veraenderungsmanagement der eigenen Organisation fuer wirksam haelt, waehrend sich die Anforderungen in KI-exponierten Rollen 66 Prozent schneller verschieben als im Vorjahr. Als Lernhuerde nennen 68 Prozent die Kosten und 63 Prozent den Zeitmangel.",
+   "quelle": "Eurostat, 19.08.2026; WTW Global Employee Experience Market Study 2026 referiert in Forbes, 17.08.2026; Harris Poll fuer ETS 2026",
+   "fuehrung": "Ängstlich heißt: Dauerunsicherheit lähmt. Der wichtigste Befund dahinter ist entlastend und unbequem zugleich: Der Lernwille ist da. Was fehlt, ist die Ermöglichung - Zeit und Budget, nicht ein weiteres Portal."
   },
   {
    "code": "N",
    "dim": "Nichtlinear",
    "en": "Non-linear",
-   "wert": 89,
-   "signal": "Die Widersprüche stehen nebeneinander, ohne sich aufzulösen. Der DAX startet in Rekordnähe in die Woche und liegt im August über drei Prozent im Plus, während die US-Einzelhandelsumsätze im Juli überraschend fielen und die Zinssenkungserwartung für 2026 weitgehend ausgepreist ist. Für dasselbe Jahr reicht die BIP-Prognose von 0,7 Prozent (Bundesbank) über 1,0 bis 1,5 Prozent (Institute) bis 1,5 Prozent (ifo). Innerhalb der Automobilindustrie brechen Teile und Zubehör um 7,6 Prozent ein, während Karosserien und Aufbauten um 10,0 Prozent zulegen.",
-   "quelle": "ifo Konjunkturprognose 2026; Deutsche Bundesbank Deutschland-Prognose; Statistisches Bundesamt PD N057",
-   "fuehrung": "Nichtlinear heißt: kleine Ursache, große Wirkung. Eine Prognosespanne von 0,7 bis 1,5 Prozent für dasselbe Jahr ist selbst das Signal — sie gehört als Unsicherheitsmaß gelesen und an beiden Enden durchgerechnet, nicht zum Mittelwert verrechnet."
+   "wert": 88,
+   "signal": "Gibt mit dem Pegel nach, das Muster bleibt. Wenige Zentimeter Wasserstand entscheiden weiterhin ueber Ladungsmengen und Frachtraten, die Wachstumsdaempfung wird auf einige Zehntel Prozentpunkte geschaetzt. Der auffaelligste Widerspruch der Reihe haelt an: Der DAX bewegt sich mit rund 26.459 Punkten knapp unter dem Allzeithoch von 26.573,50, waehrend das ifo-Geschaeftsklima mit 86,6 Punkten deutlich unter dem Normalniveau von 95 bis 100 liegt - wer heute aus dem Aktienindex auf die Lage der eigenen Belegschaft schliesst, liest das falsche Instrument. Am Arbeitsmarkt dasselbe Muster: 45,7 Millionen Erwerbstaetige im zweiten Quartal, Arbeitnehmer minus 154.000 im Jahresvergleich, erstmals seit der Corona-Krise auch im Dienstleistungssektor spuerbar - bei fortbestehender Fachkraeftelücke.",
+   "quelle": "Bundesverband der Deutschen Binnenschifffahrt, 19.08.2026; Marktberichte 20./21.08.2026; ifo Geschaeftsklimaindex Juli 2026; Destatis Erwerbstaetigenrechnung Q2 2026",
+   "fuehrung": "Nichtlinear heißt: kleine Ursache, große Wirkung. Sinkende Beschäftigung bei fortbestehender Fachkräftelücke ist kein Widerspruch, sondern ein Passungsproblem: Die Menschen fehlen nicht überall, sie fehlen woanders, als sie frei werden."
   },
   {
    "code": "I",
    "dim": "Unbegreiflich",
    "en": "Incomprehensible",
-   "wert": 89,
-   "signal": "Die Herkunft von Texten wird prüfbar, und zugleich wird die Prüfung selbst missverständlich. Das Wasserzeichen verändert nicht den Inhalt, sondern die Quelle des Zufalls bei gleichwertigen Wortentscheidungen; es beantwortet ausschließlich, wie wahrscheinlich das Modell beteiligt war — nicht, ob ein Mensch den Text geschrieben hat, nicht, ob eine andere KI beteiligt war, und nichts über Eigentum oder rechtliche Verantwortung. Leichtes Redigieren überlebt es meist, vollständiges Umschreiben nicht. Parallel bleibt die Adoptionslücke unverändert: 70 Prozent der Organisationen nutzen generative KI in mindestens einer Funktion, 17 Prozent betreiben Agenten produktiv, über 40 Prozent der agentischen Projekte werden bis Ende 2027 eingestellt.",
-   "quelle": "Anthropic (Primärquelle, 08/2026); Google DeepMind SynthID-Text, Nature 2024; Stanford HAI AI Index 2026; Gartner; MIT NANDA (95 Prozent der GenAI-Pilotprogramme ohne messbaren Finanzeffekt)",
-   "fuehrung": "Unbegreiflich heißt: entzieht sich der Erklärung. Ein Verfahren, das Beteiligung misst und als Autorschaftsbeweis gelesen wird, produziert Ungerechtigkeit mit technischem Anstrich — und die ist schwerer zu widerlegen als ein bloßer Verdacht."
+   "wert": 86,
+   "signal": "Unveraendert - und die Ursache hat sich verschoben. Nicht die Technik ist unklar, sondern die Zustaendigkeit. Nach der Gartner CIO and Technology Executive Survey 2026 setzen erst 17 Prozent der Organisationen KI-Agenten produktiv ein, ueber 60 Prozent erwarten das binnen zwei Jahren, und ueber 40 Prozent der agentischen Projekte gelten bis 2027 als abbruchgefaehrdet; der Anteil mit reifem Governance-Modell fuer autonome Agenten wird je nach Erhebung zwischen 13 und 21 Prozent angegeben. Die naechste regulatorische Frist ist konkret: Systeme mit generativen Funktionen, die vor dem 02.08.2026 auf dem Markt waren, muessen ihre Ausgaben bis zum 02.12.2026 maschinenlesbar kennzeichnen - noch 103 Tage. Zugleich haelt der Preisverfall an, die guenstigeren Stufen der OpenAI-Modelle wurden Ende Juli um bis zu 80 Prozent auf 0,20 US-Dollar je Million Input-Token gesenkt.",
+   "quelle": "Gartner CIO and Technology Executive Survey 2026 und Gartner-Pressemitteilungen 2025/2026; EU-Verordnung 2024/1689 Artikel 50; Stanford HAI AI Index 2026",
+   "fuehrung": "Unbegreiflich heißt: Es entzieht sich der Erklärung. Der Engpass ist nicht mehr, was die Maschine kann, sondern wer für ihre Entscheidungen geradesteht. Verantwortung lässt sich verteilen, delegieren lässt sie sich nie ganz."
   }
  ],
  "quellen": [
-  {
-   "titel": "Anthropic — How Claude's text watermark works (08/2026)",
-   "url": "https://www.anthropic.com/news/claude-text-watermark"
-  },
-  {
-   "titel": "Statistisches Bundesamt — Stellenabbau in der Automobilindustrie, PM N057 (14.08.2026)",
-   "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N057_42.html"
-  },
-  {
-   "titel": "WirtschaftsWoche — Arbeitsplatzsorgen auf höchstem Stand seit der Finanzkrise (EY)",
-   "url": "https://www.wiwo.de/politik/deutschland/arbeitsmarkt-arbeitsplatzsorgen-auf-hoechstem-stand-seit-der-finanzkrise/100187943.html"
-  },
-  {
-   "titel": "TechCrunch — Anthropic says it will watermark text generated by its AI models (11.08.2026)",
-   "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/"
-  },
-  {
-   "titel": "Europäische Kommission — Code of Practice on Transparency of AI-Generated Content",
-   "url": "https://digital-strategy.ec.europa.eu/"
-  }
+  "Eurostat, 19.08.2026 - Euroraum-Inflation Juli 2,9 Prozent (Juni 2,8), Energiekomponente 10,0 Prozent (Juni 8,5); an der Meldungslage verifiziert",
+  "Bundesverband der Deutschen Binnenschifffahrt / dpa, 19.08.2026 - Pegel Kaub 14 cm, Vorhersage max. 41 cm, Gleichwertiger Wasserstand 77 cm, Duisburg-Ruhrort 1,34 m",
+  "WirtschaftsWoche, 18.08.2026 - Fahrrinnentiefe Kaub 119 cm, Frachtraten auf Rekordniveau",
+  "Bloomberg, 18.08.2026 - Angriff auf Schiff an der Strasse von Hormus, Brent 91,50 USD; 20.08. rund 92 USD",
+  "Gartner CIO and Technology Executive Survey 2026 - 17 Prozent produktive KI-Agenten, ueber 60 Prozent Planung binnen zwei Jahren, ueber 40 Prozent Abbruchrisiko bis 2027",
+  "EU-Verordnung 2024/1689 (KI-VO), Artikel 50 - Transparenzpflichten seit 02.08.2026, maschinenlesbare Kennzeichnung nach Absatz 2 bis 02.12.2026",
+  "Deloitte Gen Z and Millennial Survey 2026 - 22.595 Befragte, 44 Laender, Feld 24.11.2025-15.01.2026; Stichprobe primaerverifiziert, Einzelwerte 68/60 aus der Berichtslage",
+  "WTW Global Employee Experience Market Study 2026, referiert in Forbes 17.08.2026 - Wirksamkeit des Veraenderungsmanagements, Verschiebungstempo 66 Prozent",
+  "Harris Poll fuer ETS 2026 - Lernhuerden: 68 Prozent Kosten, 63 Prozent Zeitmangel",
+  "Destatis - Erwerbstaetigenrechnung Q2 2026: 45,7 Mio. Erwerbstaetige, Arbeitnehmer minus 154.000 im Jahresvergleich; ifo Geschaeftsklima Juli 2026: 86,6 Punkte"
  ],
- "hinweis": "Der Leadership-Disruptions-Index ist ein Deutungs-, kein Messinstrument. Er verdichtet öffentlich verfügbare Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte."
+ "hinweis": "Der Leadership-Disruptions-Index ist ein Deutungs-, kein Messinstrument. Er verdichtet oeffentlich verfuegbare Zukunftsforschungs- und Lagedaten zu einer Einschaetzung - er misst nichts."
 }
