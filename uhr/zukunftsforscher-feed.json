@@ -1,64 +1,50 @@
 {
- "datum": "2026-08-25",
- "aktualisiert": "2026-08-25T09:10:00+02:00",
- "index": 89,
+ "datum": "2026-08-27",
+ "aktualisiert": "2026-08-27T07:30:00+02:00",
+ "index": 88,
  "uhrzeit": "23:53",
- "trend": "stabil",
- "trend_delta": 0,
- "leitsatz": "Der Index bleibt bei 89. Der Tagesbefund kommt aus einer Studie, die zeigt, wo Deutschlands KI-Rückstand NICHT liegt: nicht bei den Grundlagen. Bei Governance, Daten und Sicherheit liegt Deutschland über dem globalen Median. Der Abstand zur Spitzengruppe entsteht erst dort, wo aus Fähigkeit Anwendung werden muss. Und die sichtbarste Folge ist keine technische Kennzahl, sondern eine menschliche: Nur 27 Prozent der Beschäftigten in deutschen Unternehmen vertrauen KI-Ergebnissen so weit, dass sie danach handeln. Bei den Spitzenunternehmen sind es 60 Prozent. Wir haben das Fundament gebaut und niemanden überzeugt, darauf zu gehen.",
+ "trend": "fallend",
+ "trend_delta": -1,
+ "leitsatz": "Zum ersten Mal seit Beginn dieser Reihe liegt die Angst-Dimension über der Brüchigkeits-Dimension. Das ist die eigentliche Nachricht des Tages — nicht der leicht gesunkene Index. Die materielle Lage entspannt sich messbar: Der ifo-Geschäftsklimaindex ist im August auf 88,8 Punkte gestiegen, den vierten Monat in Folge, das Bruttoinlandsprodukt für das zweite Quartal wurde nach oben revidiert, der Ölpreis liegt rund acht Prozent unter dem Wochenbeginn. Und trotzdem steigt die wahrgenommene Bedrohung auf den höchsten Wert, den wir je notiert haben. Zwei Erhebungen erklären, warum: Menschen qualifizieren sich für die veränderte Arbeitswelt inzwischen weitgehend auf eigene Rechnung. In den USA scheitert Weiterbildung an Geld, an Zeit und an fehlender Unterstützung durch den Arbeitgeber; in Deutschland hat sich die junge Generation ihr KI-Wissen selbst beigebracht. Die Entlastung kommt in der Bilanz an. Bei den Menschen kommt sie nicht an.",
  "leitsignal": {
-  "titel": "Die Nutzungslücke",
-  "quelle": "PwC AI-Performance-Studie 2026, Deutschland-Einordnung, veröffentlicht 20.05.2026 (globale Ergebnisse 13.04.2026). n = 1.217 Führungskräfte ab Director-Level in 25 Branchen, davon 81 aus Deutschland; 91 Prozent des Samples börsennotiert, 76 Prozent mit mindestens einer Milliarde US-Dollar Umsatz. Erhebungszeitraum Spätsommer 2025. An der Primärquelle pwc.de geprüft: AI Fitness Index Deutschland 5,6 bei globalem Median 5,5, vor USA 5,2, Großbritannien 5,5 und Japan 4,8, hinter China 6,9, Hongkong 6,7 und Saudi-Arabien 6,2; KI-Leader 6,8. Grundlagen Deutschland 5,8 gegenüber globalem Median 5,4 und 1,1 Punkte hinter den KI-Leadern; stärkster Einzelbereich Governance und Risikomanagement mit 6,3 gegenüber 7,0. Nutzung Deutschland 5,4 mit 1,7 Punkten Rückstand auf die KI-Leader bei 7,1. Vertrauen der Beschäftigten in KI-Ergebnisse 27 gegenüber 60 Prozent. Geschäftsmodell mithilfe von KI grundlegend weiterentwickelt: Deutschland 21 Prozent, global 23 Prozent, KI-Leader 59 Prozent. Neue Produkte und Services: 25 gegenüber 62 Prozent. KI-Leader erzielen eine 7,2-fach höhere KI-getriebene Performance; 74 Prozent der KI-getriebenen Wertschöpfung entfallen auf 20 Prozent der Unternehmen. WICHTIGE EINSCHRÄNKUNG: Die im Trendbericht genannten Werte zur persönlichen Verantwortungsübernahme der C-Suite (42 Prozent Deutschland, 50 Prozent global, 74 Prozent KI-Leader) und zu rollenbasierten Trainings (35 gegenüber 62 Prozent) sind in der PwC-Pressemitteilung nicht enthalten und konnten am 25.08. nicht verifiziert werden. Sie werden hier deshalb NICHT geführt. Ebenfalls zu beachten: Die Feldarbeit stammt aus dem Spätsommer 2025 — die Studie ist kein Tagessignal, sondern eine Bestandsaufnahme mit rund einem Jahr Abstand.",
-  "befund": "Die bequemste Erklärung für den deutschen KI-Rückstand lautet: zu viel Regulierung, zu wenig Infrastruktur, zu spät angefangen. Die Daten stützen sie nicht. Deutschland liegt bei den Grundlagen über dem globalen Median, und der stärkste Einzelwert ist ausgerechnet Governance und Risikomanagement. Das, was oft als Bremse beschrieben wird, ist gemessen der Standortvorteil. Der Rückstand entsteht eine Stufe später: bei der Nutzung, also der Frage, ob KI wiederkehrende Entscheidungen tatsächlich durchdringt. Dort fehlen 1,7 Punkte auf die Spitzengruppe — mehr als das Anderthalbfache des Grundlagenabstands. Es ist kein Wissens-, sondern ein Anwendungsproblem. Die Zahl, die das am ehrlichsten übersetzt, ist keine Technikkennzahl: 27 Prozent der Beschäftigten in deutschen Unternehmen vertrauen KI-Ergebnissen so weit, dass sie danach handeln; bei den Spitzenunternehmen sind es 60 Prozent. Ein System, dessen Ausgaben niemand nutzt, ist kein eingeführtes System, sondern ein bezahltes. Bemerkenswert ist, wie PwC diesen Unterschied erklärt: Die Spitzengruppe hat nicht weniger Governance, sondern mehr — dokumentierte Responsible-AI-Rahmenwerke 1,4-mal häufiger, funktionsübergreifende Governance-Gremien 1,5-mal häufiger. Vertrauen entsteht dort nicht trotz der Leitplanken, sondern durch sie. Deutschland hat die Leitplanken gebaut und daraus kein Zutrauen erzeugt. Das ist die eigentliche Lücke — und sie liegt nicht in der IT.",
-  "fuehrungsimplikation": "Drei Schritte, keiner davon technisch. Erstens: Hören Sie auf, Einführung an Verfügbarkeit zu messen. Die relevante Frage ist nicht, wer Zugang hat, sondern wie viele wiederkehrende Entscheidungen in Ihrem Bereich heute anders getroffen werden als vor einem Jahr. Wenn die Antwort keine ist, haben Sie Werkzeuge gekauft, keine Arbeitsweise. Zweitens: Behandeln Sie die 27 Prozent als das, was sie sind — ein Vertrauensbefund, kein Schulungsbefund. Menschen handeln nicht nach einem Ergebnis, dessen Zustandekommen sie nicht prüfen können und für dessen Fehler unklar ist, wer geradesteht. Beides ist regelbar, und beides regelt man vor dem Rollout, nicht danach: Woran ist erkennbar, wie ein Ergebnis entstanden ist, und wer verantwortet es, wenn es falsch ist. Drittens: Nutzen Sie den Vorteil, den Sie haben. Die Governance-Reife, die hierzulande oft als Last beschrieben wird, ist bei den Spitzenunternehmen genau der Grund, warum sie schneller skalieren dürfen. Wer sie hat, muss sie nicht abbauen, sondern sichtbar machen. Und die Frist läuft weiter: Systeme mit generativen Funktionen, die vor dem 02.08.2026 im Einsatz waren, müssen ihre Ausgaben ab dem 02.12.2026 maschinenlesbar kennzeichnen — noch 99 Tage.",
-  "kapitel": "Kapitel 5 (AI-Mindset und Co-Intelligenz) für die Kernfrage, mit welcher Haltung KI genutzt wird — Werkzeug und Anwender sind nicht dasselbe. Kapitel 19 (psychologische Sicherheit) für die Vertrauensfrage: Wer nicht weiß, wer für einen Fehler geradesteht, handelt nicht nach einem Vorschlag. Kapitel 1 (Polykrise und BANI) für die Einordnung, warum Anwendungsfähigkeit unter Unsicherheit wichtiger ist als Ausstattung."
+  "titel": "Der Selbstlerner-Vertrag",
+  "quelle": "ETS und The Harris Poll, ETS Human Progress Report 2026, veröffentlicht am 14.08.2026, rund 15.000 befragte US-Erwachsene, am 27.08.2026 an Pressemeldung und Berichterstattung geprüft: 58 Prozent fürchten, mangels Kompetenzen überflüssig zu werden — unter Technologie-Beschäftigten 74 Prozent, in der Finanzdienstleistung 73 Prozent; 54 Prozent sagen, ihre Priorität habe sich von Arbeitsplatzsicherheit zu Relevanz verschoben. Die Barrieren sind materiell, nicht motivational: 68 Prozent können die Kosten der Weiterbildung schwer tragen, 63 Prozent finden neben der Arbeit keine Zeit, 57 Prozent bekommen schwer Unterstützung vom Arbeitgeber; 67 Prozent sind an Qualifizierungsprogrammen interessiert, aber nur 41 Prozent haben Zugang dazu — eine Lücke von 26 Punkten. Ergänzend Zenjob-Studie 2026 (1.200 Befragte, Feld April 2026, Anbieterstudie mit eingeschränkter Repräsentativität): 88 Prozent der jungen Beschäftigten nutzen wöchentlich KI-Werkzeuge, 71 Prozent fühlen sich für eine KI-geprägte Arbeitswelt bereit — und haben sich dieses Wissen selbst beigebracht. Wichtige Einordnung: Das ETS-Feld lief im Spätsommer 2025, die Zahlen sind rund ein Jahr alt; die Struktur des Befunds wird 2026 durch Stepstone und Zenjob unabhängig gestützt.",
+  "kapitel": "Kapitel 16 (Kraftquellen und Selbstführung) sowie Kapitel 5 (AI-Mindset)",
+  "deutung": "Wenn Kompetenzaufbau privat stattfindet, während die Organisation ihn erwartet, entsteht kein Qualifizierungsproblem, sondern ein Vertrauensproblem. Die Führungskraft ist dabei der Engpass: Über die Hälfte der Beschäftigten bekommt Unterstützung nur schwer — und Unterstützung heißt hier nicht Zuspruch, sondern freigestellte Zeit und getragene Kosten. Solange Lernzeit nicht im Kapazitätsplan steht, ist jede Weiterbildungsstrategie eine Absichtserklärung."
  },
  "bani": [
   {
-   "code": "B",
-   "dim": "Brüchig",
-   "en": "Brittle",
+   "name": "Brüchig",
+   "wert": 87,
+   "kurz": "Wirkt stabil, bricht plötzlich.",
+   "befund": "Deutlichster Rückgang der gesamten Reihe: minus vier Punkte gegenüber gestern. Getragen ausschließlich von zwei Zahlen — der Brent-Preis liegt nach einer gemeldeten Verständigung zwischen Iran und Oman bei rund 87 US-Dollar, etwa acht Prozent unter dem Wochenbeginn, und der ifo-Index steigt den vierten Monat in Folge auf 88,8 Punkte. Die Entlastung ist verhandlungsgetrieben, nicht angebotsgetrieben: Der Tankerverkehr durch die Straße von Hormus bleibt weitgehend blockiert."
+  },
+  {
+   "name": "Ängstlich",
    "wert": 91,
-   "signal": "Unverändert sehr hoch. Die Straße von Hormus bleibt faktisch gesperrt; Marktberichte nennen 5 bis 10 Durchfahrten täglich gegenüber rund 140 vor Kriegsbeginn — Marktschätzungen, keine amtliche Statistik. Die IEA beziffert die im Juli ausgefallene Förderkapazität auf durchschnittlich 5,5 Millionen Barrel pro Tag und rechnet mit Versorgungsstörungen bis Ende 2027 auch im günstigen Szenario. Brent gab am 24.08. auf rund 92 US-Dollar nach, gut zwei Prozent unter dem Vortag; ein eindeutiger Punktwert lässt sich nicht belegen, die Richtung schon. Die Entlastung ist zyklisch, die Sperrung strukturell.",
-   "quelle": "IEA Oil Market Report August 2026; Marktberichte 22.–24.08.2026 (TradingEconomics 92,20 USD für den 24.08., andere Quellen 93,16 bis 93,64 USD — Richtung belastbar, Nachkommastelle nicht)",
-   "fuehrung": "Brüchig heißt: wirkt stabil, bricht plötzlich. Ein fallender Preis bei unveränderter Sperrung ist kein Entwarnungssignal, sondern eine Atempause. Wer jetzt Plan B zurückstellt, weil die Zahl freundlicher aussieht, verwechselt Preis mit Verfügbarkeit."
+   "kurz": "Dauerunsicherheit lähmt.",
+   "befund": "Höchster Wert dieser Dimension seit Beginn der Reihe — und erstmals liegt sie über der Brüchigkeits-Dimension. 58 Prozent der US-Beschäftigten fürchten, mangels Kompetenzen überflüssig zu werden; in Deutschland liegt die FOBO-Quote unverändert bei 35 Prozent, trotz vier Monaten besserer Konjunkturzahlen. Die Angst folgt der Konjunktur nicht."
   },
   {
-   "code": "A",
-   "dim": "Ängstlich",
-   "en": "Anxious",
+   "name": "Nichtlinear",
    "wert": 90,
-   "signal": "Unverändert hoch, mit einem neuen Detail an der Führungsspitze. Nur 22 Prozent der deutschen CEOs sind zuversichtlich, 2026 Umsatzwachstum zu erzielen — ein Fünfjahrestief; 57 Prozent zweifeln daran, ihr Unternehmen schnell genug transformieren zu können (PwC Global CEO Survey 2026). Auf Beschäftigtenseite fürchten 35 Prozent, durch KI oder Automatisierung überflüssig zu werden; 83 Prozent haben sich im vergangenen Jahr weitergebildet, aber nur 35 Prozent konkret mit KI-Anwendungen (Stepstone). Die Angst mobilisiert, die Organisation lenkt nicht.",
-   "quelle": "PwC Global CEO Survey 2026, Deutschland-Auswertung; Stepstone Hiring Trends Update 2026",
-   "fuehrung": "Ängstlich heißt: Dauerunsicherheit lähmt. Bemerkenswert ist, dass die Selbstauskunft der Vorstände hier der ehrlichste Frühindikator ist — 57 Prozent zweifeln am eigenen Tempo. Wer diesen Zweifel nach unten nicht ausspricht, erzeugt Aktionismus statt Richtung."
+   "kurz": "Kleine Ursache, große Wirkung.",
+   "befund": "Zwei amtliche Reihen laufen weiter auseinander. Im selben Quartal, in dem die Stimmung den vierten Monat steigt, sinkt die Zahl der Erwerbstätigen saisonbereinigt um 53.000 auf 45,7 Millionen, im Jahresvergleich um 212.000. Gleichzeitig 3,007 Millionen Arbeitslose bei erstmals sinkendem Erwerbspersonenpotenzial: kein Mengenproblem, ein Passungsproblem."
   },
   {
-   "code": "N",
-   "dim": "Nichtlinear",
-   "en": "Non-linear",
-   "wert": 90,
-   "signal": "Steigt um einen Punkt. Im zweiten Quartal 2026 waren rund 45,7 Millionen Menschen in Deutschland erwerbstätig, saisonbereinigt 53.000 weniger als im Vorquartal; erstmals seit der Corona-Krise sinkt die Beschäftigung im Dienstleistungssektor spürbar — ausgerechnet dort, wo die KI-Exposition am höchsten ist. Gleichzeitig liegt die Zahl der Arbeitslosen bei 3,007 Millionen (Juli, Quote 6,4 Prozent) bei 653.000 gemeldeten offenen Stellen. Aus dem Mengenproblem ist ein Passungsproblem geworden: Es fehlen nicht Menschen, es fehlt Deckungsgleichheit zwischen dem, was gebraucht wird, und dem, was verfügbar ist.",
-   "quelle": "Statistisches Bundesamt, Erwerbstätigenrechnung 2. Quartal 2026; Bundesagentur für Arbeit, Arbeitsmarktbericht Juli 2026",
-   "fuehrung": "Nichtlinear heißt: kleine Ursache, große Wirkung. Ein Passungsproblem lässt sich nicht mit Recruiting lösen, sondern nur mit Umbau von innen. Wer heute externe Suche hochfährt, statt intern zu verschieben, bezahlt zweimal."
-  },
-  {
-   "code": "I",
-   "dim": "Unbegreiflich",
-   "en": "Incomprehensible",
-   "wert": 86,
-   "signal": "Unverändert. Die PwC-Daten machen den deutschen KI-Rückstand präziser verortbar als bisher: Er sitzt nicht in den Grundlagen (5,8 bei globalem Median 5,4), sondern in der Nutzung (5,4 gegenüber 7,1 bei den KI-Leadern). Das ist ein Erkenntnisgewinn. Unklar bleibt die Umsetzungstiefe: Nur 21 Prozent der deutschen Unternehmen haben ihr Geschäftsmodell mithilfe von KI grundlegend weiterentwickelt, gegenüber 59 Prozent bei den Spitzenunternehmen. Und die Kennzeichnungsfrist läuft: noch 99 Tage bis zum 02.12.2026.",
-   "quelle": "PwC AI-Performance-Studie 2026 (Primärquelle pwc.de, Deutschland-Pressemitteilung 20.05.2026); EU-Verordnung 2024/1689, Artikel 50 Absatz 2",
-   "fuehrung": "Unbegreiflich heißt: Es entzieht sich der Erklärung. Heute wird ein Stück davon erklärbar — und die Erklärung ist unbequem, weil sie keinen externen Schuldigen anbietet. Der Abstand entsteht nicht dort, wo eingekauft wird, sondern dort, wo entschieden wird."
+   "name": "Unbegreiflich",
+   "wert": 85,
+   "kurz": "Entzieht sich der Erklärung.",
+   "befund": "Leicht rückläufig. Die Lage wird nicht besser, aber erklärbarer: Deloitte beziffert die Lücke zwischen Anspruch und Fundament präzise — 74 Prozent der befragten Führungskräfte erwarten, dass binnen vier Jahren rund die Hälfte ihrer Prozesse um KI-Agenten neu gebaut wird, aber nur 5 Prozent halten ihre Prozesse für gut vorbereitet."
   }
  ],
  "quellen": [
-  "PwC AI-Performance-Studie 2026, Deutschland-Einordnung, Pressemitteilung pwc.de vom 20.05.2026 (globale Ergebnisse 13.04.2026), n = 1.217 Führungskräfte in 25 Branchen, davon 81 aus Deutschland, Feld Spätsommer 2025 — AI Fitness Index DE 5,6 (globaler Median 5,5, USA 5,2, UK 5,5, Japan 4,8, China 6,9, KI-Leader 6,8); Grundlagen 5,8 gegenüber 6,9; Nutzung 5,4 gegenüber 7,1; Governance und Risiko 6,3 gegenüber 7,0; Vertrauen der Beschäftigten in KI-Ergebnisse 27 gegenüber 60 Prozent; Geschäftsmodell weiterentwickelt 21 gegenüber 59 Prozent; 7,2-fache Performance der KI-Leader; 74 Prozent der Wertschöpfung bei 20 Prozent der Unternehmen",
-  "NICHT VERIFIZIERT und deshalb hier nicht geführt: die im Trendbericht vom 25.08. genannten Werte 42 Prozent (persönliche Verantwortungsübernahme der deutschen C-Suite für KI-Ergebnisse), 50 Prozent global, 74 Prozent KI-Leader sowie 35 gegenüber 62 Prozent rollenbasierte Trainings. Sie stehen nicht in der PwC-Pressemitteilung und ließen sich am 25.08. nicht an der Primärquelle belegen",
-  "IEA Oil Market Report August 2026 — im Juli ausgefallene Förderkapazität durchschnittlich 5,5 Mio Barrel pro Tag, Angebotserwartung für das zweite Halbjahr 2026 um rund 550.000 Barrel pro Tag gesenkt, Versorgungsstörungen bis Ende 2027 auch im günstigen Szenario",
-  "Statistisches Bundesamt, Erwerbstätigenrechnung 2. Quartal 2026 — rund 45,7 Mio Erwerbstätige, saisonbereinigt minus 53.000 zum Vorquartal, erstmals seit der Corona-Krise spürbarer Beschäftigungsrückgang im Dienstleistungssektor; Bundesagentur für Arbeit, Juli 2026 — 3,007 Mio Arbeitslose, Quote 6,4 Prozent, 653.000 gemeldete offene Stellen",
-  "PwC Global CEO Survey 2026 — 22 Prozent der deutschen CEOs zuversichtlich für Umsatzwachstum 2026 (Fünfjahrestief), 57 Prozent zweifeln am eigenen Transformationstempo; Stepstone Hiring Trends Update 2026 — 35 Prozent fürchten Überflüssigwerden durch KI, 83 Prozent haben sich weitergebildet, davon 35 Prozent konkret zu KI",
-  "ifo-Geschäftsklimaindex August 2026: Zum Zeitpunkt dieses Laufs noch NICHT veröffentlicht (Termin 25.08., 10:30 Uhr). Der kursierende Wert von 86,0 Punkten ist eine Commerzbank-Prognose, kein Ist-Wert. Juli-Wert 86,6 nach 85,7 im Juni",
-  "EU-Verordnung 2024/1689 (KI-VO), Artikel 50 Absatz 2 — maschinenlesbare Kennzeichnung für generative Systeme, die vor dem 02.08.2026 auf dem Markt waren, ab 02.12.2026; keine allgemeine Schonfrist, die Verschiebung betrifft Anhang III (02.12.2027)"
+  "ifo Institut, ifo Geschäftsklimaindex gestiegen (August 2026), Pressemitteilung vom 25.08.2026: 88,8 Punkte nach 86,7 im Juli, vierter Anstieg in Folge, Lage 88,5, Erwartungen 89,1",
+  "ETS und The Harris Poll, ETS Human Progress Report 2026, veröffentlicht 14.08.2026, rund 15.000 befragte US-Erwachsene: 58 Prozent FOBO, 68 Prozent Kostenbarriere, 63 Prozent Zeitbarriere, 57 Prozent fehlende Arbeitgeber-Unterstützung, 67 gegenüber 41 Prozent Interesse gegenüber Zugang",
+  "Deloitte, AI Agents are Only the Beginning, Pressemitteilung vom 12.08.2026, 501 befragte Führungskräfte in den USA, Feld April bis Juni 2026: 74 Prozent erwarten Prozess-Neubau, 5 Prozent halten Prozesse für gut vorbereitet, 15 Prozent haben orchestrierte Multi-Agenten-Nutzung skaliert, 75 Prozent halten Mensch-KI-Zusammenarbeit für wertvoller als reine Automatisierung",
+  "Statistisches Bundesamt, Erwerbstätigkeit im 2. Quartal 2026, PD26_292: 45,7 Millionen Erwerbstätige, saisonbereinigt 53.000 weniger als im Vorquartal, 212.000 weniger als im Vorjahr; Bruttoinlandsprodukt Q2 2026 auf plus 0,3 Prozent nach oben revidiert (PD26_303, 25.08.2026)",
+  "Zenjob-Studie 2026, 1.200 Befragte, Feld April 2026 (Anbieterstudie, eingeschränkte Repräsentativität): 88 Prozent wöchentliche KI-Nutzung, 71 Prozent fühlen sich bereit, Wissen selbst angeeignet",
+  "Europäische Kommission, Cyber Resilience Act: Meldepflicht für aktiv ausgenutzte Schwachstellen ab 11.09.2026, Frühwarnung binnen 24 Stunden an ENISA und nationales CSIRT, Vollmeldung binnen 72 Stunden"
  ],
- "hinweis": "Der Leadership-Disruptions-Index ist ein Deutungs-, kein Messinstrument. Er verdichtet öffentlich verfügbare Zukunftsforschungs- und Lagedaten zu einer Einschätzung — er misst nichts."
+ "hinweis": "Der Leadership-Disruptions-Index und die vier BANI-Dimensionen sind ein Deutungs-, kein Messinstrument. Sie verdichten öffentlich zugängliche Zukunftsforschungs- und Wirtschaftsdaten zu einer Lageeinschätzung für Führungskräfte — sie messen nichts."
 }
