@@ -271,7 +271,7 @@ document.getElementById('bani').innerHTML = d.bani.map(raw=>{const b=NORM(raw); 
 </div>
 <div class="rtrack"><div class="rfill" style="width:${b.wert}%;background:${COL[b.code]}"></div></div>
 <p class="rsig">${b.signal}</p>
-<p class="rsrc">Quelle: ${b.quelle}</p>
+${b.quelle?`<p class="rsrc">Quelle: ${b.quelle}</p>`:''}
 <p class="rlead">Für Führung: ${b.fuehrung}</p>
 </div>`;}).join('');
 
