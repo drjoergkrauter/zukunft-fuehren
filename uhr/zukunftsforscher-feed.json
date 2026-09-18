@@ -15,25 +15,29 @@
    "name": "Brüchig",
    "wert": 96,
    "kurz": "Wirkt stabil, bricht plötzlich.",
-   "befund": "Minus drei Punkte, und es ist eine offen zurückgenommene Buchung: Am 15.09. war der Ausfall des Hormus-Ausweichwegs als Treiber des damaligen Höchststands eingetragen worden. Saudi-Arabien erklärt nun, rund die Hälfte der Kapazität der beschädigten Ost-West-Pipeline binnen Tagen und die volle Kapazität binnen etwa sechs Wochen wiederherstellen zu können, und bietet asiatischen Raffinerien zusätzliche Ladungen über Umladungen von Schiff zu Schiff nahe Oman an. Entspannt hat sich die Umgehung, nicht die Meerenge: Die Straße von Hormus mit rund einem Fünftel des weltweiten Ölhandels bleibt umkämpft. Der Wert bleibt auf sehr hohem Niveau, weil ein reparabler Ausweichweg kein zweiter Weg ist, sondern derselbe Weg mit Aufschub."
+   "befund": "Minus drei Punkte, und es ist eine offen zurückgenommene Buchung: Am 15.09. war der Ausfall des Hormus-Ausweichwegs als Treiber des damaligen Höchststands eingetragen worden. Saudi-Arabien erklärt nun, rund die Hälfte der Kapazität der beschädigten Ost-West-Pipeline binnen Tagen und die volle Kapazität binnen etwa sechs Wochen wiederherstellen zu können, und bietet asiatischen Raffinerien zusätzliche Ladungen über Umladungen von Schiff zu Schiff nahe Oman an. Entspannt hat sich die Umgehung, nicht die Meerenge: Die Straße von Hormus mit rund einem Fünftel des weltweiten Ölhandels bleibt umkämpft. Der Wert bleibt auf sehr hohem Niveau, weil ein reparabler Ausweichweg kein zweiter Weg ist, sondern derselbe Weg mit Aufschub.",
+   "delta": -3
   },
   {
    "name": "Ängstlich",
    "wert": 94,
    "kurz": "Dauerunsicherheit lähmt.",
-   "befund": "Unverändert auf dem Höchstwert der Reihe. Es liegt heute kein neues Angstsignal vor; der Bestand wird fortgeschrieben. Dazu gehört eine Korrektur in eigener Sache: Der in dieser Reihe mehrfach verwendete KI-Monitor der TU Darmstadt mit YouGov wurde als Ende-August-Erhebung geführt. Richtig ist eine Feldzeit vom 9. bis 12. März 2026 mit 2.133 Befragten; Ende August ist das Veröffentlichungsdatum. Der Befund selbst bleibt unverändert und bleibt der härteste Einwand gegen die gängigste Maßnahme: 42,8 Prozent der Menschen mit sehr fundierten KI-Kenntnissen erwarten, dass KI ihre Arbeit übernimmt, bei sehr geringem KI-Wissen sind es 6,2 Prozent. Aufklärung senkt die Sorge nicht."
+   "befund": "Unverändert auf dem Höchstwert der Reihe. Es liegt heute kein neues Angstsignal vor; der Bestand wird fortgeschrieben. Dazu gehört eine Korrektur in eigener Sache: Der in dieser Reihe mehrfach verwendete KI-Monitor der TU Darmstadt mit YouGov wurde als Ende-August-Erhebung geführt. Richtig ist eine Feldzeit vom 9. bis 12. März 2026 mit 2.133 Befragten; Ende August ist das Veröffentlichungsdatum. Der Befund selbst bleibt unverändert und bleibt der härteste Einwand gegen die gängigste Maßnahme: 42,8 Prozent der Menschen mit sehr fundierten KI-Kenntnissen erwarten, dass KI ihre Arbeit übernimmt, bei sehr geringem KI-Wissen sind es 6,2 Prozent. Aufklärung senkt die Sorge nicht.",
+   "delta": 0
   },
   {
    "name": "Nichtlinear",
    "wert": 99,
    "kurz": "Kleine Ursache, große Wirkung.",
-   "befund": "Plus einen Punkt und damit der höchste Wert der bisherigen Reihe. Grund ist kein neues Ereignis, sondern ein gemessener Zeitversatz: Der Preisdruck steht in der Vorstufe und ist noch nicht durchgereicht. Großhandel plus 6,8 Prozent, Erzeuger plus 3,0, Verbraucher 2,9 - die Bewegung ist bereits verursacht und kommt erst in zwei bis drei Quartalen an, ein Teil davon absorbiert von Margen, also genau dort, wo über Investitionen entschieden wird. Flankierend die Lünendonk-Erhebung zu KI-Agenten: 58 Prozent testen in Pilotprojekten, 19 Prozent setzen Agenten in einzelnen Aufgabenbereichen ein, und erst ein Prozent hat eine durchgängige Integration in mehrere Kernprozesse erreicht. Auch hier liegt der Effekt zeitversetzt hinter der Ausgabe."
+   "befund": "Plus einen Punkt und damit der höchste Wert der bisherigen Reihe. Grund ist kein neues Ereignis, sondern ein gemessener Zeitversatz: Der Preisdruck steht in der Vorstufe und ist noch nicht durchgereicht. Großhandel plus 6,8 Prozent, Erzeuger plus 3,0, Verbraucher 2,9 - die Bewegung ist bereits verursacht und kommt erst in zwei bis drei Quartalen an, ein Teil davon absorbiert von Margen, also genau dort, wo über Investitionen entschieden wird. Flankierend die Lünendonk-Erhebung zu KI-Agenten: 58 Prozent testen in Pilotprojekten, 19 Prozent setzen Agenten in einzelnen Aufgabenbereichen ein, und erst ein Prozent hat eine durchgängige Integration in mehrere Kernprozesse erreicht. Auch hier liegt der Effekt zeitversetzt hinter der Ausgabe.",
+   "delta": 1
   },
   {
    "name": "Unbegreiflich",
    "wert": 63,
    "kurz": "Entzieht sich der Erklärung.",
-   "befund": "Minus zwei Punkte und damit der Tiefstwert der Reihe - aus Erkenntnisgewinn, nicht aus Entspannung. Zwei Mechanismen sind an diesem Tag ungewöhnlich gut lesbar. Erstens die Preiskette, deren Stufen mit bekanntem Verzug nachziehen, statt zu überraschen. Zweitens die Investitionsrichtung bei KI: 98 Prozent der Unternehmen investieren in den kommenden zwei Jahren stark in Datenqualität und Integration, 94 Prozent in Orchestrierung und Infrastruktur, je 87 Prozent in Befähigung und Compliance. Kein einziger dieser Schwerpunkte betrifft das Modell. Damit ist der Engpass benannt, an dem die Wirkungslücke seit Wochen hängt: Es ist eine Organisations-, keine Technologiefrage."
+   "befund": "Minus zwei Punkte und damit der Tiefstwert der Reihe - aus Erkenntnisgewinn, nicht aus Entspannung. Zwei Mechanismen sind an diesem Tag ungewöhnlich gut lesbar. Erstens die Preiskette, deren Stufen mit bekanntem Verzug nachziehen, statt zu überraschen. Zweitens die Investitionsrichtung bei KI: 98 Prozent der Unternehmen investieren in den kommenden zwei Jahren stark in Datenqualität und Integration, 94 Prozent in Orchestrierung und Infrastruktur, je 87 Prozent in Befähigung und Compliance. Kein einziger dieser Schwerpunkte betrifft das Modell. Damit ist der Engpass benannt, an dem die Wirkungslücke seit Wochen hängt: Es ist eine Organisations-, keine Technologiefrage.",
+   "delta": -2
   }
  ],
  "quellen": [
