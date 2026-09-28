@@ -1,53 +1,78 @@
 {
- "datum": "2026-09-28",
- "index": 81,
- "uhrzeit": "23:49",
- "trend": "stabil",
- "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
- "leitsignal": {
-  "titel": "Der Pegel steigt zum ersten Mal seit fünf Tagen. Um vier Zentimeter, bei siebenundsiebzig geforderten.",
-  "quelle": "Tragend für den heutigen Tag, zwei Primärquellen: Erstens Wasserstraßen- und Schifffahrtsverwaltung des Bundes, PEGELONLINE, Pegel Kaub am Mittelrhein, Messwert 28.09.2026, 07:45 Uhr: plus zwei Zentimeter — gegen minus zwei Zentimeter zur selben Stunde am Vortag. Zweitens Deutsche Bundesbank, Monatsbericht September 2026 vom 21.09.2026, der die stärkere Erholung im vierten Quartal ausdrücklich an die „Normalisierung der Wasserstände wichtiger Wasserstraßen“ knüpft. Der Gleichwertige Wasserstand Kaub liegt bei 77 Zentimetern (ELWIS, amtlich).",
-  "kapitel": "Kapitel 1 (Polykrise/BANI, brüchig) und Kapitel 13 (Change-Fitness)",
-  "deutung": "Fünf Tage lang fiel der Pegel Kaub, und seit dem 21.09. steht eine Prognose der Bundesbank daneben, die ihre eigene Erholung an genau diese Zahl gebunden hat. Heute Morgen ist die Zahl zum ersten Mal wieder gestiegen: plus zwei Zentimeter um 07:45 Uhr, nach minus zwei zur selben Stunde gestern und minus drei als Tiefstwert am 26.09. Der Anstieg ist keine Zuckung einer einzelnen Messung — er hält seit gut vierundzwanzig Stunden, mit plus drei Zentimetern in der Nacht. Das ist die erste Bewegung in die Richtung, die die Prognose braucht.\n\nUnd es ist der Tag, an dem die Führungsfrage nicht in der Zahl liegt, sondern in ihrer Größe. Die Bedingung lautet Normalisierung. Normal ist bei Kaub der Gleichwertige Wasserstand von 77 Zentimetern. Wir stehen bei zwei. Die Bewegung des Tages beträgt vier Zentimeter, die offene Strecke fünfundsiebzig. Wer heute meldet, die Bedingung löse sich, verwechselt einen Richtungswechsel mit einer Zielerreichung — und das ist der häufigste Fehler in der Lagebeurteilung überhaupt, weil er sich anfühlt wie Zuversicht und rechnet wie Wunschdenken. Die Uhr bucht ihn deshalb als Entlastung, nicht als Entwarnung: Brüchig fällt um einen Punkt, nicht um vier.\n\nDerselbe Fehler steht heute ein zweites Mal im Bericht, nur in die andere Richtung gedreht. Abschnitt 2.4 führt, kleinere Unternehmen schöpften das Potenzial von KI zu 87 Prozent kaum aus, und leitet daraus ein Mittelstandsproblem ab. Die Primärquelle, Bitkom vom 14.09.2026, sagt ausdrücklich das Gegenteil über die Ursache: Der Anteil ist „über alle Unternehmensgrößen hinweg fast identisch, vom Betrieb mit 20 Beschäftigten bis zum Konzern“. Die 87 Prozent stimmen als Rechnung — 28 Prozent „eher wenig“ plus 59 Prozent „überhaupt nicht“ — aber sie gehören nicht dem Mittelstand, sondern allen. Aus einem Befund über die ganze Wirtschaft wird so ein Förderfeld für die Kleinen. Das ist bequemer, weil es die Konzerne aus der Frage nimmt, und es ist falsch.\n\nBeides zusammen ist die Lehre des Tages, und sie ist unbequemer als jede einzelne Zahl: Eine Lage wird nicht dadurch beherrschbar, dass man sie in die Richtung liest, in der man handeln möchte. Der Pegel steigt — und die Strecke bleibt. Die Nutzungstiefe fehlt — und sie fehlt oben genauso wie unten. Führung beginnt an der Stelle, an der man die zweite Hälfte des Satzes stehen lässt."
- },
- "bani": [
-  {
-   "name": "Brüchig",
-   "wert": 88,
-   "delta": -1,
-   "kurz": "Wirkt stabil, bricht plötzlich.",
-   "befund": "Minus ein Punkt — die erste Entlastung seit sechs Tagen, und sie kommt aus derselben Messreihe, die den Anstieg von gestern getragen hat. Der amtliche Pegel Kaub am Mittelrhein steht am 28.09. um 07:45 Uhr bei plus zwei Zentimetern (WSV PEGELONLINE, Primärquelle, heute abgerufen), nach minus zwei zur selben Stunde am 27.09. Der Tiefstwert der Serie lag am 26.09. bei minus drei; seither steigt die Reihe, in der Nacht zum 28.09. bis plus drei. Damit endet der fünftägige Abstieg vom 22. bis 26.09. Entscheidend ist die Größenordnung: Der Gleichwertige Wasserstand, ab dem normal transportiert werden kann, liegt bei 77 Zentimetern. Die Bundesbank hat am 21.09. die stärkere Erholung im vierten Quartal ausdrücklich an die Normalisierung der Wasserstände geknüpft. Vier Zentimeter Bewegung gegen fünfundsiebzig Zentimeter offene Strecke sind eine Richtungsänderung, keine erfüllte Bedingung — deshalb ein Punkt und nicht mehr. Unverändert dagegen die zweite Last: Das IAB führt seit dem 24.09. minus 70.000 sozialversicherungspflichtig Beschäftigte und minus 210.000 Erwerbstätige für 2026. Diese Last wurde am 27.09. gebucht und wird heute nicht erneut gebucht — sie fällt aber auch nicht weg, und genau deshalb bleibt die Dimension auf hohem Niveau. Ebenfalls nicht erneut gebucht: 27 Kalendertage ohne neuen erfolgreichen Infrastrukturangriff im Bündnisgebiet. Gestern waren es 26. Ein Tag Verlängerung ist keine neue Entlastung, sondern dieselbe einen Tag länger."
+  "datum": "2026-09-28",
+  "index": 81,
+  "uhrzeit": "23:49",
+  "trend": "stabil",
+  "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
+  "leitsignal": {
+    "titel": "KI ist in der Mehrheit der Unternehmen angekommen. Ihre Wirkung noch nicht.",
+    "befund": "57 Prozent der deutschen Unternehmen ab 20 Beschäftigten nutzen KI – vor einem Jahr waren es 36, vor zwei Jahren 20 Prozent. Doch 87 Prozent der Nutzer schöpfen das Potenzial kaum oder gar nicht aus, und zwar in allen Größenklassen, vom Betrieb bis zum Konzern.",
+    "fuehrungsimplikation": "Der Engpass hat gewechselt: Es fehlt nicht mehr das Werkzeug, sondern die Fähigkeit, damit anders zu arbeiten. Wer jetzt weitere Lizenzen kauft, löst das falsche Problem. Führung macht Nutzungstiefe zur Chefsache: klären, welche Arbeit sich durch KI verändern soll, Zeit zum Lernen freiräumen und messen, was sich tatsächlich verbessert. Eine hohe Nutzungsquote ist keine Erfolgsmeldung, solange die Wirkung ausbleibt.",
+    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 5 (KI ist Kollege, nicht Werkzeug)",
+    "quelle": "Bitkom Research, KI-Studie 2026, 14.09.2026 (603 Unternehmen ab 20 Beschäftigten)"
   },
-  {
-   "name": "Ängstlich",
-   "wert": 93,
-   "delta": 0,
-   "kurz": "Wahrgenommene Bedrohung, Vertrauensverlust.",
-   "befund": "Unverändert, vierter Tag — und erneut eine Entscheidung gegen die Gewichtung des Berichts. Abschnitt 2.6 führt drei Angstsignale, keines ist von heute: Pew vom 17.09. (34 von 37 Ländern erwarten mehr Jobabbau als -aufbau, hier seit dem 21.09. geführt), Ipsos AI Monitor mit Feldzeit Juni 2026, Fortune/ADP vom 23.04.2026. Dazu aus 2.3 Deloitte mit Feldzeit 13.05., Gallup vom 16.07. und ManpowerGroup vom 20.01.2026. Sechs Belege, der jüngste elf Tage alt, der älteste acht Monate. Neu hinzugekommen ist der Deloitte CFO Survey mit einem Nettovertrauen von minus 57 Prozent — geprüft und bewusst nicht gebucht: Die Primärquelle (deloitte.com, heute geprüft) ist eine Befragung von 79 britischen CFOs mit Feldzeit 16. bis 30.03.2026, veröffentlicht am 13.04.2026. Der Bericht führt sie als „CFO Survey Europa“ und als Aprilwert. Eine britische Stichprobe vom März ist kein europäisches Angstsignal vom September. Es gilt die zweite Deutungsregel der Reihe: Eine Lage, die uns heute neu bekannt wird, ist kein Lagewandel. Diese Studien erklären die 93 — sie heben sie nicht."
-  },
-  {
-   "name": "Nichtlinear",
-   "wert": 98,
-   "delta": 0,
-   "kurz": "Kleine Ursache, große Wirkung.",
-   "befund": "Unverändert auf hohem Niveau. Der Bericht liefert heute drei Lehrbuchbilder für Nichtlinearität, und keines davon ist ein Ereignis von heute. Erstens die WTO: Ngozi Okonjo-Iweala nennt am 22.09. bei Semafor einen möglichen Treffer von sieben Prozent des Welt-BIP und einen Einbruch des Welthandels um bis zu zwanzig Prozent, falls das multilaterale Regelwerk weiter erodiert (Primärquelle heute geprüft, Wortlaut bestätigt). Das ist ein modelliertes Szenario, kein eingetretener Vorgang — und sechs Tage alt. Zweitens die schmale Rally: Infineon plus 48 Prozent gegen BMW und Rheinmetall jenseits von minus 35 Prozent im selben Index, im selben Zeitraum. Drittens der Iceberg Index von MIT und Oak Ridge National Laboratory: 2,2 Prozent sichtbare KI-Exposition der US-Erwerbstätigen gegen 11,7 Prozent verdeckte — die reinste Form dieser Dimension, ein Faktor fünf zwischen dem, was man sieht, und dem, was wirkt. Der Bericht führt ihn in einem Abschnitt, der mit „2026“ überschrieben ist; die eigene Quellenliste datiert ihn auf den 26.11.2025. Zehn Monate. Dokumentiert, nicht gebucht — sonst bucht die Uhr Altbestände als Tagessignale."
-  },
-  {
-   "name": "Unbegreiflich",
-   "wert": 44,
-   "delta": 0,
-   "kurz": "Entzieht sich der Erklärung.",
-   "befund": "Unverändert — der erste Stillstand nach zwölf Rückgängen in Folge, und er ist selbst die Nachricht. Diese Dimension fällt, wenn ein Mechanismus benannt werden kann. Heute wird keiner benannt, der nicht schon in der Reihe stand. Der Bericht setzt zwei Anläufe. Der erste: „95 Prozent der Organisationen zeigen laut MIT-Studie keinen messbaren Profiteffekt“. Geprüft — die Zahl stammt aus der MIT-Untersuchung zum GenAI Divide vom August 2025 und bezieht sich auf gescheiterte Pilotprojekte, nicht auf Organisationen, und sie ist dreizehn Monate alt. Der zweite: die Nutzungstiefe bei kleineren Unternehmen. Auch geprüft — die Bitkom-Erhebung vom 14.09.2026 wurde in dieser Reihe am 25.09. gelesen; neu ist heute nur die Fehldeutung des Berichts, nicht die Erkenntnis. Eine korrigierte Fremdzahl ist kein gewonnener Mechanismus. Damit bleibt die 44 stehen, Tiefstwert der Reihe. Was gestern erklärt wurde — dass die Zeitersparnis durch KI zu einem großen Teil ins Nachprüfen zurückfließt — gilt weiter; es wird heute nur nicht zum zweiten Mal gutgeschrieben."
-  }
- ],
- "quellen": [
-  "Wasserstraßen- und Schifffahrtsverwaltung des Bundes, PEGELONLINE, Pegel Kaub/Mittelrhein (Primärquelle pegelonline.wsv.de, am 28.09.2026 abgerufen): Messwert 28.09.2026, 07:45 Uhr: plus zwei Zentimeter. Vergleichswert 27.09.2026, 07:45 Uhr: minus zwei Zentimeter. Verlauf derselben Messreihe: 22.09. zehn bis dreizehn, 23.09. neun, 24.09. zwei, 25.09. minus eins, 26.09. minus drei (Tiefstwert), 27.09. von minus zwei auf plus drei steigend, 28.09. nachts plus drei bis plus vier, ab 06:00 Uhr plus zwei. Gleichwertiger Wasserstand Kaub 77 Zentimeter, gültig seit 01.01.2023 (ELWIS, amtlich). Maßgeblich ist ausschließlich der amtliche Pegel; Punktwerte aus der Fachpresse werden in dieser Reihe nicht übernommen.",
-  "Deutsche Bundesbank: Monatsbericht September 2026, Kurzbericht Konjunkturlage, veröffentlicht am 21.09.2026 (Primärquelle bundesbank.de, am 27.09.2026 im Volltext geprüft, heute als Bezugsgröße geführt): Die Konjunktur dürfte im dritten Quartal 2026 vorübergehend an Fahrt verlieren; Belastungsfaktoren Niedrigwasser am Rhein, Wegfall des Tankrabatts, hohe Energiepreise. Die stärkere Erholung im vierten Quartal ist ausdrücklich an die „Normalisierung der Wasserstände wichtiger Wasserstraßen“ geknüpft. Diese Bedingung ist heute erstmals in die richtige Richtung in Bewegung, aber bei weitem nicht erfüllt.",
-  "Bitkom Research: „Erstmals nutzt die Mehrheit der Unternehmen KI“, veröffentlicht am 14.09.2026 (Primärquelle bitkom.org, am 25.09.2026 gelesen und am 28.09.2026 erneut im Wortlaut geprüft): 57 Prozent Nutzung nach 36 im Vorjahr und 20 im Jahr davor, n gleich 603 Unternehmen ab 20 Beschäftigten, Feldzeit Kalenderwoche 28 bis 33. Zur Ausschöpfung: null Prozent vollständig, drei Prozent eher stark, 28 Prozent eher wenig, 59 Prozent überhaupt nicht. Wesentlich für die Korrektur des heutigen Berichts: „Dieser Anteil ist über alle Unternehmensgrößen hinweg fast identisch, vom Betrieb mit 20 Beschäftigten bis zum Konzern.“ Die im Bericht genannten 87 Prozent sind die Summe aus 28 und 59 — sie gelten für alle Größenklassen, nicht für Unternehmen mit 20 bis 99 Beschäftigten.",
-  "Deloitte: CFO Survey, 75. Ausgabe, veröffentlicht am 13.04.2026 (Primärquelle deloitte.com, am 28.09.2026 geprüft): Befragung von 79 CFOs britischer Großunternehmen, darunter 12 aus dem FTSE 100 und 29 aus dem FTSE 250, Feldzeit 16. bis 30.03.2026. Nettovertrauen minus 57 Prozent, Gewichtung der Geopolitik-Sorge von 65 auf 79 Punkte, netto minus 79 Prozent erwarten sinkende Einstellungen; im Wortlaut ein Sechsjahrestief. Korrektur zum Bericht: Dieser führt die Erhebung als „CFO Survey Europa“ und als Aprilwert. Es ist eine britische Stichprobe mit März-Feldzeit. Nicht als europäisches Signal gebucht.",
-  "WTO: Rede von Ngozi Okonjo-Iweala beim Semafor-Gipfel „The Next 3 Billion“ am 22.09.2026 (Primärquelle semafor.com, am 28.09.2026 geprüft): ein Treffer von sieben Prozent des Welt-BIP als mögliche Wirkung des eskalierenden Zollkriegs; WTO-Modellrechnung zu einem Einbruch des Welthandels um zwanzig Prozent, falls das multilaterale Regelwerk unter Vergeltungszöllen weiter erodiert. Wortlaut bestätigt. Modelliertes Szenario, kein eingetretener Vorgang, und sechs Tage alt — dokumentiert, nicht gebucht.",
-  "Geprüft und als Tagessignal verworfen, weil zu alt oder falsch zugeordnet: Gartner Hype Cycle for Agentic AI (17 Prozent im Einsatz, über 60 Prozent planen binnen zwei Jahren) — Primärquelle gartner.com, veröffentlicht am 15.04.2026, also fünfeinhalb Monate alt; die vom Bericht angehängte Aussage zu Boomerang-Entlassungen bis 2029 steht auf dieser Seite nicht, sondern in der Pressemitteilung vom 09.09.2026, und zwar ohne den Zusatz „zu höheren Kosten“. MIT/Oak Ridge Iceberg Index — eigene Quellenliste des Berichts datiert ihn auf den 26.11.2025, geführt wird er unter 2026. MIT-Befund „95 Prozent“ — Untersuchung zum GenAI Divide von August 2025, Aussage über gescheiterte Pilotprojekte, nicht über Organisationen. OECD Interim Economic Outlook — Primärquelle oecd.org nennt als Veröffentlichungsdatum den 23.09.2026, der Bericht den 24.09.2026; in dieser Reihe seit dem 23.09. geführt.",
-  "Nicht in die Uhr verrechnet — anderes Instrument: Abschnitt 2.7 des Trendberichts führt die interne Sicherheitsuhr NATO–Russland mit Index 82, 11 Minuten vor Mitternacht, Zone Angespannt und plus minus null in allen vier Dimensionen, dritter Tag ohne Bewegung. Gleiche Anzeige „11 vor 12“, verschiedene Indizes: dort 82, hier 81. Diese Uhr wird nie gemittelt, nie verrechnet, nie fortgeschrieben (CLAUDE.md 1). Übernommen wird ausschließlich ein Sachverhalt in die Dimension Brüchig: 27 Kalendertage ohne neuen erfolgreichen Infrastrukturangriff. Der Bericht selbst nennt für diese Reihe drei verschiedene Startdaten — 27.08. in Abschnitt 5, Reset 01.09. in 2.7, 02.09. in der Kennzifferntabelle — und die dort genannten 27 Kalendertage seit dem 02.09. ergeben gerechnet 26. Dokumentiert, ohne Folgen für diese Uhr.",
-  "Methodenhinweis zur Rechnung des Tages: Der Index ist das arithmetische Mittel der vier Dimensionen, kaufmännisch gerundet: 88 plus 93 plus 98 plus 44 gleich 323, geteilt durch vier gleich 80,75 gleich 81. Minuten bis Mitternacht gleich 100 minus 81 gleich 19, mal 0,6 gleich 11,4 gleich 11. Offen ausgewiesen: Die Anzeige steht den zweiten Tag auf 81 und 11 vor 12, der Rohwert ist aber von 81,00 auf 80,75 gefallen. Anders als gestern ist der Stillstand heute ein Rundungseffekt und keine stehende Lage. Die Zusammensetzung hat sich bewegt: Brüchig minus eins, die drei übrigen Dimensionen unverändert."
- ]
+  "bani": [
+    {
+      "name": "Brüchig",
+      "wert": 89,
+      "delta": 0,
+      "kurz": "Wirkt stabil, bricht plötzlich.",
+      "quelle": "IAB-Prognose, 24.09.2026 · OECD Interim Economic Outlook, September 2026",
+      "befund": "Unverändert hoch, ohne neuen Bruch. Die Weltwirtschaft wächst laut OECD 2026 um 2,9 Prozent, das ifo-Geschäftsklima steigt. Zugleich sinkt die Zahl der Erwerbstätigen in Deutschland 2026 um 210.000 – trotz besserer Konjunktur. Für Führung heißt das: Wachstum lässt sich nicht mehr mit mehr Personal planen, sondern nur mit mehr Produktivität."
+    },
+    {
+      "name": "Ängstlich",
+      "wert": 93,
+      "delta": 0,
+      "kurz": "Wahrgenommene Bedrohung, Vertrauensverlust.",
+      "quelle": "Pew Research, 17.09.2026 · Deloitte Gen Z & Millennial Survey 2026",
+      "befund": "Unverändert hoch. In 34 von 37 Ländern erwartet eine Mehrheit, dass KI mehr Jobs vernichtet als schafft. Die Unsicherheit erreicht auch den Führungsnachwuchs: Nur 6 Prozent der Gen Z und Millennials nennen eine Führungsposition als wichtigstes Karriereziel, meist wegen Stress. Führung muss wieder als machbare Rolle erlebbar werden."
+    },
+    {
+      "name": "Nichtlinear",
+      "wert": 98,
+      "delta": 0,
+      "kurz": "Kleine Ursache, große Wirkung.",
+      "quelle": "WTO, Rede der Generaldirektorin Ngozi Okonjo-Iweala, 22.09.2026",
+      "befund": "Unverändert sehr hoch. Die WTO beziffert, was eine weitere Eskalation des Zollstreits kosten könnte: bis zu 7 Prozent der Weltwirtschaftsleistung, im Extremfall bis zu 20 Prozent weniger Welthandel. Das ist ein Szenario, kein Ereignis – es zeigt aber, wie schnell sich Einzelentscheidungen aufschaukeln. Lieferketten und Pläne brauchen Alternativen, bevor sie gebraucht werden."
+    },
+    {
+      "name": "Unbegreiflich",
+      "wert": 45,
+      "delta": 1,
+      "kurz": "Entzieht sich der Erklärung.",
+      "quelle": "Bitkom, 14.09.2026 · McKinsey, The State of AI 2026",
+      "befund": "Ein Punkt höher. Fast alle investieren in KI, doch nur 37 Prozent der befragten Unternehmen können einen Effekt im Ergebnis nachweisen. Warum Einsatz und Wirkung so weit auseinanderliegen, ist noch nicht gut verstanden. Vor dem nächsten Ausbau lohnt die Frage: Woran genau erkennen wir, dass es wirkt?"
+    }
+  ],
+  "quellen": [
+    {
+      "titel": "Bitkom: Erstmals nutzt die Mehrheit der Unternehmen KI (14.09.2026)",
+      "url": "https://www.bitkom.org/Presse/Presseinformation/Erstmals-nutzt-Mehrheit-Unternehmen-KI"
+    },
+    {
+      "titel": "IAB-Prognose 2026/2027: Erwerbstätigkeit schrumpft trotz besserer Konjunktur (24.09.2026)",
+      "url": "https://iab.de/presseinfo/iab-prognose-fuer-2026-2027-erwerbstaetigkeit-schrumpft-trotz-besserer-konjunktur/"
+    },
+    {
+      "titel": "OECD Interim Economic Outlook, September 2026",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en.html"
+    },
+    {
+      "titel": "Pew Research: Globally, more people expect AI to cause job loss than growth (17.09.2026)",
+      "url": "https://www.pewresearch.org/global/2026/09/17/globally-more-people-expect-ai-to-cause-job-loss-than-growth/"
+    },
+    {
+      "titel": "Deloitte Gen Z and Millennial Survey 2026",
+      "url": "https://www.deloitte.com/global/en/about/press-room/deloitte-2026-gen-z-and-millennial-survey.html"
+    },
+    {
+      "titel": "Semafor: WTO chief warns tariff war risks 7 % global GDP hit (22.09.2026)",
+      "url": "https://www.semafor.com/article/09/22/2026/wto-chief-warns-trump-tariff-war-risks-7-global-gdp-hit"
+    },
+    {
+      "titel": "McKinsey: The State of AI 2026",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+    }
+  ]
 }
