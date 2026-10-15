@@ -1,66 +1,66 @@
 {
-  "datum": "2026-10-14",
-  "index": 82,
-  "uhrzeit": "23:49",
-  "trend": "stabil",
+  "datum": "2026-10-15",
+  "index": 83,
+  "uhrzeit": "23:50",
+  "trend": "steigend",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "Der IWF schätzt: Rund 40 Prozent der Jobs weltweit verändert die KI – auch im Management.",
-    "befund": "Der Internationale Währungsfonds rechnet damit, dass KI auf Dauer rund 40 Prozent der Jobs weltweit betrifft: Sie werden ergänzt, abgewertet oder fallen weg. IWF-Chefin Georgieva spricht von einem langsamen Tsunami. Zugleich nennt der IWF eine KI-bedingte Börsenkorrektur als eines der großen Risiken.",
-    "fuehrungsimplikation": "Die Zahl ist eine Schätzung, keine Messung – aber sie gibt der Sorge in den Teams jetzt eine offizielle Größe. Wenn Agenten Koordination übernehmen, steht auch die mittlere Führungsebene vor der Frage, wozu sie gebraucht wird. Die Antwort liegt nicht im Verwalten, sondern in Urteil, Priorisierung und Verantwortung für Ergebnisse. Führung sollte das offen ansprechen: Welche Aufgaben ändern sich bei uns, welche Kompetenzen bauen wir auf, und wer begleitet den Übergang? Schweigen überlässt die Deutung der Angst.",
-    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 5 (KI ist Kollege, nicht Werkzeug)",
-    "quelle": "IWF, World Economic Outlook Oktober 2026 (via AP, 13.10.2026)"
+    "titel": "KI-Nutzung steigt auf 64 Prozent – der Zugang zu Weiterbildung sinkt von 59 auf 51 Prozent.",
+    "befund": "PwC hat knapp 50.000 Beschäftigte in 48 Ländern befragt: 64 Prozent nutzen KI bei der Arbeit, zehn Punkte mehr als im Vorjahr. Nur noch 51 Prozent haben Zugang zu Lernangeboten. In der größten Gruppe, 56 Prozent der Belegschaft, haben nur etwa zwei von fünf Zugang zu den nötigen Ressourcen. Wer KI täglich nutzt, fühlt sich sicherer im Job (68 gegenüber 57 Prozent).",
+    "fuehrungsimplikation": "Die Technik ist längst im Team angekommen, die Befähigung nicht. Das ist eine Führungsaufgabe, kein IT-Projekt. Die Daten zeigen: Sicherheit entsteht durch Anwenden, nicht durch Abwarten. Führung schafft dafür Zeit, Zugang und die Erlaubnis zu experimentieren – gerade für die breite Mitte, nicht nur für die Vorreiter. Hilfreiche Fragen für das nächste Teamgespräch: Wer nutzt KI wofür? Was hält die anderen ab? Welche eine Arbeitsroutine probieren wir in diesem Monat gemeinsam neu aus?",
+    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 13 (Veränderung ist ein Muskel)",
+    "quelle": "PwC, Global Workforce Hopes and Fears Survey 2026 (29.09.2026)"
   },
   "bani": [
     {
       "name": "Brüchig",
-      "wert": 91,
+      "wert": 92,
       "delta": 1,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "IWF, 13.10.2026 · Destatis, 30.09.2026",
-      "befund": "Ein Punkt höher. Der IWF hebt das Weltwachstum 2026 leicht auf 3,1 Prozent, doch 95 Prozent davon tragen nur noch 32 Länder (April: 54). Der Euroraum wächst um 1,1 Prozent, die Prognose setzt einen Ölpreis um 96 US-Dollar und offene Seewege durch Hormus voraus. In Deutschland bleibt die Inflation bei 3,3 Prozent. Für Führung heißt das: Planung auf eine Annahme zu bauen, die brechen kann, braucht einen Plan B."
+      "quelle": "Destatis, 13.10. und 30.09.2026 · IWF, 13.10.2026",
+      "befund": "Ein Punkt höher. Die Inflation in Deutschland ist für September mit 3,3 Prozent bestätigt, der höchste Wert seit Dezember 2023; Energie kostet 14,9 Prozent mehr als vor einem Jahr. Zugleich sinkt die Zahl der Erwerbstätigen seit Januar 2025, zuletzt um 235.000 zum Vorjahr. Steigende Preise bei schrumpfender Beschäftigung engen Spielräume ein. Budgets brauchen ein Preisband statt einer Punktprognose."
     },
     {
       "name": "Ängstlich",
       "wert": 94,
-      "delta": 1,
+      "delta": 0,
       "kurz": "Wahrgenommene Bedrohung, Vertrauensverlust.",
-      "quelle": "IWF, 13.10.2026 · Pew Research, 17.09.2026 · Stepstone 2026",
-      "befund": "Ein Punkt höher. Mit der IWF-Schätzung von rund 40 Prozent betroffener Jobs hat die Sorge um die eigene Rolle eine offizielle Zahl. In 34 von 37 Ländern erwarten Mehrheiten Jobverluste durch KI; in Deutschland fürchten 35 Prozent, beruflich abgehängt zu werden. Die Angst erreicht nun auch Führungskräfte selbst. Wer führt, sollte die eigene Unsicherheit nicht überspielen, sondern Orientierung geben, was bleibt und was neu entsteht."
+      "quelle": "PwC, 29.09.2026 · IWF, 13.10.2026 · Stepstone 2026",
+      "befund": "Unverändert hoch. Als größtes Jobrisiko nennen 57 Prozent die wirtschaftliche Unsicherheit, 44 Prozent die KI. Wer KI täglich nutzt, ist zuversichtlicher. Angst entsteht also weniger aus der Technik als aus fehlender Handlungsfähigkeit. In Deutschland fürchten 35 Prozent, beruflich abgehängt zu werden. Führung kann hier direkt wirken: Lernzugang und konkrete Erfahrung senken Unsicherheit."
     },
     {
       "name": "Nichtlinear",
       "wert": 98,
       "delta": 0,
       "kurz": "Kleine Ursache, große Wirkung.",
-      "quelle": "IWF, 13.10.2026 · Destatis, 30.09.2026",
-      "befund": "Unverändert sehr hoch. Wie schnell Erwartungen kippen, zeigte der Tag der IWF-Prognose: Der südkoreanische Leitindex Kospi schloss 5,5 Prozent tiefer. Der IWF nennt eine KI-bedingte Korrektur ausdrücklich als Risiko. Zugleich bleibt der Preisdruck in Deutschland energiegetrieben, die Kerninflation stabil bei 2,4 Prozent. Investitionspläne sollten einen Abschwung im KI-Sektor aushalten können."
+      "quelle": "Destatis, 13.10.2026 · IWF, 13.10.2026",
+      "befund": "Unverändert sehr hoch. Die Teuerung ist energiegetrieben: Kraftstoffe kosten 37,1 Prozent mehr als vor einem Jahr, die Kerninflation bleibt bei 2,4 Prozent. Der IWF sieht das Weltwachstum stark von KI-Investitionen getragen – eine einzige Wachstumsquelle erhöht das Risiko abrupter Wendungen. Pläne sollten Energiepreis- und KI-Szenarien gemeinsam durchspielen."
     },
     {
       "name": "Unbegreiflich",
-      "wert": 46,
+      "wert": 47,
       "delta": 1,
       "kurz": "Entzieht sich der Erklärung.",
-      "quelle": "IWF, 13.10.2026 · Gartner, 16.09.2026",
-      "befund": "Ein Punkt höher. Die KI-Ausgaben wachsen 2026 laut Gartner um 49,5 Prozent, während der IWF vor einer Korrektur warnt und offenlässt, welche Jobs ergänzt, abgewertet oder ersetzt werden. Was KI in der eigenen Organisation tatsächlich verändert, ist schwer zu durchschauen. Hilfreich ist eine nüchterne Frage vor jeder Investition: Welche Arbeit ändert sich konkret, und wer trägt die Verantwortung für das Ergebnis?"
+      "quelle": "PwC, 29.09.2026",
+      "befund": "Ein Punkt höher. Immer mehr Menschen arbeiten mit KI, aber immer weniger werden dabei begleitet. Täglich nutzen 22 Prozent generative KI (Vorjahr 14). Was die Systeme in der eigenen Arbeit verändern, bleibt für viele schwer zu durchschauen. Führung hilft, indem sie Erfahrungen im Team sichtbar macht: Was funktioniert, was nicht, und wer prüft das Ergebnis?"
     }
   ],
   "quellen": [
     {
-      "titel": "AP: IMF raises its forecast for world growth this year but says economies will slow in 2027 (13.10.2026)",
+      "titel": "PwC: Companies risk losing their most AI-savvy employees while leaving majority behind (29.09.2026)",
+      "url": "https://www.pwc.com/gx/en/news-room/press-releases/2026/companies-risk-losing-ai-savvy-employees.html"
+    },
+    {
+      "titel": "Destatis: Inflationsrate im September 2026 bei +3,3 % (13.10.2026)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_364_611.html"
+    },
+    {
+      "titel": "Destatis: Erwerbstätigkeit im August 2026 (30.09.2026)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_347_132.html"
+    },
+    {
+      "titel": "AP: IMF raises its forecast for world growth this year (13.10.2026)",
       "url": "https://www.wsls.com/business/2026/10/13/imf-raises-its-forecast-for-world-growth-this-year-but-says-economies-will-slow-in-2027/"
-    },
-    {
-      "titel": "Destatis: Inflationsrate im September 2026 voraussichtlich +3,3 % (30.09.2026)",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_348_611.html"
-    },
-    {
-      "titel": "Bundesagentur für Arbeit: Arbeitsmarkt im September 2026 (30.09.2026)",
-      "url": "https://www.arbeitsagentur.de/presse/2026-40-arbeitsmarkt-im-september-2026"
-    },
-    {
-      "titel": "Gartner: Worldwide AI Spending to Grow 49.5% in 2026 (16.09.2026)",
-      "url": "https://gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026"
     }
   ]
 }
