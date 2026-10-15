@@ -1,4 +1,4 @@
-/* Kleine Helfer ohne Abhängigkeiten. Nichts wird gespeichert oder übertragen außer der gewählten Ansicht (lokal im Browser). */
+/* Kleine Helfer ohne Abhängigkeiten. Lokal im Browser gespeichert werden nur die gewählte Ansicht und ob Sie schon abgestimmt haben; übertragen wird nur Ihre Stimme (Ausgabe und Antwortnummer, ohne Cookies). */
 (function(){
   var d=document;
   function setMode(kurz){
@@ -20,7 +20,7 @@
     })});
     var sk=fig.querySelector('.skip'); if(sk) sk.addEventListener('click',function(){reveal.hidden=false;sk.hidden=true;});
   }
-  // Ihre Stimme auf der Website: zeigt die Antwort der Redaktion; gezählt wird in der E-Mail-Ausgabe
+  // Ihre Stimme auf der Website: zeigt die Antwort der Redaktion und zählt einmal pro Browser beim Stimmen-Worker
   var st=d.getElementById('stimme');
   if(st){
     st.querySelectorAll('.vote').forEach(function(v){v.addEventListener('click',function(ev){
@@ -28,6 +28,9 @@
       st.querySelectorAll('.vote').forEach(function(x){x.setAttribute('aria-pressed','false')});
       v.setAttribute('aria-pressed','true');
       var r=st.querySelector('.voteres'); r.textContent=v.dataset.antwort; r.hidden=false;
+      var ep=st.dataset.ep, dt=st.dataset.datum, k='ws-stimme-'+dt, n=Array.prototype.indexOf.call(st.querySelectorAll('.vote'),v)+1;
+      if(ep&&dt){var done=null;try{done=localStorage.getItem(k)}catch(e){}
+        if(!done){try{navigator.sendBeacon(ep+'/stimme',JSON.stringify({d:dt,n:n,q:'web'}))}catch(e){}try{localStorage.setItem(k,String(n))}catch(e){}}}
     })});
   }
   // Weiterleiten per E-Mail
