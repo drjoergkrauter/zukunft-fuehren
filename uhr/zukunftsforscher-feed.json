@@ -1,66 +1,78 @@
 {
-  "datum": "2026-10-16",
+  "datum": "2026-10-19",
   "index": 83,
   "uhrzeit": "23:50",
   "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "KI-Agenten erreichen die Mitte: 49 Prozent der Beschäftigten in Deutschland nutzen sie – die Sorge wächst mit.",
-    "befund": "HP hat 19.506 Büro- und Wissensbeschäftigte in 15 Ländern befragt. Weltweit nutzen 47 Prozent KI-Agenten, in Deutschland 49 Prozent – nur die USA liegen höher. Wer mit Agenten arbeitet, fürchtet häufiger, durch KI oder KI-versiertere Kollegen ersetzt zu werden (44 gegenüber 37 Prozent). Zwei Drittel halten einen Jobwechsel derzeit für zu riskant.",
-    "fuehrungsimplikation": "Agenten sind keine Werkzeuge mehr, die man bedient, sondern Kollegen, die mitarbeiten. Genau das verunsichert: Je tiefer die Nutzung, desto größer die Frage nach der eigenen Rolle. Beschwichtigen hilft nicht, Klarheit schon. Führung klärt, wer für das Ergebnis eines Agenten verantwortlich ist, wer es prüft und welche Aufgaben beim Menschen bleiben. Und sie macht Bewegung möglich: Wer bleibt, weil Wechseln riskant wirkt, braucht intern Entwicklungswege, sonst entsteht Bindung ohne Bewegung. Frage für das nächste Teamgespräch: Welche Arbeit wollen wir an Agenten abgeben – und was wird dadurch für jede und jeden von uns wichtiger?",
-    "kapitel": "Kapitel 5 (KI ist Kollege, nicht Werkzeug) und Kapitel 19 (Psychologische Sicherheit, ohne Schaumstoff)",
-    "quelle": "HP, Work Relationship Index 2026 (30.09.2026)"
+    "titel": "KI-Vorreiter auf dem Sprung – Lernzeit wird zur Bindungsfrage.",
+    "befund": "Weltweit nutzen 64 Prozent der Beschäftigten KI bei der Arbeit, zehn Punkte mehr als im Vorjahr. Doch nur 51 Prozent haben die Lernangebote, die sie brauchen (Vorjahr 59). Von den KI-Vorreitern – 14 Prozent der Beschäftigten mit knappen Fähigkeiten und starker KI-Kompetenz – halten 29 Prozent einen Arbeitgeberwechsel im nächsten Jahr für sehr wahrscheinlich.",
+    "fuehrungsimplikation": "Wer KI am besten beherrscht, geht am ehesten. Halten lassen sich diese Leute vor allem über Entwicklung: neue Aufgaben, Gestaltungsraum, Zeit zum Lernen. Zugleich darf der Rest des Teams nicht zurückbleiben – wer täglich mit KI arbeitet, fühlt sich im Job sicherer. Führung schützt deshalb Lernzeit für alle und lässt Vorreiter ihr Wissen weitergeben, statt es zu horten. Frage für diese Woche: Wer in meinem Team lernt gerade am meisten – und wer hatte seit Monaten keine Zeit mehr zum Lernen?",
+    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 9 (Was Ihrer Führung fehlt)",
+    "quelle": "PwC Global Workforce Hopes and Fears Survey 2026, 29.09.2026 (49.364 Befragte, 48 Länder)"
   },
   "bani": [
     {
       "name": "Brüchig",
-      "wert": 92,
-      "delta": 0,
+      "wert": 93,
+      "delta": 1,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "Gemeinschaftsdiagnose, 24.09.2026 · Destatis, 13.10.2026",
-      "befund": "Unverändert hoch. Die Institute erwarten 1,3 Prozent Wachstum für 2026 und 1,1 Prozent für 2027, für 2028 nur noch 0,4 Prozent, weil das Erwerbspersonenpotenzial schrumpft. Die Zahl der Erwerbstätigen sinkt weiter, das Staatsdefizit steigt bis 2028 auf 4,7 Prozent des BIP, die Inflation lag im September bei 3,3 Prozent. Wachstum muss künftig aus Produktivität kommen, nicht aus mehr Köpfen."
+      "quelle": "AP, 16.10.2026 · Gemeinschaftsdiagnose, 24.09.2026",
+      "befund": "Ein Punkt höher. Seit Anfang Oktober wurden vor Rumänien und Bulgarien mindestens sieben Frachtschiffe von Drohnen getroffen; zwei Menschen starben, mindestens 25 werden vermisst. Der Hafenhandel läuft bisher weiter, die Versicherungsprämien steigen. Dazu bremst die schrumpfende Erwerbsbevölkerung: Für 2028 erwarten die Institute nur 0,4 Prozent Wachstum. Führung prüft Ausweichrouten und legt Schwellen fest, bevor sie gebraucht werden."
     },
     {
       "name": "Ängstlich",
       "wert": 94,
       "delta": 0,
       "kurz": "Wahrgenommene Bedrohung, Vertrauensverlust.",
-      "quelle": "HP, 30.09.2026 · Stepstone 2026",
-      "befund": "Unverändert hoch, mit gemischtem Bild. Zwei Drittel der Wissensbeschäftigten halten einen Jobwechsel für zu riskant, 48 Prozent der Generation Z haben einen Nebenverdienst als Puffer. Zugleich berichten 29 Prozent von einer gesunden Beziehung zur Arbeit, nach 21 Prozent im Vorjahr. In Deutschland fürchten 35 Prozent, beruflich abgehängt zu werden. Sicherheit entsteht durch Verlässlichkeit und Perspektive."
+      "quelle": "Gallup, 09.09.2026 · PwC, 29.09.2026 · Stepstone 2026",
+      "befund": "Unverändert hoch. In den USA halten 19 Prozent der Beschäftigten einen KI-Jobverlust für wahrscheinlich; häufige Nutzer fürchten das öfter. Zugleich fühlen sich tägliche KI-Nutzer im Job sicherer (68 gegenüber 57 Prozent). Nur rund ein Drittel hat am Monatsende Geld übrig. In Deutschland fürchten 35 Prozent, abgehängt zu werden. Nähe zur Technik allein beruhigt nicht – es zählt, ob Führung trägt und Lernen ermöglicht."
     },
     {
       "name": "Nichtlinear",
       "wert": 98,
       "delta": 0,
       "kurz": "Kleine Ursache, große Wirkung.",
-      "quelle": "Destatis, 13.10.2026 · Gemeinschaftsdiagnose, 24.09.2026",
-      "befund": "Unverändert sehr hoch. Die Teuerung ist energiegetrieben: Kraftstoffe kosten 37,1 Prozent mehr als vor einem Jahr, die Kerninflation liegt bei 2,4 Prozent. Für 2027 erwarten die Institute 3,2 Prozent Inflation. Exporte und KI-Boom tragen das Wachstum, Investitionen und Konsum bleiben schwach. Pläne sollten mit Bändern statt Punktwerten arbeiten."
+      "quelle": "Eurostat, 16.10.2026 · IMF, 13.10.2026",
+      "befund": "Unverändert sehr hoch. Die Inflation im Euroraum sprang im September auf 3,8 Prozent (August 3,2), in Deutschland auf 3,3 Prozent. Energie verteuerte sich um 18,9 Prozent und liefert 1,71 Punkte der Rate; der Kern liegt bei 2,5 Prozent. Der IWF erwartet 3,1 Prozent Weltwachstum – sofern die Straße von Hormus bis März öffnet; ein Einbruch der KI-Investitionen kostete bis 2028 rund 1,1 Prozent. Planen in Szenarien."
     },
     {
       "name": "Unbegreiflich",
       "wert": 48,
-      "delta": 1,
+      "delta": 0,
       "kurz": "Entzieht sich der Erklärung.",
-      "quelle": "HP, 30.09.2026",
-      "befund": "Ein Punkt höher. Fast die Hälfte der Beschäftigten arbeitet bereits mit KI-Agenten, die Aufgaben selbstständig ausführen. Was ein Agent wie entschieden hat, ist schwerer nachzuvollziehen als ein Textvorschlag. Gerade die Nutzer fragen sich, was ihre Rolle künftig ausmacht. Führung schafft Durchblick mit klaren Prüfregeln: Wer kontrolliert das Ergebnis, und wann greift der Mensch ein?"
+      "quelle": "PwC, 29.09.2026 · Bitkom, 14.09.2026",
+      "befund": "Unverändert. 22 Prozent der Beschäftigten weltweit nutzen generative KI täglich (Vorjahr 14), doch der Zugang zu Lernangeboten sinkt. In Deutschland nutzen 57 Prozent der Unternehmen KI; unter denen, die KI nutzen oder planen, setzen 11 Prozent bereits Agenten ein. Die Technik wächst schneller als das Verständnis in der Organisation. Führung schafft Durchblick mit Lernzeit und klaren Verantwortlichkeiten für das, was KI tut."
     }
   ],
   "quellen": [
     {
-      "titel": "HP: Work Relationship Index 2026 – Workplace Health Rebounds as Workers Turn to Agentic AI (30.09.2026)",
-      "url": "https://www.hp.com/us-en/newsroom/press-releases/2026/2026-work-relationship-index-workplace-health-agentic-ai-skills-tech.html"
+      "titel": "PwC: Companies risk losing their most AI-savvy employees while leaving majority behind (29.09.2026)",
+      "url": "https://www.pwc.com/gx/en/news-room/press-releases/2026/companies-risk-losing-ai-savvy-employees.html"
     },
     {
-      "titel": "HP: Work Relationship Index 2026, Global Report",
-      "url": "https://www.hp.com/content/dam/sites/worldwide/wri/WRI_2026_Global_Report.pdf"
+      "titel": "Eurostat: Euro-Indikatoren, Inflation im Euroraum September 2026 (16.10.2026, PDF)",
+      "url": "https://static.poder360.com.br/uploads/2026/10/integra-eurostat-inflacao-16out2026.pdf"
     },
     {
-      "titel": "DIW: Gemeinschaftsdiagnose Herbst 2026 – Aufschwung mit Strukturproblemen (24.09.2026)",
-      "url": "https://www.diw.de/de/diw_01.c.1020394.de/gemeinschaftsdiagnose_herbst_2026__aufschwung_mit_strukturproblemen_____finanzpolitik_auf_abwegen.html"
+      "titel": "AP/PBS: Drone strikes in the Black Sea raise fears of Russian escalation (16.10.2026)",
+      "url": "https://www.pbs.org/newshour/world/drone-strikes-in-the-black-sea-raise-fears-of-russian-escalation-to-test-natos-response"
     },
     {
-      "titel": "Destatis: Inflationsrate im September 2026 bei +3,3 % (13.10.2026)",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_364_611.html"
+      "titel": "Gallup: Using AI More Does Not Reassure Workers, Managers Do (09.09.2026)",
+      "url": "https://www.gallup.com/workplace/713231/ai-not-reassure-workers-managers-do.aspx"
+    },
+    {
+      "titel": "Bitkom: Erstmals nutzt Mehrheit der Unternehmen KI (14.09.2026)",
+      "url": "https://www.bitkom.org/Presse/Presseinformation/Erstmals-nutzt-Mehrheit-Unternehmen-KI"
+    },
+    {
+      "titel": "IMF warns of risks from AI market correction and war (BusinessDay/Reuters, 13.10.2026)",
+      "url": "https://www.businessday.co.za/world/americas/2026-10-13-imf-warns-of-risks-from-ai-market-correction-and-war/"
+    },
+    {
+      "titel": "Destatis: Erwerbstätigkeit im August 2026 (30.09.2026)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_347_132.html"
     }
   ]
 }
