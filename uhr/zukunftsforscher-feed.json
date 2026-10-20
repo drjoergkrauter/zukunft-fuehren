@@ -1,32 +1,32 @@
 {
-  "datum": "2026-10-19",
-  "index": 83,
+  "datum": "2026-10-20",
+  "index": 84,
   "uhrzeit": "23:50",
-  "trend": "stabil",
+  "trend": "steigend",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "KI-Vorreiter auf dem Sprung – Lernzeit wird zur Bindungsfrage.",
-    "befund": "Weltweit nutzen 64 Prozent der Beschäftigten KI bei der Arbeit, zehn Punkte mehr als im Vorjahr. Doch nur 51 Prozent haben die Lernangebote, die sie brauchen (Vorjahr 59). Von den KI-Vorreitern – 14 Prozent der Beschäftigten mit knappen Fähigkeiten und starker KI-Kompetenz – halten 29 Prozent einen Arbeitgeberwechsel im nächsten Jahr für sehr wahrscheinlich.",
-    "fuehrungsimplikation": "Wer KI am besten beherrscht, geht am ehesten. Halten lassen sich diese Leute vor allem über Entwicklung: neue Aufgaben, Gestaltungsraum, Zeit zum Lernen. Zugleich darf der Rest des Teams nicht zurückbleiben – wer täglich mit KI arbeitet, fühlt sich im Job sicherer. Führung schützt deshalb Lernzeit für alle und lässt Vorreiter ihr Wissen weitergeben, statt es zu horten. Frage für diese Woche: Wer in meinem Team lernt gerade am meisten – und wer hatte seit Monaten keine Zeit mehr zum Lernen?",
-    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 9 (Was Ihrer Führung fehlt)",
-    "quelle": "PwC Global Workforce Hopes and Fears Survey 2026, 29.09.2026 (49.364 Befragte, 48 Länder)"
+    "titel": "KI-Kompetenzangst erreicht die Chefetage – und der Nutzen bleibt oft unbelegt.",
+    "befund": "53 Prozent der deutschen CEOs sagen, ihr Unternehmen baue KI-Kompetenzen nicht schnell genug auf; nur in Japan und China ist der Anteil höher. 21 Prozent stimmen voll zu – mehr als in jedem anderen Land. Zugleich rechnen nur 20 Prozent der Unternehmen alle größeren KI-Vorhaben durch, während 88 Prozent steigende Kosten erwarten.",
+    "fuehrungsimplikation": "Der Druck, mit KI Schritt zu halten, sitzt nicht mehr nur bei den Beschäftigten, sondern ganz oben. Wer ihn überspielt, entscheidet schlechter. Gute Führung macht die eigene Lernkurve sichtbar, fragt offen nach und lernt mit dem Team, statt Souveränität zu simulieren. Und sie verlangt für jedes größere KI-Vorhaben einen nachvollziehbaren Nutzen – nicht als Bremse, sondern als Orientierung. Frage für diese Woche: Was habe ich selbst zuletzt über KI gelernt – und welches unserer KI-Projekte könnte ich in zwei Sätzen begründen?",
+    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 15 (Growth Mindset, ehrlich gemacht)",
+    "quelle": "EY-Parthenon CEO Outlook Survey, 15.10.2026 (1.200 CEOs in 21 Ländern, davon 100 in Deutschland)"
   },
   "bani": [
     {
       "name": "Brüchig",
       "wert": 93,
-      "delta": 1,
+      "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
       "quelle": "AP, 16.10.2026 · Gemeinschaftsdiagnose, 24.09.2026",
-      "befund": "Ein Punkt höher. Seit Anfang Oktober wurden vor Rumänien und Bulgarien mindestens sieben Frachtschiffe von Drohnen getroffen; zwei Menschen starben, mindestens 25 werden vermisst. Der Hafenhandel läuft bisher weiter, die Versicherungsprämien steigen. Dazu bremst die schrumpfende Erwerbsbevölkerung: Für 2028 erwarten die Institute nur 0,4 Prozent Wachstum. Führung prüft Ausweichrouten und legt Schwellen fest, bevor sie gebraucht werden."
+      "befund": "Unverändert hoch. Vor Rumänien und Bulgarien wurden seit Anfang Oktober mindestens sieben Frachtschiffe von Drohnen getroffen; zwei Menschen starben, mindestens 25 werden vermisst, die Versicherungsprämien steigen. Dazu bremst die schrumpfende Erwerbsbevölkerung: Für 2028 erwarten die Institute nur 0,4 Prozent Wachstum. Führung prüft Ausweichrouten und legt Schwellen fest, bevor sie gebraucht werden."
     },
     {
       "name": "Ängstlich",
-      "wert": 94,
-      "delta": 0,
+      "wert": 95,
+      "delta": 1,
       "kurz": "Wahrgenommene Bedrohung, Vertrauensverlust.",
-      "quelle": "Gallup, 09.09.2026 · PwC, 29.09.2026 · Stepstone 2026",
-      "befund": "Unverändert hoch. In den USA halten 19 Prozent der Beschäftigten einen KI-Jobverlust für wahrscheinlich; häufige Nutzer fürchten das öfter. Zugleich fühlen sich tägliche KI-Nutzer im Job sicherer (68 gegenüber 57 Prozent). Nur rund ein Drittel hat am Monatsende Geld übrig. In Deutschland fürchten 35 Prozent, abgehängt zu werden. Nähe zur Technik allein beruhigt nicht – es zählt, ob Führung trägt und Lernen ermöglicht."
+      "quelle": "EY-Parthenon, 15.10.2026 · Gallup, 09.09.2026 · PwC, 29.09.2026",
+      "befund": "Ein Punkt höher. Die Sorge, abgehängt zu werden, erreicht die Spitze: 53 Prozent der deutschen CEOs sagen, ihr Unternehmen baue KI-Kompetenzen nicht schnell genug auf. In den USA halten 19 Prozent der Beschäftigten einen KI-Jobverlust für wahrscheinlich; tägliche KI-Nutzer fühlen sich dagegen sicherer (68 gegenüber 57 Prozent). Angst sinkt dort, wo Lernen möglich ist – oben wie unten."
     },
     {
       "name": "Nichtlinear",
@@ -38,14 +38,18 @@
     },
     {
       "name": "Unbegreiflich",
-      "wert": 48,
-      "delta": 0,
+      "wert": 49,
+      "delta": 1,
       "kurz": "Entzieht sich der Erklärung.",
-      "quelle": "PwC, 29.09.2026 · Bitkom, 14.09.2026",
-      "befund": "Unverändert. 22 Prozent der Beschäftigten weltweit nutzen generative KI täglich (Vorjahr 14), doch der Zugang zu Lernangeboten sinkt. In Deutschland nutzen 57 Prozent der Unternehmen KI; unter denen, die KI nutzen oder planen, setzen 11 Prozent bereits Agenten ein. Die Technik wächst schneller als das Verständnis in der Organisation. Führung schafft Durchblick mit Lernzeit und klaren Verantwortlichkeiten für das, was KI tut."
+      "quelle": "EY-Parthenon, 15.10.2026 · Bitkom, 14.09.2026",
+      "befund": "Ein Punkt höher. Nur 20 Prozent der deutschen Unternehmen rechnen alle größeren KI-Vorhaben sauber durch, 88 Prozent erwarten steigende Kosten für generative KI, 27 Prozent mehr als eine Verdopplung. Zugleich nutzen 57 Prozent der Unternehmen KI. Die Ausgaben wachsen schneller als das Wissen, was sie bringen. Führung macht Nutzen sichtbar: Business Case, Kostenblick, klare Verantwortung."
     }
   ],
   "quellen": [
+    {
+      "titel": "EY: Deutsche CEOs sehen Rückstand beim KI-Kompetenzaufbau, KI-Kosten selten durchgerechnet (15.10.2026)",
+      "url": "https://www.ey.com/de_de/newsroom/2026/10/ey-parthenon-analyse-ceo-outlook-survey-oktober-2026"
+    },
     {
       "titel": "PwC: Companies risk losing their most AI-savvy employees while leaving majority behind (29.09.2026)",
       "url": "https://www.pwc.com/gx/en/news-room/press-releases/2026/companies-risk-losing-ai-savvy-employees.html"
@@ -69,10 +73,6 @@
     {
       "titel": "IMF warns of risks from AI market correction and war (BusinessDay/Reuters, 13.10.2026)",
       "url": "https://www.businessday.co.za/world/americas/2026-10-13-imf-warns-of-risks-from-ai-market-correction-and-war/"
-    },
-    {
-      "titel": "Destatis: Erwerbstätigkeit im August 2026 (30.09.2026)",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_347_132.html"
     }
   ]
 }
