@@ -1,15 +1,15 @@
 {
-  "datum": "2026-10-20",
+  "datum": "2026-10-21",
   "index": 84,
   "uhrzeit": "23:50",
-  "trend": "steigend",
+  "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "KI-Kompetenzangst erreicht die Chefetage – und der Nutzen bleibt oft unbelegt.",
-    "befund": "53 Prozent der deutschen CEOs sagen, ihr Unternehmen baue KI-Kompetenzen nicht schnell genug auf; nur in Japan und China ist der Anteil höher. 21 Prozent stimmen voll zu – mehr als in jedem anderen Land. Zugleich rechnen nur 20 Prozent der Unternehmen alle größeren KI-Vorhaben durch, während 88 Prozent steigende Kosten erwarten.",
-    "fuehrungsimplikation": "Der Druck, mit KI Schritt zu halten, sitzt nicht mehr nur bei den Beschäftigten, sondern ganz oben. Wer ihn überspielt, entscheidet schlechter. Gute Führung macht die eigene Lernkurve sichtbar, fragt offen nach und lernt mit dem Team, statt Souveränität zu simulieren. Und sie verlangt für jedes größere KI-Vorhaben einen nachvollziehbaren Nutzen – nicht als Bremse, sondern als Orientierung. Frage für diese Woche: Was habe ich selbst zuletzt über KI gelernt – und welches unserer KI-Projekte könnte ich in zwei Sätzen begründen?",
-    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 15 (Growth Mindset, ehrlich gemacht)",
-    "quelle": "EY-Parthenon CEO Outlook Survey, 15.10.2026 (1.200 CEOs in 21 Ländern, davon 100 in Deutschland)"
+    "titel": "Das Bündnis stärkt das Lagebild statt zu eskalieren – Schwellen müssen Organisationen selbst setzen.",
+    "befund": "Der Nordatlantikrat hat am 20. Oktober mehr Seefernaufklärer, Radar, Drohnen, Aufklärungspersonal und Teams zur Sprengstoffauswertung für das Schwarze Meer beschlossen. Anlass sind Drohnentreffer auf Handelsschiffe vor Bulgarien und Rumänien; ein Frachter sank, 18 Seeleute werden vermisst. Einen Verantwortlichen nennt die NATO nicht.",
+    "fuehrungsimplikation": "Die Politik antwortet bewusst unterhalb der Schwelle: mehr Beobachtung, keine Eskalation, offene Urheberschaft. Für Organisationen heißt das, dass kein äußeres Signal die Entscheidung abnimmt, wann Routen, Lieferketten oder Reisepläne umgestellt werden. Gute Führung legt diese Auslöser vorher fest, benennt sie im Team und übt den Fall, statt auf Gewissheit zu warten. Und sie kommuniziert Unsicherheit offen, ohne sie zu dramatisieren. Frage für diese Woche: Welche zwei Ereignisse würden bei uns sofort eine Entscheidung auslösen – und wer trifft sie?",
+    "kapitel": "Kapitel 17 (Den Rubikon überschreiten) und Kapitel 1 (Die Polykrise ist kein Sonderfall mehr)",
+    "quelle": "Kyiv Independent, 21.10.2026 · The Maritime Executive, 15.10.2026"
   },
   "bani": [
     {
@@ -17,16 +17,16 @@
       "wert": 93,
       "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "AP, 16.10.2026 · Gemeinschaftsdiagnose, 24.09.2026",
-      "befund": "Unverändert hoch. Vor Rumänien und Bulgarien wurden seit Anfang Oktober mindestens sieben Frachtschiffe von Drohnen getroffen; zwei Menschen starben, mindestens 25 werden vermisst, die Versicherungsprämien steigen. Dazu bremst die schrumpfende Erwerbsbevölkerung: Für 2028 erwarten die Institute nur 0,4 Prozent Wachstum. Führung prüft Ausweichrouten und legt Schwellen fest, bevor sie gebraucht werden."
+      "quelle": "Kyiv Independent, 21.10.2026 · Gemeinschaftsdiagnose, 24.09.2026",
+      "befund": "Unverändert hoch. Am 13. Oktober sank die HS Dignity nach Drohnentreffern vor Bulgarien (11 Vermisste), am 15. Oktober brannte die Wine Trader vor Rumänien (7 Vermisste). Die NATO verstärkt nun Aufklärung und Abwehr; die Lage verfestigt sich unterhalb der Schwelle. Dazu bremst die schrumpfende Erwerbsbevölkerung das Wachstum. Führung prüft Ausweichrouten und legt Schwellen fest, bevor sie gebraucht werden."
     },
     {
       "name": "Ängstlich",
       "wert": 95,
-      "delta": 1,
+      "delta": 0,
       "kurz": "Wahrgenommene Bedrohung, Vertrauensverlust.",
-      "quelle": "EY-Parthenon, 15.10.2026 · Gallup, 09.09.2026 · PwC, 29.09.2026",
-      "befund": "Ein Punkt höher. Die Sorge, abgehängt zu werden, erreicht die Spitze: 53 Prozent der deutschen CEOs sagen, ihr Unternehmen baue KI-Kompetenzen nicht schnell genug auf. In den USA halten 19 Prozent der Beschäftigten einen KI-Jobverlust für wahrscheinlich; tägliche KI-Nutzer fühlen sich dagegen sicherer (68 gegenüber 57 Prozent). Angst sinkt dort, wo Lernen möglich ist – oben wie unten."
+      "quelle": "EY-Parthenon, 15.10.2026 · Stanford via Computing, 26.08.2026 · PwC, 29.09.2026",
+      "befund": "Unverändert auf hohem Niveau. 53 Prozent der deutschen CEOs sagen, ihr Unternehmen baue KI-Kompetenzen nicht schnell genug auf. Am Berufseinstieg wird die Sorge greifbar: In stark KI-exponierten Berufen liegt die Beschäftigung der 22- bis 25-Jährigen in den USA 19 Prozent unter weniger exponierten Feldern (Vorjahr 13) – vor allem, weil weniger eingestellt wird. Führung sichert Einstiegspfade und Lernzeit."
     },
     {
       "name": "Nichtlinear",
@@ -34,18 +34,30 @@
       "delta": 0,
       "kurz": "Kleine Ursache, große Wirkung.",
       "quelle": "Eurostat, 16.10.2026 · IMF, 13.10.2026",
-      "befund": "Unverändert sehr hoch. Die Inflation im Euroraum sprang im September auf 3,8 Prozent (August 3,2), in Deutschland auf 3,3 Prozent. Energie verteuerte sich um 18,9 Prozent und liefert 1,71 Punkte der Rate; der Kern liegt bei 2,5 Prozent. Der IWF erwartet 3,1 Prozent Weltwachstum – sofern die Straße von Hormus bis März öffnet; ein Einbruch der KI-Investitionen kostete bis 2028 rund 1,1 Prozent. Planen in Szenarien."
+      "befund": "Unverändert sehr hoch, keine neuen Daten. Die Inflation im Euroraum sprang im September auf 3,8 Prozent (August 3,2), in Deutschland auf 3,3 Prozent. Energie verteuerte sich um 18,9 Prozent und liefert 1,71 Punkte der Rate; der Kern liegt bei 2,5 Prozent. Der IWF erwartet 3,1 Prozent Weltwachstum – sofern die Straße von Hormus bis März öffnet; ein Einbruch der KI-Investitionen kostete bis 2028 rund 1,1 Prozent. Planen in Szenarien."
     },
     {
       "name": "Unbegreiflich",
       "wert": 49,
-      "delta": 1,
+      "delta": 0,
       "kurz": "Entzieht sich der Erklärung.",
       "quelle": "EY-Parthenon, 15.10.2026 · Bitkom, 14.09.2026",
-      "befund": "Ein Punkt höher. Nur 20 Prozent der deutschen Unternehmen rechnen alle größeren KI-Vorhaben sauber durch, 88 Prozent erwarten steigende Kosten für generative KI, 27 Prozent mehr als eine Verdopplung. Zugleich nutzen 57 Prozent der Unternehmen KI. Die Ausgaben wachsen schneller als das Wissen, was sie bringen. Führung macht Nutzen sichtbar: Business Case, Kostenblick, klare Verantwortung."
+      "befund": "Unverändert. Nur 20 Prozent der deutschen Unternehmen rechnen alle größeren KI-Vorhaben sauber durch, 88 Prozent erwarten steigende Kosten für generative KI, 27 Prozent mehr als eine Verdopplung. Zugleich nutzen 57 Prozent der Unternehmen KI. Die Ausgaben wachsen schneller als das Wissen, was sie bringen. Führung macht Nutzen sichtbar: Business Case, Kostenblick, klare Verantwortung."
     }
   ],
   "quellen": [
+    {
+      "titel": "Kyiv Independent: NATO to bolster Black Sea presence with patrol aircraft, drones after attacks on commercial ships (21.10.2026)",
+      "url": "https://kyivindependent.com/nato-to-bolster-black-sea-presence-with-patrol-aircraft-drones-after-attacks-on-commercial-ships/"
+    },
+    {
+      "titel": "The Maritime Executive: NATO discusses Black Sea after more vessel strikes leave seven crew missing (15.10.2026)",
+      "url": "https://maritime-executive.com/article/nato-discusses-black-sea-after-more-vessel-strikes-leave-seven-crew-missing"
+    },
+    {
+      "titel": "Computing: AI is closing the door on entry-level jobs, study finds (26.08.2026)",
+      "url": "https://www.computing.co.uk/news/2026/ai/ai-is-closing-the-door-on-entry-level-jobs-study-finds"
+    },
     {
       "titel": "EY: Deutsche CEOs sehen Rückstand beim KI-Kompetenzaufbau, KI-Kosten selten durchgerechnet (15.10.2026)",
       "url": "https://www.ey.com/de_de/newsroom/2026/10/ey-parthenon-analyse-ceo-outlook-survey-oktober-2026"
@@ -57,14 +69,6 @@
     {
       "titel": "Eurostat: Euro-Indikatoren, Inflation im Euroraum September 2026 (16.10.2026, PDF)",
       "url": "https://static.poder360.com.br/uploads/2026/10/integra-eurostat-inflacao-16out2026.pdf"
-    },
-    {
-      "titel": "AP/PBS: Drone strikes in the Black Sea raise fears of Russian escalation (16.10.2026)",
-      "url": "https://www.pbs.org/newshour/world/drone-strikes-in-the-black-sea-raise-fears-of-russian-escalation-to-test-natos-response"
-    },
-    {
-      "titel": "Gallup: Using AI More Does Not Reassure Workers, Managers Do (09.09.2026)",
-      "url": "https://www.gallup.com/workplace/713231/ai-not-reassure-workers-managers-do.aspx"
     },
     {
       "titel": "Bitkom: Erstmals nutzt Mehrheit der Unternehmen KI (14.09.2026)",
