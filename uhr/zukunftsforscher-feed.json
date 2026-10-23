@@ -1,15 +1,15 @@
 {
-  "datum": "2026-10-22",
+  "datum": "2026-10-23",
   "index": 84,
   "uhrzeit": "23:50",
   "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "Angst vor KI wächst bei denen, die sie am meisten nutzen – Führungskräfte können sie senken, Schweigen verstärkt sie.",
-    "befund": "27 Prozent der US-Beschäftigten fürchten, Technologie mache ihren Job überflüssig – ein Rekord (Vorjahr 20, 2017: 13). Unter 45-Jährigen sind es 34 Prozent, bei Älteren 19. Wer KI häufig nutzt, sorgt sich deutlich öfter. Zugleich nennt nur 1 Prozent der Entlassenen KI als Grund.",
-    "fuehrungsimplikation": "Die Angst kommt vor dem Jobverlust – und sie kostet schon heute: Wer mit dem Wegfall seiner Stelle rechnet, sucht häufiger aktiv nach einem neuen Job. Mehr KI-Nutzung beruhigt nicht, gute Führung schon. Wo Beschäftigte sich respektiert fühlen und spüren, dass ihr Wohlergehen zählt, ist die Sorge gerade bei den KI-Vorreitern deutlich kleiner. Also: offen sagen, was sich an Rollen ändert und was nicht, Lernzeit zusagen, Einstiegspfade neu zuschneiden statt still streichen. Frage für diese Woche: Mit wem in Ihrem Team haben Sie über seine Zukunft mit KI noch nicht gesprochen?",
-    "kapitel": "Kapitel 19 (Psychologische Sicherheit, ohne Schaumstoff) und Kapitel 14 (KI verlangt eine neue Kompetenz)",
-    "quelle": "Gallup, 15.09.2026 und 09.09.2026 · Forbes, 21.10.2026"
+    "titel": "KI-Agenten brauchen Identität und einen Verantwortlichen – die Grenze Mensch/Maschine wird Führungsaufgabe.",
+    "befund": "Gartner zählt Identität und Kontext von KI-Agenten zu den wichtigsten Technologietrends für 2027. Die Prognose: Bis 2028 geht ein Viertel der Sicherheitsvorfälle in Unternehmen auf missbrauchte KI-Agenten zurück – wegen unverwalteter Maschinenrechte und alter Zugangsverfahren. Organisationen sollen die Grenzen zwischen Mensch und Maschine aktiv gestalten.",
+    "fuehrungsimplikation": "Ein Agent, der im Auftrag mehrerer Menschen handelt, verwischt die Frage, wer entschieden hat. Das ist kein IT-Detail, sondern Führung: Verantwortung lässt sich nicht an Software delegieren. Also: alle eingesetzten Agenten erfassen, jedem einen menschlichen Verantwortlichen geben, Rechte auf das Nötige begrenzen und festlegen, welche Entscheidungen ein Mensch freigibt. Erst Governance, dann Skalierung. Frage für diese Woche: Welche KI-Agenten handeln in Ihrem Bereich schon – und wer steht für ihre Entscheidungen gerade?",
+    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 5 (KI ist Kollege, nicht Werkzeug)",
+    "quelle": "Gartner, 20.10.2026"
   },
   "bani": [
     {
@@ -17,16 +17,16 @@
       "wert": 93,
       "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "Al Jazeera, 21.10.2026 · Baird Maritime, 16.10.2026",
-      "befund": "Unverändert hoch. Im Schwarzen Meer wurden binnen zehn Tagen mehrere Handelsschiffe von Drohnen getroffen; Bulgarien bat die NATO um Kampfflugzeuge und Drohnenabwehr. Zugleich öffnet sich ein Gesprächskanal: Der US-Sondergesandte traf Putin am 21. Oktober, ein Dreiertreffen ist für November im Gespräch. Ein Kanal ist keine Entwarnung. Führung hält ihre Eskalationsschwellen und definiert zusätzlich, ab wann sie Puffer zurückfährt."
+      "quelle": "Bloomberg, 22.10.2026 · Al Jazeera, 21.10.2026",
+      "befund": "Unverändert hoch. Seit Anfang Oktober wurden vor Bulgarien und Rumänien sieben Handelsschiffe von Drohnen getroffen, mehr als zwei Dutzend Seeleute kamen ums Leben; Reeder meiden die Region, Versicherung und Crews werden knapp. Moskau bestreitet. Zugleich bleibt ein Gesprächskanal offen, ein Dreiertreffen ist für Mitte November im Gespräch. Führung trennt Schlagzeile von Fakten und hält Eskalations- wie Entspannungsschwellen schriftlich fest."
     },
     {
       "name": "Ängstlich",
       "wert": 96,
-      "delta": 1,
+      "delta": 0,
       "kurz": "Wahrgenommene Bedrohung, Vertrauensverlust.",
-      "quelle": "Gallup, 15.09.2026 · Forbes, 21.10.2026 · Gartner, 27.07.2026",
-      "befund": "Leicht gestiegen. Die Sorge, durch Technologie überflüssig zu werden, erreicht in den USA mit 27 Prozent einen Rekord; bei Hochschulabsolventen sind es 25 Prozent (2021: 8). Am Berufseinstieg wird sie greifbar: 22 Prozent der Personalchefs berichten, dass eine Führungskraft Einstiegsstellen wegen KI gestoppt hat. Führung spricht die Angst an, sichert Einstiegspfade und Lernzeit."
+      "quelle": "Gallup, 15.09.2026 · Gartner, 27.07.2026",
+      "befund": "Unverändert sehr hoch, keine neuen Daten. Die Sorge, durch Technologie überflüssig zu werden, liegt in den USA mit 27 Prozent auf Rekordniveau, bei unter 45-Jährigen bei 34 Prozent. 22 Prozent der Personalchefs berichten, dass Einstiegsstellen wegen KI gestoppt wurden. Führung spricht die Angst an, sichert Einstiegspfade und Lernzeit."
     },
     {
       "name": "Nichtlinear",
@@ -34,49 +34,45 @@
       "delta": 0,
       "kurz": "Kleine Ursache, große Wirkung.",
       "quelle": "Eurostat, 16.10.2026 · Euronews, 10.09.2026",
-      "befund": "Unverändert sehr hoch, keine neuen Daten. Die Inflation im Euroraum liegt bei 3,8 Prozent (August 3,2), getrieben von Energie mit plus 18,9 Prozent; der Kern liegt bei 2,5 Prozent. Die EZB hat den Einlagensatz auf 2,5 Prozent angehoben, der Spielraum für Entlastung ist eng. Ölpreise schwanken stark mit der Lage an der Straße von Hormus. Planen in Szenarien statt mit einer Zahl."
+      "befund": "Unverändert sehr hoch, keine neuen Daten. Die Inflation im Euroraum liegt bei 3,8 Prozent, getrieben von Energie mit plus 18,9 Prozent; der Kern liegt bei 2,5 Prozent. Der EZB-Einlagensatz steht bei 2,5 Prozent, der Spielraum für Entlastung ist eng. Planen in Szenarien statt mit einer Zahl."
     },
     {
       "name": "Unbegreiflich",
-      "wert": 49,
-      "delta": 0,
+      "wert": 50,
+      "delta": 1,
       "kurz": "Entzieht sich der Erklärung.",
-      "quelle": "Gartner, 27.07.2026 · EY-Parthenon, 15.10.2026",
-      "befund": "Unverändert. 95 Prozent der Organisationen haben KI eingeführt, aber nur etwa jede fünfte sieht einen deutlichen Nutzen. In Deutschland rechnen nur 20 Prozent der Unternehmen ihre größeren KI-Vorhaben sauber durch, 88 Prozent erwarten steigende Kosten. Die Ausgaben wachsen schneller als das Wissen, was sie bringen. Führung macht Nutzen sichtbar: Business Case, Kostenblick, klare Verantwortung."
+      "quelle": "Gartner, 20.10.2026 · Gartner, 27.07.2026",
+      "befund": "Leicht gestiegen. KI-Agenten handeln eigenständig und im Auftrag mehrerer Menschen – bestehende Systeme können oft nicht mehr sauber zuordnen, wer was veranlasst hat. Gartner erwartet, dass bis 2028 ein Viertel der Sicherheitsvorfälle in Unternehmen auf missbrauchte KI-Agenten zurückgeht. Zugleich sieht nur etwa jede fünfte Organisation einen deutlichen Nutzen ihrer KI. Führung klärt zuerst Verantwortung, dann Skalierung."
     }
   ],
   "quellen": [
     {
-      "titel": "Gallup: Workers' Fear of Losing Jobs to Technology at New High (15.09.2026)",
-      "url": "https://news.gallup.com/poll/714368/workers-fear-losing-jobs-technology.aspx"
-    },
-    {
-      "titel": "Gallup: Using AI More Does Not Reassure Workers, Managers Do (09.09.2026)",
-      "url": "https://www.gallup.com/workplace/713231/ai-not-reassure-workers-managers-do.aspx"
-    },
-    {
-      "titel": "Forbes: Your Most AI-Fluent Employees Are The Most Afraid. Your Silence Is Why (21.10.2026)",
-      "url": "https://www.forbes.com/sites/vibhasratanjee/2026/10/21/your-most-ai-fluent-employees-are-the-most-afraid-your-silence-is-why/"
+      "titel": "Gartner: Top Strategic Technology Trends for 2027 (20.10.2026)",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-20-gartner-identifies-the-top-strategic-technology-trends-for-2027"
     },
     {
       "titel": "Gartner: AI automation is reducing some entry-level hiring (27.07.2026)",
       "url": "https://www.gartner.com/en/newsroom/press-releases/2026-7-27-gartner-survey-finds-ai-automation-is-reducing-some-entry-level-hiring-at-nearly-one-quarter-of-organizations"
     },
     {
+      "titel": "Bloomberg via Insurance Journal: Russian drones and Black Sea shipping (22.10.2026)",
+      "url": "https://www.insurancejournal.com/news/international/2026/10/22/889958.htm"
+    },
+    {
       "titel": "Al Jazeera: Putin and Zelenskyy back three-way US peace talks (21.10.2026)",
       "url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy"
     },
     {
-      "titel": "Baird Maritime: Bulgaria asks NATO for jets and drone defences (16.10.2026)",
-      "url": "https://www.bairdmaritime.com/security/bulgaria-asks-nato-for-jets-and-drone-defences-after-black-sea-strikes"
-    },
-    {
-      "titel": "EY: Deutsche CEOs sehen Rückstand beim KI-Kompetenzaufbau (15.10.2026)",
-      "url": "https://www.ey.com/de_de/newsroom/2026/10/ey-parthenon-analyse-ceo-outlook-survey-oktober-2026"
+      "titel": "Gallup: Workers' Fear of Losing Jobs to Technology at New High (15.09.2026)",
+      "url": "https://news.gallup.com/poll/714368/workers-fear-losing-jobs-technology.aspx"
     },
     {
       "titel": "Eurostat: Inflation im Euroraum September 2026 (16.10.2026, PDF)",
       "url": "https://static.poder360.com.br/uploads/2026/10/integra-eurostat-inflacao-16out2026.pdf"
+    },
+    {
+      "titel": "Euronews: ECB hikes rates to 2.5% (10.09.2026)",
+      "url": "https://www.euronews.com/2026/09/10/ecb-hikes-rates-to-25-as-energy-shock-pushes-eurozone-inflation-higher"
     }
   ]
 }
