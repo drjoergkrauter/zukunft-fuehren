@@ -1,4 +1,4 @@
-/* Zukunft führen – Die Wochenschrift für Führung. Gestaltung nach DNA Abschnitt 9 (SYNK-Farben, hell, keine Fotos). */
+/* Zukunft führen – Die Wochenschrift für Führung. Gestaltung nach DNA Abschnitt 9 (SYNK-Farben, hell; einziges Foto: Herausgeber an der Kolumne, Entscheidung 22.10.2026). */
 :root{--navy:#113A5D;--teal:#2FCAC3;--tealt:#147D77;--coral:#FA6668;--ink:#1F2937;--grey:#475569;--grey2:#64748B;--line:#E5E7EB;--mist:#F1F5F9}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -130,3 +130,49 @@ body.kurz .nurkurz{display:block}
 }
 @media print{.tools,.abo,.sitebar,.votes,.opts,.linkbtn{display:none}body.kurz .voll{display:block}.box{color:#000;background:#fff;border:2px solid var(--navy)}}
 .sec .body p.small,.sec .body p.kick{font-size:13.5px;line-height:1.5}
+/* Format 2 (Entscheidung Herausgeber 22.10.2026): Kolumne oben mit Foto, Unter der Oberfläche, Zahl der Woche */
+.kol-oben{border-bottom:3px solid var(--navy);padding:30px 0 26px;max-width:780px}
+.kol-kopf{display:flex;gap:16px;align-items:center;margin-bottom:12px}
+.kol-kopf img{width:96px;height:96px;border-radius:50%;object-fit:cover;flex:none}
+.kol-kopf .kick{margin:0 0 2px}
+.kol-name{font-family:'Schibsted Grotesk',sans-serif;font-size:17px;font-weight:700;color:var(--navy);margin:0}
+.kol-rolle{font-family:'Schibsted Grotesk',sans-serif;font-size:14px;color:var(--grey);margin:2px 0 0}
+.kol-oben h2{font-size:34px;line-height:1.1;font-weight:600;color:var(--navy);margin:6px 0 12px}
+.kol-oben p{font-size:19px;line-height:1.6;margin:0 0 12px}
+.kol-oben p:first-of-type{font-size:21px}
+.kol-oben .kol-kontakt{font-family:'Schibsted Grotesk',sans-serif;font-size:15px;margin-top:14px}
+.meldungen{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px}
+.meld{border-top:2px solid var(--teal);padding-top:12px}
+.meld h3{font-size:24px;line-height:1.2;font-weight:600;color:var(--navy);margin:0 0 10px}
+.meld p{font-size:17.5px;line-height:1.58;margin:0 0 10px}
+.meld p.small,.zahl p.small{font-family:'Schibsted Grotesk',sans-serif;font-size:13.5px;color:var(--grey)}
+.zahl{background:var(--mist);border-left:6px solid var(--coral);padding:22px 26px;margin:6px 0 30px}
+.zahl .z{font-size:72px;line-height:1;font-weight:700;color:var(--navy);margin:4px 0 8px}
+.zahl .t{font-size:20px;line-height:1.45;margin:0 0 10px;max-width:760px}
+.zahl .l{font-size:18px;line-height:1.55;margin:0 0 8px;max-width:760px;font-style:italic}
+.lead-head .aha{font-size:21px;line-height:1.5;border-left:5px solid var(--teal);padding-left:16px;margin:18px 0 0;max-width:820px}
+@media (max-width:600px){.kol-oben h2{font-size:28px}.zahl .z{font-size:56px}.kol-kopf img{width:72px;height:72px}}
+.titelthema{padding:26px 0 6px}
+.titelthema .tt{font-family:'Newsreader',Georgia,serif;font-size:112px;line-height:.9;font-weight:700;letter-spacing:-.03em;color:var(--navy);margin:0}
+@media (max-width:600px){.titelthema .tt{font-size:64px}}
+/* Format 3 – Zeitung (Entscheidung Herausgeber 22.10.2026): Seiten 1 bis 5 mit Seitenkopf, Inhaltsleiste, Das Gespräch, Hintergrund, Forschung, Kurz und klar */
+.inhalt{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0;margin:10px 0 0}
+.inhalt ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px 24px}
+.inhalt a{display:block;text-decoration:none;color:var(--navy);font-size:18px;line-height:1.25;font-weight:600}
+.inhalt a span{display:block;font-family:'Schibsted Grotesk',sans-serif;font-size:12.5px;font-weight:600;color:var(--tealt);margin-bottom:2px}
+.inhalt a:hover{text-decoration:underline}
+.seite{font-family:'Schibsted Grotesk',sans-serif;font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--grey);margin:0 0 4px;padding-top:12px}
+.seite span{display:inline-block;background:var(--navy);color:#FFFFFF;border-radius:3px;padding:2px 8px;margin-right:8px;letter-spacing:.02em}
+article#aufmacher > .seite{margin-top:26px}
+.zseite{border-top:3px solid var(--navy);padding:22px 0 30px;margin-top:8px}
+.zseite .zt{font-size:46px;line-height:1.05;font-weight:600;letter-spacing:-.015em;color:var(--navy);margin:14px 0 12px;max-width:880px}
+.zseite .zsub{font-size:21px;line-height:1.45;color:#334155;margin:0 0 26px;max-width:760px}
+.zseite > .sec{border-top:1px solid var(--line)}
+.qa{margin:0 0 22px}
+.qa .f{font-family:'Schibsted Grotesk',sans-serif;font-size:17px;line-height:1.45;font-weight:600;color:var(--navy);margin:0 0 6px}
+.qa .a{font-size:20px;line-height:1.62;margin:0}
+.qa .ns{font-family:'Schibsted Grotesk',sans-serif;font-size:14px;color:var(--tealt);margin:6px 0 0}
+.buchauszug{border-left:6px solid var(--teal);background:var(--mist);padding:22px 26px;margin:10px 0 10px}
+.buchauszug .q{font-size:26px;line-height:1.3;font-style:italic;color:var(--navy);margin:4px 0 10px;max-width:760px}
+.buchauszug .d{font-size:18px;line-height:1.55;margin:0 0 10px;max-width:760px}
+@media (max-width:860px){.zseite .zt{font-size:32px}.zseite .zsub{font-size:19px}.qa .a{font-size:19px}.buchauszug .q{font-size:22px}}
