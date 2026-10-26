@@ -1,15 +1,15 @@
 {
-  "datum": "2026-10-24",
+  "datum": "2026-10-26",
   "index": 84,
   "uhrzeit": "23:50",
   "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "KI verändert zuerst die Rollen, nicht die Zahl der Stellen – Einstieg und Lernen müssen neu gedacht werden.",
-    "befund": "Nur 9 Prozent der US-CEOs großer Unternehmen nennen KI-Agenten bisher transformativ, 39 Prozent sehen deutliche Effizienz- oder Wachstumseffekte. 89 Prozent erwarten in drei Jahren mehr Beschäftigte. Zugleich sagen 75 Prozent, KI habe sie die Anforderungen an Einstiegsrollen überdenken lassen, 81 Prozent die Art, wie sie Mitarbeitende entwickeln.",
-    "fuehrungsimplikation": "Die Erzählung vom großen Stellenabbau und die gemessene Wirkung laufen auseinander. Was sich tatsächlich verschiebt, sind Aufgaben und Qualifikationen – am stärksten beim Einstieg. Wer Einstiegsstellen streicht, weil KI sie scheinbar ersetzt, kappt die eigene Nachwuchspipeline. Führung gestaltet Rollen und Karrierepfade neu, gibt Lernzeit und macht Urteilsvermögen zur Kernkompetenz statt Tool-Wissen. Frage für diese Woche: Welche Einstiegsrolle in Ihrem Bereich verändert KI gerade – und wie lernt dort künftig jemand das Handwerk?",
-    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 13 (Veränderung ist ein Muskel)",
-    "quelle": "KPMG, 15.10.2026"
+    "titel": "KI macht Führung nicht leichter: Mehr als die Hälfte der Führungskräfte kann Arbeit schwerer bewerten.",
+    "befund": "53 Prozent von rund 1.700 Führungskräften in sieben Ländern finden es seit dem KI-Einsatz schwerer, die eigenständige Leistung ihrer Mitarbeitenden zu beurteilen; 47 Prozent verbringen mehr Zeit mit Prüfen und Anleiten. 78 Prozent haben ihre Bewertung verändert. 58 Prozent erwarten, binnen eines Jahres mehr KI-Agenten als Menschen zu führen.",
+    "fuehrungsimplikation": "KI verschiebt Arbeit, nimmt Führung aber nicht ab – sie verlagert sie in Prüfung, Urteil und Verantwortung. Wenn unklar ist, was ein Mensch und was ein Werkzeug geleistet hat, verlieren Leistungsgespräche ihre Grundlage. Führung legt deshalb offen fest, wie KI genutzt werden darf, bewertet Ergebnisse und Denkwege statt Textmengen und klärt, wer für Entscheidungen von Agenten geradesteht. Frage für diese Woche: Woran erkennen Sie in Ihrem Team gute Arbeit, wenn KI mitgeschrieben hat?",
+    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 5 (KI ist Kollege, nicht Werkzeug)",
+    "quelle": "monday.com / Nielsen, 21.10.2026"
   },
   "bani": [
     {
@@ -33,19 +33,23 @@
       "wert": 98,
       "delta": 0,
       "kurz": "Kleine Ursache, große Wirkung.",
-      "quelle": "Eurostat, 16.10.2026 · Euronews, 10.09.2026",
-      "befund": "Unverändert sehr hoch, keine neuen Daten. Die Inflation im Euroraum liegt bei 3,8 Prozent, getrieben von Energie mit plus 18,9 Prozent; der Kern liegt bei 2,5 Prozent. Der EZB-Einlagensatz steht bei 2,5 Prozent, der Spielraum für Entlastung ist eng. Planen in Szenarien statt mit einer Zahl."
+      "quelle": "Eurostat, 16.10.2026",
+      "befund": "Unverändert sehr hoch, keine neuen Daten. Die Inflation im Euroraum liegt bei 3,8 Prozent, getrieben von Energie mit plus 18,9 Prozent; der Kern liegt bei 2,5 Prozent. Der Spielraum für Entlastung bleibt eng. Planen in Szenarien statt mit einer Zahl."
     },
     {
       "name": "Unbegreiflich",
       "wert": 50,
       "delta": 0,
       "kurz": "Entzieht sich der Erklärung.",
-      "quelle": "Gartner, 20.10.2026 · KPMG, 15.10.2026",
-      "befund": "Unverändert. KI-Agenten handeln eigenständig und im Auftrag mehrerer Menschen – bestehende Systeme können oft nicht mehr sauber zuordnen, wer was veranlasst hat. Gartner erwartet, dass bis 2028 ein Viertel der Sicherheitsvorfälle in Unternehmen auf missbrauchte KI-Agenten zurückgeht. Den versprochenen Durchbruch erleben bisher nur 9 Prozent der US-CEOs. Führung klärt zuerst Verantwortung, dann Skalierung."
+      "quelle": "monday.com / Nielsen, 21.10.2026 · Gartner, 20.10.2026",
+      "befund": "Unverändert. KI-Agenten handeln eigenständig und im Auftrag mehrerer Menschen – wer was veranlasst hat, ist oft nicht mehr sauber zuzuordnen. 46 Prozent der Führungskräfte sorgen sich, die Kontrolle über Agenten zu verlieren, 35 Prozent fürchten, für deren Entscheidungen haften zu müssen. Gartner erwartet bis 2028 ein Viertel der Sicherheitsvorfälle durch missbrauchte Agenten. Führung klärt zuerst Verantwortung, dann Skalierung."
     }
   ],
   "quellen": [
+    {
+      "titel": "monday.com / Nielsen: The AI Report 2026 (21.10.2026)",
+      "url": "https://monday.com/blog/project-management/monday-ai-report-2026/"
+    },
     {
       "titel": "KPMG: 2026 U.S. CEO Outlook (15.10.2026)",
       "url": "https://kpmg.com/us/en/media/news/kpmg-us-ceo-outlook-2026.html"
@@ -73,10 +77,6 @@
     {
       "titel": "Eurostat: Inflation im Euroraum September 2026 (16.10.2026, PDF)",
       "url": "https://static.poder360.com.br/uploads/2026/10/integra-eurostat-inflacao-16out2026.pdf"
-    },
-    {
-      "titel": "Euronews: ECB hikes rates to 2.5% (10.09.2026)",
-      "url": "https://www.euronews.com/2026/09/10/ecb-hikes-rates-to-25-as-energy-shock-pushes-eurozone-inflation-higher"
     }
   ]
 }
