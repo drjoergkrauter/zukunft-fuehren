@@ -1,15 +1,15 @@
 {
-  "datum": "2026-10-26",
+  "datum": "2026-10-27",
   "index": 84,
   "uhrzeit": "23:50",
   "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "KI macht Führung nicht leichter: Mehr als die Hälfte der Führungskräfte kann Arbeit schwerer bewerten.",
-    "befund": "53 Prozent von rund 1.700 Führungskräften in sieben Ländern finden es seit dem KI-Einsatz schwerer, die eigenständige Leistung ihrer Mitarbeitenden zu beurteilen; 47 Prozent verbringen mehr Zeit mit Prüfen und Anleiten. 78 Prozent haben ihre Bewertung verändert. 58 Prozent erwarten, binnen eines Jahres mehr KI-Agenten als Menschen zu führen.",
-    "fuehrungsimplikation": "KI verschiebt Arbeit, nimmt Führung aber nicht ab – sie verlagert sie in Prüfung, Urteil und Verantwortung. Wenn unklar ist, was ein Mensch und was ein Werkzeug geleistet hat, verlieren Leistungsgespräche ihre Grundlage. Führung legt deshalb offen fest, wie KI genutzt werden darf, bewertet Ergebnisse und Denkwege statt Textmengen und klärt, wer für Entscheidungen von Agenten geradesteht. Frage für diese Woche: Woran erkennen Sie in Ihrem Team gute Arbeit, wenn KI mitgeschrieben hat?",
-    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 5 (KI ist Kollege, nicht Werkzeug)",
-    "quelle": "monday.com / Nielsen, 21.10.2026"
+    "titel": "Stimmung besser als die Lage: Unternehmen hoffen auf Erholung, ihre aktuellen Geschäfte laufen schwächer.",
+    "befund": "Der ifo-Geschäftsklimaindex steigt im Oktober auf 90,2 Punkte nach 89,9 im September. Getragen wird der Anstieg allein von besseren Erwartungen; die aktuelle Lage beurteilen die Unternehmen etwas schlechter. Energiepreise bleiben das größte Risiko für die Erholung.",
+    "fuehrungsimplikation": "Eine bessere Stimmung ist noch keine bessere Lage. Wer jetzt Einstellungen, Investitionen oder Sparprogramme an die Erwartungen koppelt, entscheidet auf Hoffnung. Führung trennt deshalb sichtbar zwischen Ist-Werten und Ausblick, legt vorab fest, ab welchen Auftrags-, Kosten- und Energiepreisschwellen sie handelt, und sagt dem Team offen, worauf sie wartet. Frage für diese Woche: Welche Entscheidung in Ihrem Bereich stützt sich gerade mehr auf Erwartung als auf Zahlen?",
+    "kapitel": "Kapitel 17 (Den Rubikon überschreiten) und Kapitel 1 (Die Polykrise ist kein Sonderfall mehr)",
+    "quelle": "ifo Institut, Oktober 2026"
   },
   "bani": [
     {
@@ -17,8 +17,8 @@
       "wert": 93,
       "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "Bloomberg, 22.10.2026 · Al Jazeera, 20./21.10.2026",
-      "befund": "Unverändert hoch. Seit Anfang Oktober wurden vor Bulgarien und Rumänien sieben Handelsschiffe von Drohnen getroffen, mehr als zwei Dutzend Seeleute kamen ums Leben; die NATO verstärkt Aufklärung und Lagebild, Moskau bestreitet. Zugleich bleibt ein Gesprächskanal offen, ein Dreiertreffen ist für Mitte November im Gespräch. Führung trennt Schlagzeile von Fakten und hält Eskalations- wie Entspannungsschwellen schriftlich fest."
+      "quelle": "Malay Mail/AFP, 27.10.2026 · Kyiv Independent, 26.10.2026",
+      "befund": "Unverändert hoch. In der besetzten Stadt Oleshky gilt seit 27.10. eine von den USA vermittelte, örtlich begrenzte Waffenruhe; Dauer und Überwachung sind offen. Gespräche zwischen USA, Russland und Ukraine sollen im November wieder aufgenommen werden. Zugleich übt die NATO-Brigade in Lettland die bislang größte Verlegung. Führung hält Entspannungs- wie Eskalationsschwellen schriftlich fest und verwechselt einen Kanal nicht mit einer Lösung."
     },
     {
       "name": "Ängstlich",
@@ -33,8 +33,8 @@
       "wert": 98,
       "delta": 0,
       "kurz": "Kleine Ursache, große Wirkung.",
-      "quelle": "Eurostat, 16.10.2026",
-      "befund": "Unverändert sehr hoch, keine neuen Daten. Die Inflation im Euroraum liegt bei 3,8 Prozent, getrieben von Energie mit plus 18,9 Prozent; der Kern liegt bei 2,5 Prozent. Der Spielraum für Entlastung bleibt eng. Planen in Szenarien statt mit einer Zahl."
+      "quelle": "ifo Institut, Oktober 2026 · Eurostat, 16.10.2026",
+      "befund": "Unverändert sehr hoch. Das Geschäftsklima steigt leicht, doch die Lage wird schwächer beurteilt – die Erholung hängt an Erwartungen und am Energiepreis. Die Inflation im Euroraum liegt bei 3,8 Prozent, Energie bei plus 18,9 Prozent. Kleine Preisschocks können die Stimmung rasch drehen. Planen in Szenarien statt mit einer Zahl."
     },
     {
       "name": "Unbegreiflich",
@@ -47,6 +47,18 @@
   ],
   "quellen": [
     {
+      "titel": "ifo Institut: ifo Geschäftsklima Deutschland, Oktober 2026",
+      "url": "https://www.ifo.de/umfrage/ifo-geschaeftsklima-deutschland"
+    },
+    {
+      "titel": "Malay Mail/AFP: US-brokered truce expected to begin in Russian-occupied city (27.10.2026)",
+      "url": "https://www.malaymail.com/news/world/2026/10/27/us-brokered-truce-expected-to-begin-in-russian-occupied-city/240738"
+    },
+    {
+      "titel": "Kyiv Independent: NATO Brigade in Latvia launches deployment exercises (26.10.2026)",
+      "url": "https://kyivindependent.com/nato-brigade-in-latvia-launches-most-extensive-deployment-exercises-latvian-army-says/"
+    },
+    {
       "titel": "monday.com / Nielsen: The AI Report 2026 (21.10.2026)",
       "url": "https://monday.com/blog/project-management/monday-ai-report-2026/"
     },
@@ -57,18 +69,6 @@
     {
       "titel": "Gartner: Top Strategic Technology Trends for 2027 (20.10.2026)",
       "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-20-gartner-identifies-the-top-strategic-technology-trends-for-2027"
-    },
-    {
-      "titel": "Bloomberg via Insurance Journal: Russian drones and Black Sea shipping (22.10.2026)",
-      "url": "https://www.insurancejournal.com/news/international/2026/10/22/889958.htm"
-    },
-    {
-      "titel": "Al Jazeera: NATO to send additional patrol planes to Black Sea (20.10.2026)",
-      "url": "https://www.aljazeera.com/amp/news/2026/10/20/nato-to-send-additional-patrol-planes-to-black-sea-after-drone-attacks"
-    },
-    {
-      "titel": "Al Jazeera: Putin and Zelenskyy back three-way US peace talks (21.10.2026)",
-      "url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy"
     },
     {
       "titel": "Gallup: Workers' Fear of Losing Jobs to Technology at New High (15.09.2026)",
