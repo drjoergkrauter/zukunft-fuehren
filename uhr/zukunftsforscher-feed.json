@@ -1,15 +1,15 @@
 {
-  "datum": "2026-10-27",
+  "datum": "2026-10-28",
   "index": 84,
   "uhrzeit": "23:50",
   "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "Stimmung besser als die Lage: Unternehmen hoffen auf Erholung, ihre aktuellen Geschäfte laufen schwächer.",
-    "befund": "Der ifo-Geschäftsklimaindex steigt im Oktober auf 90,2 Punkte nach 89,9 im September. Getragen wird der Anstieg allein von besseren Erwartungen; die aktuelle Lage beurteilen die Unternehmen etwas schlechter. Energiepreise bleiben das größte Risiko für die Erholung.",
-    "fuehrungsimplikation": "Eine bessere Stimmung ist noch keine bessere Lage. Wer jetzt Einstellungen, Investitionen oder Sparprogramme an die Erwartungen koppelt, entscheidet auf Hoffnung. Führung trennt deshalb sichtbar zwischen Ist-Werten und Ausblick, legt vorab fest, ab welchen Auftrags-, Kosten- und Energiepreisschwellen sie handelt, und sagt dem Team offen, worauf sie wartet. Frage für diese Woche: Welche Entscheidung in Ihrem Bereich stützt sich gerade mehr auf Erwartung als auf Zahlen?",
-    "kapitel": "Kapitel 17 (Den Rubikon überschreiten) und Kapitel 1 (Die Polykrise ist kein Sonderfall mehr)",
-    "quelle": "ifo Institut, Oktober 2026"
+    "titel": "Verhandeln und Eskalieren zugleich: Lokale Waffenruhe, während die Angriffe auf Energieanlagen wieder zunehmen.",
+    "befund": "Die UN-Untersuchungskommission zu Ukraine wertet Russlands Angriffe auf Heizkraftwerke, Stromleitungen und Gasanlagen als Kriegsverbrechen. Mit der Kälte nehmen die Angriffe erneut zu. Zugleich gilt in Oleshky seit 27.10. eine örtliche, von den USA vermittelte Waffenruhe; Gespräche sollen im November folgen.",
+    "fuehrungsimplikation": "Zwei Entwicklungen laufen parallel und widersprechen sich nicht. Wer auf eine Lesart setzt – Entspannung oder Eskalation –, plant an der Wirklichkeit vorbei. Führung führt beide Spuren getrennt: Was tun wir, wenn die Gespräche tragen? Was, wenn Energie, Lieferwege und Partner in der Region im Winter ausfallen? Für beide Fälle gehören Auslöser und Verantwortliche vorab festgelegt. Frage für diese Woche: Welche Annahme über den Winter steckt unausgesprochen in Ihrer Planung?",
+    "kapitel": "Kapitel 2 (Die fragmentierte Welt) und Kapitel 17 (Den Rubikon überschreiten)",
+    "quelle": "UN-Untersuchungskommission zu Ukraine via Al Jazeera, 26.10.2026"
   },
   "bani": [
     {
@@ -17,24 +17,24 @@
       "wert": 93,
       "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "Malay Mail/AFP, 27.10.2026 · Kyiv Independent, 26.10.2026",
-      "befund": "Unverändert hoch. In der besetzten Stadt Oleshky gilt seit 27.10. eine von den USA vermittelte, örtlich begrenzte Waffenruhe; Dauer und Überwachung sind offen. Gespräche zwischen USA, Russland und Ukraine sollen im November wieder aufgenommen werden. Zugleich übt die NATO-Brigade in Lettland die bislang größte Verlegung. Führung hält Entspannungs- wie Eskalationsschwellen schriftlich fest und verwechselt einen Kanal nicht mit einer Lösung."
+      "quelle": "Al Jazeera, 26.10.2026 · Malay Mail/AFP, 27.10.2026",
+      "befund": "Unverändert hoch. Mit der Kälte nehmen die Angriffe auf die ukrainische Energieversorgung wieder zu; die UN werten sie als Kriegsverbrechen. Dem steht eine örtlich begrenzte Waffenruhe in Oleshky gegenüber; Dauer offen. Gespräche zwischen USA, Russland und Ukraine sollen im November wieder aufgenommen werden. Führung hält Entspannungs- wie Eskalationsschwellen schriftlich fest und verwechselt einen Kanal nicht mit einer Lösung."
     },
     {
       "name": "Ängstlich",
       "wert": 96,
       "delta": 0,
       "kurz": "Wahrgenommene Bedrohung, Vertrauensverlust.",
-      "quelle": "Gallup, 15.09.2026 · KPMG, 15.10.2026",
-      "befund": "Unverändert sehr hoch. Die Sorge, durch Technologie überflüssig zu werden, liegt in den USA mit 27 Prozent auf Rekordniveau, bei unter 45-Jährigen bei 34 Prozent. Zugleich planen 53 Prozent der US-CEOs mittelfristig Stellenabbau in einzelnen Bereichen, während die Mehrheit insgesamt mehr Beschäftigte erwartet. Führung spricht die Angst offen an, macht Veränderungen der Rollen transparent und sichert Einstiegspfade und Lernzeit."
+      "quelle": "NielsenIQ/GfK, 25.09.2026 · Gallup, 15.09.2026 · Deloitte 2026",
+      "befund": "Unverändert sehr hoch. Das Konsumklima in Deutschland fällt für Oktober auf −30,6 Punkte, die Einkommenserwartungen auf −15,0. In den USA fürchten 27 Prozent der Beschäftigten, durch Technologie überflüssig zu werden – ein Rekord. Und die Führungsrolle selbst schreckt ab: Nur 6 Prozent der Gen Z und Millennials nennen sie als wichtigstes Karriereziel. Führung spricht Unsicherheit offen an und macht die eigene Rolle tragbar."
     },
     {
       "name": "Nichtlinear",
       "wert": 98,
       "delta": 0,
       "kurz": "Kleine Ursache, große Wirkung.",
-      "quelle": "ifo Institut, Oktober 2026 · Eurostat, 16.10.2026",
-      "befund": "Unverändert sehr hoch. Das Geschäftsklima steigt leicht, doch die Lage wird schwächer beurteilt – die Erholung hängt an Erwartungen und am Energiepreis. Die Inflation im Euroraum liegt bei 3,8 Prozent, Energie bei plus 18,9 Prozent. Kleine Preisschocks können die Stimmung rasch drehen. Planen in Szenarien statt mit einer Zahl."
+      "quelle": "ifo Institut, Oktober 2026 · NielsenIQ/GfK, 25.09.2026",
+      "befund": "Unverändert sehr hoch. Unternehmen schauen zuversichtlicher nach vorn, das ifo-Geschäftsklima steigt auf 90,2 Punkte. Die Haushalte dagegen halten sich zurück. Diese Schere macht die Erholung anfällig: Ein Energiepreisschub oder schlechte Arbeitsmarktzahlen können die Stimmung rasch drehen. Nachfrage nicht aus Erwartungen ableiten, sondern in Szenarien planen."
     },
     {
       "name": "Unbegreiflich",
@@ -47,36 +47,36 @@
   ],
   "quellen": [
     {
-      "titel": "ifo Institut: ifo Geschäftsklima Deutschland, Oktober 2026",
-      "url": "https://www.ifo.de/umfrage/ifo-geschaeftsklima-deutschland"
+      "titel": "Al Jazeera: Russian attacks on Ukraine's energy infrastructure a war crime: UN (26.10.2026)",
+      "url": "https://aljazeera.com/news/2026/10/26/russian-attacks-on-ukraines-energy-infrastructure-a-war-crime-un"
     },
     {
       "titel": "Malay Mail/AFP: US-brokered truce expected to begin in Russian-occupied city (27.10.2026)",
       "url": "https://www.malaymail.com/news/world/2026/10/27/us-brokered-truce-expected-to-begin-in-russian-occupied-city/240738"
     },
     {
-      "titel": "Kyiv Independent: NATO Brigade in Latvia launches deployment exercises (26.10.2026)",
-      "url": "https://kyivindependent.com/nato-brigade-in-latvia-launches-most-extensive-deployment-exercises-latvian-army-says/"
+      "titel": "ifo Institut: ifo Geschäftsklima Deutschland, Oktober 2026",
+      "url": "https://www.ifo.de/umfrage/ifo-geschaeftsklima-deutschland"
     },
     {
-      "titel": "monday.com / Nielsen: The AI Report 2026 (21.10.2026)",
-      "url": "https://monday.com/blog/project-management/monday-ai-report-2026/"
-    },
-    {
-      "titel": "KPMG: 2026 U.S. CEO Outlook (15.10.2026)",
-      "url": "https://kpmg.com/us/en/media/news/kpmg-us-ceo-outlook-2026.html"
-    },
-    {
-      "titel": "Gartner: Top Strategic Technology Trends for 2027 (20.10.2026)",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-20-gartner-identifies-the-top-strategic-technology-trends-for-2027"
+      "titel": "NielsenIQ / GfK: Konsumklima mit deutlichem Dämpfer (25.09.2026)",
+      "url": "https://nielseniq.com/global/de/news-center/2026/konsumklima-mit-deutlichem-dampfer/"
     },
     {
       "titel": "Gallup: Workers' Fear of Losing Jobs to Technology at New High (15.09.2026)",
       "url": "https://news.gallup.com/poll/714368/workers-fear-losing-jobs-technology.aspx"
     },
     {
-      "titel": "Eurostat: Inflation im Euroraum September 2026 (16.10.2026, PDF)",
-      "url": "https://static.poder360.com.br/uploads/2026/10/integra-eurostat-inflacao-16out2026.pdf"
+      "titel": "Becker's: What 14,000 Gen Zers say would make them pursue leadership (Deloitte 2026)",
+      "url": "https://www.beckershospitalreview.com/workforce/what-14000-gen-zers-say-would-make-them-pursue-leadership/"
+    },
+    {
+      "titel": "monday.com / Nielsen: The AI Report 2026 (21.10.2026)",
+      "url": "https://monday.com/blog/project-management/monday-ai-report-2026/"
+    },
+    {
+      "titel": "Gartner: Top Strategic Technology Trends for 2027 (20.10.2026)",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-20-gartner-identifies-the-top-strategic-technology-trends-for-2027"
     }
   ]
 }
