@@ -1,15 +1,15 @@
 {
-  "datum": "2026-10-28",
+  "datum": "2026-10-29",
   "index": 84,
   "uhrzeit": "23:50",
   "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "Verhandeln und Eskalieren zugleich: Lokale Waffenruhe, während die Angriffe auf Energieanlagen wieder zunehmen.",
-    "befund": "Die UN-Untersuchungskommission zu Ukraine wertet Russlands Angriffe auf Heizkraftwerke, Stromleitungen und Gasanlagen als Kriegsverbrechen. Mit der Kälte nehmen die Angriffe erneut zu. Zugleich gilt in Oleshky seit 27.10. eine örtliche, von den USA vermittelte Waffenruhe; Gespräche sollen im November folgen.",
-    "fuehrungsimplikation": "Zwei Entwicklungen laufen parallel und widersprechen sich nicht. Wer auf eine Lesart setzt – Entspannung oder Eskalation –, plant an der Wirklichkeit vorbei. Führung führt beide Spuren getrennt: Was tun wir, wenn die Gespräche tragen? Was, wenn Energie, Lieferwege und Partner in der Region im Winter ausfallen? Für beide Fälle gehören Auslöser und Verantwortliche vorab festgelegt. Frage für diese Woche: Welche Annahme über den Winter steckt unausgesprochen in Ihrer Planung?",
-    "kapitel": "Kapitel 2 (Die fragmentierte Welt) und Kapitel 17 (Den Rubikon überschreiten)",
-    "quelle": "UN-Untersuchungskommission zu Ukraine via Al Jazeera, 26.10.2026"
+    "titel": "KI-Agenten kommen schneller als die Regeln: 71 Prozent wollen sie binnen eines Jahres, 21 Prozent haben Governance.",
+    "befund": "Laut Gartner (19.10.) erwarten 71 Prozent der Organisationen, agentische KI in den nächsten zwölf Monaten einzusetzen. Nur 21 Prozent haben dafür bereits Governance-Fähigkeiten. Und nur 58 Prozent der Führungskräfte sehen überhaupt einen positiven Wert ihrer KI-Initiativen.",
+    "fuehrungsimplikation": "Die Lücke zwischen Tempo und Steuerbarkeit ist keine IT-Frage, sondern eine Führungsfrage. Wer Agenten einführt, ohne zu klären, wer sie beauftragt, überwacht und für ihre Entscheidungen geradesteht, delegiert Verantwortung ins Leere. Führung legt vor dem Ausrollen fest: Welche Entscheidungen dürfen Agenten treffen, wer prüft, und woran merken wir, dass Nutzen und Risiko auseinanderlaufen? Frage für diese Woche: Für welchen KI-Einsatz in Ihrem Bereich könnten Sie heute keinen Verantwortlichen benennen?",
+    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 5 (KI ist Kollege, nicht Werkzeug)",
+    "quelle": "Gartner, 19.10.2026"
   },
   "bani": [
     {
@@ -17,8 +17,8 @@
       "wert": 93,
       "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "Al Jazeera, 26.10.2026 · Malay Mail/AFP, 27.10.2026",
-      "befund": "Unverändert hoch. Mit der Kälte nehmen die Angriffe auf die ukrainische Energieversorgung wieder zu; die UN werten sie als Kriegsverbrechen. Dem steht eine örtlich begrenzte Waffenruhe in Oleshky gegenüber; Dauer offen. Gespräche zwischen USA, Russland und Ukraine sollen im November wieder aufgenommen werden. Führung hält Entspannungs- wie Eskalationsschwellen schriftlich fest und verwechselt einen Kanal nicht mit einer Lösung."
+      "quelle": "Al Jazeera, 26.10.2026 · Reuters, 24.10.2026",
+      "befund": "Unverändert hoch. Mit der Kälte nehmen die Angriffe auf die ukrainische Energieversorgung wieder zu; die UN werten sie als Kriegsverbrechen. Seit 27.10. gilt eine örtliche Waffenruhe in Oleshky; technische Gespräche zwischen USA, Russland und Ukraine sind für die erste Novemberhälfte vereinbart; ein fester Termin fehlt noch. Führung hält Entspannungs- wie Eskalationsschwellen schriftlich fest und verwechselt einen Kanal nicht mit einer Lösung."
     },
     {
       "name": "Ängstlich",
@@ -41,18 +41,22 @@
       "wert": 50,
       "delta": 0,
       "kurz": "Entzieht sich der Erklärung.",
-      "quelle": "monday.com / Nielsen, 21.10.2026 · Gartner, 20.10.2026",
-      "befund": "Unverändert. KI-Agenten handeln eigenständig und im Auftrag mehrerer Menschen – wer was veranlasst hat, ist oft nicht mehr sauber zuzuordnen. 46 Prozent der Führungskräfte sorgen sich, die Kontrolle über Agenten zu verlieren, 35 Prozent fürchten, für deren Entscheidungen haften zu müssen. Gartner erwartet bis 2028 ein Viertel der Sicherheitsvorfälle durch missbrauchte Agenten. Führung klärt zuerst Verantwortung, dann Skalierung."
+      "quelle": "Gartner, 19.10.2026 · monday.com / Nielsen, 21.10.2026",
+      "befund": "Unverändert. KI-Agenten handeln eigenständig und im Auftrag mehrerer Menschen – wer was veranlasst hat, ist oft nicht mehr sauber zuzuordnen. 71 Prozent der Organisationen wollen Agenten binnen eines Jahres einsetzen, nur 21 Prozent haben Governance dafür. 46 Prozent der Führungskräfte sorgen sich, die Kontrolle über Agenten zu verlieren. Führung klärt zuerst Verantwortung, dann Skalierung."
     }
   ],
   "quellen": [
     {
-      "titel": "Al Jazeera: Russian attacks on Ukraine's energy infrastructure a war crime: UN (26.10.2026)",
-      "url": "https://aljazeera.com/news/2026/10/26/russian-attacks-on-ukraines-energy-infrastructure-a-war-crime-un"
+      "titel": "Gartner: Gartner Says AI Risk is Rising Faster Than AI Value (19.10.2026)",
+      "url": "https://www.morningstar.com/news/business-wire/20261019209687/gartner-says-ai-risk-is-rising-faster-than-ai-value"
     },
     {
-      "titel": "Malay Mail/AFP: US-brokered truce expected to begin in Russian-occupied city (27.10.2026)",
-      "url": "https://www.malaymail.com/news/world/2026/10/27/us-brokered-truce-expected-to-begin-in-russian-occupied-city/240738"
+      "titel": "Reuters via Prothom Alo: Russia, Ukraine agree on ceasefire in Oleshky, to hold peace talks next month (24.10.2026)",
+      "url": "https://en.prothomalo.com/international/europe/mged9rn16m"
+    },
+    {
+      "titel": "Al Jazeera: Russian attacks on Ukraine's energy infrastructure a war crime: UN (26.10.2026)",
+      "url": "https://aljazeera.com/news/2026/10/26/russian-attacks-on-ukraines-energy-infrastructure-a-war-crime-un"
     },
     {
       "titel": "ifo Institut: ifo Geschäftsklima Deutschland, Oktober 2026",
@@ -73,10 +77,6 @@
     {
       "titel": "monday.com / Nielsen: The AI Report 2026 (21.10.2026)",
       "url": "https://monday.com/blog/project-management/monday-ai-report-2026/"
-    },
-    {
-      "titel": "Gartner: Top Strategic Technology Trends for 2027 (20.10.2026)",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-20-gartner-identifies-the-top-strategic-technology-trends-for-2027"
     }
   ]
 }
