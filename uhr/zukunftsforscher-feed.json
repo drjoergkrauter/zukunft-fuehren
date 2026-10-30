@@ -1,15 +1,15 @@
 {
-  "datum": "2026-10-29",
+  "datum": "2026-10-30",
   "index": 84,
   "uhrzeit": "23:50",
   "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "KI-Agenten kommen schneller als die Regeln: 71 Prozent wollen sie binnen eines Jahres, 21 Prozent haben Governance.",
-    "befund": "Laut Gartner (19.10.) erwarten 71 Prozent der Organisationen, agentische KI in den nächsten zwölf Monaten einzusetzen. Nur 21 Prozent haben dafür bereits Governance-Fähigkeiten. Und nur 58 Prozent der Führungskräfte sehen überhaupt einen positiven Wert ihrer KI-Initiativen.",
-    "fuehrungsimplikation": "Die Lücke zwischen Tempo und Steuerbarkeit ist keine IT-Frage, sondern eine Führungsfrage. Wer Agenten einführt, ohne zu klären, wer sie beauftragt, überwacht und für ihre Entscheidungen geradesteht, delegiert Verantwortung ins Leere. Führung legt vor dem Ausrollen fest: Welche Entscheidungen dürfen Agenten treffen, wer prüft, und woran merken wir, dass Nutzen und Risiko auseinanderlaufen? Frage für diese Woche: Für welchen KI-Einsatz in Ihrem Bereich könnten Sie heute keinen Verantwortlichen benennen?",
-    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 5 (KI ist Kollege, nicht Werkzeug)",
-    "quelle": "Gartner, 19.10.2026"
+    "titel": "Aus dem Ereignis wird eine Dauerlage: Über 570 Schiffe wurden 2026 im Schwarzen Meer getroffen.",
+    "befund": "Am 28.10. traf ein unbemanntes Boot das Containerschiff Contship Jet vor der bulgarischen Küste; die Besatzung wurde gerettet. Seit Jahresbeginn wurden im Schwarzen Meer mehr als 570 Schiffe getroffen, mindestens 40 Seeleute starben. Bulgarien, Rumänien und die Türkei wollen Lagebild und Frühwarnung ausbauen, ohne einen Urheber zu benennen.",
+    "fuehrungsimplikation": "Die größte Gefahr ist nicht der einzelne Angriff, sondern die Gewöhnung. Was sich wiederholt, wird zum Hintergrundrauschen – bis es plötzlich Lieferketten, Versicherungsprämien oder Energiepreise trifft. Führung legt deshalb vorab fest, ab welcher Schwelle sie handelt: Welche Route, welcher Lieferant, welcher Kostenanstieg löst den Plan B aus? Wer diese Auslöser schriftlich hat, entscheidet im Ernstfall schneller und ruhiger. Frage für diese Woche: Welches Risiko in Ihrem Bereich haben Sie sich angewöhnt, statt es zu steuern?",
+    "kapitel": "Kapitel 1 (Die Polykrise ist kein Sonderfall mehr) und Kapitel 17 (Den Rubikon überschreiten)",
+    "quelle": "Defense News, 29.10.2026"
   },
   "bani": [
     {
@@ -17,16 +17,16 @@
       "wert": 93,
       "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "Al Jazeera, 26.10.2026 · Reuters, 24.10.2026",
-      "befund": "Unverändert hoch. Mit der Kälte nehmen die Angriffe auf die ukrainische Energieversorgung wieder zu; die UN werten sie als Kriegsverbrechen. Seit 27.10. gilt eine örtliche Waffenruhe in Oleshky; technische Gespräche zwischen USA, Russland und Ukraine sind für die erste Novemberhälfte vereinbart; ein fester Termin fehlt noch. Führung hält Entspannungs- wie Eskalationsschwellen schriftlich fest und verwechselt einen Kanal nicht mit einer Lösung."
+      "quelle": "Defense News, 29.10.2026 · Reuters, 24.10.2026",
+      "befund": "Unverändert hoch. Die Angriffe auf Handelsschiffe im Schwarzen Meer halten an; die Anrainer Bulgarien, Rumänien und die Türkei reagieren besonnen und setzen auf Informationsaustausch und Frühwarnung. Gespräche auf Ebene der Verhandlungsteams sind angekündigt, ein fester Termin fehlt; in Oleshky gilt seit 27.10. eine örtliche Waffenruhe. Führung verwechselt einen Kanal nicht mit einer Lösung und hält ihre Eskalationsschwellen schriftlich fest."
     },
     {
       "name": "Ängstlich",
       "wert": 96,
       "delta": 0,
       "kurz": "Wahrgenommene Bedrohung, Vertrauensverlust.",
-      "quelle": "NielsenIQ/GfK, 25.09.2026 · Gallup, 15.09.2026 · Deloitte 2026",
-      "befund": "Unverändert sehr hoch. Das Konsumklima in Deutschland fällt für Oktober auf −30,6 Punkte, die Einkommenserwartungen auf −15,0. In den USA fürchten 27 Prozent der Beschäftigten, durch Technologie überflüssig zu werden – ein Rekord. Und die Führungsrolle selbst schreckt ab: Nur 6 Prozent der Gen Z und Millennials nennen sie als wichtigstes Karriereziel. Führung spricht Unsicherheit offen an und macht die eigene Rolle tragbar."
+      "quelle": "McKinsey, 03.09.2026 · Gallup, 15.09.2026 · Deloitte 2026",
+      "befund": "Unverändert sehr hoch. Die Angst läuft der Datenlage voraus: 32 Prozent der Unternehmen erwarteten KI-bedingten Stellenabbau, tatsächlich berichten ihn 14 Prozent; dennoch erwarten 39 Prozent Abbau im nächsten Jahr. In den USA fürchten 27 Prozent der Beschäftigten, durch Technologie überflüssig zu werden – ein Rekord. Führung stützt ihre Kommunikation auf Ist-Daten statt auf Erwartungen und nimmt die Sorge trotzdem ernst."
     },
     {
       "name": "Nichtlinear",
@@ -41,11 +41,19 @@
       "wert": 50,
       "delta": 0,
       "kurz": "Entzieht sich der Erklärung.",
-      "quelle": "Gartner, 19.10.2026 · monday.com / Nielsen, 21.10.2026",
-      "befund": "Unverändert. KI-Agenten handeln eigenständig und im Auftrag mehrerer Menschen – wer was veranlasst hat, ist oft nicht mehr sauber zuzuordnen. 71 Prozent der Organisationen wollen Agenten binnen eines Jahres einsetzen, nur 21 Prozent haben Governance dafür. 46 Prozent der Führungskräfte sorgen sich, die Kontrolle über Agenten zu verlieren. Führung klärt zuerst Verantwortung, dann Skalierung."
+      "quelle": "Gartner, 19.10.2026 · McKinsey, 25.08.2026",
+      "befund": "Unverändert. KI-Agenten handeln eigenständig und im Auftrag mehrerer Menschen – wer was veranlasst hat, ist oft nicht mehr sauber zuzuordnen. 71 Prozent der Organisationen wollen Agenten binnen eines Jahres einsetzen, nur 21 Prozent haben Governance dafür. Zugleich wirkt KI auf Beschäftigung eher schleichend als schlagartig, was ihre Folgen schwer greifbar macht. Führung klärt zuerst Verantwortung, dann Skalierung."
     }
   ],
   "quellen": [
+    {
+      "titel": "Defense News: NATO's Black Sea nations decry Ukraine war spillover endangering commercial ship traffic (29.10.2026)",
+      "url": "https://www.defensenews.com/global/europe/2026/10/29/natos-black-sea-nations-decry-ukraine-war-spillover-endangering-commercial-ship-traffic/"
+    },
+    {
+      "titel": "McKinsey: AI job losses fall short of forecasts (03.09.2026)",
+      "url": "https://www.mckinsey.com/featured-insights/charts/ai-job-losses-fall-short-of-forecasts"
+    },
     {
       "titel": "Gartner: Gartner Says AI Risk is Rising Faster Than AI Value (19.10.2026)",
       "url": "https://www.morningstar.com/news/business-wire/20261019209687/gartner-says-ai-risk-is-rising-faster-than-ai-value"
@@ -53,10 +61,6 @@
     {
       "titel": "Reuters via Prothom Alo: Russia, Ukraine agree on ceasefire in Oleshky, to hold peace talks next month (24.10.2026)",
       "url": "https://en.prothomalo.com/international/europe/mged9rn16m"
-    },
-    {
-      "titel": "Al Jazeera: Russian attacks on Ukraine's energy infrastructure a war crime: UN (26.10.2026)",
-      "url": "https://aljazeera.com/news/2026/10/26/russian-attacks-on-ukraines-energy-infrastructure-a-war-crime-un"
     },
     {
       "titel": "ifo Institut: ifo Geschäftsklima Deutschland, Oktober 2026",
@@ -73,10 +77,6 @@
     {
       "titel": "Becker's: What 14,000 Gen Zers say would make them pursue leadership (Deloitte 2026)",
       "url": "https://www.beckershospitalreview.com/workforce/what-14000-gen-zers-say-would-make-them-pursue-leadership/"
-    },
-    {
-      "titel": "monday.com / Nielsen: The AI Report 2026 (21.10.2026)",
-      "url": "https://monday.com/blog/project-management/monday-ai-report-2026/"
     }
   ]
 }
