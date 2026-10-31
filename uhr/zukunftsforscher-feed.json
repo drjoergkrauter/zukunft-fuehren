@@ -1,15 +1,15 @@
 {
-  "datum": "2026-10-30",
+  "datum": "2026-10-31",
   "index": 84,
   "uhrzeit": "23:50",
   "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "Aus dem Ereignis wird eine Dauerlage: Über 570 Schiffe wurden 2026 im Schwarzen Meer getroffen.",
-    "befund": "Am 28.10. traf ein unbemanntes Boot das Containerschiff Contship Jet vor der bulgarischen Küste; die Besatzung wurde gerettet. Seit Jahresbeginn wurden im Schwarzen Meer mehr als 570 Schiffe getroffen, mindestens 40 Seeleute starben. Bulgarien, Rumänien und die Türkei wollen Lagebild und Frühwarnung ausbauen, ohne einen Urheber zu benennen.",
-    "fuehrungsimplikation": "Die größte Gefahr ist nicht der einzelne Angriff, sondern die Gewöhnung. Was sich wiederholt, wird zum Hintergrundrauschen – bis es plötzlich Lieferketten, Versicherungsprämien oder Energiepreise trifft. Führung legt deshalb vorab fest, ab welcher Schwelle sie handelt: Welche Route, welcher Lieferant, welcher Kostenanstieg löst den Plan B aus? Wer diese Auslöser schriftlich hat, entscheidet im Ernstfall schneller und ruhiger. Frage für diese Woche: Welches Risiko in Ihrem Bereich haben Sie sich angewöhnt, statt es zu steuern?",
-    "kapitel": "Kapitel 1 (Die Polykrise ist kein Sonderfall mehr) und Kapitel 17 (Den Rubikon überschreiten)",
-    "quelle": "Defense News, 29.10.2026"
+    "titel": "Der KI-Bumerang: Unternehmen holen Menschen zurück, die sie wegen KI abgebaut haben.",
+    "befund": "Nach KI-begründetem Stellenabbau besetzen Unternehmen Rollen neu. Ford hat 350 erfahrene Ingenieure eingestellt oder befördert, nachdem KI in der Qualitätskontrolle hinter den Erwartungen blieb. Häufigste Gründe für Rückholungen: mehr menschliche Aufsicht als gedacht und fehlendes Erfahrungswissen. Zugleich kündigen weitere Konzerne KI-bezogenen Abbau an.",
+    "fuehrungsimplikation": "KI ersetzt Arbeit langsamer und anders als geplant. Wer Stellen streicht, bevor klar ist, wie viel Aufsicht die Technik braucht, verliert Wissen, das sich nicht zurückkaufen lässt – und Vertrauen bei denen, die bleiben. Führung plant KI-Umbau deshalb mit Rückholoption: Welche Rollen sichern Urteil, Qualität und Erfahrung? Wer gibt sein Wissen weiter, bevor er geht? Und wer haftet, wenn der Agent irrt? Frage für diese Woche: Welches Wissen in Ihrem Team steht in keinem System – und wer trägt es?",
+    "kapitel": "Kapitel 5 (KI ist Kollege, nicht Werkzeug) und Kapitel 14 (KI verlangt eine neue Kompetenz)",
+    "quelle": "AP, 29.10.2026"
   },
   "bani": [
     {
@@ -17,38 +17,54 @@
       "wert": 93,
       "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "Defense News, 29.10.2026 · Reuters, 24.10.2026",
-      "befund": "Unverändert hoch. Die Angriffe auf Handelsschiffe im Schwarzen Meer halten an; die Anrainer Bulgarien, Rumänien und die Türkei reagieren besonnen und setzen auf Informationsaustausch und Frühwarnung. Gespräche auf Ebene der Verhandlungsteams sind angekündigt, ein fester Termin fehlt; in Oleshky gilt seit 27.10. eine örtliche Waffenruhe. Führung verwechselt einen Kanal nicht mit einer Lösung und hält ihre Eskalationsschwellen schriftlich fest."
+      "quelle": "Al Jazeera, 29./30.10.2026 · Defense News, 29.10.2026",
+      "befund": "Unverändert hoch. Die örtliche Waffenruhe um Oleshky hält, Hilfskonvoi und Evakuierung liefen ohne gemeldete Verstöße; Gespräche im November sind angekündigt, ein Termin fehlt. Zugleich forderte ein Angriff auf den Bahnhof Dnipro viele Tote, und im Schwarzen Meer bleibt die Lage eine Dauerbelastung. Führung liest lokale Entspannung nicht als Entwarnung und hält ihre Auslöser für Plan B schriftlich fest."
     },
     {
       "name": "Ängstlich",
       "wert": 96,
       "delta": 0,
       "kurz": "Wahrgenommene Bedrohung, Vertrauensverlust.",
-      "quelle": "McKinsey, 03.09.2026 · Gallup, 15.09.2026 · Deloitte 2026",
-      "befund": "Unverändert sehr hoch. Die Angst läuft der Datenlage voraus: 32 Prozent der Unternehmen erwarteten KI-bedingten Stellenabbau, tatsächlich berichten ihn 14 Prozent; dennoch erwarten 39 Prozent Abbau im nächsten Jahr. In den USA fürchten 27 Prozent der Beschäftigten, durch Technologie überflüssig zu werden – ein Rekord. Führung stützt ihre Kommunikation auf Ist-Daten statt auf Erwartungen und nimmt die Sorge trotzdem ernst."
+      "quelle": "Gallup, 2026 · McKinsey, 03.09.2026 · AP, 29.10.2026",
+      "befund": "Unverändert sehr hoch. 27 Prozent der US-Beschäftigten fürchten, durch Technologie überflüssig zu werden – ein Rekord. Die Angst läuft der Datenlage voraus: 14 Prozent der Unternehmen berichten KI-bedingten Abbau, 32 Prozent hatten ihn erwartet. Dass Firmen Erfahrene zurückholen, zeigt, wie viel ihr Wissen wert ist. Führung sagt das offen – mit Ist-Daten statt Beschwichtigung."
     },
     {
       "name": "Nichtlinear",
-      "wert": 98,
-      "delta": 0,
+      "wert": 97,
+      "delta": -1,
       "kurz": "Kleine Ursache, große Wirkung.",
-      "quelle": "ifo Institut, Oktober 2026 · NielsenIQ/GfK, 25.09.2026",
-      "befund": "Unverändert sehr hoch. Unternehmen schauen zuversichtlicher nach vorn, das ifo-Geschäftsklima steigt auf 90,2 Punkte. Die Haushalte dagegen halten sich zurück. Diese Schere macht die Erholung anfällig: Ein Energiepreisschub oder schlechte Arbeitsmarktzahlen können die Stimmung rasch drehen. Nachfrage nicht aus Erwartungen ableiten, sondern in Szenarien planen."
+      "quelle": "Destatis, 30.10.2026 · Bundesagentur für Arbeit, 30.10.2026",
+      "befund": "Leicht entspannt. Die Inflation sinkt im Oktober vorläufig auf 2,8 Prozent, Energie verteuert sich mit 12,2 Prozent langsamer als im Vormonat. Das BIP wächst im dritten Quartal um 0,2 Prozent statt der erwarteten Stagnation. Der Arbeitsmarkt bleibt aber schwunglos: 2,955 Mio. Arbeitslose, 211.000 Erwerbstätige weniger als vor einem Jahr. Entlastung ja, Trendwende nein – weiter in Szenarien planen."
     },
     {
       "name": "Unbegreiflich",
       "wert": 50,
       "delta": 0,
       "kurz": "Entzieht sich der Erklärung.",
-      "quelle": "Gartner, 19.10.2026 · McKinsey, 25.08.2026",
-      "befund": "Unverändert. KI-Agenten handeln eigenständig und im Auftrag mehrerer Menschen – wer was veranlasst hat, ist oft nicht mehr sauber zuzuordnen. 71 Prozent der Organisationen wollen Agenten binnen eines Jahres einsetzen, nur 21 Prozent haben Governance dafür. Zugleich wirkt KI auf Beschäftigung eher schleichend als schlagartig, was ihre Folgen schwer greifbar macht. Führung klärt zuerst Verantwortung, dann Skalierung."
+      "quelle": "Gartner, 19.10.2026 · AP, 29.10.2026",
+      "befund": "Unverändert. KI-Agenten handeln eigenständig, Verantwortung ist oft nicht mehr sauber zuzuordnen: 71 Prozent der Organisationen planen den Einsatz, nur 21 Prozent haben Governance dafür. Wie häufig Unternehmen KI-bedingten Abbau wieder rückgängig machen, ist unklar – die Folgen von KI bleiben schwer greifbar. Führung klärt zuerst Verantwortung und Aufsicht, dann Skalierung."
     }
   ],
   "quellen": [
     {
-      "titel": "Defense News: NATO's Black Sea nations decry Ukraine war spillover endangering commercial ship traffic (29.10.2026)",
-      "url": "https://www.defensenews.com/global/europe/2026/10/29/natos-black-sea-nations-decry-ukraine-war-spillover-endangering-commercial-ship-traffic/"
+      "titel": "AP: What to consider if a company that made AI-related job cuts wants you back (29.10.2026)",
+      "url": "https://clickondetroit.com/business/2026/10/29/what-to-consider-if-a-company-that-made-ai-related-job-cuts-wants-you-back"
+    },
+    {
+      "titel": "Bundesagentur für Arbeit: Arbeitsmarkt im Oktober 2026 – Herbstbelebung bleibt schwach (30.10.2026)",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69986804-arbeitsmarkt-im-oktober-2026-herbstbelebung-bleibt-schwach-ba-presseinfo-nr-41-007.htm"
+    },
+    {
+      "titel": "Destatis: Inflationsrate im Oktober 2026 voraussichtlich +2,8 % (30.10.2026)",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69990749-inflationsrate-im-oktober-2026-voraussichtlich-2-8-007.htm"
+    },
+    {
+      "titel": "Destatis: Deutsche Wirtschaft wächst im dritten Quartal unerwartet (30.10.2026)",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69986986-deutsche-wirtschaft-waechst-im-dritten-quartal-unerwartet-015.htm"
+    },
+    {
+      "titel": "Al Jazeera: Oleshky evacuees leave for Russia as ceasefire holds (30.10.2026)",
+      "url": "https://aljazeera.com/news/2026/10/30/aid-convoy-enters-besieged-ukrainian-town-oleshky"
     },
     {
       "titel": "McKinsey: AI job losses fall short of forecasts (03.09.2026)",
@@ -59,24 +75,8 @@
       "url": "https://www.morningstar.com/news/business-wire/20261019209687/gartner-says-ai-risk-is-rising-faster-than-ai-value"
     },
     {
-      "titel": "Reuters via Prothom Alo: Russia, Ukraine agree on ceasefire in Oleshky, to hold peace talks next month (24.10.2026)",
-      "url": "https://en.prothomalo.com/international/europe/mged9rn16m"
-    },
-    {
-      "titel": "ifo Institut: ifo Geschäftsklima Deutschland, Oktober 2026",
-      "url": "https://www.ifo.de/umfrage/ifo-geschaeftsklima-deutschland"
-    },
-    {
-      "titel": "NielsenIQ / GfK: Konsumklima mit deutlichem Dämpfer (25.09.2026)",
-      "url": "https://nielseniq.com/global/de/news-center/2026/konsumklima-mit-deutlichem-dampfer/"
-    },
-    {
       "titel": "Gallup: Workers' Fear of Losing Jobs to Technology at New High (15.09.2026)",
       "url": "https://news.gallup.com/poll/714368/workers-fear-losing-jobs-technology.aspx"
-    },
-    {
-      "titel": "Becker's: What 14,000 Gen Zers say would make them pursue leadership (Deloitte 2026)",
-      "url": "https://www.beckershospitalreview.com/workforce/what-14000-gen-zers-say-would-make-them-pursue-leadership/"
     }
   ]
 }
