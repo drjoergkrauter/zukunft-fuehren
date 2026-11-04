@@ -1,15 +1,15 @@
 {
-  "datum": "2026-11-03",
+  "datum": "2026-11-04",
   "index": 84,
   "uhrzeit": "23:50",
   "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "Wenn der Alarm selbst lügt: Warn-Apps in der Ukraine und in Russland senden nach Hackerangriffen Falschmeldungen.",
-    "befund": "Am Abend des 1. November meldete die ukrainische Luftalarm-App rund um Kiew falsche Atom- und Chemiegefahren. Die Luftwaffe stellte klar: keine Strahlengefahr. Auch Russlands Warn-App verbreitete nach einem Cyberangriff Falschinformationen. Kiew macht Russland verantwortlich, Moskau nennt keinen Urheber.",
-    "fuehrungsimplikation": "Krisenkommunikation setzt voraus, dass der Kanal stimmt. Wer im Ernstfall nur auf eine App, eine Mailverteilerliste oder ein Dashboard setzt, kann durch eine einzige Falschmeldung Panik oder Lähmung auslösen. Führung legt deshalb vorab fest, wie Warnungen bestätigt werden: zweiter Kanal, benannte Personen, klare Rückfrage. Glaubwürdigkeit entsteht, wenn Menschen wissen, welcher Stimme sie im Zweifel trauen können. Frage für diese Woche: Wie würde Ihr Team eine falsche Alarmmeldung als falsch erkennen – und wer sagt es ihm?",
-    "kapitel": "Kapitel 12 (Authentizität ist überschätzt, Glaubwürdigkeit nicht) und Kapitel 1 (Die Polykrise ist kein Sonderfall mehr)",
-    "quelle": "Al Jazeera, 02.11.2026"
+    "titel": "Gespräche mit Termin, Ausgang offen: USA, Russland und die Ukraine verhandeln am 10./11. November in Abu Dhabi.",
+    "befund": "Der Kreml hat die trilateralen Gespräche bestätigt – die ersten dieser Art seit Februar. Auf der Agenda: Sicherheitsfragen nach dem Krieg, Deeskalation, Humanitäres. Putin verlangt den gesamten Donbass als Vorbedingung einer Waffenruhe, Kiew lehnt ab. Europa sitzt nicht am Tisch und verhandelt parallel in Brüssel über Sicherheitsgarantien.",
+    "fuehrungsimplikation": "Ein fester Termin verführt dazu, auf das Ergebnis zu warten. Besser ist, beide Ausgänge vorab durchzuspielen: Was tun wir, wenn die Gespräche tragen – und was, wenn sie scheitern? Wer die Auslöser für Entscheidungen jetzt festlegt, muss am 12. November nicht improvisieren. Und: Wer nicht am Tisch sitzt, gestaltet über die Fragen, die er vorher klärt. Frage für diese Woche: Welche Entscheidung in Ihrem Bereich hängt am Ausgang solcher Gespräche – und ab welchem Signal treffen Sie sie?",
+    "kapitel": "Kapitel 17 (Den Rubikon überschreiten) und Kapitel 6 (Wer sitzt am Tisch)",
+    "quelle": "The Moscow Times · Al Jazeera, 03.11.2026"
   },
   "bani": [
     {
@@ -17,8 +17,8 @@
       "wert": 93,
       "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "Al Jazeera, 01.11.2026 · 02.11.2026",
-      "befund": "Unverändert hoch. Die sechstägige Waffenruhe um Oleshky hielt ohne gemeldete Verstöße, knapp 800 Menschen wurden evakuiert – eine Verlängerung lehnte Russland nach ukrainischen Angaben ab. Am 2. November traf ein Angriff ein Hilfszentrum in Saporischschja, mindestens 24 Tote. Teilerfolge tragen nicht. Führung hängt Szenarien nicht an Feuerpausen, sondern an festen Auslösern."
+      "quelle": "Al Jazeera, 02.11. · 03.11.2026 · The Moscow Times, 03.11.2026",
+      "befund": "Unverändert hoch. Gesprächstermin ja, Waffenruhe nein: Die lokale Feuerpause um Oleshky endete ohne Verlängerung, am 2. November traf ein Angriff ein Hilfszentrum in Saporischschja, mindestens 24 Tote. Die Donbass-Vorbedingung macht einen Durchbruch unwahrscheinlich. Führung plant mit zwei Szenarien und festen Auslösern, nicht mit Hoffnung."
     },
     {
       "name": "Ängstlich",
@@ -26,7 +26,7 @@
       "delta": 0,
       "kurz": "Wahrgenommene Bedrohung, Vertrauensverlust.",
       "quelle": "Gallup, 15.09.2026 · McKinsey, 03.09.2026",
-      "befund": "Unverändert sehr hoch. 27 Prozent der US-Beschäftigten fürchten, durch Technologie überflüssig zu werden – ein Rekord. Die Angst läuft der Datenlage voraus: 14 Prozent der Unternehmen berichten KI-bedingten Abbau, 32 Prozent hatten ihn erwartet. Gefälschte Warnmeldungen zeigen, wie schnell Angst gezielt ausgelöst werden kann. Führung spricht offen an, was bekannt ist und was nicht."
+      "befund": "Unverändert sehr hoch. 27 Prozent der US-Beschäftigten fürchten, durch Technologie überflüssig zu werden – ein Rekord. Die Angst läuft der Datenlage voraus: 14 Prozent der Unternehmen berichten KI-bedingten Abbau, 32 Prozent hatten ihn erwartet. Führung spricht offen an, was bekannt ist und was nicht – auch bei der Frage, wozu KI im eigenen Haus eingesetzt wird."
     },
     {
       "name": "Nichtlinear",
@@ -34,29 +34,29 @@
       "delta": 0,
       "kurz": "Kleine Ursache, große Wirkung.",
       "quelle": "Destatis, 30.10.2026 · Bundesagentur für Arbeit, 30.10.2026",
-      "befund": "Unverändert. Neue Daten gibt es nicht: Die Inflation lag im Oktober vorläufig bei 2,8 Prozent, das BIP wuchs im dritten Quartal um 0,2 Prozent. Der Arbeitsmarkt bleibt schwunglos: 2,955 Mio. Arbeitslose, 211.000 Erwerbstätige weniger als vor einem Jahr. Entlastung ja, Aufschwung nein – Planung weiter auf Szenarien auslegen."
+      "befund": "Unverändert. Neue Daten gibt es nicht: Inflation im Oktober vorläufig 2,8 Prozent, BIP im dritten Quartal +0,2 Prozent. Der Arbeitsmarkt bleibt schwunglos: 2,955 Mio. Arbeitslose, 211.000 Erwerbstätige weniger als vor einem Jahr, aber 654.000 offene Stellen. Entlastung ja, Aufschwung nein – Planung weiter auf Szenarien auslegen."
     },
     {
       "name": "Unbegreiflich",
       "wert": 51,
-      "delta": 1,
+      "delta": 0,
       "kurz": "Entzieht sich der Erklärung.",
-      "quelle": "Al Jazeera, 02.11.2026 · Gartner, 19.10.2026",
-      "befund": "Leicht gestiegen. Wenn Warnsysteme selbst manipuliert werden und der Urheber offen bleibt, wird schwerer erkennbar, was wahr ist. Dazu kommen KI-Agenten, deren Verantwortung oft ungeklärt ist: 71 Prozent der Organisationen planen den Einsatz, nur 21 Prozent haben Governance dafür. Führung schafft Orientierung, indem sie Quellen und Zuständigkeiten klärt."
+      "quelle": "Al Jazeera, 02.11. · 03.11.2026 · Gartner, 19.10.2026",
+      "befund": "Unverändert. Manipulierte Warn-Apps mit offenem Urheber und Gespräche, deren Rahmen sich erst klärt, halten die Lage schwer lesbar. Dazu kommen KI-Agenten mit oft ungeklärter Verantwortung: 71 Prozent der Organisationen planen den Einsatz, nur 21 Prozent haben Governance dafür. Führung schafft Orientierung, indem sie Quellen und Zuständigkeiten klärt."
     }
   ],
   "quellen": [
     {
+      "titel": "The Moscow Times: U.S.-Mediated Ukraine Peace Talks to Resume in Abu Dhabi Next Week (03.11.2026)",
+      "url": "https://www.themoscowtimes.com/2026/11/03/us-mediated-ukraine-peace-talks-to-resume-in-abu-dhabi-next-week-a94160"
+    },
+    {
+      "titel": "Al Jazeera: Zelenskyy hopes Abu Dhabi talks will open way to meeting with Putin (03.11.2026)",
+      "url": "https://www.aljazeera.com/news/2026/11/3/zelenskyy-hopes-abu-dhabi-talks-will-open-way-to-meeting-with-putin"
+    },
+    {
       "titel": "Al Jazeera: Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends (02.11.2026)",
       "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings"
-    },
-    {
-      "titel": "Al Jazeera: Kherson braces for return of war as localised Russia-Ukraine truce ends (01.11.2026)",
-      "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends"
-    },
-    {
-      "titel": "Al Jazeera: Russian bombing of Ukrainian aid centre kills 24 people (02.11.2026)",
-      "url": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy"
     },
     {
       "titel": "Gartner: Gartner Says AI Risk is Rising Faster Than AI Value (19.10.2026)",
