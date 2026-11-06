@@ -1,15 +1,15 @@
 {
-  "datum": "2026-11-04",
+  "datum": "2026-11-06",
   "index": 84,
   "uhrzeit": "23:50",
   "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "Gespräche mit Termin, Ausgang offen: USA, Russland und die Ukraine verhandeln am 10./11. November in Abu Dhabi.",
-    "befund": "Der Kreml hat die trilateralen Gespräche bestätigt – die ersten dieser Art seit Februar. Auf der Agenda: Sicherheitsfragen nach dem Krieg, Deeskalation, Humanitäres. Putin verlangt den gesamten Donbass als Vorbedingung einer Waffenruhe, Kiew lehnt ab. Europa sitzt nicht am Tisch und verhandelt parallel in Brüssel über Sicherheitsgarantien.",
-    "fuehrungsimplikation": "Ein fester Termin verführt dazu, auf das Ergebnis zu warten. Besser ist, beide Ausgänge vorab durchzuspielen: Was tun wir, wenn die Gespräche tragen – und was, wenn sie scheitern? Wer die Auslöser für Entscheidungen jetzt festlegt, muss am 12. November nicht improvisieren. Und: Wer nicht am Tisch sitzt, gestaltet über die Fragen, die er vorher klärt. Frage für diese Woche: Welche Entscheidung in Ihrem Bereich hängt am Ausgang solcher Gespräche – und ab welchem Signal treffen Sie sie?",
-    "kapitel": "Kapitel 17 (Den Rubikon überschreiten) und Kapitel 6 (Wer sitzt am Tisch)",
-    "quelle": "The Moscow Times · Al Jazeera, 03.11.2026"
+    "titel": "KI wird zum Führungsrisiko: Vier der fünf größten neuen Unternehmensrisiken haben mit KI zu tun.",
+    "befund": "Im aktuellen Gartner-Risikoranking (308 Risiko- und Führungsverantwortliche) stehen auf Platz 3 bis 5 Fehlkalkulation der KI-Strategie, Verdrängung durch KI-starke Wettbewerber und eine Lücke bei der Vorbereitung der Belegschaft. Nur 17 Prozent der CFOs sehen bei mehr als der Hälfte ihrer KI-Projekte messbaren Ertrag.",
+    "fuehrungsimplikation": "Die Einführung ist breit, die Wirkung oft flach. Das ist weniger ein Technikproblem als eine Führungsaufgabe: klären, wer die KI-Strategie verantwortet und wer sie umsetzt; vor dem Start festlegen, woran Erfolg gemessen wird; prüfen, ob gewonnene Zeit wirklich zu besseren Ergebnissen führt. Dazu gehört die Belegschaft – Qualifizierung und Gespräche über veränderte Rollen entscheiden mit über den Ertrag. Frage für diese Woche: Bei welchem KI-Vorhaben in Ihrem Bereich können Sie heute benennen, wer verantwortlich ist und woran Sie den Nutzen messen?",
+    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 23 (Veränderung, die nicht im Sand verläuft)",
+    "quelle": "Gartner via Help Net Security, 04.11.2026"
   },
   "bani": [
     {
@@ -17,50 +17,58 @@
       "wert": 93,
       "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "Al Jazeera, 02.11. · 03.11.2026 · The Moscow Times, 03.11.2026",
-      "befund": "Unverändert hoch. Gesprächstermin ja, Waffenruhe nein: Die lokale Feuerpause um Oleshky endete ohne Verlängerung, am 2. November traf ein Angriff ein Hilfszentrum in Saporischschja, mindestens 24 Tote. Die Donbass-Vorbedingung macht einen Durchbruch unwahrscheinlich. Führung plant mit zwei Szenarien und festen Auslösern, nicht mit Hoffnung."
+      "quelle": "AFP/RTE, 05.11.2026 · The Moscow Times, 03.11.2026",
+      "befund": "Unverändert hoch. Die Gespräche zwischen den USA, Russland und der Ukraine am 10./11. November in Abu Dhabi stehen; Selenskyj sprach vorab anderthalb Stunden mit den US-Gesandten. Zugleich wächst die Sorge, dass sich die USA bei engerem Draht nach Moskau von der Ukraine abwenden. Führung hält zwei Szenarien mit festen Auslösern bereit."
     },
     {
       "name": "Ängstlich",
       "wert": 96,
       "delta": 0,
       "kurz": "Wahrgenommene Bedrohung, Vertrauensverlust.",
-      "quelle": "Gallup, 15.09.2026 · McKinsey, 03.09.2026",
-      "befund": "Unverändert sehr hoch. 27 Prozent der US-Beschäftigten fürchten, durch Technologie überflüssig zu werden – ein Rekord. Die Angst läuft der Datenlage voraus: 14 Prozent der Unternehmen berichten KI-bedingten Abbau, 32 Prozent hatten ihn erwartet. Führung spricht offen an, was bekannt ist und was nicht – auch bei der Frage, wozu KI im eigenen Haus eingesetzt wird."
+      "quelle": "Gallup, 15.09.2026 · Gallup State of the Global Workplace 2026",
+      "befund": "Unverändert sehr hoch. 27 Prozent der US-Beschäftigten fürchten, durch Technologie überflüssig zu werden – ein Rekord. Nur 12 Prozent sagen dagegen, KI habe die Arbeit in ihrer Organisation grundlegend verändert: Die Angst eilt der Wirkung voraus. Führung macht transparent, wofür KI im eigenen Haus eingesetzt wird und was das für Rollen bedeutet."
     },
     {
       "name": "Nichtlinear",
       "wert": 97,
       "delta": 0,
       "kurz": "Kleine Ursache, große Wirkung.",
-      "quelle": "Destatis, 30.10.2026 · Bundesagentur für Arbeit, 30.10.2026",
-      "befund": "Unverändert. Neue Daten gibt es nicht: Inflation im Oktober vorläufig 2,8 Prozent, BIP im dritten Quartal +0,2 Prozent. Der Arbeitsmarkt bleibt schwunglos: 2,955 Mio. Arbeitslose, 211.000 Erwerbstätige weniger als vor einem Jahr, aber 654.000 offene Stellen. Entlastung ja, Aufschwung nein – Planung weiter auf Szenarien auslegen."
+      "quelle": "Eurostat, 30.10.2026 · Destatis, 30.10.2026 · Bundesagentur für Arbeit, 30.10.2026",
+      "befund": "Unverändert. Die Arbeitslosenquote im Euroraum verharrt seit Juli bei 6,5 Prozent, die Jugendarbeitslosigkeit in der EU steigt leicht auf 15,5 Prozent. In Deutschland: Inflation im Oktober vorläufig 2,8 Prozent, 2,955 Mio. Arbeitslose, 654.000 offene Stellen. Stabilität ohne Schwung – Planung bleibt auf Szenarien ausgelegt, der Berufseinstieg verdient Aufmerksamkeit."
     },
     {
       "name": "Unbegreiflich",
       "wert": 51,
       "delta": 0,
       "kurz": "Entzieht sich der Erklärung.",
-      "quelle": "Al Jazeera, 02.11. · 03.11.2026 · Gartner, 19.10.2026",
-      "befund": "Unverändert. Manipulierte Warn-Apps mit offenem Urheber und Gespräche, deren Rahmen sich erst klärt, halten die Lage schwer lesbar. Dazu kommen KI-Agenten mit oft ungeklärter Verantwortung: 71 Prozent der Organisationen planen den Einsatz, nur 21 Prozent haben Governance dafür. Führung schafft Orientierung, indem sie Quellen und Zuständigkeiten klärt."
+      "quelle": "Gallup State of the Global Workplace 2026 · Gartner, 04.11.2026",
+      "befund": "Unverändert. Weltweit sind nur noch 20 Prozent der Beschäftigten engagiert; bei Führungskräften sank der Wert seit 2022 um neun Punkte auf 22 Prozent. Gleichzeitig bleibt offen, was KI tatsächlich bewirkt. Wo Führung selbst an Bindung verliert, wird Veränderung schwer erklärbar. Orientierung entsteht, wenn Führungskräfte Ziele, Zuständigkeiten und Nutzen klar benennen."
     }
   ],
   "quellen": [
     {
-      "titel": "The Moscow Times: U.S.-Mediated Ukraine Peace Talks to Resume in Abu Dhabi Next Week (03.11.2026)",
-      "url": "https://www.themoscowtimes.com/2026/11/03/us-mediated-ukraine-peace-talks-to-resume-in-abu-dhabi-next-week-a94160"
+      "titel": "Help Net Security: Companies going all in on AI could see their strategy backfire (Gartner, 04.11.2026)",
+      "url": "https://www.helpnetsecurity.com/2026/11/04/ai-strategy-miscalculation-gartner-report/"
     },
     {
-      "titel": "Al Jazeera: Zelenskyy hopes Abu Dhabi talks will open way to meeting with Putin (03.11.2026)",
-      "url": "https://www.aljazeera.com/news/2026/11/3/zelenskyy-hopes-abu-dhabi-talks-will-open-way-to-meeting-with-putin"
+      "titel": "Gartner: Survey Finds Two New AI-Related Risks Emerge in Third-Quarter 2026 Report (02.11.2026)",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-02-gartner-survey-finds-two-new-ai-related-risks-emerge-in-3q26"
     },
     {
-      "titel": "Al Jazeera: Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends (02.11.2026)",
-      "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings"
+      "titel": "Gallup: State of the Global Workplace 2026",
+      "url": "https://www.gallup.com/workplace/349484/state-workplace.aspx"
     },
     {
-      "titel": "Gartner: Gartner Says AI Risk is Rising Faster Than AI Value (19.10.2026)",
-      "url": "https://finviz.com/news/404098/gartner-says-ai-risk-is-rising-faster-than-ai-value"
+      "titel": "Gallup: Workers' Fear of Losing Jobs to Technology at New High (15.09.2026)",
+      "url": "https://news.gallup.com/poll/714368/workers-fear-losing-jobs-technology.aspx"
+    },
+    {
+      "titel": "RTÉ/AFP: Zelensky speaks to US envoys ahead of Russia talks (05.11.2026)",
+      "url": "https://www.rte.ie/news/ukraine/2026/1105/1598044-ukraine-russia/"
+    },
+    {
+      "titel": "Demócrata: Unemployment in the eurozone stagnates at 6.5% in September (Eurostat, 30.10.2026)",
+      "url": "https://www.democrata.es/en/economy/unemployment-in-the-eurozone-stagnates-at-6-5-in-september/"
     },
     {
       "titel": "Destatis: Inflationsrate im Oktober 2026 voraussichtlich +2,8 % (30.10.2026)",
@@ -69,14 +77,6 @@
     {
       "titel": "Bundesagentur für Arbeit: Arbeitsmarkt im Oktober 2026 – Herbstbelebung bleibt schwach (30.10.2026)",
       "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69986804-arbeitsmarkt-im-oktober-2026-herbstbelebung-bleibt-schwach-ba-presseinfo-nr-41-007.htm"
-    },
-    {
-      "titel": "Gallup: Workers' Fear of Losing Jobs to Technology at New High (15.09.2026)",
-      "url": "https://news.gallup.com/poll/714368/workers-fear-losing-jobs-technology.aspx"
-    },
-    {
-      "titel": "McKinsey: AI job losses fall short of forecasts (03.09.2026)",
-      "url": "https://www.mckinsey.com/featured-insights/charts/ai-job-losses-fall-short-of-forecasts"
     }
   ]
 }
