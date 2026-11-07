@@ -1,24 +1,24 @@
 {
-  "datum": "2026-11-06",
-  "index": 84,
-  "uhrzeit": "23:50",
-  "trend": "stabil",
+  "datum": "2026-11-07",
+  "index": 85,
+  "uhrzeit": "23:51",
+  "trend": "steigend",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "KI wird zum Führungsrisiko: Vier der fünf größten neuen Unternehmensrisiken haben mit KI zu tun.",
-    "befund": "Im aktuellen Gartner-Risikoranking (308 Risiko- und Führungsverantwortliche) stehen auf Platz 3 bis 5 Fehlkalkulation der KI-Strategie, Verdrängung durch KI-starke Wettbewerber und eine Lücke bei der Vorbereitung der Belegschaft. Nur 17 Prozent der CFOs sehen bei mehr als der Hälfte ihrer KI-Projekte messbaren Ertrag.",
-    "fuehrungsimplikation": "Die Einführung ist breit, die Wirkung oft flach. Das ist weniger ein Technikproblem als eine Führungsaufgabe: klären, wer die KI-Strategie verantwortet und wer sie umsetzt; vor dem Start festlegen, woran Erfolg gemessen wird; prüfen, ob gewonnene Zeit wirklich zu besseren Ergebnissen führt. Dazu gehört die Belegschaft – Qualifizierung und Gespräche über veränderte Rollen entscheiden mit über den Ertrag. Frage für diese Woche: Bei welchem KI-Vorhaben in Ihrem Bereich können Sie heute benennen, wer verantwortlich ist und woran Sie den Nutzen messen?",
-    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 23 (Veränderung, die nicht im Sand verläuft)",
-    "quelle": "Gartner via Help Net Security, 04.11.2026"
+    "titel": "Seekrieg im Schwarzen Meer: Mehr als viermal so viele Handelsschiffe getroffen wie im Halbjahr davor.",
+    "befund": "Von Mai bis Oktober wurden im Schwarzen und Asowschen Meer 317 Schiffe getroffen, nach 74 im Halbjahr zuvor (Ambrey). Ein griechisches Containerschiff sank in Bulgariens Wirtschaftszone. Die Getreideausfuhr der Ukraine über ihre Häfen fiel im September auf 0,81 Mio. Tonnen nach 2,1 Mio. im Vorjahr.",
+    "fuehrungsimplikation": "Die Lage an Europas Rändern wirkt direkt auf Lieferketten, Energie- und Rohstoffpreise. Führung reagiert darauf nicht mit Schlagzeilen, sondern mit vorab vereinbarten Regeln: Wo hängen Beschaffung, Logistik oder Kunden am Seeweg über das Schwarze Meer? Welche Schwelle löst welche Entscheidung aus – und wer trifft sie? Wer das vor den Gesprächen am 10./11. November klärt, entscheidet danach schneller und ruhiger. Frage für diese Woche: Welche Entscheidung in Ihrem Bereich hängt an einer Entwicklung, für die Sie noch keinen Auslöser festgelegt haben?",
+    "kapitel": "Kapitel 2 (Die fragmentierte Welt) und Kapitel 17 (Den Rubikon überschreiten)",
+    "quelle": "Reuters via gCaptain, 03.11.2026"
   },
   "bani": [
     {
       "name": "Brüchig",
-      "wert": 93,
-      "delta": 0,
+      "wert": 94,
+      "delta": 1,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "AFP/RTE, 05.11.2026 · The Moscow Times, 03.11.2026",
-      "befund": "Unverändert hoch. Die Gespräche zwischen den USA, Russland und der Ukraine am 10./11. November in Abu Dhabi stehen; Selenskyj sprach vorab anderthalb Stunden mit den US-Gesandten. Zugleich wächst die Sorge, dass sich die USA bei engerem Draht nach Moskau von der Ukraine abwenden. Führung hält zwei Szenarien mit festen Auslösern bereit."
+      "quelle": "Reuters via gCaptain, 03.11.2026 · AFP/RTE, 05.11.2026",
+      "befund": "Leicht gestiegen. Der Seekrieg im Schwarzen Meer weitet sich aus und trifft Handelsrouten vor Rumänien und Bulgarien; einen Vorschlag für eine begrenzte Seewaffenruhe lehnt Russland ab. Die Gespräche in Abu Dhabi am 10./11. November stehen, ein Durchbruch wird nicht erwartet. Führung hält zwei Szenarien mit festen Auslösern bereit."
     },
     {
       "name": "Ängstlich",
@@ -33,8 +33,8 @@
       "wert": 97,
       "delta": 0,
       "kurz": "Kleine Ursache, große Wirkung.",
-      "quelle": "Eurostat, 30.10.2026 · Destatis, 30.10.2026 · Bundesagentur für Arbeit, 30.10.2026",
-      "befund": "Unverändert. Die Arbeitslosenquote im Euroraum verharrt seit Juli bei 6,5 Prozent, die Jugendarbeitslosigkeit in der EU steigt leicht auf 15,5 Prozent. In Deutschland: Inflation im Oktober vorläufig 2,8 Prozent, 2,955 Mio. Arbeitslose, 654.000 offene Stellen. Stabilität ohne Schwung – Planung bleibt auf Szenarien ausgelegt, der Berufseinstieg verdient Aufmerksamkeit."
+      "quelle": "Destatis, 06.10.2026 · Eurostat, 30.10.2026 · Bundesagentur für Arbeit, 30.10.2026",
+      "befund": "Unverändert. Wenige Großaufträge bewegen die Statistik: Der Auftragseingang der Industrie fiel im August um 10,6 Prozent, ohne Großaufträge nur um 0,1 Prozent. Die Arbeitslosenquote im Euroraum verharrt bei 6,5 Prozent, die Jugendarbeitslosigkeit in der EU steigt leicht auf 15,5 Prozent. Einzelne Zahlen nicht als Trend lesen – Planung bleibt auf Szenarien ausgelegt."
     },
     {
       "name": "Unbegreiflich",
@@ -47,12 +47,16 @@
   ],
   "quellen": [
     {
-      "titel": "Help Net Security: Companies going all in on AI could see their strategy backfire (Gartner, 04.11.2026)",
-      "url": "https://www.helpnetsecurity.com/2026/11/04/ai-strategy-miscalculation-gartner-report/"
+      "titel": "gCaptain/Reuters: War Widens in the Black Sea in a Test of NATO Red Lines (03.11.2026)",
+      "url": "https://gcaptain.com/war-widens-in-the-black-sea-in-a-test-of-nato-red-lines/"
     },
     {
-      "titel": "Gartner: Survey Finds Two New AI-Related Risks Emerge in Third-Quarter 2026 Report (02.11.2026)",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-02-gartner-survey-finds-two-new-ai-related-risks-emerge-in-3q26"
+      "titel": "RTÉ/AFP: Zelensky speaks to US envoys ahead of Russia talks (05.11.2026)",
+      "url": "https://www.rte.ie/news/ukraine/2026/1105/1598044-ukraine-russia/"
+    },
+    {
+      "titel": "Destatis: Auftragseingang im Verarbeitenden Gewerbe im August 2026: −10,6 % zum Vormonat (06.10.2026)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_354_421.html"
     },
     {
       "titel": "Gallup: State of the Global Workplace 2026",
@@ -63,16 +67,12 @@
       "url": "https://news.gallup.com/poll/714368/workers-fear-losing-jobs-technology.aspx"
     },
     {
-      "titel": "RTÉ/AFP: Zelensky speaks to US envoys ahead of Russia talks (05.11.2026)",
-      "url": "https://www.rte.ie/news/ukraine/2026/1105/1598044-ukraine-russia/"
+      "titel": "Gartner: Survey Finds Two New AI-Related Risks Emerge in Third-Quarter 2026 Report (02.11.2026)",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-02-gartner-survey-finds-two-new-ai-related-risks-emerge-in-3q26"
     },
     {
       "titel": "Demócrata: Unemployment in the eurozone stagnates at 6.5% in September (Eurostat, 30.10.2026)",
       "url": "https://www.democrata.es/en/economy/unemployment-in-the-eurozone-stagnates-at-6-5-in-september/"
-    },
-    {
-      "titel": "Destatis: Inflationsrate im Oktober 2026 voraussichtlich +2,8 % (30.10.2026)",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69990749-inflationsrate-im-oktober-2026-voraussichtlich-2-8-007.htm"
     },
     {
       "titel": "Bundesagentur für Arbeit: Arbeitsmarkt im Oktober 2026 – Herbstbelebung bleibt schwach (30.10.2026)",
