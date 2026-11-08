@@ -1,24 +1,24 @@
 {
-  "datum": "2026-11-07",
+  "datum": "2026-11-08",
   "index": 85,
   "uhrzeit": "23:51",
-  "trend": "steigend",
+  "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "Seekrieg im Schwarzen Meer: Mehr als viermal so viele Handelsschiffe getroffen wie im Halbjahr davor.",
-    "befund": "Von Mai bis Oktober wurden im Schwarzen und Asowschen Meer 317 Schiffe getroffen, nach 74 im Halbjahr zuvor (Ambrey). Ein griechisches Containerschiff sank in Bulgariens Wirtschaftszone. Die Getreideausfuhr der Ukraine über ihre Häfen fiel im September auf 0,81 Mio. Tonnen nach 2,1 Mio. im Vorjahr.",
-    "fuehrungsimplikation": "Die Lage an Europas Rändern wirkt direkt auf Lieferketten, Energie- und Rohstoffpreise. Führung reagiert darauf nicht mit Schlagzeilen, sondern mit vorab vereinbarten Regeln: Wo hängen Beschaffung, Logistik oder Kunden am Seeweg über das Schwarze Meer? Welche Schwelle löst welche Entscheidung aus – und wer trifft sie? Wer das vor den Gesprächen am 10./11. November klärt, entscheidet danach schneller und ruhiger. Frage für diese Woche: Welche Entscheidung in Ihrem Bereich hängt an einer Entwicklung, für die Sie noch keinen Auslöser festgelegt haben?",
-    "kapitel": "Kapitel 2 (Die fragmentierte Welt) und Kapitel 17 (Den Rubikon überschreiten)",
-    "quelle": "Reuters via gCaptain, 03.11.2026"
+    "titel": "KI-Werte unter Druck: Nasdaq mit dem schwersten Tag seit April 2025.",
+    "befund": "Am 5. November fiel der Nasdaq um 5,5 Prozent, der S&P 500 um 4,4 Prozent; Nvidia verlor gut 9 Prozent, der Halbleiterindex mehr als 12 Prozent. Anleger erwarten nach den US-Zwischenwahlen strengere KI-Regulierung und einen langsameren, teureren Ausbau der Rechenzentren. Zugleich sehen laut Gartner nur 17 Prozent der Finanzchefs bei mehr als der Hälfte ihrer KI-Projekte einen messbaren Ertrag.",
+    "fuehrungsimplikation": "KI-Vorhaben, die nur mit dauerhaft günstigem Kapital und billiger Rechenleistung aufgehen, sind nicht robust. Führung prüft jetzt, welche Projekte auch bei höheren Kosten und mehr Auflagen tragen, und steuert sie über Ertragsnachweis, Kostenbudget und eine klar benannte Verantwortliche. Das ist kein Rückzug aus KI, sondern Priorisierung. Frage für diese Woche: Welches KI-Projekt in Ihrem Bereich würden Sie weiterführen, wenn es doppelt so viel kostete – und woran messen Sie das?",
+    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 23 (Veränderung, die nicht im Sand verläuft)",
+    "quelle": "Fox Business, 05.11.2026 · Gartner, 02.11.2026"
   },
   "bani": [
     {
       "name": "Brüchig",
       "wert": 94,
-      "delta": 1,
+      "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "Reuters via gCaptain, 03.11.2026 · AFP/RTE, 05.11.2026",
-      "befund": "Leicht gestiegen. Der Seekrieg im Schwarzen Meer weitet sich aus und trifft Handelsrouten vor Rumänien und Bulgarien; einen Vorschlag für eine begrenzte Seewaffenruhe lehnt Russland ab. Die Gespräche in Abu Dhabi am 10./11. November stehen, ein Durchbruch wird nicht erwartet. Führung hält zwei Szenarien mit festen Auslösern bereit."
+      "quelle": "AP/The Week, 03.11.2026 · Reuters via gCaptain, 03.11.2026",
+      "befund": "Unverändert hoch. Polen sichert seit dem 2. November die Grenze zu Kaliningrad mit starken Kräften, weil Dienste vor Sabotage warnen; ein Vorfall ist bisher nicht belegt. Der Seekrieg im Schwarzen Meer hält an. Die Gespräche in Abu Dhabi am 10./11. November stehen, ein Durchbruch wird nicht erwartet. Führung hält zwei Szenarien mit festen Auslösern bereit."
     },
     {
       "name": "Ängstlich",
@@ -30,11 +30,11 @@
     },
     {
       "name": "Nichtlinear",
-      "wert": 97,
-      "delta": 0,
+      "wert": 98,
+      "delta": 1,
       "kurz": "Kleine Ursache, große Wirkung.",
-      "quelle": "Destatis, 06.10.2026 · Eurostat, 30.10.2026 · Bundesagentur für Arbeit, 30.10.2026",
-      "befund": "Unverändert. Wenige Großaufträge bewegen die Statistik: Der Auftragseingang der Industrie fiel im August um 10,6 Prozent, ohne Großaufträge nur um 0,1 Prozent. Die Arbeitslosenquote im Euroraum verharrt bei 6,5 Prozent, die Jugendarbeitslosigkeit in der EU steigt leicht auf 15,5 Prozent. Einzelne Zahlen nicht als Trend lesen – Planung bleibt auf Szenarien ausgelegt."
+      "quelle": "Fox Business, 05.11.2026 · Destatis, 06.10.2026 · Eurostat, 30.10.2026",
+      "befund": "Leicht gestiegen. Ein Wahlergebnis genügte, um den Nasdaq an einem Tag um 5,5 Prozent und damit in eine Korrektur zu drücken. Auch die Industrie zeigt Sprünge: Der Auftragseingang fiel im August um 10,6 Prozent, ohne Großaufträge nur um 0,1 Prozent. Die Arbeitslosenquote im Euroraum verharrt bei 6,5 Prozent. Planung bleibt auf Szenarien ausgelegt, nicht auf Einzelzahlen."
     },
     {
       "name": "Unbegreiflich",
@@ -47,12 +47,16 @@
   ],
   "quellen": [
     {
+      "titel": "Fox Business: Stocks plunge as Dem midterm sweep fuels AI regulatory concerns (05.11.2026)",
+      "url": "https://www.foxbusiness.com/markets/stocks-nov-5-2026"
+    },
+    {
       "titel": "gCaptain/Reuters: War Widens in the Black Sea in a Test of NATO Red Lines (03.11.2026)",
       "url": "https://gcaptain.com/war-widens-in-the-black-sea-in-a-test-of-nato-red-lines/"
     },
     {
-      "titel": "RTÉ/AFP: Zelensky speaks to US envoys ahead of Russia talks (05.11.2026)",
-      "url": "https://www.rte.ie/news/ukraine/2026/1105/1598044-ukraine-russia/"
+      "titel": "The Week/AP: Tusk says Poland thwarted possible provocation on Kaliningrad border (03.11.2026)",
+      "url": "https://www.theweek.in/wire-updates/international/2026/11/03/tusk-says-poland-thwarted-possible-provocation-on-kaliningrad-border-overnight.amp.html"
     },
     {
       "titel": "Destatis: Auftragseingang im Verarbeitenden Gewerbe im August 2026: −10,6 % zum Vormonat (06.10.2026)",
@@ -63,20 +67,16 @@
       "url": "https://www.gallup.com/workplace/349484/state-workplace.aspx"
     },
     {
-      "titel": "Gallup: Workers' Fear of Losing Jobs to Technology at New High (15.09.2026)",
-      "url": "https://news.gallup.com/poll/714368/workers-fear-losing-jobs-technology.aspx"
-    },
-    {
       "titel": "Gartner: Survey Finds Two New AI-Related Risks Emerge in Third-Quarter 2026 Report (02.11.2026)",
       "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-02-gartner-survey-finds-two-new-ai-related-risks-emerge-in-3q26"
     },
     {
-      "titel": "Demócrata: Unemployment in the eurozone stagnates at 6.5% in September (Eurostat, 30.10.2026)",
-      "url": "https://www.democrata.es/en/economy/unemployment-in-the-eurozone-stagnates-at-6-5-in-september/"
+      "titel": "Gallup: Workers' Fear of Losing Jobs to Technology at New High (15.09.2026)",
+      "url": "https://news.gallup.com/poll/714368/workers-fear-losing-jobs-technology.aspx"
     },
     {
-      "titel": "Bundesagentur für Arbeit: Arbeitsmarkt im Oktober 2026 – Herbstbelebung bleibt schwach (30.10.2026)",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69986804-arbeitsmarkt-im-oktober-2026-herbstbelebung-bleibt-schwach-ba-presseinfo-nr-41-007.htm"
+      "titel": "Demócrata: Unemployment in the eurozone stagnates at 6.5% in September (Eurostat, 30.10.2026)",
+      "url": "https://www.democrata.es/en/economy/unemployment-in-the-eurozone-stagnates-at-6-5-in-september/"
     }
   ]
 }
