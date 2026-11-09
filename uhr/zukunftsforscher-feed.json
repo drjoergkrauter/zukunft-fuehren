@@ -1,15 +1,15 @@
 {
-  "datum": "2026-11-08",
+  "datum": "2026-11-09",
   "index": 85,
   "uhrzeit": "23:51",
   "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "KI-Werte unter Druck: Nasdaq mit dem schwersten Tag seit April 2025.",
-    "befund": "Am 5. November fiel der Nasdaq um 5,5 Prozent, der S&P 500 um 4,4 Prozent; Nvidia verlor gut 9 Prozent, der Halbleiterindex mehr als 12 Prozent. Anleger erwarten nach den US-Zwischenwahlen strengere KI-Regulierung und einen langsameren, teureren Ausbau der Rechenzentren. Zugleich sehen laut Gartner nur 17 Prozent der Finanzchefs bei mehr als der Hälfte ihrer KI-Projekte einen messbaren Ertrag.",
-    "fuehrungsimplikation": "KI-Vorhaben, die nur mit dauerhaft günstigem Kapital und billiger Rechenleistung aufgehen, sind nicht robust. Führung prüft jetzt, welche Projekte auch bei höheren Kosten und mehr Auflagen tragen, und steuert sie über Ertragsnachweis, Kostenbudget und eine klar benannte Verantwortliche. Das ist kein Rückzug aus KI, sondern Priorisierung. Frage für diese Woche: Welches KI-Projekt in Ihrem Bereich würden Sie weiterführen, wenn es doppelt so viel kostete – und woran messen Sie das?",
-    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 23 (Veränderung, die nicht im Sand verläuft)",
-    "quelle": "Fox Business, 05.11.2026 · Gartner, 02.11.2026"
+    "titel": "Abu Dhabi am 10./11. November: Entscheidungsregeln gehören vor den Termin.",
+    "befund": "Die USA bringen Russland und die Ukraine am 10. und 11. November in Abu Dhabi an einen Tisch; für Washington verhandeln Witkoff und Kushner. Auf der Agenda stehen Sicherheitsvereinbarungen für die Nachkriegszeit, Deeskalation, humanitäre Maßnahmen und das Kriegsende. Die Positionen liegen weit auseinander, die USA suchen einen Durchbruch vor dem Winter.",
+    "fuehrungsimplikation": "Das Ergebnis ist offen, die eigene Reaktion muss es nicht sein. Führung legt vor dem Termin fest, was gilt, wenn der Prozess trägt, und was, wenn er scheitert: welche Standort-, Logistik- und Beschaffungsentscheidungen dann anstehen, wer sie trifft und welches beobachtbare Ereignis sie auslöst. Teilergebnisse sind wahrscheinlicher als ein Gesamtergebnis, also braucht es auch dafür eine Regel. Frage für diese Woche: Welche Entscheidung würden Sie ab dem 12. November anders treffen – und woran machen Sie das fest?",
+    "kapitel": "Kapitel 17 (Den Rubikon überschreiten) und Kapitel 6 (Wer sitzt am Tisch)",
+    "quelle": "Khaleej Times/Reuters, 03.11.2026"
   },
   "bani": [
     {
@@ -18,37 +18,45 @@
       "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
       "quelle": "AP/The Week, 03.11.2026 · Reuters via gCaptain, 03.11.2026",
-      "befund": "Unverändert hoch. Polen sichert seit dem 2. November die Grenze zu Kaliningrad mit starken Kräften, weil Dienste vor Sabotage warnen; ein Vorfall ist bisher nicht belegt. Der Seekrieg im Schwarzen Meer hält an. Die Gespräche in Abu Dhabi am 10./11. November stehen, ein Durchbruch wird nicht erwartet. Führung hält zwei Szenarien mit festen Auslösern bereit."
+      "befund": "Unverändert hoch. Polen hat Polizei, Militär und Grenzschutz an der Grenze zu Russland verstärkt, weil Dienste Sabotage in der ersten Novemberhälfte für möglich halten; ein Vorfall ist bisher nicht belegt. Im Schwarzen und Asowschen Meer trafen beide Kriegsparteien von Mai bis Oktober 317 Schiffe, mehr als viermal so viele wie im Halbjahr davor. Führung prüft Logistik und Standorte auf diese Abhängigkeit."
     },
     {
       "name": "Ängstlich",
       "wert": 96,
       "delta": 0,
       "kurz": "Wahrgenommene Bedrohung, Vertrauensverlust.",
-      "quelle": "Gallup, 15.09.2026 · Gallup State of the Global Workplace 2026",
-      "befund": "Unverändert sehr hoch. 27 Prozent der US-Beschäftigten fürchten, durch Technologie überflüssig zu werden – ein Rekord. Nur 12 Prozent sagen dagegen, KI habe die Arbeit in ihrer Organisation grundlegend verändert: Die Angst eilt der Wirkung voraus. Führung macht transparent, wofür KI im eigenen Haus eingesetzt wird und was das für Rollen bedeutet."
+      "quelle": "Gallup via Workplace Insight, 10.04.2026 · AP, 05.11.2026",
+      "befund": "Unverändert sehr hoch. 18 Prozent der US-Beschäftigten sehen ihren Job binnen fünf Jahren durch Automatisierung gefährdet, in Organisationen mit KI-Einführung 23 Prozent. Der Börsenschock vom 5. November kann eine zweite Sorge nähren: dass ein Rückschlag bei KI Investitionen und Stellen trifft. Führung spricht beides offen an und sagt, was im eigenen Haus geplant ist und was nicht."
     },
     {
       "name": "Nichtlinear",
       "wert": 98,
-      "delta": 1,
+      "delta": 0,
       "kurz": "Kleine Ursache, große Wirkung.",
-      "quelle": "Fox Business, 05.11.2026 · Destatis, 06.10.2026 · Eurostat, 30.10.2026",
-      "befund": "Leicht gestiegen. Ein Wahlergebnis genügte, um den Nasdaq an einem Tag um 5,5 Prozent und damit in eine Korrektur zu drücken. Auch die Industrie zeigt Sprünge: Der Auftragseingang fiel im August um 10,6 Prozent, ohne Großaufträge nur um 0,1 Prozent. Die Arbeitslosenquote im Euroraum verharrt bei 6,5 Prozent. Planung bleibt auf Szenarien ausgelegt, nicht auf Einzelzahlen."
+      "quelle": "AP, 05.11.2026 · Reuters via Devdiscourse, 06.11.2026 · ZEW, 20.10.2026",
+      "befund": "Unverändert sehr hoch. Am 5. November verlor der Nasdaq 5,5 Prozent, am Folgetag gewann er nur 1,1 Prozent zurück; der S&P 500 legte 0,3 Prozent zu, der Dow schloss im Minus. Ein Erholungstag ist keine Trendaussage. In Deutschland sanken im Oktober die ZEW-Erwartungen auf 28,1 Punkte, während sich die Lage auf −35,9 Punkte verbesserte. Planung bleibt auf Szenarien ausgelegt."
     },
     {
       "name": "Unbegreiflich",
       "wert": 51,
       "delta": 0,
       "kurz": "Entzieht sich der Erklärung.",
-      "quelle": "Gallup State of the Global Workplace 2026 · Gartner, 04.11.2026",
-      "befund": "Unverändert. Weltweit sind nur noch 20 Prozent der Beschäftigten engagiert; bei Führungskräften sank der Wert seit 2022 um neun Punkte auf 22 Prozent. Gleichzeitig bleibt offen, was KI tatsächlich bewirkt. Wo Führung selbst an Bindung verliert, wird Veränderung schwer erklärbar. Orientierung entsteht, wenn Führungskräfte Ziele, Zuständigkeiten und Nutzen klar benennen."
+      "quelle": "Gallup via Workplace Insight, 10.04.2026 · Gartner, 02.11.2026",
+      "befund": "Unverändert. Weltweit sind nur noch 20 Prozent der Beschäftigten engagiert; bei Führungskräften sank der Wert seit 2022 um neun Punkte. Laut Gartner sind vier der fünf größten Unternehmensrisiken KI-bezogen, doch nur 17 Prozent der Finanzchefs sehen bei mehr als der Hälfte ihrer KI-Projekte messbaren Ertrag. Orientierung entsteht, wenn Führungskräfte Ziele, Zuständigkeiten und Nutzen klar benennen."
     }
   ],
   "quellen": [
     {
-      "titel": "Fox Business: Stocks plunge as Dem midterm sweep fuels AI regulatory concerns (05.11.2026)",
-      "url": "https://www.foxbusiness.com/markets/stocks-nov-5-2026"
+      "titel": "Khaleej Times/Reuters: US to mediate Russia–Ukraine talks in Abu Dhabi (03.11.2026)",
+      "url": "https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff?amp=1"
+    },
+    {
+      "titel": "AP via Boston.com: A brutal sell-off for AI stocks sends Wall Street reeling (05.11.2026)",
+      "url": "https://www.boston.com/news/national-news/2026/11/05/a-brutal-sell-off-for-ai-stocks-sends-wall-street-reeling-and-the-sp-500-tumbles-4-4/"
+    },
+    {
+      "titel": "Reuters via Devdiscourse: Wall Street stocks rally after heavy AI-related selloff (06.11.2026)",
+      "url": "https://www.devdiscourse.com/article/international/4003019-global-markets-wall-street-stocks-rally-after-heavy-ai-relatedselloff"
     },
     {
       "titel": "gCaptain/Reuters: War Widens in the Black Sea in a Test of NATO Red Lines (03.11.2026)",
@@ -59,24 +67,16 @@
       "url": "https://www.theweek.in/wire-updates/international/2026/11/03/tusk-says-poland-thwarted-possible-provocation-on-kaliningrad-border-overnight.amp.html"
     },
     {
-      "titel": "Destatis: Auftragseingang im Verarbeitenden Gewerbe im August 2026: −10,6 % zum Vormonat (06.10.2026)",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_354_421.html"
+      "titel": "Fundresearch: ZEW-Konjunkturerwartungen Oktober 2026 (20.10.2026)",
+      "url": "https://www.fundresearch.de/nachrichten/2026/10/deutschland-zew-konjunkturerwartungen-sinken-staerker-als-erwartet-549398.php"
     },
     {
-      "titel": "Gallup: State of the Global Workplace 2026",
-      "url": "https://www.gallup.com/workplace/349484/state-workplace.aspx"
+      "titel": "Workplace Insight: Gallup State of the Global Workplace 2026 (10.04.2026)",
+      "url": "https://workplaceinsight.net/employee-engagement-falls-worldwide-as-ai-investment-fails-to-deliver-productivity-gains"
     },
     {
       "titel": "Gartner: Survey Finds Two New AI-Related Risks Emerge in Third-Quarter 2026 Report (02.11.2026)",
       "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-02-gartner-survey-finds-two-new-ai-related-risks-emerge-in-3q26"
-    },
-    {
-      "titel": "Gallup: Workers' Fear of Losing Jobs to Technology at New High (15.09.2026)",
-      "url": "https://news.gallup.com/poll/714368/workers-fear-losing-jobs-technology.aspx"
-    },
-    {
-      "titel": "Demócrata: Unemployment in the eurozone stagnates at 6.5% in September (Eurostat, 30.10.2026)",
-      "url": "https://www.democrata.es/en/economy/unemployment-in-the-eurozone-stagnates-at-6-5-in-september/"
     }
   ]
 }
