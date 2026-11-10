@@ -1,15 +1,15 @@
 {
-  "datum": "2026-11-09",
+  "datum": "2026-11-10",
   "index": 85,
   "uhrzeit": "23:51",
   "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "Abu Dhabi am 10./11. November: Entscheidungsregeln gehören vor den Termin.",
-    "befund": "Die USA bringen Russland und die Ukraine am 10. und 11. November in Abu Dhabi an einen Tisch; für Washington verhandeln Witkoff und Kushner. Auf der Agenda stehen Sicherheitsvereinbarungen für die Nachkriegszeit, Deeskalation, humanitäre Maßnahmen und das Kriegsende. Die Positionen liegen weit auseinander, die USA suchen einen Durchbruch vor dem Winter.",
-    "fuehrungsimplikation": "Das Ergebnis ist offen, die eigene Reaktion muss es nicht sein. Führung legt vor dem Termin fest, was gilt, wenn der Prozess trägt, und was, wenn er scheitert: welche Standort-, Logistik- und Beschaffungsentscheidungen dann anstehen, wer sie trifft und welches beobachtbare Ereignis sie auslöst. Teilergebnisse sind wahrscheinlicher als ein Gesamtergebnis, also braucht es auch dafür eine Regel. Frage für diese Woche: Welche Entscheidung würden Sie ab dem 12. November anders treffen – und woran machen Sie das fest?",
-    "kapitel": "Kapitel 17 (Den Rubikon überschreiten) und Kapitel 6 (Wer sitzt am Tisch)",
-    "quelle": "Khaleej Times/Reuters, 03.11.2026"
+    "titel": "KI-Ertrag entsteht durch Umbau von Arbeit und Führung, nicht durch das Modell.",
+    "befund": "Ein Papier des World Economic Forum mit über 20 Technologiefirmen zitiert eine MIT-Studie, nach der 95 Prozent der GenAI-Einführungen keinen positiven Ertrag bringen. Laut Gartner sehen nur 17 Prozent der Finanzchefs bei mehr als der Hälfte ihrer KI-Projekte messbaren Ertrag. Wert entsteht laut WEF durch neue Abläufe, Anreize, Führungspraxis und Governance.",
+    "fuehrungsimplikation": "Die Börsenkorrektur der vergangenen Woche bewertet genau diese Lücke. Führung fragt deshalb nicht zuerst, welches Werkzeug kommt, sondern welche Abläufe sich ändern, wer für das Ergebnis verantwortlich ist und woran Erfolg gemessen wird. Dazu gehört der Einstieg: Wo Routineaufgaben wegfallen, fehlt Berufsanfängern das Lernen durch Tun. Bei 22- bis 25-Jährigen in stark KI-exponierten Berufen sank die Beschäftigung um rund 13 Prozent gegenüber Vergleichsgruppen. Frage für diese Woche: Welcher Ablauf in Ihrem Bereich wurde für KI tatsächlich umgebaut – und wer lernt dort noch das Handwerk?",
+    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 23 (Veränderung, die nicht im Sand verläuft)",
+    "quelle": "World Economic Forum, Januar 2026 · Gartner, 02.11.2026"
   },
   "bani": [
     {
@@ -17,8 +17,8 @@
       "wert": 94,
       "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "AP/The Week, 03.11.2026 · Reuters via gCaptain, 03.11.2026",
-      "befund": "Unverändert hoch. Polen hat Polizei, Militär und Grenzschutz an der Grenze zu Russland verstärkt, weil Dienste Sabotage in der ersten Novemberhälfte für möglich halten; ein Vorfall ist bisher nicht belegt. Im Schwarzen und Asowschen Meer trafen beide Kriegsparteien von Mai bis Oktober 317 Schiffe, mehr als viermal so viele wie im Halbjahr davor. Führung prüft Logistik und Standorte auf diese Abhängigkeit."
+      "quelle": "Khaleej Times/Reuters, 03.11.2026 · AP/The Week, 03.11.2026 · Reuters via gCaptain, 03.11.2026",
+      "befund": "Unverändert hoch. In Abu Dhabi verhandeln die USA, Russland und die Ukraine, die Positionen liegen weit auseinander. Polen hat seine Grenze zu Russland verstärkt gesichert, weil Dienste Sabotage in der ersten Novemberhälfte für möglich halten; ein Vorfall ist bisher nicht belegt. Im Schwarzen und Asowschen Meer trafen beide Kriegsparteien von Mai bis Oktober 317 Schiffe. Führung prüft Logistik und Standorte auf diese Abhängigkeit."
     },
     {
       "name": "Ängstlich",
@@ -47,8 +47,12 @@
   ],
   "quellen": [
     {
-      "titel": "Khaleej Times/Reuters: US to mediate Russia–Ukraine talks in Abu Dhabi (03.11.2026)",
-      "url": "https://www.khaleejtimes.com/world/us-mediate-russia-ukraine-talks-abu-dhabi-november-witkoff?amp=1"
+      "titel": "World Economic Forum: AI at Work – From Productivity Hacks to Organizational Transformation (Januar 2026)",
+      "url": "https://reports.weforum.org/docs/WEF_AI_at_Work_from_Productivity_Hacks_to_Organizational_Transformation_2026.pdf"
+    },
+    {
+      "titel": "Gartner: Survey Finds Two New AI-Related Risks Emerge in Third-Quarter 2026 Report (02.11.2026)",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-02-gartner-survey-finds-two-new-ai-related-risks-emerge-in-3q26"
     },
     {
       "titel": "AP via Boston.com: A brutal sell-off for AI stocks sends Wall Street reeling (05.11.2026)",
@@ -73,10 +77,6 @@
     {
       "titel": "Workplace Insight: Gallup State of the Global Workplace 2026 (10.04.2026)",
       "url": "https://workplaceinsight.net/employee-engagement-falls-worldwide-as-ai-investment-fails-to-deliver-productivity-gains"
-    },
-    {
-      "titel": "Gartner: Survey Finds Two New AI-Related Risks Emerge in Third-Quarter 2026 Report (02.11.2026)",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-02-gartner-survey-finds-two-new-ai-related-risks-emerge-in-3q26"
     }
   ]
 }
