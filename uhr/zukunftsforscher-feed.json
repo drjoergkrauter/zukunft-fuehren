@@ -1,15 +1,15 @@
 {
-  "datum": "2026-11-10",
+  "datum": "2026-11-11",
   "index": 85,
   "uhrzeit": "23:51",
   "trend": "stabil",
   "hinweis": "Die Zukunft-führen-Uhr ist ein Deutungsinstrument, kein Messinstrument. Sie verdichtet öffentlich zugängliche Zukunftsforschung zu einer Lageeinschätzung für Führungskräfte.",
   "leitsignal": {
-    "titel": "KI-Ertrag entsteht durch Umbau von Arbeit und Führung, nicht durch das Modell.",
-    "befund": "Ein Papier des World Economic Forum mit über 20 Technologiefirmen zitiert eine MIT-Studie, nach der 95 Prozent der GenAI-Einführungen keinen positiven Ertrag bringen. Laut Gartner sehen nur 17 Prozent der Finanzchefs bei mehr als der Hälfte ihrer KI-Projekte messbaren Ertrag. Wert entsteht laut WEF durch neue Abläufe, Anreize, Führungspraxis und Governance.",
-    "fuehrungsimplikation": "Die Börsenkorrektur der vergangenen Woche bewertet genau diese Lücke. Führung fragt deshalb nicht zuerst, welches Werkzeug kommt, sondern welche Abläufe sich ändern, wer für das Ergebnis verantwortlich ist und woran Erfolg gemessen wird. Dazu gehört der Einstieg: Wo Routineaufgaben wegfallen, fehlt Berufsanfängern das Lernen durch Tun. Bei 22- bis 25-Jährigen in stark KI-exponierten Berufen sank die Beschäftigung um rund 13 Prozent gegenüber Vergleichsgruppen. Frage für diese Woche: Welcher Ablauf in Ihrem Bereich wurde für KI tatsächlich umgebaut – und wer lernt dort noch das Handwerk?",
-    "kapitel": "Kapitel 14 (KI verlangt eine neue Kompetenz) und Kapitel 23 (Veränderung, die nicht im Sand verläuft)",
-    "quelle": "World Economic Forum, Januar 2026 · Gartner, 02.11.2026"
+    "titel": "Führung wird knapper: Nur 4,4 Prozent der Erwerbstätigen in Deutschland führen.",
+    "befund": "2025 waren 1,9 Millionen Menschen in Deutschland Führungskräfte, 4,4 Prozent aller Erwerbstätigen (2015: 4,5 Prozent). EU-weit stieg die Quote auf 5,4 Prozent. Am niedrigsten ist sie im Gesundheits- und Sozialwesen (1,8 Prozent), in der öffentlichen Verwaltung (2,2) und in Erziehung und Unterricht (2,3). Im Median verdienen Führungskräfte 7.024 Euro, Frauen in Führung 5.806, Männer 7.451.",
+    "fuehrungsimplikation": "Weniger Führungskräfte pro Kopf heißt größere Führungsspannen – gerade dort, wo Personal und Aufgaben wachsen. Eine Führungskraft, die jede Entscheidung selbst trifft, wird zum Engpass. Wirksam wird Führung, wenn Teams mehr selbst entscheiden dürfen, Zuständigkeiten klar sind und Führung geteilt wird. Die hohe Gehaltsprämie allein macht die Rolle offenbar nicht attraktiv genug; die Lücke zwischen Frauen und Männern in Führung liegt bei rund 22 Prozent. Frage für diese Woche: Welche Entscheidung, die heute bei Ihnen liegt, kann Ihr Team ab Montag selbst treffen?",
+    "kapitel": "Kapitel 20 (Führung, die man teilt) und Kapitel 21 (Warum gute Teams keine Zufälle sind)",
+    "quelle": "Statistisches Bundesamt, 04.11.2026"
   },
   "bani": [
     {
@@ -17,8 +17,8 @@
       "wert": 94,
       "delta": 0,
       "kurz": "Wirkt stabil, bricht plötzlich.",
-      "quelle": "Khaleej Times/Reuters, 03.11.2026 · AP/The Week, 03.11.2026 · Reuters via gCaptain, 03.11.2026",
-      "befund": "Unverändert hoch. In Abu Dhabi verhandeln die USA, Russland und die Ukraine, die Positionen liegen weit auseinander. Polen hat seine Grenze zu Russland verstärkt gesichert, weil Dienste Sabotage in der ersten Novemberhälfte für möglich halten; ein Vorfall ist bisher nicht belegt. Im Schwarzen und Asowschen Meer trafen beide Kriegsparteien von Mai bis Oktober 317 Schiffe. Führung prüft Logistik und Standorte auf diese Abhängigkeit."
+      "quelle": "Meduza, 10.11.2026 · AP/The Week, 03.11.2026 · Reuters via gCaptain, 03.11.2026",
+      "befund": "Unverändert hoch. Seit dem 10. November verhandeln die USA, Russland und die Ukraine in Abu Dhabi erstmals seit Februar wieder zu dritt, im Mittelpunkt stehen Sicherheitsfragen; ein Ergebnis steht aus. Polen sichert seine Grenze zu Russland verstärkt, ein Vorfall ist bisher nicht belegt. Im Schwarzen und Asowschen Meer trafen beide Kriegsparteien von Mai bis Oktober 317 Schiffe. Führung prüft Logistik und Standorte auf diese Abhängigkeit."
     },
     {
       "name": "Ängstlich",
@@ -33,8 +33,8 @@
       "wert": 98,
       "delta": 0,
       "kurz": "Kleine Ursache, große Wirkung.",
-      "quelle": "AP, 05.11.2026 · Reuters via Devdiscourse, 06.11.2026 · ZEW, 20.10.2026",
-      "befund": "Unverändert sehr hoch. Am 5. November verlor der Nasdaq 5,5 Prozent, am Folgetag gewann er nur 1,1 Prozent zurück; der S&P 500 legte 0,3 Prozent zu, der Dow schloss im Minus. Ein Erholungstag ist keine Trendaussage. In Deutschland sanken im Oktober die ZEW-Erwartungen auf 28,1 Punkte, während sich die Lage auf −35,9 Punkte verbesserte. Planung bleibt auf Szenarien ausgelegt."
+      "quelle": "AP, 05.11.2026 · Statistisches Bundesamt, 05.11.2026",
+      "befund": "Unverändert sehr hoch. Am 5. November verlor der Nasdaq 5,5 Prozent, die Unruhe an den Technologiebörsen hält an. In Deutschland stieg der Auftragseingang der Industrie im September um 4,4 Prozent zum Vormonat, im ganzen dritten Quartal aber nur um 0,2 Prozent. Ein starker Monat ist keine Trendwende. Planung bleibt auf Szenarien ausgelegt, Kapazität wächst am Auftragsbestand, nicht an einem Einzelwert."
     },
     {
       "name": "Unbegreiflich",
@@ -47,20 +47,20 @@
   ],
   "quellen": [
     {
-      "titel": "World Economic Forum: AI at Work – From Productivity Hacks to Organizational Transformation (Januar 2026)",
-      "url": "https://reports.weforum.org/docs/WEF_AI_at_Work_from_Productivity_Hacks_to_Organizational_Transformation_2026.pdf"
+      "titel": "Statistisches Bundesamt: 4,4 % aller Erwerbstätigen in Deutschland sind Führungskräfte (04.11.2026)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N076_13.html"
     },
     {
-      "titel": "Gartner: Survey Finds Two New AI-Related Risks Emerge in Third-Quarter 2026 Report (02.11.2026)",
-      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-02-gartner-survey-finds-two-new-ai-related-risks-emerge-in-3q26"
+      "titel": "Statistisches Bundesamt: Auftragseingang im Verarbeitenden Gewerbe im September 2026 (05.11.2026)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_385_421.html"
+    },
+    {
+      "titel": "Meduza: Russia, Ukraine and the U.S. to hold peace talks in Abu Dhabi (10.11.2026)",
+      "url": "https://meduza.io/en/feature/2026/11/10/russia-ukraine-and-the-u-s-to-hold-peace-talks-in-abu-dhabi-on-november-10-their-first-trilateral-meeting-since-february-with-security-issues-expected-to-top-the-agenda"
     },
     {
       "titel": "AP via Boston.com: A brutal sell-off for AI stocks sends Wall Street reeling (05.11.2026)",
       "url": "https://www.boston.com/news/national-news/2026/11/05/a-brutal-sell-off-for-ai-stocks-sends-wall-street-reeling-and-the-sp-500-tumbles-4-4/"
-    },
-    {
-      "titel": "Reuters via Devdiscourse: Wall Street stocks rally after heavy AI-related selloff (06.11.2026)",
-      "url": "https://www.devdiscourse.com/article/international/4003019-global-markets-wall-street-stocks-rally-after-heavy-ai-relatedselloff"
     },
     {
       "titel": "gCaptain/Reuters: War Widens in the Black Sea in a Test of NATO Red Lines (03.11.2026)",
@@ -71,8 +71,8 @@
       "url": "https://www.theweek.in/wire-updates/international/2026/11/03/tusk-says-poland-thwarted-possible-provocation-on-kaliningrad-border-overnight.amp.html"
     },
     {
-      "titel": "Fundresearch: ZEW-Konjunkturerwartungen Oktober 2026 (20.10.2026)",
-      "url": "https://www.fundresearch.de/nachrichten/2026/10/deutschland-zew-konjunkturerwartungen-sinken-staerker-als-erwartet-549398.php"
+      "titel": "Gartner: Survey Finds Two New AI-Related Risks Emerge in Third-Quarter 2026 Report (02.11.2026)",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-11-02-gartner-survey-finds-two-new-ai-related-risks-emerge-in-3q26"
     },
     {
       "titel": "Workplace Insight: Gallup State of the Global Workplace 2026 (10.04.2026)",
