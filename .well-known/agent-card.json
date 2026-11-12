@@ -1,7 +1,7 @@
 {
   "protocolVersion": "0.3.0",
   "name": "Zukunft führen — Leadership-Agent",
-  "description": "Agenten-Schnittstelle zum Buch 'Zukunft führen' von Dr. Jörg Krauter. Liefert systemisches Leadership-Wissen für eine instabile Welt: BANI-Einordnung, Glossarbegriffe, Sofort-Griffe für Führungskräfte in der Krise, Kapitel-Thesen und den Live-Status des öffentlichen Marketing-Experiments. Vermutlich das erste deutschsprachige Leadership-Buch mit eigenem Agenten-Zugang.",
+  "description": "Agenten-Schnittstelle zum Buch 'Zukunft führen' von Dr. Jörg Krauter. Liefert systemisches Leadership-Wissen für eine instabile Welt: BANI-Einordnung, Glossarbegriffe, Sofort-Griffe für Führungskräfte in der Krise, Kapitel-Thesen und den Live-Status des öffentlichen Marketing-Experiments. Eines der ersten deutschsprachigen Leadership-Bücher mit eigenem Agenten-Zugang.",
   "url": "https://zukunft-fuehren-mcp.joerg-krauter.workers.dev/",
   "preferredTransport": "JSONRPC",
   "version": "1.0.0",
