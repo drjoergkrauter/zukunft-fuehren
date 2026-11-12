@@ -27,6 +27,18 @@ reinen HTML-Dateien (kein Build-Schritt, `.nojekyll` ist gesetzt).
   (`blog/index.html`, `glossar/index.html`, `wochenschrift/ausgaben.json`,
   `wochenschrift/feed.xml`, `llms.txt`).
 - Sprache: Deutsch. Leserinnen und Leser werden mit „Sie“ angesprochen.
+- **Datenschutz (seit 12.11.2026, verbindlich, auch für neue Wochenschrift-Ausgaben):**
+  - Das Brevo-Anmeldeformular nie direkt als `<iframe src="…sibforms.com…">` einbinden.
+    Stattdessen die Zwei-Klick-Box verwenden (Muster: `wochenschrift/index.html`):
+    `<div class="bz-box" data-src="FORMULAR-URL" data-title="Anmeldung Wochenschrift">`
+    mit Hinweistext, Knopf „Anmeldeformular laden“ und `<noscript>`-Link, dazu vor `</body>`
+    `<script src="/assets/brevo-zweiklick.js" defer></script>`.
+    Vor jedem Push prüfen: `grep -rl '<iframe[^>]*sibforms' --include=*.html .` muss leer sein;
+    sonst die Datei auf die Zwei-Klick-Box umstellen.
+  - Keine Dienste Dritter (Google Fonts, Analyse, Karten, Videos, Social-Media-Einbettungen)
+    ohne Rücksprache einbinden.
+  - Jede Seite braucht in der Fußzeile Links auf `/impressum/` und `/datenschutz/`.
+  - Firmenname in Fußzeilen: „SYNK GROUP GmbH & Co. KG“.
 - Am Ende jeder Aufgabe auflisten, welche Dateien geändert oder neu angelegt wurden.
 
 ## Veröffentlichen
